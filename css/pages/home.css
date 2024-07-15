@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --bs-body-font-family: 'Montserrat', sans-serif; }
 
@@ -16,35 +17,12 @@ a {
 .ma {
   font-family: "Montserrat alternates"; }
 
-.s10 {
-  font-size: 0.625rem; }
-.s12 {
-  font-size: 0.75rem; }
-  .s12__grey {
-    color: rbga(0, 0, 0, 0.5); }
-.s14 {
-  font-size: 14px; }
-.s18 {
-  font-size: 1.125rem; }
 .s20 {
   font-size: 20px; }
 .s22 {
   font-size: 22px; }
 .s23 {
   font-size: 23px; }
-.s26 {
-  font-size: 26px; }
-.s27 {
-  font-size: 27px; }
-
-.lh__35 {
-  line-height: 35px; }
-.lh__22 {
-  line-height: 22px; }
-.lh__16 {
-  line-height: 16px; }
-.lh__13 {
-  line-height: 13px; }
 
 .bg {
   background-color: #f9f9f9; }
@@ -55,7 +33,7 @@ a {
 .header {
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 3;
   padding: 10px 20px; }
   .header-plug {
     height: 64px;
@@ -71,7 +49,7 @@ a {
   background-color: #EBE8E599; }
   .first-page .photos-wrapper {
     height: 617px;
-    background: url(../../media/main_page/f.png) left top no-repeat, url(../../media/main_page/m.png) right top no-repeat; }
+    background: url(../../media/main_page/m.png) right top no-repeat, url(../../media/main_page/f.png) left top no-repeat; }
     .first-page .photos-wrapper__item {
       height: 617px;
       width: auto;
@@ -81,44 +59,112 @@ a {
     padding-top: 37px;
     padding-bottom: 0; }
     .first-page .t-n-b__text {
+      /* УПРАВЛЯЙТЕ ВНЕШНОСТЬЮ, ЗДОРОВЬЕМ И КАЧЕСТВОМ ЖИЗНИ */
       height: 120px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
       line-height: 24px;
-      font-size: 20px; }
+      /* or 120% */
+      text-align: center;
+      letter-spacing: 0.07em;
+      color: #000000;
+      mix-blend-mode: darken; }
     .first-page .t-n-b__arrow {
       width: 40px;
       margin-top: 70px; }
     .first-page .t-n-b__buttons {
       background-color: rgba(8, 229, 190, 0.45);
+      backdrop-filter: blur(10px);
       color: #000;
+      width: 360px;
       border-radius: 50px;
+      margin-left: 20px;
+      margin-right: 20px;
       margin-top: 252px;
       min-height: 70px; }
       .first-page .t-n-b__buttons__f, .first-page .t-n-b__buttons__m {
         border: #000 solid 1px;
         border-radius: 50px;
-        padding: 10px;
-        font-family: Montserrat Alternates;
-        font-size: 10px;
+        padding: 14px 0;
+        width: 106px;
+        height: 10.83px;
+        font-family: 'Montserrat Alternates';
+        font-style: normal;
         font-weight: 700;
-        line-height: 12.19px;
+        font-size: 10px;
+        line-height: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         letter-spacing: 0.03em;
-        text-align: center; }
+        color: #000000; }
       .first-page .t-n-b__buttons__t {
-        font-family: Montserrat;
-        font-size: 12px;
+        /* ПЕРСОНАЛЬНЫЙ ПРОТОКОЛ */
+        width: 114px;
+        height: 26px;
+        font-family: 'Montserrat';
+        font-style: normal;
         font-weight: 500;
+        font-size: 12px;
         line-height: 13px;
-        text-align: center; }
+        /* or 108% */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #000000; }
 
 .page-2 {
   height: 617px;
   padding-left: 20px;
   padding-right: 20px; }
+  .page-2-active {
+    position: fixed !important;
+    top: 46px;
+    z-index: -2; }
   .page-2__main-text {
-    margin-top: 84px; }
+    margin-top: 84px;
+    /* КЛИНИКА MEDICRIS — ОТВЕТСТВЕННАЯ* ЭСТЕТИЧЕСКАЯ МЕДИЦИНА, ПОМОГАЮЩАЯ ОСТАВАТЬСЯ НА ВЫСОТЕ! */
+    width: 100%;
+    height: 467.56px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    /* or 135% */
+    letter-spacing: 0.07em;
+    color: #000000; }
   .page-2__subtext {
-    margin-top: 26px; }
+    margin-top: 26px;
+    /* Эльвира Айзекс, основатель клиники */
+    width: 292px;
+    height: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height, or 117% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.07em;
+    color: #000000; }
   .page-2__note {
+    /* В 2023 году MEDICRIS присвоен статус Клинической Базы НМХЦ им. Н.И.Пирогова */
+    width: 171.39px;
+    height: 137.83px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+    letter-spacing: 0.05em;
+    color: #000000;
     position: relative; }
     .page-2__note::before {
       content: "*";
@@ -132,44 +178,106 @@ a {
     margin-bottom: 20px; }
 
 .gradient {
-  height: 1177px;
-  background: linear-gradient(180deg, rgba(8, 229, 190, 0) 12%, rgba(8, 229, 190, 0.6) 99.5%), #F2F0EE;
+  height: 1764px;
+  background: linear-gradient(180deg, rgba(8, 229, 190, 0) 34%, rgba(8, 229, 190, 0.6) 99.5%);
   mix-blend-mode: multiply; }
 
 .type-2 {
-  height: 617px; }
+  transition: all 0.5s ease-out;
+  height: 617px;
+  position: relative;
+  z-index: 2; }
+  .type-2-active {
+    position: fixed;
+    top: 46px;
+    z-index: 1; }
   .type-2__header {
-    color: #f2f2f2;
-    padding-top: 52px; }
+    /* НАШИ ВОЗМОЖНОСТИ */
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    top: 52px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 135%;
+    /* or 16px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #F2F0EE; }
   .type-2__bottom {
     height: 84px;
     background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(7.5px);
     padding: 10px 20px; }
     .type-2__bottom__text {
-      font-family: Montserrat;
-      font-size: 18px;
+      /* 127 ВЫСОКО–ТЕХНОЛОГИЧНЫХ ПРОЦЕДУР */
+      padding: 0;
+      width: 278.67px;
+      height: 66px;
+      font-family: 'Montserrat';
+      font-style: normal;
       font-weight: 400;
+      font-size: 18px;
       line-height: 22px;
+      /* or 122% */
+      display: flex;
+      align-items: center;
       letter-spacing: 0.03em;
-      text-align: left; }
+      color: #000000; }
     .type-2__bottom__link {
       padding: 0;
-      width: 60px;
+      width: 58px;
       transform: rotate(270deg); }
+    .type-2__bottom__string {
+      padding: 0;
+      /* MOVING STROKE */
+      width: 393px;
+      height: 42px; }
+      .type-2__bottom__string__text {
+        height: 15px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+        letter-spacing: 0.1em;
+        color: #000000; }
 
 .menu {
   position: fixed;
   bottom: 0;
-  z-index: 1;
+  z-index: 3;
   background-color: #f8f8f8;
-  height: 60px img;
-    height-width: 19px;
-    height-height: 19px; }
+  height: 60px;
+  backdrop-filter: blur(50px);
+  text-align: center; }
+  .menu__img {
+    width: 19px;
+    height: 19px; }
+  .menu__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    /* or 160% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    mix-blend-mode: darken; }
 
 .abilities {
   background: url("../../media/type-2/bg1.webp");
   background-size: cover; }
+  .abilities-fixed {
+    position: fixed !important;
+    top: 2455px; }
 
 .doctors {
   background: url("../../media/type-2/bg2.webp");
@@ -185,17 +293,49 @@ a {
 
 .philosofy {
   height: 619px;
-  padding: 50px 20px;
+  padding-top: 50px;
   background-color: #f2f2f2; }
+  .philosofy__title {
+    /* НАША ФИЛОСОФИЯ */
+    width: 353px;
+    height: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 135%;
+    /* or 16px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #000000; }
+  .philosofy__text {
+    /* СИСТЕМНЫЙ ПОДХОД — КЛЮЧ К ГАРМОНИИ КРАСОТЫ И ЗДОРОВЬЯ */
+    height: 120px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #000000;
+    mix-blend-mode: darken; }
   .philosofy__img {
-    width: 90vw; }
+    width: 100%;
+    padding: 20px; }
 
 .principle {
   background-color: #f2f2f2;
-  padding: 20px; }
+  padding: 20px;
+  width: 100%;
+  height: 686px; }
   .principle-wrapper {
     margin-bottom: 20px; }
     .principle-wrapper__number {
+      font-family: Montserrat;
       border: #000 solid 1px;
       border-radius: 50%;
       height: 40px;
@@ -208,15 +348,18 @@ a {
       line-height: 16px;
       letter-spacing: 0.1em;
       text-align: left;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
       margin-top: 5px; }
     .principle-wrapper__text {
-      font-family: Montserrat;
-      font-size: 12px;
+      margin-bottom: 20px;
+      width: 293px;
+      font-family: 'Montserrat';
+      font-style: normal;
       font-weight: 300;
-      line-height: 14.88px;
-      text-align: left;
-      margin-bottom: 20px; }
+      font-size: 12px;
+      line-height: 124%;
+      /* or 15px */
+      color: #000000; }
     .principle-wrapper__link {
       margin-bottom: 20px; }
 
@@ -224,6 +367,21 @@ a {
   height: 40px;
   transform: rotate(270deg);
   margin-left: 20px; }
+.arrow-link__text {
+  width: 83px;
+  height: 15px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #000000; }
 
 .threeg {
   height: 620px;
@@ -235,19 +393,37 @@ a {
   height: 618px;
   padding: 52px 20px;
   padding-bottom: 0;
-  color: #000;
+  color: #000 !important;
   background-color: #f2f2f2; }
+  .feedback__title {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16.2px;
+    letter-spacing: 0.07em;
+    text-align: center; }
   .feedback__text {
-    margin-top: 83px;
+    margin-top: 60px;
+    height: 152px;
     font-family: Montserrat;
     font-size: 22px;
     font-style: italic;
     font-weight: 400;
     line-height: 24.2px; }
   .feedback__source {
-    color: #08e5be;
     align-self: flex-end;
-    padding-right: 54px; }
+    padding-right: 50px;
+    /* ЧИТАТЬ ИСТОЧНИК */
+    width: 141px;
+    height: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 135%;
+    /* or 16px */
+    letter-spacing: 0.07em;
+    color: #08E5BE; }
   .feedback-item {
     padding-right: 0; }
     .feedback-item__title {
@@ -258,6 +434,7 @@ a {
       line-height: 16.2px;
       letter-spacing: 0.07em;
       text-align: left;
+      margin-top: 43px;
       margin-bottom: 8px; }
     .feedback-item__subtitle {
       padding: auto;
@@ -274,14 +451,41 @@ a {
     padding-top: 0;
     position: relative; }
   .feedback__scroller {
-    margin: 0px;
+    width: 100%;
+    margin: 17px 0 20px;
     border-top: #000 solid 1px;
     border-bottom: #000 solid 1px;
     padding: 38px 0; }
     .feedback__scroller__l {
-      margin: 0 30px; }
+      margin: 0  0 0 30px;
+      width: 50px;
+      padding-right: 0;
+      object-fit: scale-down;
+      transform: rotate(180deg);
+      opacity: 30%; }
     .feedback__scroller__r {
-      margin: 0 30px; }
+      margin: 0 30px 0 0;
+      width: 50px;
+      padding-left: 0;
+      object-fit: scale-down; }
+    .feedback__scroller__text {
+      width: 20px;
+      padding: 0;
+      font-family: 'Montserrat Alternates';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      /* identical to box height */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.05em;
+      color: #000000; }
+
+[data-visible="false"] {
+  display: none !important; }
 
 .rate {
   height: 618px;
@@ -302,7 +506,7 @@ a {
     height: 89px;
     margin: 15px 0; }
   .rate-wrapper {
-    padding-bottom: 214px; }
+    padding-bottom: 225px; }
   .rate__subtitle {
     width: 111px;
     height: 23px;
@@ -317,39 +521,140 @@ a {
   padding: 0 20px;
   padding-bottom: 100px;
   background-color: #f2f2f2; }
+  .news-arrow__text {
+    width: 90px;
+    height: 15px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #000000; }
   .news-item__text {
-    line-height: 16px; }
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left; }
   .news__title {
-    padding: 52px; }
+    padding: 52px;
+    /* НОВОСТИ MEDICRIS */
+    width: 353px;
+    height: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 135%;
+    /* or 16px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #000000; }
 
 .message {
+  z-index: 1;
   height: 673px;
   background: linear-gradient(180deg, rgba(8, 229, 190, 0.5) 0%, rgba(242, 242, 242, 0.5) 85.5%); }
   .message__text {
-    margin-top: 97px;
-    line-height: 35px; }
+    width: 352.43px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 35px;
+    /* or 130% */
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #000000;
+    margin-top: 97px; }
   .message__author {
     margin-top: 53px;
-    line-height: 14px; }
+    line-height: 14px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.07em;
+    text-align: left; }
   .message__link {
     margin-top: 187px; }
+
+.swiper {
+  z-index: 1;
+  width: 100%;
+  height: 620px; }
+  .swiper_slide > img {
+    object-fit: contain; }
 
 .footer {
   padding: 20px;
   background-color: #fff; }
   .footer__title {
-    margin: 30px; }
+    margin: 30px;
+    /* MEDICRIS — КЛИНИКА КРАСОТЫ */
+    width: 353px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    color: #000000;
+    mix-blend-mode: darken; }
+  .footer__info {
+    width: 353px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    color: #000000;
+    mix-blend-mode: darken; }
   .footer__socials {
     padding: 0; }
   .footer__adress {
-    margin-top: 42px; }
+    margin-top: 42px;
+    width: 353px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    mix-blend-mode: darken; }
   .footer__map-img {
     object-fit: cover; }
   .footer__maps {
     border-top: #000 solid 2px;
     margin: 0 10px;
-    padding: 15px 0px; }
+    padding: 15px 0px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    mix-blend-mode: darken; }
     .footer__maps_last {
+      font-family: 'Montserrat Alternates';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #000000;
+      mix-blend-mode: darken;
       padding: 15px 0;
       margin: 0 10px;
       border-top: #000 solid 2px;
@@ -383,5 +688,49 @@ a {
       padding-bottom: 24px; }
   .footer-license {
     margin-bottom: 160px; }
+    .footer-license__first {
+      font-family: Montserrat;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center; }
+    .footer-license__others {
+      font-family: Montserrat;
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: center; }
+
+.swiper {
+  width: 100%; }
+  .swiper-container-feedback {
+    height: 406px; }
+    .swiper-container-feedback-wrapper {
+      height: 406px; }
+    .swiper-container-feedback-slide {
+      margin-right: 20px;
+      width: 100%; }
+      .swiper-container-feedback-slide-active {
+        margin-right: 20px;
+        width: 100%; }
+
+.slide-1 {
+  background-image: url(../../media/swiper/Property\ 1=CLINIC_CAROUSEL_1.png);
+  background-size: cover; }
+.slide-2 {
+  background-image: url(../../media/swiper/Property\ 1=CLINIC_CAROUSEL_2.png);
+  background-size: cover; }
+.slide-3 {
+  background-image: url(../../media/swiper/Property\ 1=CLINIC_CAROUSEL_3.png);
+  background-size: cover; }
+.slide-4 {
+  background-image: url(../../media/swiper/Property\ 1=CLINIC_CAROUSEL_4.png);
+  background-size: cover; }
+.slide-5 {
+  background-image: url(../../media/swiper/Property\ 1=CLINIC_CAROUSEL_5.png);
+  background-size: cover; }
+.slide-6 {
+  background-image: url(../../media/swiper/Property\ 1=CLINIC_CAROUSEL_6.png);
+  background-size: cover; }
 
 /*# sourceMappingURL=home.css.map */
