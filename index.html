@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
   <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -15,14 +16,14 @@
   <title>MEDICRIS</title>
 </head>
 <body>
-  <header class="container header bg">
+  <header class="container-sm header bg">
     <div class="row ">
       <div class="col header__img">
   
       </div>
     </div>
   </header>
-  <div class="container header-plug">
+  <div class="container-sm header-plug">
 
   </div>
   <div class="container-sm m-0 first-page position-relative">
@@ -62,7 +63,7 @@
       </div>
       <div class="col ">
         <img class="menu__img" src="media/menu/account_balance_wallet.svg">
-        <div class="menu__text">Акции</div>
+        <div class="menu__text">Услуги</div>
       </div>
       <div class="col">
         <img class="menu__img" src="media/menu/sentiment_satisfied.svg">
@@ -79,7 +80,7 @@
   </div>
 
   <div class="parallax">
-  <div class="container-sm d-flex flex-column justify-content-between page-2 parallax__layer parallax__text" id="page-2"> <!--вторая страница-->
+  <div class="container-sm d-flex flex-column justify-content-between page-2 parallax__layer parallax__text" id="page-2"> 
     <div class="d-flex flex-column row">
       <div class="col page-2__main-text">
       КЛИНИКА <span class="fst-italic">MEDICRIS —</span><br>
@@ -104,16 +105,17 @@
     <div class="row arrow-link text-center page-2__link">
       <div class="col arrow-link__text">О КЛИНИКЕ <img src="media/main_page/arrow.svg" alt="" class="arrow-link__img"></div>
     </div>
-  </div> <!--вторая страница-->
+  </div> 
 
   <div class="container-sm gradient parallax__layer parallax__image" id="gradient"></div>
   </div>
 
-  <div class="container-sm type-2 abilities fw-normal d-flex flex-column justify-content-end" id="abilities"> <!--возможности-->
-    <div class="row align-items-center justify-items-end header-abilities">
+  <div class="sticky-container ">
+  <div class="container-sm type-2 abilities" id="abilities"> <!--возможности-->
+    <div class="row  header-abilities">
       <div class="col type-2__header">НАШИ ВОЗМОЖНОСТИ</div>
     </div>
-    <div class="row type-2__bottom align-items-center d-flex justify-content-between">
+    <div class="row type-2__bottom ">
       <div class="col type-2__bottom__text">
         127 ВЫСОКО–<br>
         ТЕХНОЛОГИЧНЫХ<br>
@@ -121,10 +123,11 @@
       </div>
       <img src="media/type-2/ellipse_arr.svg" alt="" class="col-3 type-2__bottom__link">
     </div>
+  
     <div class="row">
-      <div class="type2__bottom__string col p-0">
-        <div id="marquee-1" class="type-2__bottom__string__text">/ БИОРЕВИТАЛИЗАЦИЯ &emsp; / КОНТУРНАЯ ПЛАСТИКА &emsp; / SMAS-LIFTING</div>
-      </div>
+      <marquee class="type-2__bottom__string col">
+        / БИОРЕВИТАЛИЗАЦИЯ &emsp; / КОНТУРНАЯ ПЛАСТИКА &emsp; / SMAS-LIFTING
+      </marquee>
     </div>
   </div> <!--возможности-->
 
@@ -138,11 +141,9 @@
       <img src="media/type-2/ellipse_arr.svg" alt="" class="col-3 type-2__bottom__link">
     </div>
     <div class="row">
-      <div class="type-2__bottom__string col p-0">
-        <div id="marquee-2" class="type-2__bottom__string__text">
-          ВРАЧ-КОСМЕТОЛОГ &emsp; ВРАЧ-ДЕРМАТОЛОГ
-        </div>
-      </div>
+      <marquee class="type-2__bottom__string col">
+        ВРАЧ-КОСМЕТОЛОГ &emsp; ВРАЧ-ДЕРМАТОЛОГ
+      </marquee>
     </div>
   </div> <!--врачи-->
   
@@ -157,15 +158,15 @@
       <img src="media/type-2/ellipse_arr.svg" alt="" class="col-3 type-2__bottom__link">
   </div> 
   <div class="row">
-    <div class="type2__bottom__string col p-0">
-      <div id="marquee-3" class="type-2__bottom__string__text">LIFTERA-A &emsp; MEDIOSTAR NEXT PRO &emsp; PROFHILO</div>
-    </div>
+    <marquee class="type-2__bottom__string col">
+      LIFTERA-A &emsp; MEDIOSTAR NEXT PRO &emsp; PROFHILO
+    </marquee>
   </div>
   </div> <!--оборудование-->
 
   <div class="container-sm type-2 clinic fw-normal d-flex flex-column justify-content-end " id="clinic"> <!--клиника-->
     <div class="row type-2__bottom align-items-center d-flex justify-content-between">
-      <div class="col p-0 type-2__bottom__text s18">
+      <div class="col  type-2__bottom__text s18">
         ОСОБЫЙ КОМФОРТ<br>
         В ОСОБНЯКЕ <br>
         У САДОВОГО КОЛЬЦА
@@ -173,12 +174,12 @@
       <img src="media/type-2/ellipse_arr.svg" alt="" class="col-3 type-2__bottom__link">
     </div>
     <div class="row">
-      <div class="type2__bottom__string col p-0">
-        <div id="marquee-4" class="type-2__bottom__string__text">УВЛАЖНИТЕЛИ ВОЗДУХА &emsp; КОФЕМАШИНА &emsp; ЧАСТНАЯ ПАРКОВКА &emsp; БУТИЛИРОВАННАЯ ВОДА</div>
-      </div>
+      <marquee class="type-2__bottom__string col">
+        УВЛАЖНИТЕЛИ ВОЗДУХА &emsp; КОФЕМАШИНА &emsp; ЧАСТНАЯ ПАРКОВКА &emsp; БУТИЛИРОВАННАЯ ВОДА
+      </marquee>
     </div>
   </div> <!--клиника-->
-
+  </div>
   <div class="container-sm philosofy text-center d-flex justify-content-between flex-column align-items-center"> <!--философия-->
     <div class="row philosofy__title">
       <div class="col">
@@ -216,10 +217,10 @@
         2
       </div>
       <div class="col-9 ">
-      <div class="row principle-wrapper__title fw-bold ">
+      <div class="row principle-wrapper__title ">
         ПРИНЦИП <br> ПРЕВЕНТИВНОСТИ
       </div>
-      <div class="row principle-wrapper__text fw-light">
+      <div class="row principle-wrapper__text">
         Применяем таргетную диагностику для  выявления причин существующих проблем, а также предупреждение развития новых  
       </div>
     </div>
@@ -229,10 +230,10 @@
         3
       </div>
       <div class="col-9 ">
-      <div class="row principle-wrapper__title fw-bold ">
+      <div class="row principle-wrapper__title ">
         БЕЗОПАСНОСТЬ <br> ВОЗДЕЙСТВИЯ
       </div>
-      <div class="row principle-wrapper__text fw-light">
+      <div class="row principle-wrapper__text ">
         Все консультации и процедуры в клинике проводятся только квалифицированными врачами на сертифицированных оборудовании и препаратах 
       </div>
     </div>
@@ -242,11 +243,11 @@
         4
       </div>
       <div class="col-9 ">
-      <div class="row principle-wrapper__title fw-bold ">
+      <div class="row principle-wrapper__title ">
         ГЛУБОКАЯ <br>
         ПЕРСОНАЛИЗАЦИЯ
       </div>
-      <div class="row principle-wrapper__text fw-light">
+      <div class="row principle-wrapper__text">
         Мы углубили персональный подход и создали онлайн-инструмент – ПЕРСОНАЛЬНЫЙ ПРОТОКОЛ – позволяющий пациенту и врачу заранее подготовиться к приёму в клинике и получить ожидаемый результат 
       </div>
     </div>
@@ -409,48 +410,48 @@
     <div class="row">
       <div class="col text-center news__title">НОВОСТИ  MEDICRIS</div>
     </div>
-    <div class="row row-cols-2">
-      <div class="col-6 pe-0 news-item d-flex flex-column">
+    <div class="row row-cols-2 news-wrapper">
+      <div class="col-6 news-item d-flex flex-column">
         <img src="media/news/1.png" alt="" class="news-item__img">
-        <div class="news-item__text pt-3">
+        <div class="news-item__text">
           Наш новый врач —<br>
           Душина Карина Юрьевна
         </div>
         <div class="news-item__link">
-          <div class="col arrow-link__text news-arrow__text my-2">ЧИТАТЬ <img src="media/main_page/arrow.svg" alt="" class="arrow-link__img">
+          <div class="col arrow-link__text news-arrow__text ">ЧИТАТЬ <img src="media/main_page/arrow.svg" alt="" class="arrow-link__img">
         </div>
       </div>
     </div>
-    <div class="col-6 pe-0 news-item d-flex flex-column">
+    <div class="col-6 news-item d-flex flex-column">
       <img src="media/news/2.png" alt="" class="news-item__img">
-      <div class="news-item__text pt-3">
+      <div class="news-item__text">
         Конференция по<br>
         хирургии в Пекине
       </div>
       <div class="news-item__link">
-        <div class="col arrow-link__text news-arrow__text my-2">ЧИТАТЬ <img src="media/main_page/arrow.svg" alt="" class="arrow-link__img">
+        <div class="col arrow-link__text news-arrow__text">ЧИТАТЬ <img src="media/main_page/arrow.svg" alt="" class="arrow-link__img">
       </div>
     </div>
     </div>
-    <div class="col-6 pe-0 news-item d-flex flex-column">
+    <div class="col-6 news-item d-flex flex-column">
       <img src="media/news/3.png" alt="" class="news-item__img">
-      <div class="news-item__text pt-3">
+      <div class="news-item__text">
         Проект Бьютипедия —<br>
         онлайн-энциклопедия
       </div>
       <div class="news-item__link">
-        <div class="col arrow-link__text news-arrow__text my-2">ЧИТАТЬ <img src="media/main_page/arrow.svg" alt="" class="arrow-link__img">
+        <div class="col arrow-link__text news-arrow__text ">ЧИТАТЬ <img src="media/main_page/arrow.svg" alt="" class="arrow-link__img">
       </div>
     </div>
     </div>
-    <div class="col-6 pe-0 news-item d-flex flex-column">
+    <div class="col-6 news-item d-flex flex-column">
       <img src="media/news/4.png" alt="" class="news-item__img">
-      <div class="news-item__text pt-3">
+      <div class="news-item__text">
         MEDICRIS Х НМХЦ им. <br>
         Н.И.Пирогова
       </div>
       <div class="news-item__link">
-        <div class="col arrow-link__text news-arrow__text my-2">ЧИТАТЬ <img src="media/main_page/arrow.svg" alt="" class="arrow-link__img">
+        <div class="col arrow-link__text news-arrow__text ">ЧИТАТЬ <img src="media/main_page/arrow.svg" alt="" class="arrow-link__img">
       </div>
     </div>
     </div>
@@ -483,7 +484,7 @@
 
   <div class="swiper container-sm" id="swiper">
     <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
+    <div class="swiper-wrapper" >
       <!-- Slides -->
       <div class="swiper-slide slide-1"></div>
       <div class="swiper-slide slide-2"></div>
@@ -645,7 +646,6 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <!-- <script src="scroll.js"></script> -->
   <script src="js/swipers.js" type="module"></script>
-  <script src="js/run_string.js"></script>
   <script src="js/dropdowns.js"></script>
   <script src="js/parallax.js"></script>
   <script src="js/feedbackSwiper.js"></script>
