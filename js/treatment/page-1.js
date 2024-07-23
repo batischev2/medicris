@@ -5,7 +5,7 @@ l.style.cssText = `
   opacity: 30%;
   transform: rotate(180deg);
   ` 
-const slidesAmount = document.querySelectorAll("[data-slide-number]").length
+const slidesAmount = document.querySelectorAll("[data-slide-number-1]").length
 t.innerHTML = `1/${slidesAmount}` 
 r.addEventListener("click", () => {
   let lastActive = t.getAttribute('data-number')
@@ -19,8 +19,8 @@ r.addEventListener("click", () => {
     }
     t.setAttribute('data-number', newActive)
     t.innerHTML = `${newActive}/${slidesAmount}`
-    document.querySelector(`[data-slide-number="${lastActive}"]`).setAttribute("data-visible", "false")
-    document.querySelector(`[data-slide-number="${newActive}"]`).setAttribute("data-visible", "true")
+    document.querySelector(`[data-slide-number-1="${lastActive}"]`).setAttribute("data-visible", "false")
+    document.querySelector(`[data-slide-number-1="${newActive}"]`).setAttribute("data-visible", "true")
   }
   
 })
@@ -36,8 +36,8 @@ l.addEventListener("click", () => {
     }
     t.setAttribute('data-number', newActive)
     t.innerHTML = `${newActive}/${slidesAmount}`
-    document.querySelector(`[data-slide-number="${lastActive}"]`).setAttribute("data-visible", "false")
-    document.querySelector(`[data-slide-number="${newActive}"]`).setAttribute("data-visible", "true")
+    document.querySelector(`[data-slide-number-1="${lastActive}"]`).setAttribute("data-visible", "false")
+    document.querySelector(`[data-slide-number-1="${newActive}"]`).setAttribute("data-visible", "true")
   }
   
 })
