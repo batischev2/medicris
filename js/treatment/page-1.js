@@ -6,7 +6,7 @@ l.style.cssText = `
   transform: rotate(180deg);
   ` 
 const slidesAmount = document.querySelectorAll("[data-slide-number-1]").length
-t.innerHTML = `1/${slidesAmount}` 
+t.innerHTML = `1 / ${slidesAmount}` 
 r.addEventListener("click", () => {
   let lastActive = t.getAttribute('data-number')
   if (lastActive != slidesAmount) { 
@@ -18,7 +18,7 @@ r.addEventListener("click", () => {
       r.style.cssText = "opacity: 30%"
     }
     t.setAttribute('data-number', newActive)
-    t.innerHTML = `${newActive}/${slidesAmount}`
+    t.innerHTML = `${newActive} / ${slidesAmount}`
     document.querySelector(`[data-slide-number-1="${lastActive}"]`).setAttribute("data-visible", "false")
     document.querySelector(`[data-slide-number-1="${newActive}"]`).setAttribute("data-visible", "true")
   }
@@ -35,7 +35,7 @@ l.addEventListener("click", () => {
       l.style.cssText = "opacity: 30%"
     }
     t.setAttribute('data-number', newActive)
-    t.innerHTML = `${newActive}/${slidesAmount}`
+    t.innerHTML = `${newActive} / ${slidesAmount}`
     document.querySelector(`[data-slide-number-1="${lastActive}"]`).setAttribute("data-visible", "false")
     document.querySelector(`[data-slide-number-1="${newActive}"]`).setAttribute("data-visible", "true")
   }

@@ -11,6 +11,25 @@ const faqBody5 = document.getElementById('faq-body5')
 const faq6 = document.getElementById('faq6')
 const faqBody6 = document.getElementById('faq-body6')
 
+const faq11 = document.getElementById('faq11')
+const faqBody11 = document.getElementById('faq-body11')
+const faq12 = document.getElementById('faq12')
+const faqBody12 = document.getElementById('faq-body12')
+const faq13 = document.getElementById('faq13')
+const faqBody13 = document.getElementById('faq-body13')
+const faq14 = document.getElementById('faq14')
+const faqBody14 = document.getElementById('faq-body14')
+const faq15 = document.getElementById('faq15')
+const faqBody15 = document.getElementById('faq-body15')
+const faq16 = document.getElementById('faq16')
+const faqBody16 = document.getElementById('faq-body16')
+const faq17 = document.getElementById('faq17')
+const faqBody17 = document.getElementById('faq-body17')
+
+const f = document.getElementById('f')
+const b = document.getElementById('b')
+const counter = document.getElementById('counter')
+
 faq1.addEventListener("click", () => {
   if (faq1.classList.contains('closed')) {
     
@@ -82,4 +101,129 @@ faq6.addEventListener("click", () => {
     faq6.classList.add('closed')
     faq6.style.cssText = `transorm: rotate(180deg)`
   }
+})
+
+faq11.addEventListener("click", () => {
+  if (faq11.classList.contains('closed')) {
+    faqBody11.style.cssText = `display: block`
+    faq11.classList.remove('closed')
+    faq11.setAttribute('src', 'media/treatment/faq/minus.svg')
+  } else {
+    faqBody11.style.cssText = `display: none`
+    faq11.classList.add('closed')
+    faq11.setAttribute('src', 'media/treatment/faq/plus.svg')
+  }
+})
+faq12.addEventListener("click", () => {
+  if (faq12.classList.contains('closed')) {
+    faqBody12.style.cssText = `display: block`
+    faq12.classList.remove('closed')
+    faq12.setAttribute('src', 'media/treatment/faq/minus.svg')
+  } else {
+    faqBody12.style.cssText = `display: none`
+    faq12.classList.add('closed')
+    faq12.setAttribute('src', 'media/treatment/faq/plus.svg')
+  }
+})
+faq13.addEventListener("click", () => {
+  if (faq13.classList.contains('closed')) {
+    faqBody13.style.cssText = `display: block`
+    faq13.classList.remove('closed')
+    faq13.setAttribute('src', 'media/treatment/faq/minus.svg')
+  } else {
+    faqBody13.style.cssText = `display: none`
+    faq13.classList.add('closed')
+    faq13.setAttribute('src', 'media/treatment/faq/plus.svg')
+  }
+})
+faq14.addEventListener("click", () => {
+  if (faq14.classList.contains('closed')) {
+    faqBody14.style.cssText = `display: block`
+    faq14.classList.remove('closed')
+    faq14.setAttribute('src', 'media/treatment/faq/minus.svg')
+  } else {
+    faqBody14.style.cssText = `display: none`
+    faq14.classList.add('closed')
+    faq14.setAttribute('src', 'media/treatment/faq/plus.svg')
+  }
+})
+faq15.addEventListener("click", () => {
+  if (faq15.classList.contains('closed')) {
+    faqBody15.style.cssText = `display: block`
+    faq15.classList.remove('closed')
+    faq15.setAttribute('src', 'media/treatment/faq/minus.svg')
+  } else {
+    faqBody15.style.cssText = `display: none`
+    faq15.classList.add('closed')
+    faq15.setAttribute('src', 'media/treatment/faq/plus.svg')
+  }
+})
+faq16.addEventListener("click", () => {
+  if (faq16.classList.contains('closed')) {
+    faqBody16.style.cssText = `display: block`
+    faq16.classList.remove('closed')
+    faq16.setAttribute('src', 'media/treatment/faq/minus.svg')
+  } else {
+    faqBody16.style.cssText = `display: none`
+    faq16.classList.add('closed')
+    faq16.setAttribute('src', 'media/treatment/faq/plus.svg')
+  }
+})
+faq17.addEventListener("click", () => {
+  if (faq17.classList.contains('closed')) {
+    faqBody17.style.cssText = `display: block`
+    faq17.classList.remove('closed')
+    faq17.setAttribute('src', 'media/treatment/faq/minus.svg')
+  } else {
+    faqBody17.style.cssText = `display: none`
+    faq17.classList.add('closed')
+    faq17.setAttribute('src', 'media/treatment/faq/plus.svg')
+  }
+})
+
+const slidesAmountFAQ = document.querySelectorAll("[data-slide-number-faq]").length / 2
+
+f.addEventListener("click", () => {
+  let lastActive = counter.getAttribute('data-faq-number')
+  if (lastActive != slidesAmountFAQ) { 
+    if (lastActive == 1) {
+      b.style.cssText = "opacity: 100%"
+    }
+    let newActive = Number(lastActive) + 1
+    if (newActive == slidesAmountFAQ) {
+      f.style.cssText = "opacity: 30%"
+    }
+    counter.setAttribute('data-faq-number', newActive)
+    const arr1 = document.querySelectorAll(`[data-slide-number-faq="${lastActive}"]`)
+    for (let i = 0; i < arr1.length; i++) {
+      arr1[i].setAttribute("data-visible", "false")
+    }
+    const arr2 = document.querySelectorAll(`[data-slide-number-faq="${newActive}"]`)
+    for (let i = 0; i < arr1.length; i++) {
+      arr2[i].setAttribute("data-visible", "true")
+    }
+  }
+  
+})
+b.addEventListener("click", () => {
+  let lastActive = counter.getAttribute('data-faq-number')
+  if (lastActive != 1) {
+    if (lastActive == slidesAmountFAQ) {
+      f.style.cssText = "opacity: 100%"
+    }
+    let newActive = Number(lastActive) - 1
+    if (newActive == 1) {
+      b.style.cssText = "opacity: 30%"
+    }
+    const arr1 = document.querySelectorAll(`[data-slide-number-faq="${lastActive}"]`)
+    counter.setAttribute('data-faq-number', newActive)
+    for (let i = 0; i < arr1.length; i++) {
+      arr1[i].setAttribute("data-visible", "false")
+    }
+    const arr2 = document.querySelectorAll(`[data-slide-number-faq="${newActive}"]`)
+    for (let i = 0; i < arr1.length; i++) {
+      arr2[i].setAttribute("data-visible", "true")
+    }
+  }
+  
 })

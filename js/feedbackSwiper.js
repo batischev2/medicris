@@ -1,38 +1,38 @@
-const r = document.getElementById("r") 
-const t = document.getElementById("t") 
-const l = document.getElementById("l") 
-const slidesAmount = document.querySelectorAll("[data-slide-number]").length
-t.innerHTML = `1/${slidesAmount}` 
-r.addEventListener("click", () => {
-  let lastActive = t.getAttribute('data-number')
-  if (lastActive != slidesAmount) { 
+const rf = document.getElementById("r_f") 
+const tf = document.getElementById("t_f") 
+const lf = document.getElementById("l_f") 
+const slidesAmountF = document.querySelectorAll("[data-slide-number]").length
+tf.innerHTML = `1 / ${slidesAmountF}` 
+rf.addEventListener("click", () => {
+  let lastActive = tf.getAttribute('data-number')
+  if (lastActive != slidesAmountF) { 
     if (lastActive == 1) {
-      // l.setAttribute('src', 'media/review/Arrow_black.svg')
-      l.style.cssText = "opacity: 100%"
+      // lf.setAttribute('src', 'media/review/Arrow_black.svg')
+      lf.style.cssText = "opacity: 100%"
     }
     let newActive = Number(lastActive) + 1
-    if (newActive == slidesAmount) {
-      r.style.cssText = "opacity: 30%"
+    if (newActive == slidesAmountF) {
+      rf.style.cssText = "opacity: 30%"
     }
-    t.setAttribute('data-number', newActive)
-    t.innerHTML = `${newActive}/${slidesAmount}`
+    tf.setAttribute('data-number', newActive)
+    tf.innerHTML = `${newActive} / ${slidesAmountF}`
     document.querySelector(`[data-slide-number="${lastActive}"]`).setAttribute("data-visible", "false")
     document.querySelector(`[data-slide-number="${newActive}"]`).setAttribute("data-visible", "true")
   }
   
 })
-l.addEventListener("click", () => {
-  let lastActive = t.getAttribute('data-number')
+lf.addEventListener("click", () => {
+  let lastActive = tf.getAttribute('data-number')
   if (lastActive != 1) {
-    if (lastActive == slidesAmount) {
-      r.style.cssText = "opacity: 100%"
+    if (lastActive == slidesAmountF) {
+      rf.style.cssText = "opacity: 100%"
     }
     let newActive = Number(lastActive) - 1
     if (newActive == 1) {
-      l.style.cssText = "opacity: 30%"
+      lf.style.cssText = "opacity: 30%"
     }
-    t.setAttribute('data-number', newActive)
-    t.innerHTML = `${newActive}/${slidesAmount}`
+    tf.setAttribute('data-number', newActive)
+    tf.innerHTML = `${newActive} / ${slidesAmountF}`
     document.querySelector(`[data-slide-number="${lastActive}"]`).setAttribute("data-visible", "false")
     document.querySelector(`[data-slide-number="${newActive}"]`).setAttribute("data-visible", "true")
   }
