@@ -920,6 +920,7 @@ color: #000000;
     /* or 120% */
     text-align: center;
     letter-spacing: 0.07em;
+    padding-top: 30px;
 
     color: #000000;
 
@@ -1041,7 +1042,7 @@ color: #000000;
   }
   &__source {
     align-self: flex-end;
-    padding-right: 50px;
+    padding-right: 30px;
     /* ЧИТАТЬ ИСТОЧНИК */
     width: 141px;
     height: 16px;
@@ -1383,7 +1384,7 @@ color: #000000;
   }
 
   &__maps {
-    border-top: #000 solid 2px;
+    border-top: #000 solid 1px;
     margin: 0 10px;
     padding: 3.5px 0px;
 
@@ -1404,15 +1405,15 @@ color: #000000;
       mix-blend-mode: darken;
       padding: 3.5px 0;
       margin: 0 10px;
-      border-top: #000 solid 2px;
-      border-bottom: #000 solid 2px;
+      border-top: #000 solid 1px;
+      border-bottom: #000 solid 1px;
     }
   }
 
   &__navimg {
-    transform: scale(.5);
+    transform: scale(.4);
     &_l {
-      transform: scale(.5) rotate(270deg);
+      transform: scale(.4) rotate(270deg);
     }
   }
 
