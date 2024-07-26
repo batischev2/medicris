@@ -507,7 +507,8 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    column-gap: 13px; }
     .PRICE-SECTION-HEADER__bottom-price {
       display: flex;
       flex-direction: row;
@@ -550,7 +551,8 @@ a {
         font-size: 14px;
         font-weight: 600;
         line-height: 16px;
-        text-align: right; }
+        text-align: right;
+        column-gap: 13px; }
         .PRICE-SECTION-ITEM__col-r_price_l {
           width: 65px; }
         .PRICE-SECTION-ITEM__col-r_price_r {
@@ -1100,12 +1102,14 @@ a {
       padding-right: 0;
       object-fit: scale-down;
       transform: rotate(180deg);
-      opacity: 30%; }
+      opacity: 30%;
+      margin-right: -90px; }
     .feedback__scroller__r {
       margin: 0 30px 0 0;
       width: 50px;
-      padding-left: 0;
-      object-fit: scale-down; }
+      padding-right: 0;
+      object-fit: scale-down;
+      margin-left: -90px; }
     .feedback__scroller__text {
       width: 20px;
       padding: 0;
@@ -1179,14 +1183,16 @@ a {
     flex-direction: row;
     column-gap: 71px; }
     .results__scroller__l {
+      margin-left: -8px;
       width: 50px;
       padding-right: 0;
       object-fit: scale-down;
       transform: rotate(180deg);
       opacity: 30%; }
     .results__scroller__r {
+      margin-right: -8px;
       width: 50px;
-      padding-left: 0;
+      padding-right: 0;
       object-fit: scale-down; }
     .results__scroller__text {
       width: 20px;
@@ -1677,8 +1683,7 @@ a {
     margin-top: 63px;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    overflow-x: scroll; }
+    flex-wrap: nowrap; }
     .protocol-video-wrapper-item__text {
       /* video capture */
       width: 232px;
