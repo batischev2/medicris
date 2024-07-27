@@ -338,7 +338,6 @@ a {
 }
 
 .FAQ-ITEM {
-  width: 353.03px;
   height: 70px;
   color: #242424 !important;
   display: flex;
@@ -376,6 +375,7 @@ a {
 .FAQ-ITEM-DROPDOWN {
   display: none;
   margin-bottom: 60px;
+  width: 100%;
   font-family: "Nunito Sans";
   font-size: 15px;
   font-weight: 400;
@@ -392,6 +392,7 @@ a {
   margin-bottom: 17px;
 }
 .FAQ-ITEM-DROPDOWN-sub-img {
+  width: 100%;
   margin-bottom: 17px;
 }
 
@@ -407,7 +408,7 @@ a {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  width: 172px;
+  flex: 1;
   height: 493px;
   /* FON 2 PAGE */
   background: #D9D9D9;
@@ -465,7 +466,7 @@ a {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  width: 172px;
+  flex: 1;
   height: 493px;
   /* FON 2 PAGE */
   background: #F2F2F2;
