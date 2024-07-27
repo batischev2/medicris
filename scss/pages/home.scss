@@ -1088,15 +1088,15 @@ color: #000000;
     }
 
     &__img {
-      transform: scale(.25) translateX(150%) translateY(-150%);
+      transform: scale(.4);
       padding: 0;
-      
+      margin-top: -25px;
     }
   }
   &-item2 {
     height: 30px;
-    padding-top: 0;
-    position: relative;
+    padding: 0;
+    margin: 0;
   }
 
   &__scroller {
@@ -1212,20 +1212,13 @@ color: #000000;
     row-gap: 22px;
   }
   &-arrow__text {
-    width: 90px;
     height: 15px;
-    margin-top: 16px;
-
     font-family: 'Montserrat Alternates';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
-
-    
-    text-align: right;
     letter-spacing: 0.05em;
-
     color: #000000;
   }
 
@@ -1238,6 +1231,7 @@ color: #000000;
       column-gap: 15px;
       justify-content: flex-start;
       align-items: center;
+      margin-top: 15px;
     }
   }
 
