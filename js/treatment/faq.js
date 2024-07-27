@@ -31,153 +31,153 @@ const b = document.getElementById('b')
 const counter = document.getElementById('counter')
 
 faq1.addEventListener("click", () => {
-  if (faq1.classList.contains('closed')) {
+  if (faq1.lastElementChild.classList.contains('closed')) {
     
     faqBody1.style.cssText = `display: block`
-    faq1.classList.remove('closed')
-    faq1.style.cssText = `transform: rotate(180deg)`
+    faq1.lastElementChild.classList.remove('closed')
+    faq1.lastElementChild.style.cssText = `transform: rotate(180deg)`
   } else {
     faqBody1.style.cssText = `display: none`
-    faq1.classList.add('closed')
-    faq1.style.cssText = `transorm: rotate(180deg)`
+    faq1.lastElementChild.classList.add('closed')
+    faq1.lastElementChild.style.cssText = `transorm: rotate(180deg)`
   }
 })
 faq2.addEventListener("click", () => {
-  if (faq2.classList.contains('closed')) {
+  if (faq2.lastElementChild.classList.contains('closed')) {
     
     faqBody2.style.cssText = `display: block`
-    faq2.classList.remove('closed')
-    faq2.style.cssText = `transform: rotate(180deg)`
+    faq2.lastElementChild.classList.remove('closed')
+    faq2.lastElementChild.style.cssText = `transform: rotate(180deg)`
   } else {
     faqBody2.style.cssText = `display: none`
-    faq2.classList.add('closed')
-    faq2.style.cssText = `transorm: rotate(180deg)`
+    faq2.lastElementChild.classList.add('closed')
+    faq2.lastElementChild.style.cssText = `transorm: rotate(180deg)`
   }
 })
 faq3.addEventListener("click", () => {
-  if (faq3.classList.contains('closed')) {
+  if (faq3.lastElementChild.classList.contains('closed')) {
     
     faqBody3.style.cssText = `display: block`
-    faq3.classList.remove('closed')
-    faq3.style.cssText = `transform: rotate(180deg)`
+    faq3.lastElementChild.classList.remove('closed')
+    faq3.lastElementChild.style.cssText = `transform: rotate(180deg)`
   } else {
     faqBody3.style.cssText = `display: none`
-    faq3.classList.add('closed')
-    faq3.style.cssText = `transorm: rotate(180deg)`
+    faq3.lastElementChild.classList.add('closed')
+    faq3.lastElementChild.style.cssText = `transorm: rotate(180deg)`
   }
 })
 faq4.addEventListener("click", () => {
-  if (faq4.classList.contains('closed')) {
+  if (faq4.lastElementChild.classList.contains('closed')) {
     
     faqBody4.style.cssText = `display: block`
-    faq4.classList.remove('closed')
-    faq4.style.cssText = `transform: rotate(180deg)`
+    faq4.lastElementChild.classList.remove('closed')
+    faq4.lastElementChild.style.cssText = `transform: rotate(180deg)`
   } else {
     faqBody4.style.cssText = `display: none`
-    faq4.classList.add('closed')
-    faq4.style.cssText = `transorm: rotate(180deg)`
+    faq4.lastElementChild.classList.add('closed')
+    faq4.lastElementChild.style.cssText = `transorm: rotate(180deg)`
   }
 })
 faq5.addEventListener("click", () => {
-  if (faq5.classList.contains('closed')) {
+  if (faq5.lastElementChild.classList.contains('closed')) {
     
     faqBody5.style.cssText = `display: block`
-    faq5.classList.remove('closed')
-    faq5.style.cssText = `transform: rotate(180deg)`
+    faq5.lastElementChild.classList.remove('closed')
+    faq5.lastElementChild.style.cssText = `transform: rotate(180deg)`
   } else {
     faqBody5.style.cssText = `display: none`
-    faq5.classList.add('closed')
-    faq5.style.cssText = `transorm: rotate(180deg)`
+    faq5.lastElementChild.classList.add('closed')
+    faq5.lastElementChild.style.cssText = `transorm: rotate(180deg)`
   }
 })
 faq6.addEventListener("click", () => {
-  if (faq6.classList.contains('closed')) {
+  if (faq6.lastElementChild.classList.contains('closed')) {
     
     faqBody6.style.cssText = `display: block`
-    faq6.classList.remove('closed')
-    faq6.style.cssText = `transform: rotate(180deg)`
+    faq6.lastElementChild.classList.remove('closed')
+    faq6.lastElementChild.style.cssText = `transform: rotate(180deg)`
   } else {
     faqBody6.style.cssText = `display: none`
-    faq6.classList.add('closed')
-    faq6.style.cssText = `transorm: rotate(180deg)`
+    faq6.lastElementChild.classList.add('closed')
+    faq6.lastElementChild.style.cssText = `transorm: rotate(180deg)`
   }
 })
 
 faq11.addEventListener("click", () => {
-  if (faq11.classList.contains('closed')) {
+  if (faq11.lastElementChild.classList.contains('closed')) {
     faqBody11.style.cssText = `display: block`
-    faq11.classList.remove('closed')
-    faq11.setAttribute('src', 'media/treatment/faq/minus.svg')
+    faq11.lastElementChild.classList.remove('closed')
+    faq11.lastElementChild.setAttribute('src', 'media/treatment/faq/minus.svg')
   } else {
     faqBody11.style.cssText = `display: none`
-    faq11.classList.add('closed')
-    faq11.setAttribute('src', 'media/treatment/faq/plus.svg')
+    faq11.lastElementChild.classList.add('closed')
+    faq11.lastElementChild.setAttribute('src', 'media/treatment/faq/plus.svg')
   }
 })
 faq12.addEventListener("click", () => {
-  if (faq12.classList.contains('closed')) {
+  if (faq12.lastElementChild.classList.contains('closed')) {
     faqBody12.style.cssText = `display: block`
-    faq12.classList.remove('closed')
-    faq12.setAttribute('src', 'media/treatment/faq/minus.svg')
+    faq12.lastElementChild.classList.remove('closed')
+    faq12.lastElementChild.setAttribute('src', 'media/treatment/faq/minus.svg')
   } else {
     faqBody12.style.cssText = `display: none`
-    faq12.classList.add('closed')
-    faq12.setAttribute('src', 'media/treatment/faq/plus.svg')
+    faq12.lastElementChild.classList.add('closed')
+    faq12.lastElementChild.setAttribute('src', 'media/treatment/faq/plus.svg')
   }
 })
 faq13.addEventListener("click", () => {
-  if (faq13.classList.contains('closed')) {
+  if (faq13.lastElementChild.classList.contains('closed')) {
     faqBody13.style.cssText = `display: block`
-    faq13.classList.remove('closed')
-    faq13.setAttribute('src', 'media/treatment/faq/minus.svg')
+    faq13.lastElementChild.classList.remove('closed')
+    faq13.lastElementChild.setAttribute('src', 'media/treatment/faq/minus.svg')
   } else {
     faqBody13.style.cssText = `display: none`
-    faq13.classList.add('closed')
-    faq13.setAttribute('src', 'media/treatment/faq/plus.svg')
+    faq13.lastElementChild.classList.add('closed')
+    faq13.lastElementChild.setAttribute('src', 'media/treatment/faq/plus.svg')
   }
 })
 faq14.addEventListener("click", () => {
-  if (faq14.classList.contains('closed')) {
+  if (faq14.lastElementChild.classList.contains('closed')) {
     faqBody14.style.cssText = `display: block`
-    faq14.classList.remove('closed')
-    faq14.setAttribute('src', 'media/treatment/faq/minus.svg')
+    faq14.lastElementChild.classList.remove('closed')
+    faq14.lastElementChild.setAttribute('src', 'media/treatment/faq/minus.svg')
   } else {
     faqBody14.style.cssText = `display: none`
-    faq14.classList.add('closed')
-    faq14.setAttribute('src', 'media/treatment/faq/plus.svg')
+    faq14.lastElementChild.classList.add('closed')
+    faq14.lastElementChild.setAttribute('src', 'media/treatment/faq/plus.svg')
   }
 })
 faq15.addEventListener("click", () => {
-  if (faq15.classList.contains('closed')) {
+  if (faq15.lastElementChild.classList.contains('closed')) {
     faqBody15.style.cssText = `display: block`
-    faq15.classList.remove('closed')
-    faq15.setAttribute('src', 'media/treatment/faq/minus.svg')
+    faq15.lastElementChild.classList.remove('closed')
+    faq15.lastElementChild.setAttribute('src', 'media/treatment/faq/minus.svg')
   } else {
     faqBody15.style.cssText = `display: none`
-    faq15.classList.add('closed')
-    faq15.setAttribute('src', 'media/treatment/faq/plus.svg')
+    faq15.lastElementChild.classList.add('closed')
+    faq15.lastElementChild.setAttribute('src', 'media/treatment/faq/plus.svg')
   }
 })
 faq16.addEventListener("click", () => {
-  if (faq16.classList.contains('closed')) {
+  if (faq16.lastElementChild.classList.contains('closed')) {
     faqBody16.style.cssText = `display: block`
-    faq16.classList.remove('closed')
-    faq16.setAttribute('src', 'media/treatment/faq/minus.svg')
+    faq16.lastElementChild.classList.remove('closed')
+    faq16.lastElementChild.setAttribute('src', 'media/treatment/faq/minus.svg')
   } else {
     faqBody16.style.cssText = `display: none`
-    faq16.classList.add('closed')
-    faq16.setAttribute('src', 'media/treatment/faq/plus.svg')
+    faq16.lastElementChild.classList.add('closed')
+    faq16.lastElementChild.setAttribute('src', 'media/treatment/faq/plus.svg')
   }
 })
 faq17.addEventListener("click", () => {
-  if (faq17.classList.contains('closed')) {
+  if (faq17.lastElementChild.classList.contains('closed')) {
     faqBody17.style.cssText = `display: block`
-    faq17.classList.remove('closed')
-    faq17.setAttribute('src', 'media/treatment/faq/minus.svg')
+    faq17.lastElementChild.classList.remove('closed')
+    faq17.lastElementChild.setAttribute('src', 'media/treatment/faq/minus.svg')
   } else {
     faqBody17.style.cssText = `display: none`
-    faq17.classList.add('closed')
-    faq17.setAttribute('src', 'media/treatment/faq/plus.svg')
+    faq17.lastElementChild.classList.add('closed')
+    faq17.lastElementChild.setAttribute('src', 'media/treatment/faq/plus.svg')
   }
 })
 

@@ -1061,7 +1061,7 @@ a {
   color: #000000;
 }
 .news-item {
-  width: 171px;
+  width: 48%;
   padding: 0;
 }
 .news-item__link {
@@ -1219,10 +1219,10 @@ a {
   border-bottom: #000 solid 1px;
 }
 .footer__navimg {
-  transform: scale(0.4);
+  transform: scale(0.5);
 }
 .footer__navimg_l {
-  transform: scale(0.4) rotate(270deg);
+  transform: scale(0.5) rotate(270deg);
 }
 .footer__dropdown {
   display: none;

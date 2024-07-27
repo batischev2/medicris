@@ -1255,7 +1255,6 @@ color: #242424;
       height: 40px;
       width: 40px;
       margin: 0 20px;
-
     }
     &__title {
       font-family: Montserrat;
@@ -1419,7 +1418,7 @@ color: #242424;
     }
 
     &__img {
-      transform: scale(.25) translateX(150%) translateY(-150%);
+      transform: scale(.5) translateX(150%) translateY(-150%);
       padding: 0;
       
     }
@@ -1846,9 +1845,9 @@ color: #242424;
   }
 
   &__navimg {
-    transform: scale(.4);
+    transform: scale(.5);
     &_l {
-      transform: scale(.4) rotate(270deg);
+      transform: scale(.5) rotate(270deg);
     }
   }
 
@@ -2036,15 +2035,14 @@ color: #242424;
     text-align: left;
     
     justify-content: center;
-    margin-left: 40px;
+    padding-top: 24px;
   }
   &__price{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-    margin: 37px 0;
-    margin-left: -22px;
+    margin: 37px 0 60px -37px;
     width: 100%;
     &_word {
       font-family: Montserrat;
@@ -2055,11 +2053,10 @@ color: #242424;
       text-align: left;
       display: flex;
       align-items: flex-end;
-      margin-bottom: 1px;
     }
     &_number {
       font-family: Montserrat;
-      font-size: 15px;
+      font-size: 19px;
       font-weight: 600;
       line-height: 15px;
       letter-spacing: 0.02em;

@@ -1230,7 +1230,7 @@ color: #000000;
   }
 
   &-item {
-    width: 171px;
+    width: 48%;
     padding: 0;
     &__link {
       display: flex;
@@ -1411,9 +1411,9 @@ color: #000000;
   }
 
   &__navimg {
-    transform: scale(.4);
+    transform: scale(.5);
     &_l {
-      transform: scale(.4) rotate(270deg);
+      transform: scale(.5) rotate(270deg);
     }
   }
 
