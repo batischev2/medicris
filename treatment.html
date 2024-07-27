@@ -994,8 +994,8 @@
       <div class="results-slide_top d-flex flex-column justify-content-between" data-visible="true" data-slide-number-result-1="1">
       <div class="row">
         <div id="twentytwentycontainer11" class="results-photos-wrapper">
-          <img src="media/twentytwenty/11.jfif" alt="">
-          <img src="media/twentytwenty/12.jfif" alt="">
+          <img src="media/twentytwenty/11.png" alt="">
+          <img src="media/twentytwenty/12.png" alt="">
         </div>
       </div>
       </div>
@@ -1067,8 +1067,8 @@
       <div class="results-slide_top d-flex flex-column justify-content-between" data-visible="true" data-slide-number-result-2="1">
         <div class="row">
           <div id="twentytwentycontainer21" class="results-photos-wrapper">
-            <img src="media/twentytwenty/11.jfif" alt="" class="photo__before">
-            <img src="media/twentytwenty/12.jfif" class="photo__after" alt="">
+            <img src="media/twentytwenty/11.png" alt="" class="photo__before">
+            <img src="media/twentytwenty/12.png" class="photo__after" alt="">
           </div>
         </div>
         </div>
@@ -1958,7 +1958,6 @@
     const t_r_2 = document.getElementById('t_r_2')
 
     // t_r_1.innerHTML= `1 / ${slidesAmountResult1}`
-    console.log('test')
     r_r_1.addEventListener("click", () => {
       let lastActive = t_r_1.getAttribute('data-slide-result-1')
       
@@ -1987,25 +1986,21 @@
     })
     l_r_1.addEventListener("click", () => {
       let lastActive = t_r_1.getAttribute('data-slide-result-1')
-      console.log(lastActive)
       if (lastActive != 1) {
         if (lastActive == slidesAmountResult1) {
           r_r_1.style.cssText = "opacity: 100%"
         }
         let newActive = Number(lastActive) - 1
-        console.log(newActive)
         if (newActive == 1) {
           l_r_1.style.cssText = "opacity: 30%"
         }
         const arr1 = document.querySelectorAll(`[data-slide-number-result-1="${lastActive}"]`)
-        console.log(arr1)
         t_r_1.innerHTML = `${newActive} / ${slidesAmountResult1}`
         t_r_1.setAttribute('data-slide-result-1', newActive)
         for (let i = 0; i < arr1.length; i++) {
           arr1[i].setAttribute("data-visible", "false")
         }
         const arr2 = document.querySelectorAll(`[data-slide-number-result-1="${newActive}"]`)
-        console.log(arr2)
         for (let i = 0; i < arr2.length; i++) {
           arr2[i].setAttribute("data-visible", "true")
         }
@@ -2044,25 +2039,21 @@
     })
     l_r_2.addEventListener("click", () => {
       let lastActive = t_r_2.getAttribute('data-slide-result-2')
-      console.log(lastActive)
       if (lastActive != 1) {
         if (lastActive == slidesAmountResult1) {
           r_r_2.style.cssText = "opacity: 100%"
         }
         let newActive = Number(lastActive) - 1
-        console.log(newActive)
         if (newActive == 1) {
           l_r_2.style.cssText = "opacity: 30%"
         }
         const arr1 = document.querySelectorAll(`[data-slide-number-result-2="${lastActive}"]`)
-        console.log(arr1)
         t_r_2.innerHTML = `${newActive} / ${slidesAmountResult1}`
         t_r_2.setAttribute('data-slide-result-2', newActive)
         for (let i = 0; i < arr1.length; i++) {
           arr1[i].setAttribute("data-visible", "false")
         }
         const arr2 = document.querySelectorAll(`[data-slide-number-result-2="${newActive}"]`)
-        console.log(arr2)
         for (let i = 0; i < arr2.length; i++) {
           arr2[i].setAttribute("data-visible", "true")
         }

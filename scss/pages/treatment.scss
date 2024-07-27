@@ -1385,7 +1385,7 @@ color: #242424;
   &-items-wrapper {
     display: flex;
     flex-direction: column;
-    row-gap: 26px;
+    row-gap: 16px;
   }
   &-item {
     
@@ -1407,26 +1407,22 @@ color: #242424;
     }
 
     &__subtitle {
-      padding: auto;
-
       font-family: Montserrat;
       font-size: 14px;
-      font-weight: 500;
       line-height: 14px;
       text-align: left;
-
     }
 
     &__img {
-      transform: scale(.5) translateX(150%) translateY(-150%);
+      transform: scale(.4);
       padding: 0;
-      
+      margin-top: -25px;
     }
   }
   &-item2 {
     height: 30px;
-    padding-top: 0;
-    position: relative;
+    padding: 0;
+    margin: 0;
   }
 
   &__scroller {
