@@ -507,9 +507,7 @@ a {
 }
 .first-page .photos-wrapper {
   height: 617px;
-  background:
-    url(../../media/main_page/m.png) right top no-repeat,
-    url(../../media/main_page/f.png) left top no-repeat;
+  background: url(../../media/main_page/m.png) right top no-repeat, url(../../media/main_page/f.png) left top no-repeat;
 }
 .first-page .photos-wrapper__item {
   height: 617px;
@@ -551,8 +549,7 @@ a {
   margin-top: 252px;
   min-height: 70px;
 }
-.first-page .t-n-b__buttons__f,
-.first-page .t-n-b__buttons__m {
+.first-page .t-n-b__buttons__f, .first-page .t-n-b__buttons__m {
   border: #000 solid 1px;
   border-radius: 50px;
   padding: 14px 0;
@@ -658,11 +655,7 @@ a {
 
 .gradient {
   height: 1764px;
-  background: linear-gradient(
-    180deg,
-    rgba(8, 229, 190, 0) 34%,
-    rgba(8, 229, 190, 0.6) 99.5%
-  );
+  background: linear-gradient(180deg, rgba(8, 229, 190, 0) 34%, rgba(8, 229, 190, 0.6) 99.5%);
   mix-blend-mode: multiply;
 }
 
@@ -1032,7 +1025,7 @@ a {
   color: #000000;
 }
 
-[data-visible="false"] {
+[data-visible=false] {
   display: none !important;
 }
 
@@ -1073,11 +1066,7 @@ a {
   width: 100%;
 }
 .rate_gradient {
-  background: linear-gradient(
-    180deg,
-    rgba(8, 229, 190, 0.5) 0%,
-    rgba(242, 242, 242, 0.5) 85.5%
-  );
+  background: linear-gradient(180deg, rgba(8, 229, 190, 0.5) 0%, rgba(242, 242, 242, 0.5) 85.5%);
   background-color: #f2f2f2;
 }
 
@@ -1149,11 +1138,7 @@ a {
 .message {
   z-index: 1;
   height: 673px;
-  background: linear-gradient(
-    180deg,
-    rgba(8, 229, 190, 0.5) 0%,
-    rgba(242, 242, 242, 0.5) 85.5%
-  );
+  background: linear-gradient(180deg, rgba(8, 229, 190, 0.5) 0%, rgba(242, 242, 242, 0.5) 85.5%);
 }
 .message__text {
   width: 352.43px;
@@ -1596,11 +1581,7 @@ a {
 }
 .personal-protocol .photos-wrapper {
   height: 970px;
-  background:
-    url(../../media/treatment/personal-protocol/62a483e603a3ed0869d1aa90ff1aff9c\ 2.webp)
-      left bottom no-repeat,
-    url(../../media/treatment/personal-protocol/15xn2dhcpcpaasgraso0anji1ngo8w68\ 1.webp)
-      right bottom no-repeat;
+  background: url(../../media/treatment/personal-protocol/62a483e603a3ed0869d1aa90ff1aff9c\ 2.webp) left bottom no-repeat, url(../../media/treatment/personal-protocol/15xn2dhcpcpaasgraso0anji1ngo8w68\ 1.webp) right bottom no-repeat;
   background-size: contain;
 }
 .personal-protocol .photos-wrapper__item {
@@ -1641,8 +1622,7 @@ a {
   margin-top: 580px;
   min-height: 70px;
 }
-.personal-protocol .t-n-b__buttons__f,
-.personal-protocol .t-n-b__buttons__m {
+.personal-protocol .t-n-b__buttons__f, .personal-protocol .t-n-b__buttons__m {
   border: #000 solid 1px;
   border-radius: 50px;
   padding: 14px 0;

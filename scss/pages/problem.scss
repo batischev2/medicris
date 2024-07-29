@@ -567,6 +567,7 @@ a {
 }
 //problem page
 .problem-first-screen {
+  height: 617px;
   background-color: #f2f2f2;
   padding: 0 20px;
   &__title {
@@ -633,6 +634,7 @@ a {
   }
 }
 .problem-causes {
+  height: 617px;
   background-color: #f2f2f2;
   padding: 0 20px;
   &__title {
@@ -691,6 +693,7 @@ a {
 }
 .problem-routes {
   position: relative;
+  height: 617px;
   background-color: #f2f2f2;
   padding: 0 20px;
   &__title {
@@ -731,6 +734,8 @@ a {
   }
 }
 .problem-progress-variants {
+  position: relative;
+  height: 617px;
   background-color: #f2f2f2;
   padding: 0 20px;
   &__title {
@@ -1030,6 +1035,7 @@ a {
   }
 }
 .problem-articles {
+  height: 617px;
   background-color: #d9d9d9;
   padding: 0 20px;
   &__title {
@@ -1106,6 +1112,7 @@ a {
   }
 }
 .problem-proof {
+  height: 617px;
   background: linear-gradient(
     180deg,
     rgba(242, 242, 242, 1) 0%,

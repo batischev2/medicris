@@ -53,8 +53,7 @@ a {
   color: #242424;
 }
 
-.problem-danger__title,
-.problem-not-everybody__title {
+.problem-danger__title, .problem-not-everybody__title {
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 700;
@@ -75,8 +74,7 @@ a {
   color: #000000;
 }
 
-.problem-types-card__number,
-.problem-first-screen__title {
+.problem-types-card__number, .problem-first-screen__title {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -98,13 +96,7 @@ a {
   color: #242424;
 }
 
-.problem-mc-treatment__title,
-.problem-articles__title,
-.problem-all-treatments__title,
-.problem-types__title,
-.problem-progress-variants__title,
-.problem-routes__title,
-.problem-causes__title {
+.problem-mc-treatment__title, .problem-articles__title, .problem-all-treatments__title, .problem-types__title, .problem-progress-variants__title, .problem-routes__title, .problem-causes__title {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -126,9 +118,7 @@ a {
   color: #242424;
 }
 
-.problem-types-card__title,
-.problem-progress-variants-list-wrapper__item__title,
-.problem-routes-list-wrapper__item__title {
+.problem-types-card__title, .problem-progress-variants-list-wrapper__item__title, .problem-routes-list-wrapper__item__title {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -169,18 +159,7 @@ a {
   color: #000000;
 }
 
-.problem-danger-list,
-.problem-danger__text2,
-.problem-danger__text1,
-.problem-types-card-list,
-.problem-types-card__text,
-.problem-not-everybody__text:first-child,
-.problem-not-everybody__text,
-.problem-progress-variants-list-wrapper__item__body,
-.problem-progress-variants__text,
-.problem-routes-list-wrapper__item__body,
-.problem-routes__text,
-.problem-causes__text {
+.problem-danger-list, .problem-danger__text2, .problem-danger__text1, .problem-types-card-list, .problem-types-card__text, .problem-not-everybody__text:first-child, .problem-not-everybody__text, .problem-progress-variants-list-wrapper__item__body, .problem-progress-variants__text, .problem-routes-list-wrapper__item__body, .problem-routes__text, .problem-causes__text {
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
@@ -347,11 +326,7 @@ a {
   height: 400px;
   gap: 15px;
   /* FON 2 ACC TEXT */
-  background: linear-gradient(
-    180deg,
-    rgba(8, 229, 190, 0.5) 0%,
-    rgba(242, 242, 242, 0.5) 85.5%
-  );
+  background: linear-gradient(180deg, rgba(8, 229, 190, 0.5) 0%, rgba(242, 242, 242, 0.5) 85.5%);
   /* TEXT 1 */
   border-top: 1px solid #242424;
 }
@@ -367,11 +342,7 @@ a {
   position: relative;
   width: 172px;
   height: 400px;
-  background: linear-gradient(
-    180deg,
-    rgba(206, 206, 206, 0.5) 0%,
-    rgba(242, 242, 242, 0.5) 63%
-  );
+  background: linear-gradient(180deg, rgba(206, 206, 206, 0.5) 0%, rgba(242, 242, 242, 0.5) 63%);
   /* TEXT 1 */
   border-top: 1px solid #242424;
 }
@@ -461,6 +432,7 @@ a {
 }
 
 .problem-first-screen {
+  height: 617px;
   background-color: #f2f2f2;
   padding: 0 20px;
 }
@@ -518,6 +490,7 @@ a {
 }
 
 .problem-causes {
+  height: 617px;
   background-color: #f2f2f2;
   padding: 0 20px;
 }
@@ -553,11 +526,7 @@ a {
   margin-top: 46px;
   margin-right: 8px;
   /* FON ACC TEXT */
-  background: linear-gradient(
-    90deg,
-    rgba(8, 229, 190, 0.5) 0%,
-    rgba(242, 242, 242, 0.5) 85.5%
-  );
+  background: linear-gradient(90deg, rgba(8, 229, 190, 0.5) 0%, rgba(242, 242, 242, 0.5) 85.5%);
   /* TEXT 1 */
   border-left: 1px solid #242424;
   font-family: "Nunito Sans";
@@ -570,6 +539,7 @@ a {
 
 .problem-routes {
   position: relative;
+  height: 617px;
   background-color: #f2f2f2;
   padding: 0 20px;
 }
@@ -607,6 +577,8 @@ a {
 }
 
 .problem-progress-variants {
+  position: relative;
+  height: 617px;
   background-color: #f2f2f2;
   padding: 0 20px;
 }
@@ -693,11 +665,7 @@ a {
   text-align: left;
   color: #242424;
   /* FON ACC TEXT */
-  background: linear-gradient(
-    90deg,
-    rgba(8, 229, 190, 0.5) 0%,
-    rgba(242, 242, 242, 0.5) 85.5%
-  );
+  background: linear-gradient(90deg, rgba(8, 229, 190, 0.5) 0%, rgba(242, 242, 242, 0.5) 85.5%);
   /* TEXT 1 */
   border-left: 1px solid #242424;
 }
@@ -868,16 +836,13 @@ a {
   text-align: left;
   color: #242424;
   /* FON ACC TEXT */
-  background: linear-gradient(
-    90deg,
-    rgba(8, 229, 190, 0.5) 0%,
-    rgba(242, 242, 242, 0.5) 85.5%
-  );
+  background: linear-gradient(90deg, rgba(8, 229, 190, 0.5) 0%, rgba(242, 242, 242, 0.5) 85.5%);
   /* TEXT 1 */
   border-left: 1px solid #242424;
 }
 
 .problem-articles {
+  height: 617px;
   background-color: #d9d9d9;
   padding: 0 20px;
 }
@@ -950,11 +915,8 @@ a {
 }
 
 .problem-proof {
-  background: linear-gradient(
-    180deg,
-    rgb(242, 242, 242) 0%,
-    rgba(8, 229, 190, 0.5) 85.5%
-  );
+  height: 617px;
+  background: linear-gradient(180deg, rgb(242, 242, 242) 0%, rgba(8, 229, 190, 0.5) 85.5%);
   padding: 0 20px;
 }
 .problem-proof__title {
