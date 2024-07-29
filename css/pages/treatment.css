@@ -3,7 +3,8 @@
   --bs-body-font-family: "Montserrat", sans-serif;
 }
 
-html, body {
+html,
+body {
   overflow-x: clip;
 }
 
@@ -21,7 +22,7 @@ a {
   font-family: "Montserrat alternates";
 }
 
-.ACC-1-MOB {
+.acc-1-mob {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 300;
@@ -31,7 +32,7 @@ a {
   color: #242424;
 }
 
-.ACC-2-MOB {
+.acc-2-mob {
   font-family: "Montserrat";
   font-style: italic;
   font-weight: 400;
@@ -40,7 +41,7 @@ a {
   color: #242424;
 }
 
-.ACC-3-MOB {
+.acc-3-mob {
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
@@ -52,7 +53,7 @@ a {
   color: #242424;
 }
 
-.ACC-4-MOB {
+.acc-4-mob {
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 700;
@@ -62,7 +63,7 @@ a {
   text-transform: uppercase;
 }
 
-.ACC-5-MOB {
+.acc-5-mob {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -73,7 +74,7 @@ a {
   color: #242424;
 }
 
-.ACC-6-MOB {
+.acc-6-mob {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -84,7 +85,7 @@ a {
   color: #000000;
 }
 
-.ACC-7-MOB {
+.acc-7-mob {
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
@@ -95,7 +96,7 @@ a {
   color: #000000;
 }
 
-.H1-MOB {
+.h1-mob {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -106,7 +107,7 @@ a {
   mix-blend-mode: darken;
 }
 
-.H2-MOB {
+.h2-mob {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -117,7 +118,7 @@ a {
   color: #242424;
 }
 
-.H3-LIST-MOB {
+.h3-list-mob {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -128,7 +129,7 @@ a {
   color: #242424;
 }
 
-.H4-MOB {
+.h4-mob {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -139,7 +140,7 @@ a {
   color: #242424;
 }
 
-.H6-MOB {
+.h6-mob {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -148,7 +149,7 @@ a {
   color: #242424;
 }
 
-.BODY-1-MOB {
+.body-1-mob {
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
@@ -158,7 +159,7 @@ a {
   color: #242424;
 }
 
-.BODY-2-MOB {
+.body-2-mob {
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
@@ -168,7 +169,7 @@ a {
   color: #000000;
 }
 
-.LIST-1-MOB {
+.list-1-mob {
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 700;
@@ -180,7 +181,7 @@ a {
   color: #242424;
 }
 
-.LIST-2-MOB {
+.list-2-mob {
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 600;
@@ -191,7 +192,7 @@ a {
   color: #242424;
 }
 
-.LIST-3-MOB {
+.list-3-mob {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
@@ -203,7 +204,7 @@ a {
   color: #242424;
 }
 
-.BUTTON-BIG-MOB {
+.button-big-mob {
   box-sizing: border-box;
   /* Auto layout */
   display: flex;
@@ -224,11 +225,11 @@ a {
   letter-spacing: 0.03em;
   text-align: center;
 }
-.BUTTON-BIG-MOB:hover {
+.button-big-mob:hover {
   background: rgba(8, 229, 190, 0.5);
 }
 
-.BUTTON-1-MOB {
+.button-1-mob {
   font-family: "Montserrat Alternates";
   font-size: 10px;
   font-weight: 700;
@@ -238,11 +239,11 @@ a {
   border-radius: 50px;
   border: 1px solid #242424;
 }
-.BUTTON-1-MOB:hover {
+.button-1-mob:hover {
   background: rgba(8, 229, 190, 0.5);
 }
 
-.BUTTON-2-MOB {
+.button-2-mob {
   font-family: "Montserrat Alternates";
   font-style: normal;
   font-weight: 700;
@@ -257,8 +258,11 @@ a {
   text-transform: uppercase;
   color: #000000;
 }
+.button-2-mob:hover {
+  column-gap: 22px;
+}
 
-.LINK-MOB {
+.link-mob {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -266,14 +270,17 @@ a {
   line-height: 135%;
   /* or 16px */
   display: flex;
-  align-items: center;
+  justify-content: flex-end;
   text-align: right;
   letter-spacing: 0.07em;
   text-transform: uppercase;
-  color: #08E5BE;
+  color: #08e5be;
+}
+.link-mob:hover {
+  text-decoration: underline;
 }
 
-.FILTER-2-MOB {
+.filter-2-mob {
   font-family: "Montserrat Alternates";
   font-style: normal;
   font-weight: 700;
@@ -286,7 +293,7 @@ a {
   text-transform: uppercase;
   color: #242424;
 }
-.FILTER-2-MOB_no {
+.filter-2-mob_no {
   background-image: url(../../media/treatment/procedure/Ellipse_26.svg);
   width: 15px;
   height: 15px;
@@ -294,7 +301,7 @@ a {
   background-size: contain;
   margin-right: 5px;
 }
-.FILTER-2-MOB_choosen {
+.filter-2-mob_choosen {
   background-image: url(../../media/treatment/procedure/Ellipse_26_black.svg);
   width: 15px;
   height: 15px;
@@ -303,7 +310,7 @@ a {
   margin-right: 5px;
 }
 
-.YES-LIST {
+.yes-list {
   box-sizing: border-box;
   /* Auto layout */
   display: flex;
@@ -321,7 +328,7 @@ a {
   border-top: 1px solid #242424;
 }
 
-.NO-LIST {
+.no-list {
   box-sizing: border-box;
   /* Auto layout */
   display: flex;
@@ -337,7 +344,7 @@ a {
   border-top: 1px solid #242424;
 }
 
-.FAQ-ITEM {
+.faq-item {
   height: 70px;
   color: #242424 !important;
   display: flex;
@@ -346,12 +353,12 @@ a {
   align-items: center;
   align-content: flex-start;
   /* FON 1 PAGE */
-  background: #F2F2F2;
+  background: #f2f2f2;
 }
-.FAQ-ITEM:last-child {
+.faq-item:last-child {
   border-bottom: 1px solid #242424;
 }
-.FAQ-ITEM-TITLE {
+.faq-item-title {
   border-top: 1px solid #242424;
   padding: 17px 0px;
   display: flex;
@@ -362,7 +369,7 @@ a {
   column-gap: 36px;
   width: 100%;
 }
-.FAQ-ITEM-TITLE-TEXT_sub {
+.faq-item-title-text_sub {
   font-family: Nunito Sans;
   font-size: 12px;
   font-weight: 700;
@@ -372,7 +379,7 @@ a {
   color: #242424;
   text-transform: uppercase;
 }
-.FAQ-ITEM-DROPDOWN {
+.faq-item-dropdown {
   display: none;
   margin-bottom: 60px;
   width: 100%;
@@ -382,18 +389,21 @@ a {
   line-height: 18px;
   text-align: left;
 }
-.FAQ-ITEM-DROPDOWN > .FAQ-ITEM {
+.faq-item-dropdown > .faq-item {
   height: 50px;
 }
-.FAQ-ITEM-DROPDOWN > .FAQ-ITEM > .FAQ-ITEM-TITLE {
+.faq-item-dropdown > .faq-item > .faq-item-title {
   padding: 13px 0;
 }
-.FAQ-ITEM-DROPDOWN-sub-text {
+.faq-item-dropdown-sub-text {
   margin-bottom: 17px;
 }
-.FAQ-ITEM-DROPDOWN-sub-img {
+.faq-item-dropdown-sub-img {
   width: 100%;
   margin-bottom: 17px;
+}
+.faq-item-dropdown-sub-img img {
+  width: 100%;
 }
 
 .methods {
@@ -411,7 +421,7 @@ a {
   flex: 1;
   height: 493px;
   /* FON 2 PAGE */
-  background: #D9D9D9;
+  background: #d9d9d9;
 }
 .methods .methods-l__head {
   border-top: 1px solid #242424;
@@ -469,7 +479,7 @@ a {
   flex: 1;
   height: 493px;
   /* FON 2 PAGE */
-  background: #F2F2F2;
+  background: #f2f2f2;
 }
 .methods .methods-r__head {
   border-top: 1px solid #242424;
@@ -550,13 +560,13 @@ a {
   text-transform: uppercase;
 }
 
-.PRICE-SECTION {
+.price-section {
   margin-top: 58px;
 }
-.PRICE-SECTION-HEADER__top {
+.price-section-header__top {
   padding-bottom: 8px;
 }
-.PRICE-SECTION-HEADER__bottom {
+.price-section-header__bottom {
   height: 20px;
   margin: 0;
   padding: 20px 0;
@@ -573,19 +583,19 @@ a {
   align-items: center;
   column-gap: 13px;
 }
-.PRICE-SECTION-HEADER__bottom-price {
+.price-section-header__bottom-price {
   display: flex;
   flex-direction: row;
   text-align: right;
 }
-.PRICE-SECTION-HEADER__bottom-price_base {
+.price-section-header__bottom-price_base {
   width: 65px;
 }
-.PRICE-SECTION-HEADER__bottom-price_sale {
+.price-section-header__bottom-price_sale {
   width: 67px;
   text-decoration: underline;
 }
-.PRICE-SECTION-ITEM {
+.price-section-item {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -594,13 +604,13 @@ a {
   padding-bottom: 18px;
   border-bottom: #000 1px solid;
 }
-.PRICE-SECTION-ITEM__col-l {
+.price-section-item__col-l {
   display: flex;
   flex-direction: column;
   row-gap: 12px;
   text-transform: uppercase;
 }
-.PRICE-SECTION-ITEM__col-l_desc {
+.price-section-item__col-l_desc {
   text-transform: none;
   font-family: "Nunito Sans";
   font-size: 12px;
@@ -609,13 +619,13 @@ a {
   text-align: left;
   color: rgb(36, 36, 36);
 }
-.PRICE-SECTION-ITEM__col-r {
+.price-section-item__col-r {
   display: flex;
   flex-direction: column;
   row-gap: 13px;
   align-items: flex-end;
 }
-.PRICE-SECTION-ITEM__col-r_price {
+.price-section-item__col-r_price {
   display: flex;
   flex-direction: row;
   font-family: Nunito Sans;
@@ -625,14 +635,14 @@ a {
   text-align: right;
   column-gap: 13px;
 }
-.PRICE-SECTION-ITEM__col-r_price_l {
+.price-section-item__col-r_price_l {
   width: 65px;
 }
-.PRICE-SECTION-ITEM__col-r_price_r {
+.price-section-item__col-r_price_r {
   width: 67px;
 }
 
-.CARD-ARTICLE {
+.card-article {
   width: 293px !important;
   height: 372px;
   border-top: 1px solid #000;
@@ -640,7 +650,7 @@ a {
   background-color: #fff;
   padding-inline: 20px;
 }
-.CARD-ARTICLE-text__title {
+.card-article-text__title {
   margin-top: 26px;
   font-family: Montserrat;
   font-size: 15px;
@@ -649,7 +659,7 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
 }
-.CARD-ARTICLE-text__author {
+.card-article-text__author {
   margin-top: 20px;
   font-family: Montserrat;
   font-size: 14px;
@@ -657,7 +667,7 @@ a {
   line-height: 16px;
   text-align: left;
 }
-.CARD-ARTICLE-text__main {
+.card-article-text__main {
   margin-top: 32px;
   font-family: "Nunito Sans";
   font-size: 10px;
@@ -665,24 +675,24 @@ a {
   line-height: 12px;
   text-align: left;
 }
-.CARD-ARTICLE__link {
+.card-article__link {
   margin-top: 68px;
   display: flex;
   justify-content: flex-start;
   justify-items: flex-start;
 }
 
-.DOC-CARD {
+.doc-card {
   width: 293px;
   height: 423px;
   margin-right: 10px;
 }
-.DOC-CARD__img {
+.doc-card__img {
   padding: 0;
   height: 293px;
   width: 423px;
 }
-.DOC-CARD__name {
+.doc-card__name {
   font-family: Montserrat;
   font-size: 15px;
   font-weight: 700;
@@ -692,7 +702,7 @@ a {
   margin-top: 15px;
   padding: 0;
 }
-.DOC-CARD__position {
+.doc-card__position {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 500;
@@ -925,7 +935,7 @@ a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.07em;
-  color: #F2F0EE;
+  color: #f2f0ee;
 }
 .type-2__bottom {
   height: 84px;
@@ -1193,6 +1203,7 @@ a {
 .feedback__source {
   align-self: flex-end;
   padding-right: 20px;
+  justify-content: flex-end;
   /* ЧИТАТЬ ИСТОЧНИК */
   width: 141px;
   height: 16px;
@@ -1203,7 +1214,7 @@ a {
   line-height: 135%;
   /* or 16px */
   letter-spacing: 0.07em;
-  color: #08E5BE;
+  color: #08e5be;
 }
 .feedback__source_n {
   margin-top: 31px;
@@ -1234,6 +1245,7 @@ a {
   font-size: 14px;
   line-height: 14px;
   text-align: left;
+  font-weight: 500;
 }
 .feedback-item__img {
   transform: scale(0.4);
@@ -1307,6 +1319,30 @@ a {
 }
 .results__img {
   margin-top: 26px;
+}
+.results-before-after-wrapper {
+  position: relative;
+}
+.results-photos-overlay {
+  position: absolute;
+  bottom: 13px;
+  left: 13px;
+  width: 293px;
+  color: #242424;
+}
+.results-photos-overlay__top {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: left;
+}
+.results-photos-overlay__bottom {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
 }
 .results-item {
   padding-right: 0;
@@ -1531,6 +1567,7 @@ a {
 .footer {
   padding: 20px;
   background-color: #fff;
+  color: #242424;
 }
 .footer__title {
   margin: 30px;
@@ -1543,7 +1580,7 @@ a {
   font-size: 20px;
   line-height: 24px;
   /* identical to box height, or 120% */
-  color: #000000;
+  color: #242424;
   mix-blend-mode: darken;
 }
 .footer__info {
@@ -1555,21 +1592,31 @@ a {
   font-size: 16px;
   line-height: 24px;
   /* identical to box height, or 150% */
-  color: #000000;
+  color: #242424;
   mix-blend-mode: darken;
 }
-.footer-soc-wrapper {
+.footer-icons-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  column-gap: 14px;
+  column-gap: 36px;
+  justify-content: end;
+  margin-bottom: 22px;
+}
+.footer-icons-wrapper:first-child {
+  margin-top: 3px;
+}
+.footer-icons-wrapper:last-child {
+  margin-bottom: 0;
+}
+.footer-icons-wrapper__item {
+  align-self: center;
 }
 .footer__socials {
   padding: 0;
   max-width: 25px;
 }
 .footer__adress {
-  margin-top: 42px;
+  margin-top: 37px;
   width: 353px;
   height: 24px;
   font-family: "Montserrat";
@@ -1577,42 +1624,49 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #000000;
+  color: #242424;
   mix-blend-mode: darken;
 }
 .footer__map-img {
   object-fit: cover;
+  margin-top: 24px;
+  margin-bottom: 22px;
 }
 .footer__maps {
   border-top: #000 solid 1px;
-  margin: 0 10px;
+  margin: 0 12px;
   padding: 3.5px 0px;
-  font-family: "Montserrat Alternates";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #000000;
+  color: #242424;
   mix-blend-mode: darken;
 }
 .footer__maps_last {
-  font-family: "Montserrat Alternates";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #000000;
+  color: #242424;
   mix-blend-mode: darken;
   padding: 3.5px 0;
-  margin: 0 10px;
+  margin: 0;
   border-top: #000 solid 1px;
   border-bottom: #000 solid 1px;
 }
+.footer__maps_last > .col {
+  padding-inline: 0;
+}
 .footer__navimg {
   transform: scale(0.5);
+  margin-right: -13px;
 }
-.footer__navimg_l {
+.footer__navimg_last {
   transform: scale(0.5) rotate(270deg);
+  margin-right: -24px;
 }
 .footer__dropdown {
   display: none;
@@ -1972,7 +2026,7 @@ a {
 .treatment-doctors {
   padding: 0 20px;
   height: 768px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 .treatment-doctors__title {
   margin-top: 85px;
@@ -1996,7 +2050,7 @@ a {
 .articles {
   height: 824px;
   padding: 0 20px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 .articles__title {
   margin-top: 17px;
@@ -2038,7 +2092,7 @@ a {
 .personal-protocol {
   position: relative;
   height: 970px;
-  background: #E0D8D0;
+  background: #e0d8d0;
 }
 .personal-protocol .photos-wrapper {
   height: 970px;
@@ -2119,15 +2173,15 @@ a {
   color: #000000;
 }
 
-.faq {
+.faq-container {
   padding: 0 20px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
-.faq__title {
+.faq-container__title {
   margin-top: 56px;
   margin-bottom: 24px;
 }
-.faq__bottom {
+.faq-container__bottom {
   height: 155px;
   display: flex;
   justify-content: end;
@@ -2136,61 +2190,61 @@ a {
 
 .problem-first-screen {
   height: 617px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 0 20px;
 }
 
 .problem-causes {
   height: 617px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 0 20px;
 }
 
 .problem-routes {
   height: 617px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 0 20px;
 }
 
 .problem-progress-variants {
   height: 617px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 0 20px;
 }
 
 .problem-not-everybody {
   height: 951px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 0 20px;
 }
 
 .problem-types {
   height: 738px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 0 20px;
 }
 
 .problem-danger {
   height: 470px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 0 20px;
 }
 
 .problem-all-treatments {
   height: 651px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 0 20px;
 }
 
 .problem-articles {
   height: 617px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   padding: 0 20px;
 }
 
 .problem-mc-treatment {
   height: 1087px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 0 20px;
 }
 

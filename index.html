@@ -1,660 +1,869 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/pages/home.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
-  <title>MEDICRIS</title>
-</head>
-<body>
-  <header class="container-sm header bg">
-    <div class="row ">
-      <div class="col header__img">
-  
-      </div>
-    </div>
-  </header>
-  <div class="container-sm header-plug">
-
-  </div>
-  <div class="container-sm m-0 first-page position-relative">
-    <div class="row photos-wrapper">
-      
-    </div>
-    <div class="container-sm t-n-b position-absolute top-0 start-0 d-flex flex-column align-items-center text-center">
-    <div class="row">
-      <div class="col-12 t-n-b__text text-center">
-        УПРАВЛЯЙТЕ<br>
-        <span class="fst-italic">ВНЕШНОСТЬЮ,</span><br>
-        ЗДОРОВЬЕМ<br>
-        <span class="fst-italic">И КАЧЕСТВОМ</span><br>
-        ЖИЗНИ
-      </div>
-    </div>
-    <div class="row">
-      <img class="col-12 t-n-b__arrow" src="media/main_page/fp-vector.svg" alt="">
-    </div>
-    <div class="row justify-items-end">
-      <div class="col-12">
-        <div class="row t-n-b__buttons d-flex flex-row align-items-center p-2">
-          <div class="col t-n-b__buttons__f">ДЛЯ ЖЕНЩИН</div>
-          <div class="col t-n-b__buttons__t ">ПЕРСОНАЛЬНЫЙ ПРОТОКОЛ</div>
-          <div class="col  t-n-b__buttons__m">ДЛЯ МУЖЧИН</div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </div>  
-
-  <div class="menu container-sm">
-    <div class="row row-cols-5 p-2 align-items-center">
-      <div class="col ">
-        <img class="menu__img" src="media/menu/account_balance.svg">
-        <div class="menu__text">Меню</div>
-      </div>
-      <div class="col ">
-        <a href="treatment.html">
-        <img class="menu__img" src="media/menu/account_balance_wallet.svg">
-        <div class="menu__text">Услуги</div>
-        </a>
-      </div>
-      <div class="col">
-        <img class="menu__img" src="media/menu/sentiment_satisfied.svg">
-        <div class="menu__text">Профиль</div></div>
-      <div class="col">
-        <img class="menu__img" src="media/menu/chat.svg">
-        <div class="menu__text">Связь</div>
-      </div>
-      <div class="col">
-        <img class="menu__img" src="media/menu/add_to_photos.svg">
-        <div class="menu__text">Запись</div>
-      </div>
-  </div>
-  </div>
-
-  <div class="parallax">
-  <div class="container-sm d-flex flex-column justify-content-between page-2 parallax__layer parallax__text" id="page-2"> 
-    <div class="d-flex flex-column row">
-      <div class="col page-2__main-text">
-      КЛИНИКА <span class="fst-italic">MEDICRIS —</span><br>
-      ОТВЕТСТВЕННАЯ <span class="fw-bold">*</span><br>
-      ЭСТЕТИЧЕСКАЯ<br>
-      МЕДИЦИНА,<br>
-      ПОМОГАЮЩАЯ<br>
-      ОСТАВАТЬСЯ<br>
-      НА ВЫСОТЕ!
-      </div>
-      <div class="page-2__subtext col">Эльвира Айзекс, основатель клиники </div>
-    </div>
-
-    <div class="row d-flex flex-row-reverse">
-      <div class="col-6 page-2__note">
-      В 2023 году MEDICRIS
-      присвоен статус
-      Клинической Базы
-      НМХЦ им. Н.И.Пирогова 
-      </div>
-    </div>
-    <div class="row arrow-link text-center page-2__link">
-      <div class="col arrow-link__text">О КЛИНИКЕ <img src="media/main_page/arrow.svg" alt="" class="arrow-link__img"></div>
-    </div>
-  </div> 
-
-  <div class="container-sm gradient parallax__layer parallax__image" id="gradient"></div>
-  </div>
-
-  <div class="sticky-container ">
-  <div class="container-sm type-2 abilities" id="abilities"> <!--возможности-->
-    <div class="row  header-abilities">
-      <div class="col type-2__header">НАШИ ВОЗМОЖНОСТИ</div>
-    </div>
-    <div class="row type-2__bottom ">
-      <div class="col type-2__bottom__text">
-        127 ВЫСОКО–<br>
-        ТЕХНОЛОГИЧНЫХ<br>
-        ПРОЦЕДУР
-      </div>
-      <img src="media/type-2/ellipse_arr.svg" alt="" class="col-3 type-2__bottom__link">
-    </div>
-  
-    <div class="row">
-      <marquee class="type-2__bottom__string col">
-        / БИОРЕВИТАЛИЗАЦИЯ &emsp; / КОНТУРНАЯ ПЛАСТИКА &emsp; / SMAS-LIFTING
-      </marquee>
-    </div>
-  </div> <!--возможности-->
-
-  <div class="container-sm type-2 doctors fw-normal d-flex flex-column justify-content-end " id="doctors"> <!--врачи-->
-    <div class="row type-2__bottom align-items-center d-flex justify-content-between">
-      <div class="col p-0 type-2__bottom__text">
-        КОМАНДА ВРАЧЕЙ<br>
-        ВЫСОКОЙ<br>
-        КВАЛИФИКАЦИИ
-      </div>
-      <img src="media/type-2/ellipse_arr.svg" alt="" class="col-3 type-2__bottom__link">
-    </div>
-    <div class="row">
-      <marquee class="type-2__bottom__string col">
-        ВРАЧ-КОСМЕТОЛОГ &emsp; ВРАЧ-ДЕРМАТОЛОГ
-      </marquee>
-    </div>
-  </div> <!--врачи-->
-  
-
-  <div class="container-sm type-2 equip fw-normal d-flex flex-column justify-content-end " id="equip"> <!--оборудование-->
-    <div class="row type-2__bottom align-items-center d-flex justify-content-between">
-      <div class="col p-0 type-2__bottom__text">
-        ИННОВАЦИОННОЕ<br>
-        ОБОРУДОВАНИЕ<br>
-        И ПРЕПАРАТЫ
-      </div>
-      <img src="media/type-2/ellipse_arr.svg" alt="" class="col-3 type-2__bottom__link">
-  </div> 
-  <div class="row">
-    <marquee class="type-2__bottom__string col">
-      LIFTERA-A &emsp; MEDIOSTAR NEXT PRO &emsp; PROFHILO
-    </marquee>
-  </div>
-  </div> <!--оборудование-->
-
-  <div class="container-sm type-2 clinic fw-normal d-flex flex-column justify-content-end " id="clinic"> <!--клиника-->
-    <div class="row type-2__bottom align-items-center d-flex justify-content-between">
-      <div class="col  type-2__bottom__text s18">
-        ОСОБЫЙ КОМФОРТ<br>
-        В ОСОБНЯКЕ <br>
-        У САДОВОГО КОЛЬЦА
-      </div>
-      <img src="media/type-2/ellipse_arr.svg" alt="" class="col-3 type-2__bottom__link">
-    </div>
-    <div class="row">
-      <marquee class="type-2__bottom__string col">
-        УВЛАЖНИТЕЛИ ВОЗДУХА &emsp; КОФЕМАШИНА &emsp; ЧАСТНАЯ ПАРКОВКА &emsp; БУТИЛИРОВАННАЯ ВОДА
-      </marquee>
-    </div>
-  </div> <!--клиника-->
-  </div>
-  <div class="container-sm philosofy text-center d-flex justify-content-between flex-column align-items-center"> <!--философия-->
-    <div class="row philosofy__title">
-      <div class="col">
-      НАША ФИЛОСОФИЯ
-      </div>
-    </div>
-    <div class="row philosofy__text">
-      <div class="col">
-      СИСТЕМНЫЙ ПОДХОД —<br> 
-      КЛЮЧ К ГАРМОНИИ КРАСОТЫ <br>
-      И ЗДОРОВЬЯ
-      </div>
-    </div>
-    <div class="row">
-    <img src="media/philosofy/1.png" alt="" class="col philosofy__img">
-    </div>
-  </div> <!--философия-->
-
-  <div class="container-sm principle">
-    <div class="principle-wrapper row">
-      <div class="col-3 principle-wrapper__number text-center fw-medium s23">
-        1
-      </div>
-      <div class="col-9 ">
-      <div class="row principle-wrapper__title ">
-        ИНТЕГРАТИВНЫЙ <br> ПОДХОД
-      </div>
-      <div class="row principle-wrapper__text">
-        Подходим к пациенту, как единому физическому и социальному организму, учитывая весь комплекс особенностей его здоровья и потребностей  
-      </div>
-    </div>
-    </div>
-    <div class="principle-wrapper row">
-      <div class="col-3 principle-wrapper__number text-center fw-medium s23">
-        2
-      </div>
-      <div class="col-9 ">
-      <div class="row principle-wrapper__title ">
-        ПРИНЦИП <br> ПРЕВЕНТИВНОСТИ
-      </div>
-      <div class="row principle-wrapper__text">
-        Применяем таргетную диагностику для  выявления причин существующих проблем, а также предупреждение развития новых  
-      </div>
-    </div>
-    </div>
-    <div class="principle-wrapper row">
-      <div class="col-3 principle-wrapper__number text-center fw-medium s23">
-        3
-      </div>
-      <div class="col-9 ">
-      <div class="row principle-wrapper__title ">
-        БЕЗОПАСНОСТЬ <br> ВОЗДЕЙСТВИЯ
-      </div>
-      <div class="row principle-wrapper__text ">
-        Все консультации и процедуры в клинике проводятся только квалифицированными врачами на сертифицированных оборудовании и препаратах 
-      </div>
-    </div>
-    </div>
-    <div class="principle-wrapper row">
-      <div class="col-3 principle-wrapper__number text-center fw-medium s23">
-        4
-      </div>
-      <div class="col-9 ">
-      <div class="row principle-wrapper__title ">
-        ГЛУБОКАЯ <br>
-        ПЕРСОНАЛИЗАЦИЯ
-      </div>
-      <div class="row principle-wrapper__text">
-        Мы углубили персональный подход и создали онлайн-инструмент – ПЕРСОНАЛЬНЫЙ ПРОТОКОЛ – позволяющий пациенту и врачу заранее подготовиться к приёму в клинике и получить ожидаемый результат 
-      </div>
-    </div>
-    </div>
-    <div class="row arrow-link principle-wrapper__link text-center">
-      <div class="col arrow-link__text  fw-bold ma">СОСТАВИТЬ ПРОТОКОЛ <img src="media/main_page/arrow.svg" alt="" class="arrow-link__img"></div>
-    </div>
-  </div>
-
-  <div class="container-sm threeg">
-
-  </div>
-
-  <div class="container-sm feedback d-flex flex-column">
-    <div class="row">
-      <div class="col fw-light  feedback__title text-center">ОТЗЫВЫ ПАЦИЕНТОВ</div>
-    </div>
-    <div class="slider-wrapper">
-    <div class="feedback-slide d-flex flex-column justify-content-between" data-visible="true" data-slide-number="1">
-    <div class="row">
-      <div class="col feedback__text align-self-center">
-        Я пришла, не зная с чего начать, и ушла совершенно спокойная, с пониманием дальнейшего плана действий...
-      </div>
-    </div>
-    <div class="row">
-      <div class="col text-end">
-        <a class="col feedback__source text-end" target="_blank" href="https://prodoctorov.ru/moskva/vrach/1042526-bulavina/#rating">ЧИТАТЬ ИСТОЧНИК</a>
-      </div>
-    </div>
-    <div class="row feedback-item">
-      <div class="col fw-medium feedback-item__title">
-        ПРОЦЕДУРА
-      </div>
-      
-      <div class="row d-flex justify-content-between pe-0 feedback-item2">
-        <div class="col-10 align-self-start fw-medium feedback-item__subtitle">
-          Консультация врача-косметолога
-        </div>
-        <img src="media/review/arrow_small.svg" alt="" class="col feedback-item__img align-self-start">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col fw-medium feedback-item__title feedback-item__title_l">
-        ВРАЧ
-      </div>
-      <div class="row pe-0 feedback-item2">
-        <div class="col-10 feedback-item__subtitle">
-        Булавина М.С.
-        </div>
-        <img src="media/review/arrow_small.svg" alt="" class="col-2 feedback-item__img">
-      </div>
-    </div>
-    </div>
-    <div class="feedback-slide d-flex flex-column justify-content-between invis" data-visible="false" data-slide-number="2">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/pages/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>MEDICRIS</title>
+  </head>
+  <body>
+    <header class="container-sm header bg">
       <div class="row">
-        <div class="col feedback__text">
-          Профессионально, безболезненно, отлично!
-          Удаляла у Марии Сергеевны папилломы. Было комфортно...
-        </div>
+        <div class="col header__img"></div>
       </div>
-      <div class="row">
-        <div class="col feedback__source text-end">
-          ЧИТАТЬ ИСТОЧНИК
-        </div>
-      </div>
-      <div class="row feedback-item">
-        <div class="col fw-medium feedback-item__title">
-          ПРОЦЕДУРА
-        </div>
-        
-        <div class="row d-flex justify-content-between pe-0 feedback-item2">
-          <div class="col-10 align-self-start feedback-item__subtitle">
-            Удаление папиллом электрокоагуляцией
-          </div>
-          <img src="media/review/arrow_small.svg" alt="" class="col feedback-item__img align-self-start">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col fw-medium feedback-item__title feedback-item__title_l">
-          ВРАЧ
-        </div>
-        <div class="row pe-0 feedback-item2">
-          <div class="col-10 feedback-item__subtitle">
-          Булавина М.С.
-          </div>
-          <img src="media/review/arrow_small.svg" alt="" class="col-2 feedback-item__img">
-        </div>
-      </div>
-    </div>
-    <div class="feedback-slide d-flex flex-column justify-content-between invis" data-visible="false" data-slide-number="3">
-      <div class="row">
-        <div class="col feedback__text">
-          Действительно хорошая клиника. Обратился по вопросу удаления папиллом. Весь вопрос занял 45 минут.
-        </div>
-      </div>
-      <div class="row">
-        <div class="col feedback__source text-end">
-          ЧИТАТЬ ИСТОЧНИК
-        </div>
-      </div>
-      <div class="row feedback-item">
-        <div class="col feedback-item__title">
-          ПРОЦЕДУРА
-        </div>
-        
-        <div class="row d-flex justify-content-between pe-0 feedback-item2">
-          <div class="col-10 align-self-start feedback-item__subtitle">
-            Удаление папиллом эрбиевым лазером
-          </div>
-          <img src="media/review/arrow_small.svg" alt="" class="col feedback-item__img align-self-start">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col feedback-item__title feedback-item__title_l">
-          ВРАЧ
-        </div>
-        <div class="row pe-0 feedback-item2">
-          <div class="col-10 feedback-item__subtitle">
-          Забродина В.В.
-          </div>
-          <img src="media/review/arrow_small.svg" alt="" class="col-2 feedback-item__img">
-        </div>
-      </div>
-    </div>
-    <div class="row feedback__scroller  text-center align-self-center justify-items-end d-flex flex-row justify-content-around">
-      <img src="media/review/Arrow_black.svg" alt="" class="col feedback__scroller__l" id="l_f">
-      <div class="col feedback__scroller__text" id="t_f" data-number="1"></div>
-      <img src="media/review/Arrow_black.svg" alt="" class="col feedback__scroller__r" id="r_f">
-    </div>
-  </div>
-  </div>
-  <div class="container-sm rate">
-    <div class="row rate-row">
-      <div class="col text-center rate__title">
-        НЕЗАВИСИМЫЙ РЕЙТИНГ
-      </div>
-    </div>
-    <div class="row rate-wrapper">
-      <div class="col-6">
-      <div class="row d-flex flex-column justify-content-between align-items-center">
-      <img src="media/rate/Star 8.svg" alt="" class="col-3 rate__star">
-      <img src="media/rate/5,0.svg" class="col text-center rate__number">
-      <img src="media/rate/yandex.svg" alt="" class="col text-center fw-bold rate__subtitle">
-      </div>
-    </div>
-    <div class="col-6">
-      <div class="row d-flex flex-column justify-content-between align-items-center">
-      <img src="media/rate/Star 8.svg" alt="" class="col-3 text-center rate__star">
-      <img src="media/rate/4,8.svg" class="col text-center rate__number">
-      <img src="media/rate/google.svg" alt="" class="col text-center fw-bold rate__subtitle">      
-      </div>
-    </div>
-    </div>
-    <div class=" row m-0">
-      <div class="col-12 rate__border"></div>
-    </div>
-  </div>
-
-  <div class="container-sm news">
-    <div class="row">
-      <div class="col text-center news__title">НОВОСТИ  MEDICRIS</div>
-    </div>
-    <div class="row row-cols-2 news-wrapper">
-      <div class="col-6 news-item d-flex flex-column">
-        <img src="media/news/1.png" alt="" class="news-item__img">
-        <div class="news-item__text">
-          Наш новый врач —<br>
-          Душина Карина Юрьевна
-        </div>
-        <div class="news-item__link">
-          <div class="arrow-link__text_n news-arrow__text ">ЧИТАТЬ 
-        </div>
-          <img src="media/news/Arrow 11.svg" alt="" class="arrow-link__img_n">
-      </div>
-    </div>
-    <div class="col-6 news-item d-flex flex-column">
-      <img src="media/news/2.png" alt="" class="news-item__img">
-      <div class="news-item__text">
-        Конференция по<br>
-        хирургии в Пекине
-      </div>
-      <div class="news-item__link">
-        <div class="arrow-link__text_n news-arrow__text">ЧИТАТЬ 
-      </div>
-      <img src="media/news/Arrow 11.svg" alt="" class="arrow-link__img_n">
-    </div>
-    </div>
-    <div class="col-6 news-item d-flex flex-column">
-      <img src="media/news/3.png" alt="" class="news-item__img">
-      <div class="news-item__text">
-        Проект Бьютипедия —<br>
-        онлайн-энциклопедия
-      </div>
-      <div class="news-item__link">
-        <div class="arrow-link__text_n news-arrow__text ">ЧИТАТЬ 
-      </div>
-      <img src="media/news/Arrow 11.svg" alt="" class="arrow-link__img_n">
-    </div>
-    </div>
-    <div class="col-6 news-item d-flex flex-column">
-      <img src="media/news/4.png" alt="" class="news-item__img">
-      <div class="news-item__text">
-        MEDICRIS Х НМХЦ им. <br>
-        Н.И.Пирогова
-      </div>
-      <div class="news-item__link">
-        <div class="arrow-link__text_n news-arrow__text ">ЧИТАТЬ 
-      </div>
-      <img src="media/news/Arrow 11.svg" alt="" class="arrow-link__img_n">
-    </div>
-    </div>
-    </div>
-  </div>
-  
-
-  <div class="container-sm message d-flex flex-column">
-    <div class="row">
-      <div class="col message__text text-center">
-        — МЫ НЕ МОЖЕМ <br>
-        ВСЕГДА ОСТАВАТЬСЯ<br>
-        <span class="fst-italic">МОЛОДЫМИ,</span><br>
-        НО МЫ МОЖЕМ<br>
-        ВСЕГДА ОСТАВАТЬСЯ<br>
-        <span class="fst-italic">КРАСИВЫМИ!</span>
-      </div>
-    </div>
-    <div class="row d-flex flex-row-reverse">
-      <div class="col-6 message__author">
-        Руслан Сабанаев, <br>
-        главный врач клиники 
-      </div>
-    </div>
-    <div class="row arrow-link">
-      <div class="col message__link text-center arrow-link__text">ЗАПИСАТЬСЯ <img src="media/main_page/arrow.svg" alt="" class="arrow-link__img">
-    </div>
-    </div>
-  </div>
-
-  <div class="swiper container-sm" id="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper" >
-      <!-- Slides -->
-      <div class="swiper-slide slide-1"></div>
-      <div class="swiper-slide slide-2"></div>
-      <div class="swiper-slide slide-3"></div>
-      <div class="swiper-slide slide-4"></div>
-      <div class="swiper-slide slide-5"></div>
-      <div class="swiper-slide slide-6"></div>
-    </div>
-    
-  </div>
-
-  <div class="container footer fw-normal">
-    <div class="row">
-      <div class="col text-center footer__title p-0 mx-0">
-        MEDICRIS — КЛИНИКА КРАСОТЫ
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-6">
+    </header>
+    <div class="container-sm header-plug"></div>
+    <div class="container-sm m-0 first-page position-relative">
+      <div class="row photos-wrapper"></div>
+      <div
+        class="container-sm t-n-b position-absolute top-0 start-0 d-flex flex-column align-items-center text-center"
+      >
         <div class="row">
-          <div class="col mb-1 footer__info">
-            пн-вс 10:00–22:00
+          <div class="col-12 t-n-b__text text-center">
+            УПРАВЛЯЙТЕ<br />
+            <span class="fst-italic">ВНЕШНОСТЬЮ,</span><br />
+            ЗДОРОВЬЕМ<br />
+            <span class="fst-italic">И КАЧЕСТВОМ</span><br />
+            ЖИЗНИ
           </div>
         </div>
         <div class="row">
-          <div class="col mb-1 footer__info">
-            <a href="tel:+74951471715">+7 (495) 147 17 15</a>
+          <img
+            class="col-12 t-n-b__arrow"
+            src="media/main_page/fp-vector.svg"
+            alt=""
+          />
+        </div>
+        <div class="row justify-items-end">
+          <div class="col-12">
+            <div
+              class="row t-n-b__buttons d-flex flex-row align-items-center p-2"
+            >
+              <div class="col t-n-b__buttons__f">ДЛЯ ЖЕНЩИН</div>
+              <div class="col t-n-b__buttons__t">ПЕРСОНАЛЬНЫЙ ПРОТОКОЛ</div>
+              <div class="col t-n-b__buttons__m">ДЛЯ МУЖЧИН</div>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col mb-1 footer__info">
-            <a href="info@medicris.ru">info@medicris.ru</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-6">
-        <div class="row footer-soc-wrapper">
-          <a href="https://www.youtube.com/" class="col footer__socials">
-            <img src="media/footer/yt.svg" alt="" class="footer__socials__img">
-          </a>
-          <a href="https://telegram.org/" class="col footer__socials">
-            <img src="media/footer/tg.svg" alt="" class="footer__socials__img">
-          </a>
-          <a href="https://dzen.ru/" class="col footer__socials">
-            <img src="media/footer/dzen.svg" alt="" class="footer__socials__img">
-          </a>
-          <a href="https://vk.com/" class="col footer__socials">
-            <img src="media/footer/vk.svg" alt="" class="footer__socials__img">
-          </a>
-        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col fw-normal s16 mb-4 footer__adress">
-        г. Москва, 2-й Троицкий переулок, 5
-      </div>
-    </div>
-    <div class="row">
-      <img src="media/footer/map.png" alt="" class="col p-0 m-2 mb-3 footer__map-img">
-      
-    </div>
-    <div class="row">
-      <div class="col footer__maps" >
-      <div class="row closed" id="ddbtn-1">
-        <div class="col align-self-center">Как нас найти?</div>
-        <img src="media/footer/arrow_small.svg" alt="" class="col-2 footer__navimg">
-      </div>
-      <div class="row footer__dropdown" id="ddbody-1">
+
+    <div class="menu container-sm">
+      <div class="row row-cols-5 p-2 align-items-center">
         <div class="col">
-          <div class="row">
-            <div class="col-12 footer__dropdown_station">
-              От ст.м. «Цветной бульвар»
-            </div>
-          </div> 
-          <div class="row"> 
-            <div class="col footer__dropdown_dist ">
-              5 минут пешком / 550 м 
-            </div>
-          </div>    
-          <div class="row">
-            <div class="col footer__dropdown_desc">
-              Выходите из метро на Цветной бульвар и поворачиваете налево. <br>
-              Пересекаете Садовое кольцо — вам нужно оказаться на правой стороне Олимпийского проспекта и пройти по нему до второй лестницы. <br>
-              Поднимаетесь по ней наверх и оказываетесь в нашем 2-ом Троицком переулке. <br>
-              Ориентируйтесь на Храм Троицы Живоначальной в Троицком Подворье, купол виден отовсюду. <br>
-              Мы в том же переулке напротив — жёлтый 2-х этажный особняк.
-            </div>
-          </div>
-          <div class="row">
-            <div class="col footer__dropdown_station">
-              От ст.м. «Сухаревская»
-            </div>
-          </div>
-          <div class="row">
-            <div class="col footer__dropdown_dist">
-              5 минут пешком / 900 м 
-            </div>
-          </div>
-          <div class="row">
-            <div class="col footer__dropdown_desc">
-              Выходите из метро на Цветной бульвар и поворачиваете налево<div class="br"></div>
-              Пересекаете Садовое кольцо — вам нужно оказаться на правой стороне Олимпийского проспекта и пройти по нему до второй лестницы<div class="br"></div>
-              Поднимаетесь по ней наверх и оказываетесь в нашем 2-ом Троицком переулке.
-            </div>
-          </div>
-        </div>  
-      </div>  
-    </div>
-    </div>
-    <div class="row">
-      <div class="col fw-normal footer__maps" >
-      <div class="row closed" id="ddbtn-2">
-        <div class="col align-self-center">Бесплатная парковка</div>
-        <img src="media/footer/arrow_small.svg" alt="" class="col-2 footer__navimg">
-      </div>
-      <div class="row footer__dropdown" id="ddbody-2">
+          <img class="menu__img" src="media/menu/account_balance.svg" />
+          <div class="menu__text">Меню</div>
+        </div>
         <div class="col">
-          <div class="row">
-            <div class="col-12 footer__dropdown_station">
-              Парковка MEDICRIS
-            </div>
-          </div> 
-          <div class="row"> 
-            <div class="col footer__dropdown_dist ">
-              На территории клиники 
-            </div>
-          </div>    
-          <div class="row">
-            <div class="col footer__dropdown_desc">
-              Для вашего удобства располагаем бесплатной парковкой во дворе. Въезд - через шлагбаум, слева от здания клиники. Наши парковочные места - 5, 6, 13. <br>
-              Парковку необходимо забронировать до посещения клиники (как?). Для проезда на парковку звоните по телефону +7 495 147-17-15.
-            </div>
-          </div>
-        </div>  
-      </div>  
-    </div>
-    </div>
-    <div class="row">
-      <div class="col fw-normal footer__maps_last">
-        <a class="row" href="https://yandex.ru/maps/213/moscow/?ll=37.621579%2C55.775358&mode=routes&rtext=~55.775407%2C37.621546&rtt=mt&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D179337251810&z=17" target="_blank">
-          <div class="col align-self-center">Построить маршрут</div>
-          <img src="media/footer/arrow_small.svg" alt="" class="col-2 footer__navimg_l">
-        </a>
+          <a href="treatment.html">
+            <img
+              class="menu__img"
+              src="media/menu/account_balance_wallet.svg"
+            />
+            <div class="menu__text">Услуги</div>
+          </a>
+        </div>
+        <div class="col">
+          <img class="menu__img" src="media/menu/sentiment_satisfied.svg" />
+          <div class="menu__text">Профиль</div>
+        </div>
+        <div class="col">
+          <img class="menu__img" src="media/menu/chat.svg" />
+          <div class="menu__text">Связь</div>
+        </div>
+        <div class="col">
+          <img class="menu__img" src="media/menu/add_to_photos.svg" />
+          <div class="menu__text">Запись</div>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <img src="media/footer/payment.png" alt="" class="col">
+
+    <div class="parallax">
+      <div
+        class="container-sm d-flex flex-column justify-content-between page-2 parallax__layer parallax__text"
+        id="page-2"
+      >
+        <div class="d-flex flex-column row">
+          <div class="col page-2__main-text">
+            КЛИНИКА <span class="fst-italic">MEDICRIS —</span><br />
+            ОТВЕТСТВЕННАЯ <span class="fw-bold">*</span><br />
+            ЭСТЕТИЧЕСКАЯ<br />
+            МЕДИЦИНА,<br />
+            ПОМОГАЮЩАЯ<br />
+            ОСТАВАТЬСЯ<br />
+            НА ВЫСОТЕ!
+          </div>
+          <div class="page-2__subtext col">
+            Эльвира Айзекс, основатель клиники
+          </div>
+        </div>
+
+        <div class="row d-flex flex-row-reverse">
+          <div class="col-6 page-2__note">
+            В 2023 году MEDICRIS присвоен статус Клинической Базы НМХЦ им.
+            Н.И.Пирогова
+          </div>
+        </div>
+        <div class="row arrow-link text-center page-2__link">
+          <div class="col arrow-link__text">
+            О КЛИНИКЕ
+            <img
+              src="media/main_page/arrow.svg"
+              alt=""
+              class="arrow-link__img"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container-sm gradient parallax__layer parallax__image"
+        id="gradient"
+      ></div>
     </div>
-    <div class="row text-center footer-license">
-      <div class="col-12 footer-license__first">© 2018—2024 ООО МЕДИКРИС</div>
-      <div class="col-12 footer-license__others">Лицензия № Л041-01137-77/00342866 от 24.12.2018 г.</div>
-      <a href="#" class="col-12 footer-license__others">Политика сбора и защиты персональных данных</a>
-      <div class="col-12 footer-license__others">Для выполнения процедур необходима консультация врача</div>
+
+    <div class="sticky-container">
+      <div class="container-sm type-2 abilities" id="abilities">
+        <!--возможности-->
+        <div class="row header-abilities">
+          <div class="col type-2__header">НАШИ ВОЗМОЖНОСТИ</div>
+        </div>
+        <div class="row type-2__bottom">
+          <div class="col type-2__bottom__text">
+            127 ВЫСОКО–<br />
+            ТЕХНОЛОГИЧНЫХ<br />
+            ПРОЦЕДУР
+          </div>
+          <img
+            src="media/type-2/ellipse_arr.svg"
+            alt=""
+            class="col-3 type-2__bottom__link"
+          />
+        </div>
+
+        <div class="row">
+          <marquee class="type-2__bottom__string col">
+            / БИОРЕВИТАЛИЗАЦИЯ &emsp; / КОНТУРНАЯ ПЛАСТИКА &emsp; / SMAS-LIFTING
+          </marquee>
+        </div>
+      </div>
+      <!--возможности-->
+
+      <div
+        class="container-sm type-2 doctors fw-normal d-flex flex-column justify-content-end"
+        id="doctors"
+      >
+        <!--врачи-->
+        <div
+          class="row type-2__bottom align-items-center d-flex justify-content-between"
+        >
+          <div class="col p-0 type-2__bottom__text">
+            КОМАНДА ВРАЧЕЙ<br />
+            ВЫСОКОЙ<br />
+            КВАЛИФИКАЦИИ
+          </div>
+          <img
+            src="media/type-2/ellipse_arr.svg"
+            alt=""
+            class="col-3 type-2__bottom__link"
+          />
+        </div>
+        <div class="row">
+          <marquee class="type-2__bottom__string col">
+            ВРАЧ-КОСМЕТОЛОГ &emsp; ВРАЧ-ДЕРМАТОЛОГ
+          </marquee>
+        </div>
+      </div>
+      <!--врачи-->
+
+      <div
+        class="container-sm type-2 equip fw-normal d-flex flex-column justify-content-end"
+        id="equip"
+      >
+        <!--оборудование-->
+        <div
+          class="row type-2__bottom align-items-center d-flex justify-content-between"
+        >
+          <div class="col p-0 type-2__bottom__text">
+            ИННОВАЦИОННОЕ<br />
+            ОБОРУДОВАНИЕ<br />
+            И ПРЕПАРАТЫ
+          </div>
+          <img
+            src="media/type-2/ellipse_arr.svg"
+            alt=""
+            class="col-3 type-2__bottom__link"
+          />
+        </div>
+        <div class="row">
+          <marquee class="type-2__bottom__string col">
+            LIFTERA-A &emsp; MEDIOSTAR NEXT PRO &emsp; PROFHILO
+          </marquee>
+        </div>
+      </div>
+      <!--оборудование-->
+
+      <div
+        class="container-sm type-2 clinic fw-normal d-flex flex-column justify-content-end"
+        id="clinic"
+      >
+        <!--клиника-->
+        <div
+          class="row type-2__bottom align-items-center d-flex justify-content-between"
+        >
+          <div class="col type-2__bottom__text s18">
+            ОСОБЫЙ КОМФОРТ<br />
+            В ОСОБНЯКЕ <br />
+            У САДОВОГО КОЛЬЦА
+          </div>
+          <img
+            src="media/type-2/ellipse_arr.svg"
+            alt=""
+            class="col-3 type-2__bottom__link"
+          />
+        </div>
+        <div class="row">
+          <marquee class="type-2__bottom__string col">
+            УВЛАЖНИТЕЛИ ВОЗДУХА &emsp; КОФЕМАШИНА &emsp; ЧАСТНАЯ ПАРКОВКА &emsp;
+            БУТИЛИРОВАННАЯ ВОДА
+          </marquee>
+        </div>
+      </div>
+      <!--клиника-->
     </div>
-  </div>
+    <div
+      class="container-sm philosofy text-center d-flex justify-content-between flex-column align-items-center"
+    >
+      <!--философия-->
+      <div class="row philosofy__title">
+        <div class="col">НАША ФИЛОСОФИЯ</div>
+      </div>
+      <div class="row philosofy__text">
+        <div class="col">
+          СИСТЕМНЫЙ ПОДХОД —<br />
+          КЛЮЧ К ГАРМОНИИ КРАСОТЫ <br />
+          И ЗДОРОВЬЯ
+        </div>
+      </div>
+      <div class="row">
+        <img src="media/philosofy/1.png" alt="" class="col philosofy__img" />
+      </div>
+    </div>
+    <!--философия-->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <div class="container-sm principle">
+      <div class="principle-wrapper row">
+        <div class="col-3 principle-wrapper__number text-center fw-medium s23">
+          1
+        </div>
+        <div class="col-9">
+          <div class="row principle-wrapper__title">
+            ИНТЕГРАТИВНЫЙ <br />
+            ПОДХОД
+          </div>
+          <div class="row principle-wrapper__text">
+            Подходим к пациенту, как единому физическому и социальному
+            организму, учитывая весь комплекс особенностей его здоровья и
+            потребностей
+          </div>
+        </div>
+      </div>
+      <div class="principle-wrapper row">
+        <div class="col-3 principle-wrapper__number text-center fw-medium s23">
+          2
+        </div>
+        <div class="col-9">
+          <div class="row principle-wrapper__title">
+            ПРИНЦИП <br />
+            ПРЕВЕНТИВНОСТИ
+          </div>
+          <div class="row principle-wrapper__text">
+            Применяем таргетную диагностику для выявления причин существующих
+            проблем, а также предупреждение развития новых
+          </div>
+        </div>
+      </div>
+      <div class="principle-wrapper row">
+        <div class="col-3 principle-wrapper__number text-center fw-medium s23">
+          3
+        </div>
+        <div class="col-9">
+          <div class="row principle-wrapper__title">
+            БЕЗОПАСНОСТЬ <br />
+            ВОЗДЕЙСТВИЯ
+          </div>
+          <div class="row principle-wrapper__text">
+            Все консультации и процедуры в клинике проводятся только
+            квалифицированными врачами на сертифицированных оборудовании и
+            препаратах
+          </div>
+        </div>
+      </div>
+      <div class="principle-wrapper row">
+        <div class="col-3 principle-wrapper__number text-center fw-medium s23">
+          4
+        </div>
+        <div class="col-9">
+          <div class="row principle-wrapper__title">
+            ГЛУБОКАЯ <br />
+            ПЕРСОНАЛИЗАЦИЯ
+          </div>
+          <div class="row principle-wrapper__text">
+            Мы углубили персональный подход и создали онлайн-инструмент –
+            ПЕРСОНАЛЬНЫЙ ПРОТОКОЛ – позволяющий пациенту и врачу заранее
+            подготовиться к приёму в клинике и получить ожидаемый результат
+          </div>
+        </div>
+      </div>
+      <div class="row arrow-link principle-wrapper__link text-center">
+        <div class="col arrow-link__text fw-bold button-2-mob">
+          СОСТАВИТЬ ПРОТОКОЛ
+          <img src="media/main_page/arrow.svg" alt="" class="arrow-link__img" />
+        </div>
+      </div>
+    </div>
 
-  <script src="js/swipers.js" type="module"></script>
-  <script src="js/dropdowns.js"></script>
-  <script src="js/parallax.js"></script>
-  <script src="js/feedbackSwiper.js"></script>
+    <div class="container-sm threeg"></div>
 
-</body>
+    <div class="container-sm feedback d-flex flex-column">
+      <div class="row">
+        <div class="col fw-light feedback__title text-center">
+          ОТЗЫВЫ ПАЦИЕНТОВ
+        </div>
+      </div>
+      <div class="slider-wrapper">
+        <div
+          class="feedback-slide d-flex flex-column justify-content-between"
+          data-visible="true"
+          data-slide-number="1"
+        >
+          <div class="row">
+            <div class="col feedback__text align-self-center">
+              Я пришла, не зная с чего начать, и ушла совершенно спокойная, с
+              пониманием дальнейшего плана действий...
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-end link-mob">
+              <a
+                class="col feedback__source text-end"
+                target="_blank"
+                href="https://prodoctorov.ru/moskva/vrach/1042526-bulavina/#rating"
+                >ЧИТАТЬ ИСТОЧНИК</a
+              >
+            </div>
+          </div>
+          <div class="row feedback-item">
+            <div class="col fw-medium feedback-item__title">ПРОЦЕДУРА</div>
+
+            <div class="row d-flex justify-content-between pe-0 feedback-item2">
+              <div
+                class="col-10 align-self-start fw-medium feedback-item__subtitle"
+              >
+                Консультация врача-косметолога
+              </div>
+              <img
+                src="media/review/arrow_small.svg"
+                alt=""
+                class="col feedback-item__img align-self-start"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div
+              class="col fw-medium feedback-item__title feedback-item__title_l"
+            >
+              ВРАЧ
+            </div>
+            <div class="row pe-0 feedback-item2">
+              <div class="col-10 feedback-item__subtitle">Булавина М.С.</div>
+              <img
+                src="media/review/arrow_small.svg"
+                alt=""
+                class="col-2 feedback-item__img"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="feedback-slide d-flex flex-column justify-content-between invis"
+          data-visible="false"
+          data-slide-number="2"
+        >
+          <div class="row">
+            <div class="col feedback__text">
+              Профессионально, безболезненно, отлично! Удаляла у Марии Сергеевны
+              папилломы. Было комфортно...
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-end link-mob">
+              <a class="col feedback__source text-end" target="_blank" href="#"
+                >ЧИТАТЬ ИСТОЧНИК</a
+              >
+            </div>
+          </div>
+          <div class="row feedback-item">
+            <div class="col fw-medium feedback-item__title">ПРОЦЕДУРА</div>
+
+            <div class="row d-flex justify-content-between pe-0 feedback-item2">
+              <div class="col-10 align-self-start feedback-item__subtitle">
+                Удаление папиллом электрокоагуляцией
+              </div>
+              <img
+                src="media/review/arrow_small.svg"
+                alt=""
+                class="col feedback-item__img align-self-start"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div
+              class="col fw-medium feedback-item__title feedback-item__title_l"
+            >
+              ВРАЧ
+            </div>
+            <div class="row pe-0 feedback-item2">
+              <div class="col-10 feedback-item__subtitle">Булавина М.С.</div>
+              <img
+                src="media/review/arrow_small.svg"
+                alt=""
+                class="col-2 feedback-item__img"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="feedback-slide d-flex flex-column justify-content-between invis"
+          data-visible="false"
+          data-slide-number="3"
+        >
+          <div class="row">
+            <div class="col feedback__text">
+              Действительно хорошая клиника. Обратился по вопросу удаления
+              папиллом. Весь вопрос занял 45 минут.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-end link-mob">
+              <a class="col feedback__source text-end" target="_blank" href="#"
+                >ЧИТАТЬ ИСТОЧНИК</a
+              >
+            </div>
+          </div>
+          <div class="row feedback-item">
+            <div class="col feedback-item__title">ПРОЦЕДУРА</div>
+
+            <div class="row d-flex justify-content-between pe-0 feedback-item2">
+              <div class="col-10 align-self-start feedback-item__subtitle">
+                Удаление папиллом эрбиевым лазером
+              </div>
+              <img
+                src="media/review/arrow_small.svg"
+                alt=""
+                class="col feedback-item__img align-self-start"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col feedback-item__title feedback-item__title_l">
+              ВРАЧ
+            </div>
+            <div class="row pe-0 feedback-item2">
+              <div class="col-10 feedback-item__subtitle">Забродина В.В.</div>
+              <img
+                src="media/review/arrow_small.svg"
+                alt=""
+                class="col-2 feedback-item__img"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="row feedback__scroller text-center align-self-center justify-items-end d-flex flex-row justify-content-around"
+        >
+          <img
+            src="media/review/Arrow_black.svg"
+            alt=""
+            class="col feedback__scroller__l"
+            id="l_f"
+          />
+          <div
+            class="col feedback__scroller__text"
+            id="t_f"
+            data-number="1"
+          ></div>
+          <img
+            src="media/review/Arrow_black.svg"
+            alt=""
+            class="col feedback__scroller__r"
+            id="r_f"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container-sm rate">
+      <div class="row rate-row">
+        <div class="col text-center rate__title">НЕЗАВИСИМЫЙ РЕЙТИНГ</div>
+      </div>
+      <div class="row rate-wrapper">
+        <div class="col-6">
+          <div
+            class="row d-flex flex-column justify-content-between align-items-center"
+          >
+            <img src="media/rate/Star 8.svg" alt="" class="col-3 rate__star" />
+            <img
+              src="media/rate/5,0.svg"
+              class="col text-center rate__number"
+            />
+            <img
+              src="media/rate/yandex.svg"
+              alt=""
+              class="col text-center fw-bold rate__subtitle"
+            />
+          </div>
+        </div>
+        <div class="col-6">
+          <div
+            class="row d-flex flex-column justify-content-between align-items-center"
+          >
+            <img
+              src="media/rate/Star 8.svg"
+              alt=""
+              class="col-3 text-center rate__star"
+            />
+            <img
+              src="media/rate/4,8.svg"
+              class="col text-center rate__number"
+            />
+            <img
+              src="media/rate/google.svg"
+              alt=""
+              class="col text-center fw-bold rate__subtitle"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row m-0">
+        <div class="col-12 rate__border"></div>
+      </div>
+    </div>
+
+    <div class="container-sm news">
+      <div class="row">
+        <div class="col text-center news__title">НОВОСТИ MEDICRIS</div>
+      </div>
+      <div class="row row-cols-2 news-wrapper">
+        <div class="col-6 news-item d-flex flex-column">
+          <img src="media/news/1.png" alt="" class="news-item__img" />
+          <div class="news-item__text">
+            Наш новый врач —<br />
+            Душина Карина Юрьевна
+          </div>
+          <div class="row">
+            <div class="col button-2-mob news-item__link">
+              <span> ЧИТАТЬ </span>
+              <img src="media/news/Arrow 11.svg" alt="" class="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-6 news-item d-flex flex-column">
+          <img src="media/news/2.png" alt="" class="news-item__img" />
+          <div class="news-item__text">
+            Конференция по<br />
+            хирургии в Пекине
+          </div>
+          <div class="row">
+            <div class="col button-2-mob news-item__link">
+              <span> ЧИТАТЬ </span>
+              <img src="media/news/Arrow 11.svg" alt="" class="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-6 news-item d-flex flex-column">
+          <img src="media/news/3.png" alt="" class="news-item__img" />
+          <div class="news-item__text">
+            Проект Бьютипедия —<br />
+            онлайн-энциклопедия
+          </div>
+          <div class="row">
+            <div class="col button-2-mob news-item__link">
+              <span> ЧИТАТЬ </span>
+              <img src="media/news/Arrow 11.svg" alt="" class="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-6 news-item d-flex flex-column">
+          <img src="media/news/4.png" alt="" class="news-item__img" />
+          <div class="news-item__text">
+            MEDICRIS Х НМХЦ им. <br />
+            Н.И.Пирогова
+          </div>
+          <div class="row">
+            <div class="col button-2-mob news-item__link">
+              <span> ЧИТАТЬ </span>
+              <img src="media/news/Arrow 11.svg" alt="" class="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-sm message d-flex flex-column">
+      <div class="row">
+        <div class="col message__text text-center">
+          — МЫ НЕ МОЖЕМ <br />
+          ВСЕГДА ОСТАВАТЬСЯ<br />
+          <span class="fst-italic">МОЛОДЫМИ,</span><br />
+          НО МЫ МОЖЕМ<br />
+          ВСЕГДА ОСТАВАТЬСЯ<br />
+          <span class="fst-italic">КРАСИВЫМИ!</span>
+        </div>
+      </div>
+      <div class="row d-flex flex-row-reverse">
+        <div class="col-6 message__author">
+          Руслан Сабанаев, <br />
+          главный врач клиники
+        </div>
+      </div>
+      <div class="row arrow-link">
+        <div class="col message__link text-center arrow-link__text">
+          ЗАПИСАТЬСЯ
+          <img src="media/main_page/arrow.svg" alt="" class="arrow-link__img" />
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper container-sm" id="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide slide-1"></div>
+        <div class="swiper-slide slide-2"></div>
+        <div class="swiper-slide slide-3"></div>
+        <div class="swiper-slide slide-4"></div>
+        <div class="swiper-slide slide-5"></div>
+        <div class="swiper-slide slide-6"></div>
+      </div>
+    </div>
+
+    <div class="container-sm footer fw-normal">
+      <div class="row">
+        <div class="col text-center footer__title p-0 mx-0">
+          MEDICRIS — КЛИНИКА КРАСОТЫ
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="row">
+            <div class="col mb-1 footer__info">пн-вс 10:00–22:00</div>
+          </div>
+          <div class="row">
+            <div class="col mb-1 footer__info">
+              <a href="tel:+74951471715">+7 (495) 147 17 15</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col mb-1 footer__info">
+              <a href="info@medicris.ru">info@medicris.ru</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="footer-icons-wrapper">
+            <a href="#" class="footer-icons-wrapper__item">
+              <img src="media/footer/yt.svg" alt="" class="footer__socials" />
+            </a>
+            <a href="#" class="footer-icons-wrapper__item">
+              <img src="media/footer/tg.svg" alt="" class="footer__socials" />
+            </a>
+          </div>
+          <div class="footer-icons-wrapper">
+            <a href="#" class="footer-icons-wrapper__item">
+              <img src="media/footer/dzen.svg" alt="" class="footer__socials" />
+            </a>
+            <a href="#" class="footer-icons-wrapper__item">
+              <img src="media/footer/vk.svg" alt="" class="footer__socials" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col footer__adress">
+          г. Москва, 2-й Троицкий переулок, 5
+        </div>
+      </div>
+      <div class="row">
+        <img src="media/footer/map.png" alt="" class="col footer__map-img" />
+      </div>
+      <div class="row">
+        <div class="col footer__maps">
+          <div class="row closed" id="ddbtn-1">
+            <div class="col align-self-center">Как нас найти?</div>
+            <img
+              src="media/footer/arrow_small.svg"
+              alt=""
+              class="col-2 footer__navimg"
+            />
+          </div>
+          <div class="row footer__dropdown" id="ddbody-1">
+            <div class="col">
+              <div class="row">
+                <div class="col-12 footer__dropdown_station">
+                  От ст.м. «Цветной бульвар»
+                </div>
+              </div>
+              <div class="row">
+                <div class="col footer__dropdown_dist">
+                  5 минут пешком / 550 м
+                </div>
+              </div>
+              <div class="row">
+                <div class="col footer__dropdown_desc">
+                  Выходите из метро на Цветной бульвар и поворачиваете налево.
+                  <br />
+                  Пересекаете Садовое кольцо — вам нужно оказаться на правой
+                  стороне Олимпийского проспекта и пройти по нему до второй
+                  лестницы. <br />
+                  Поднимаетесь по ней наверх и оказываетесь в нашем 2-ом
+                  Троицком переулке. <br />
+                  Ориентируйтесь на Храм Троицы Живоначальной в Троицком
+                  Подворье, купол виден отовсюду. <br />
+                  Мы в том же переулке напротив — жёлтый 2-х этажный особняк.
+                </div>
+              </div>
+              <div class="row">
+                <div class="col footer__dropdown_station">
+                  От ст.м. «Сухаревская»
+                </div>
+              </div>
+              <div class="row">
+                <div class="col footer__dropdown_dist">
+                  5 минут пешком / 900 м
+                </div>
+              </div>
+              <div class="row">
+                <div class="col footer__dropdown_desc">
+                  Выходите из метро на Цветной бульвар и поворачиваете налево
+                  <div class="br"></div>
+                  Пересекаете Садовое кольцо — вам нужно оказаться на правой
+                  стороне Олимпийского проспекта и пройти по нему до второй
+                  лестницы
+                  <div class="br"></div>
+                  Поднимаетесь по ней наверх и оказываетесь в нашем 2-ом
+                  Троицком переулке.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col fw-normal footer__maps">
+          <div class="row closed" id="ddbtn-2">
+            <div class="col align-self-center">Бесплатная парковка</div>
+            <img
+              src="media/footer/arrow_small.svg"
+              alt=""
+              class="col-2 footer__navimg"
+            />
+          </div>
+          <div class="row footer__dropdown" id="ddbody-2">
+            <div class="col">
+              <div class="row">
+                <div class="col-12 footer__dropdown_station">
+                  Парковка MEDICRIS
+                </div>
+              </div>
+              <div class="row">
+                <div class="col footer__dropdown_dist">
+                  На территории клиники
+                </div>
+              </div>
+              <div class="row">
+                <div class="col footer__dropdown_desc">
+                  Для вашего удобства располагаем бесплатной парковкой во дворе.
+                  Въезд - через шлагбаум, слева от здания клиники. Наши
+                  парковочные места - 5, 6, 13. <br />
+                  Парковку необходимо забронировать до посещения клиники (как?).
+                  Для проезда на парковку звоните по телефону +7 495-17-15.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a
+        class="row footer__maps_last"
+        href="https://yandex.ru/maps/213/moscow/?ll=37.621579%2C55.775358&mode=routes&rtext=~55.775407%2C37.621546&rtt=mt&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D179337251810&z=17"
+        target="_blank"
+      >
+        <div class="col align-self-center footer__ma">Построить маршрут</div>
+        <img
+          src="media/footer/arrow_small.svg"
+          alt=""
+          class="col-2 footer__navimg_last"
+        />
+      </a>
+      <div class="row">
+        <img src="media/footer/payment.png" alt="" class="col" />
+      </div>
+      <div class="row text-center footer-license">
+        <div class="col-12 footer-license__first">
+          © 2018—2024 ООО МЕДИКРИС
+        </div>
+        <div
+          class="col-12 footer-license__others footer-license__others_underline"
+        >
+          Лицензия № Л041-01137-77/00342866 от 24.12.2018 г.
+        </div>
+        <a
+          href="#"
+          class="col-12 footer-license__others footer-license__others_underline"
+          >Политика сбора и защиты персональных данных</a
+        >
+        <div class="col-12 footer-license__others">
+          Для выполнения процедур необходима консультация врача
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/swipers.js" type="module"></script>
+    <script src="js/dropdowns.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/feedbackSwiper.js"></script>
+  </body>
 </html>

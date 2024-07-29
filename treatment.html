@@ -1,1945 +1,2184 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ЛЕЧЕНИЕ</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/pages/treatment.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="js/twentytwenty/css/twentytwenty.css">
-</head>
-<body>
-  <header class="container header bg">
-    <div class="row ">
-      <div class="col header__img">
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ЛЕЧЕНИЕ</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/pages/treatment.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="js/twentytwenty/css/twentytwenty.css" />
+  </head>
+  <body>
+    <header class="container header bg">
+      <div class="row">
+        <div class="col header__img"></div>
       </div>
-    </div>
-  </header>
-  <div class="container header-plug">
+    </header>
+    <div class="container header-plug"></div>
 
-  </div>
+    <div class="menu container-sm">
+      <div class="row row-cols-5 p-2 align-items-center">
+        <div class="col">
+          <a href="index.html">
+            <img class="menu__img" src="media/treatment/menu/summarize.svg" />
+            <div class="menu__text">Меню</div>
+          </a>
+        </div>
+        <div class="col">
+          <img class="menu__img" src="media/treatment/menu/home_health.svg" />
+          <div class="menu__text">Услуги</div>
+        </div>
+        <div class="col">
+          <img
+            class="menu__img"
+            src="media/treatment/menu/account_balance_wallet.svg"
+          />
+          <div class="menu__text">Акции</div>
+        </div>
+        <div class="col">
+          <img class="menu__img" src="media/menu/chat.svg" />
+          <div class="menu__text">Связь</div>
+        </div>
+        <div class="col">
+          <img class="menu__img" src="media/menu/add_to_photos.svg" />
+          <div class="menu__text">Запись</div>
+        </div>
+      </div>
+    </div>
 
+    <div class="page-1 container-sm">
+      <div class="row">
+        <div class="col page-1__header">УДАЛЕНИЕ ПАПИЛЛОМ</div>
+      </div>
+      <div class="row">
+        <div class="col page-1__breadcrumbs">
+          ГЛАВНАЯ / УСЛУГИ / УДАЛЕНИЕ ПАПИЛЛОМ
+        </div>
+      </div>
+      <div class="page-1-slider">
+        <div class="row slide" data-visible="true" data-slide-number-1="1">
+          <img
+            src="media/treatment/page-1/1.png"
+            alt=""
+            class="col page-1-slider-img"
+          />
+        </div>
+        <div class="row slide" data-visible="false" data-slide-number-1="2">
+          <img
+            src="media/treatment/page-1/2.png"
+            alt=""
+            class="col page-1-slider-img"
+          />
+        </div>
+        <div class="row slide" data-visible="false" data-slide-number-1="3">
+          <img
+            src="media/treatment/page-1/3.png"
+            alt=""
+            class="col page-1-slider-img"
+          />
+        </div>
+        <div class="row page-1-slider__scroller">
+          <img
+            src="media/treatment/page-1/ARROW BIG.svg"
+            class="col page-1-slider__scroller__l"
+            id="l"
+          />
+          <div
+            class="col page-1-slider__scroller__t h3-list-mob"
+            id="t"
+            data-number="1"
+          ></div>
+          <img
+            src="media/treatment/page-1/ARROW BIG.svg"
+            class="col page-1-slider__scroller__r"
+            id="r"
+          />
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-5 acc-6-mob page-1__text">
+          БЕЗОПАСНОЕ УДАЛЕНИЕ <br />
+          ПАПИЛЛОМ БЕЗ БОЛИ <br />
+          ЛУЧШИМИ МЕТОДАМИ
+        </div>
+      </div>
+      <div class="row">
+        <div class="col page-1__price">
+          <div class="page-1__price_word">от &#160;</div>
+          <div class="page-1__price_number">500₽</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col page-1__button button-big-mob">
+          ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ
+        </div>
+      </div>
+      <div class="row">
+        <div class="col page-1__desc-title h2-mob">ОПИСАНИЕ</div>
+      </div>
+      <div class="row">
+        <div class="col-12 page-1__desc-text">
+          <span class="fst-italic">ПАПИЛЛОМА</span> – это доброкачественное
+          новообразование, вызванное вирусом папилломы человека (ВПЧ),
+          провоцирующим разрастание эпителия кожи или слизистых оболочек.
+        </div>
 
-  <div class="menu container-sm">
-    <div class="row row-cols-5 p-2 align-items-center">
-      <div class="col ">
-        <a href="index.html">
-        <img class="menu__img" src="media/treatment/menu/summarize.svg">
-        <div class="menu__text">Меню</div>
-        </a>
+        <div class="col-12 page-1__desc-text">
+          Для эффективного устранения папиллом наши врачи используют
+          <span class="fst-italic">ЭЛЕКТРОКОАГУЛЯЦИЮ</span> и
+          <span class="fst-italic">УДАЛЕНИЕ ЛАЗЕРОМ</span>. Эти методы
+          показывают наименьший срок реабилитации и лучший эстетический эффект
+          без рубцов и шрамов.
+        </div>
       </div>
-      <div class="col ">
-        <img class="menu__img" src="media/treatment/menu/home_health.svg">
-        <div class="menu__text">Услуги</div>
-      </div>
-      <div class="col">
-        <img class="menu__img" src="media/treatment/menu/account_balance_wallet.svg">
-        <div class="menu__text">Акции</div></div>
-      <div class="col">
-        <img class="menu__img" src="media/menu/chat.svg">
-        <div class="menu__text">Связь</div>
-      </div>
-      <div class="col">
-        <img class="menu__img" src="media/menu/add_to_photos.svg">
-        <div class="menu__text">Запись</div>
+      <div class="row">
+        <div class="col page-1__desc-link link-mob">
+          статья врача о папилломах
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="page-1 container-sm">
-    <div class="row">
-      <div class="col page-1__header">
-        УДАЛЕНИЕ ПАПИЛЛОМ
+    <div class="container-sm procedure m-0">
+      <div class="row">
+        <div class="col procedure__title h2-mob">О ПРОЦЕДУРЕ</div>
+      </div>
+      <div class="row procedure__radio">
+        <div
+          id="procedure1"
+          class="col filter-2-mob choosen"
+          data-procedure-id="1"
+        >
+          <div class="filter-2-mob_choosen" data-procedure-radio="1"></div>
+          электрокоагуляция
+        </div>
+        <div
+          id="procedure2"
+          class="col filter-2-mob non-choosen"
+          data-procedure-id="2"
+        >
+          <div class="filter-2-mob_no" data-procedure-radio="2"></div>
+          удаление лазером
+        </div>
+      </div>
+      <div class="procedure-slide" data-procedure-1="visible">
+        <div class="card">
+          <div class="row">
+            <div class="col-6 card__l">для кого</div>
+            <div class="col-6 card__r">женщины, мужчины</div>
+          </div>
+          <div class="row">
+            <div class="col-6 card__l">возраст</div>
+            <div class="col-6 card__r">от 18 лет</div>
+          </div>
+          <div class="row">
+            <div class="col-6 card__l">зоны</div>
+            <div class="col-6 card__r">любые</div>
+          </div>
+          <div class="row">
+            <div class="col-6 card__l">аппарат</div>
+            <div class="col-6 card__r">электрокоагулятор</div>
+          </div>
+          <div class="row">
+            <div class="col-6 card__l">анестезия</div>
+            <div class="col-6 card__r">инъекции/аппликации</div>
+          </div>
+          <div class="row">
+            <div class="col-6 card__l">длительность</div>
+            <div class="col-6 card__r">30 сек - 2 мин</div>
+          </div>
+          <div class="row">
+            <div class="col-6 card__l">курс</div>
+            <div class="col-6 card__r">1 процедура</div>
+          </div>
+          <div class="row">
+            <div class="col-6 card__l">реабилитация</div>
+            <div class="col-6 card__r">7-14 дней</div>
+          </div>
+          <div class="row">
+            <div class="col-6 card__l">результат</div>
+            <div class="col-6 card__r">12-18 месяцев</div>
+          </div>
+        </div>
+        <div class="procedure__desc body-2-mob">
+          <span class="fst-italic">Электрокоагуляция</span> — метод воздействия
+          на ткани, при котором высокочастотные электрические импульсы
+          преобразуются в тепло.
+        </div>
+        <div class="procedure__desc body-2-mob">
+          Метод применяют во всех сферах медицины, где проводятся операции или
+          манипуляции: дерматовенерология, хирургия, гинекология, травматология,
+          офтальмология, онкология, колопроктология и др.
+        </div>
+        <div class="procedure__desc body-2-mob">
+          При работе с папилломами электрокоагуляция позволяет деликатно, с
+          малой травматизацией удалить образование вне зависимости от его формы
+          и размера. Это возможно благодаря индивидуальному подбору температуры
+          воздействия (от 40 до 300 ℃) и наличию разных по форме насадок (петля,
+          булава, нож, игла, нить). Имеет минимальные сроки реабилитации.
+        </div>
+      </div>
+      <div class="procedure-slide" data-procedure-2="invisible">
+        <div class="card">
+          <div class="row">
+            <div class="col-6 card__l">для кого</div>
+            <div class="col-6 card__r">женщины, мужчины</div>
+          </div>
+          <div class="row">
+            <div class="col-6 card__l">возраст</div>
+            <div class="col-6 card__r">от 18 лет</div>
+          </div>
+          <div class="row">
+            <div class="col-6 card__l">зоны</div>
+            <div class="col-6 card__r">любые</div>
+          </div>
+          <div class="row">
+            <div class="col-4 card__l">аппарат</div>
+            <div class="col-8 card__r">СО2-ЛАЗЕР/ ЭРБИЕВЫЙ ЛАЗЕР</div>
+          </div>
+          <div class="row">
+            <div class="col-6 card__l">анестезия</div>
+            <div class="col-6 card__r">инъекции/аппликации</div>
+          </div>
+          <div class="row">
+            <div class="col-6 card__l">длительность</div>
+            <div class="col-6 card__r">30 сек - 2 мин</div>
+          </div>
+          <div class="row">
+            <div class="col-6 card__l">курс</div>
+            <div class="col-6 card__r">1 процедура</div>
+          </div>
+          <div class="row">
+            <div class="col-6 card__l">реабилитация</div>
+            <div class="col-6 card__r">7-14 дней</div>
+          </div>
+          <div class="row">
+            <div class="col-6 card__l">результат</div>
+            <div class="col-6 card__r">12-18 месяцев</div>
+          </div>
+        </div>
+        <div class="procedure__desc body-2-mob">
+          <span class="fst-italic">Лазерное удаление</span> — метод основан на
+          принципе неселективного фототермолиза. Благодаря определенной длине
+          волны и источнику энергии лазерная энергия избирательно воздействует
+          на воду. Вода в клетках нагревается и испаряется вместе с окружающими
+          тканями папилломы. Такое действие называется абляцией.
+        </div>
+        <div class="procedure__desc body-2-mob">
+          В нашей клинике применяются два типа лазеров — СО2 и эрбиевый.
+          Механизм их действия абсолютно идентичен. Разница лишь в длине волны
+          (10600 нм и 2940 нм), что обеспечивает СО2-лазеру более глубокий
+          эффект, достигающий на только верхнего, но и среднего слоя кожи.
+        </div>
+        <div class="procedure__desc body-2-mob">
+          В связи с тем, что паппиломы обычно не требуют глубокого воздействия,
+          лазеры применяются дотаточно редко для их удаления.
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col page-1__breadcrumbs">
-        ГЛАВНАЯ / УСЛУГИ / УДАЛЕНИЕ ПАПИЛЛОМ
+    <div class="container-sm yes-no">
+      <div class="row">
+        <div class="col-6 yes-wrapper">
+          <div class="row">
+            <div class="col h6-mob yes-wrapper__title">показания</div>
+          </div>
+          <div class="row yes-list">
+            <div class="list-3-mob yes-wrapper__item">БОРОДАВКИ</div>
+            <div class="list-3-mob yes-wrapper__item">ПАПИЛЛОМЫ</div>
+            <div class="list-3-mob yes-wrapper__item">СЕБОРЕЙНЫЕ КЕРАТОМЫ</div>
+            <div class="list-3-mob yes-wrapper__item">КОНТАГИОЗНЫЙ МОЛЛЮСК</div>
+          </div>
+        </div>
+        <div class="col-6 no-wrapper">
+          <div class="row">
+            <div class="col p-0 h6-mob no-wrapper__title">противопоказания</div>
+          </div>
+          <div class="row no-list">
+            <div class="list-3-mob no-wrapper__item">
+              ЗЛОКАЧЕСТВЕННЫЕ НОВООБРАЗОВАНИЯ
+            </div>
+            <div class="list-3-mob no-wrapper__item">
+              ОСТРЫЕ ВОСПАЛИТЕЛЬНЫЕ И ИНФЕКЦИОННЫЕ ЗАБОЛЕВАНИЯ
+            </div>
+            <div class="list-3-mob no-wrapper__item">
+              НАРУШЕНИЕ СВЕРТЫВАЕМОСТИ КРОВИ И ПРИЁМ АНТИКОАГУЛЯНТОВ
+            </div>
+            <div class="list-3-mob no-wrapper__item">
+              БЕРЕМЕННОСТЬ И ГРУДНОЕ ВСКАРМЛИВАНИЕ
+            </div>
+            <div class="list-3-mob no-wrapper__item">МЕНСТРУАЦИИ</div>
+            <div class="list-3-mob no-wrapper__item">
+              ДЕКОМПЕНСИРОВАННЫЙ САХАРНЫЙ ДИАБЕТ
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="page-1-slider">
-      <div class="row slide" data-visible="true" data-slide-number-1="1">
-        <img src="media/treatment/page-1/1.png" alt="" class="col page-1-slider-img">
-      </div>
-      <div class="row slide" data-visible="false" data-slide-number-1="2">
-        <img src="media/treatment/page-1/2.png" alt="" class="col page-1-slider-img">
-      </div>
-      <div class="row slide" data-visible="false" data-slide-number-1="3">
-        <img src="media/treatment/page-1/3.png" alt="" class="col page-1-slider-img">
-      </div>
-      <div class="row page-1-slider__scroller">
-        <img src="media/treatment/page-1/ARROW BIG.svg" class="col page-1-slider__scroller__l"  id="l">
-        <div class="col page-1-slider__scroller__t H3-LIST-MOB" id="t" data-number="1"></div>
-        <img src="media/treatment/page-1/ARROW BIG.svg" class="col page-1-slider__scroller__r" id="r">
-      </div>
-    </div>
-    <div class="row d-flex justify-content-center">
-      <div class="col-5 ACC-6-MOB page-1__text">
-        БЕЗОПАСНОЕ УДАЛЕНИЕ <br> ПАПИЛЛОМ БЕЗ БОЛИ <br> ЛУЧШИМИ МЕТОДАМИ
-      </div>
-    </div>
-    <div class="row">
-      <div class="col page-1__price">
-        <div class="page-1__price_word">от &#160</div>
-        <div class="page-1__price_number"> 500₽</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col page-1__button BUTTON-BIG-MOB">
-        ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ
-      </div>
-    </div>
-    <div class="row">
-      <div class="col page-1__desc-title H2-MOB">
-        ОПИСАНИЕ
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 page-1__desc-text">
-        <span class="fst-italic">ПАПИЛЛОМА</span> – это доброкачественное новообразование, вызванное вирусом папилломы человека (ВПЧ), провоцирующим разрастание эпителия кожи или слизистых оболочек.
-      </div>
-    
-      <div class="col-12 page-1__desc-text">
-        Для эффективного устранения папиллом наши врачи используют <span class="fst-italic">ЭЛЕКТРОКОАГУЛЯЦИЮ</span> и <span class="fst-italic">УДАЛЕНИЕ ЛАЗЕРОМ</span>. Эти методы показывают наименьший срок реабилитации и лучший эстетический эффект без рубцов и шрамов.
-      </div>
-    </div>
-    <div class="row">
-      <div class="col page-1__desc-link LINK-MOB">статья врача о папилломах</div>
-    </div>
-  </div>
 
-  <div class="container-sm procedure m-0">
-    <div class="row">
-      <div class="col procedure__title H2-MOB">О ПРОЦЕДУРЕ</div>
+    <div class="container-sm protocol">
+      <div class="row">
+        <div class="col h6-mob protocol__title">ПРОТОКОЛ ПРОЦЕДУРЫ</div>
+      </div>
+      <div class="principle_t">
+        <div class="principle-wrapper row">
+          <div
+            class="col-3 principle-wrapper__number text-center fw-medium s23"
+          >
+            1
+          </div>
+          <div class="col-9">
+            <div class="row principle-wrapper__title h3-list-mob">
+              КОНСУЛЬТАЦИЯ
+            </div>
+            <div class="row body-2-mob principle-wrapper__text">
+              На консультации, исходя из показаний, врач-дерматолог подбирает
+              метод обезболивания и объемы процедуры.
+            </div>
+          </div>
+        </div>
+        <div class="principle-wrapper row">
+          <div
+            class="col-3 principle-wrapper__number text-center fw-medium s23"
+          >
+            2
+          </div>
+          <div class="col-9">
+            <div class="row principle-wrapper__title h3-list-mob">
+              ОБРАБОТКА АНТИСЕПТИКОМ И ОБЕЗБОЛИВАНИЕ
+            </div>
+            <div class="row body-2-mob principle-wrapper__text">
+              Перед удалением папиллома и кожа вокруг неё обрабатываются
+              раствором антисептика, а затем на эту область применяется
+              инъекционная или аппликационная анестезия.
+            </div>
+          </div>
+        </div>
+        <div class="principle-wrapper row">
+          <div
+            class="col-3 principle-wrapper__number text-center fw-medium s23"
+          >
+            3
+          </div>
+          <div class="col-9">
+            <div class="row principle-wrapper__title h3-list-mob">
+              УДАЛЕНИЕ ПАПИЛЛОМЫ
+            </div>
+            <div class="row body-2-mob principle-wrapper__text">
+              В зависимости от размеров и форм папилломы врач готовит насадку
+              для коагулятора. Это может быть скальпель, булава, игла, петля или
+              вольфрамовая нить. Удаление длится от 30 секунд до 2 минут.
+              Увеличение длительности процедуры чаще всего связано с низким
+              болевым порогом и большим количеством папиллом.
+            </div>
+          </div>
+        </div>
+        <div class="principle-wrapper row">
+          <div
+            class="col-3 principle-wrapper__number text-center fw-medium s23"
+          >
+            4
+          </div>
+          <div class="col-9">
+            <div class="row principle-wrapper__title h3-list-mob">
+              ОБРАБОТКА АНТИСЕПТИКОМ И РЕКОМЕНДАЦИИ
+            </div>
+            <div class="row body-2-mob principle-wrapper__text">
+              Кожа повторно обрабатывается раствором антисептика. Врач оценивает
+              состояние кожи и ранки на месте удаленной папилломы, выдает вам
+              памятку, все необходимые рекомендации и назначает дату
+              постпроцедурного осмотра.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row protocol-video-wrapper">
+        <div class="protocol-video-wrapper-item" data-procedure-1="visible">
+          <div class="row">
+            <img
+              src="media/treatment/protocol/protocol video.png"
+              alt=""
+              class="protocol-video-wrapper-item__img"
+            />
+          </div>
+          <div
+            class="row protocol-video-wrapper-item__text"
+            style="width: 238px"
+          >
+            <div class="col acc-7-mob p-0">
+              Видеопротокол УДАЛЕНИЕ ПАПИЛЛОМ ЭЛЕКТРОКОАГУЛЯТОРОМ выполнен
+              врачом косметологом-дерматологом Забродиной В.В.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col protocol-video-wrapper-item__link link-mob">
+              СТРАНИЦА ВРАЧА
+            </div>
+          </div>
+        </div>
+        <div class="protocol-video-wrapper-item" data-procedure-2="invisible">
+          <div class="row">
+            <img
+              src="media/treatment/protocol/protocol video_2.png"
+              alt=""
+              class="protocol-video-wrapper-item__img"
+            />
+          </div>
+          <div class="row protocol-video-wrapper-item__text">
+            <div class="col acc-7-mob p-0">
+              Видеопротокол УДАЛЕНИЕ ПАПИЛЛОМЫ СО2-ЛАЗЕРОМ выполнен врачом
+              косметологом-дерматологом Булавиной М.С.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col protocol-video-wrapper-item__link link-mob">
+              СТРАНИЦА ВРАЧА
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="row procedure__radio">
+
+    <div class="container-sm faq-container">
+      <div class="row">
+        <div class="col h6-mob faq-container__title">ОТВЕЧАЕМ НА ВОПРОСЫ</div>
+      </div>
+      <div class="faq">
+        <div class="faq-item" style="height: inherit">
+          <div class="faq-item-title" id="faq1">
+            <div class="faq-item-title-text acc-4-mob">
+              КАКИЕ МЕТОДЫ УДАЛЕНИЯ НОВООБРАЗОВАНИЙ СУЩЕСТВУЮТ?
+            </div>
+
+            <img
+              src="media/treatment/faq/arrow_medium.svg"
+              class="faq-item-title-IMG closed"
+            />
+          </div>
+          <div class="faq-item-dropdown" id="faq-body1">
+            <div class="faq-item" style="height: inherit">
+              <div class="faq-item-title" id="faq11">
+                <div class="faq-item-title-text_sub">электрокоагуляция</div>
+
+                <img
+                  src="media/treatment/faq/plus.svg"
+                  class="faq-item-title-IMG closed"
+                />
+              </div>
+              <div class="faq-item-dropdown" id="faq-body11">
+                <div class="faq-item-dropdown-sub-text">
+                  Электрокоагуляция - метод воздействия на ткани, при котором
+                  высокочастотные электрические импульсы преобразуются в тепло.
+                  <br />
+                  <br />
+                  Метод применяют во всех сферах медицины, где проводятся
+                  операции или манипуляции: хирургия, колопроктология,
+                  гинекология, травматология, офтальмология, онкология,
+                  дерматовенерология и др.При работе с папилломами
+                  электрокоагуляция позволяет деликатно, с малой травматизацией,
+                  удалить образование вне зависимости от его формы и размера.
+                  Это возможно благодаря наличию разных по форме насадок (петля,
+                  булава, нож, игла, нить) и индивидуальному подбору температуры
+                  воздействия (от 40 до 300 ℃). Имеет минимальные сроки
+                  реабилитации.
+                </div>
+                <div class="faq-item-dropdown-sub-img">
+                  <img src="media/treatment/faq/co2_removal 1.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="faq-item" style="height: inherit">
+              <div class="faq-item-title" id="faq12">
+                <div class="faq-item-title-text_sub">
+                  электро-РАДИОВОЛНОВОЙ МЕТОД
+                </div>
+
+                <img
+                  src="media/treatment/faq/plus.svg"
+                  class="faq-item-title-IMG closed"
+                />
+              </div>
+              <div class="faq-item-dropdown" id="faq-body12">
+                <div class="faq-item-dropdown-sub-text">
+                  Электрокоагуляция - метод воздействия на ткани, при котором
+                  высокочастотные электрические импульсы преобразуются в тепло.
+                  <br />
+                  <br />
+                  Метод применяют во всех сферах медицины, где проводятся
+                  операции или манипуляции: хирургия, колопроктология,
+                  гинекология, травматология, офтальмология, онкология,
+                  дерматовенерология и др.При работе с папилломами
+                  электрокоагуляция позволяет деликатно, с малой травматизацией,
+                  удалить образование вне зависимости от его формы и размера.
+                  Это возможно благодаря наличию разных по форме насадок (петля,
+                  булава, нож, игла, нить) и индивидуальному подбору температуры
+                  воздействия (от 40 до 300 ℃). Имеет минимальные сроки
+                  реабилитации.
+                </div>
+                <div class="faq-item-dropdown-sub-img">
+                  <img src="media/treatment/faq/co2_removal 1.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="faq-item" style="height: inherit">
+              <div class="faq-item-title" id="faq13">
+                <div class="faq-item-title-text_sub">УДАЛЕНИЕ ЛАЗЕРОМ</div>
+
+                <img
+                  src="media/treatment/faq/plus.svg"
+                  class="faq-item-title-IMG closed"
+                />
+              </div>
+              <div class="faq-item-dropdown" id="faq-body13">
+                <div class="faq-item-dropdown-sub-text">
+                  Электрокоагуляция - метод воздействия на ткани, при котором
+                  высокочастотные электрические импульсы преобразуются в тепло.
+                  <br />
+                  <br />
+                  Метод применяют во всех сферах медицины, где проводятся
+                  операции или манипуляции: хирургия, колопроктология,
+                  гинекология, травматология, офтальмология, онкология,
+                  дерматовенерология и др.При работе с папилломами
+                  электрокоагуляция позволяет деликатно, с малой травматизацией,
+                  удалить образование вне зависимости от его формы и размера.
+                  Это возможно благодаря наличию разных по форме насадок (петля,
+                  булава, нож, игла, нить) и индивидуальному подбору температуры
+                  воздействия (от 40 до 300 ℃). Имеет минимальные сроки
+                  реабилитации.
+                </div>
+                <div class="faq-item-dropdown-sub-img">
+                  <img src="media/treatment/faq/co2_removal 1.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="faq-item" style="height: inherit">
+              <div class="faq-item-title" id="faq14">
+                <div class="faq-item-title-text_sub">КРИОДЕСТРУКЦИЯ</div>
+
+                <img
+                  src="media/treatment/faq/plus.svg"
+                  class="faq-item-title-IMG closed"
+                />
+              </div>
+              <div class="faq-item-dropdown" id="faq-body14">
+                <div class="faq-item-dropdown-sub-text">
+                  Электрокоагуляция - метод воздействия на ткани, при котором
+                  высокочастотные электрические импульсы преобразуются в тепло.
+                  <br />
+                  <br />
+                  Метод применяют во всех сферах медицины, где проводятся
+                  операции или манипуляции: хирургия, колопроктология,
+                  гинекология, травматология, офтальмология, онкология,
+                  дерматовенерология и др.При работе с папилломами
+                  электрокоагуляция позволяет деликатно, с малой травматизацией,
+                  удалить образование вне зависимости от его формы и размера.
+                  Это возможно благодаря наличию разных по форме насадок (петля,
+                  булава, нож, игла, нить) и индивидуальному подбору температуры
+                  воздействия (от 40 до 300 ℃). Имеет минимальные сроки
+                  реабилитации.
+                </div>
+                <div class="faq-item-dropdown-sub-img">
+                  <img src="media/treatment/faq/co2_removal 1.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="faq-item" style="height: inherit">
+              <div class="faq-item-title" id="faq15">
+                <div class="faq-item-title-text_sub">ХИМИЧЕСКОЕ УДАЛЕНИЕ</div>
+
+                <img
+                  src="media/treatment/faq/plus.svg"
+                  class="faq-item-title-IMG closed"
+                />
+              </div>
+              <div class="faq-item-dropdown" id="faq-body15">
+                <div class="faq-item-dropdown-sub-text">
+                  Электрокоагуляция - метод воздействия на ткани, при котором
+                  высокочастотные электрические импульсы преобразуются в тепло.
+                  <br />
+                  <br />
+                  Метод применяют во всех сферах медицины, где проводятся
+                  операции или манипуляции: хирургия, колопроктология,
+                  гинекология, травматология, офтальмология, онкология,
+                  дерматовенерология и др.При работе с папилломами
+                  электрокоагуляция позволяет деликатно, с малой травматизацией,
+                  удалить образование вне зависимости от его формы и размера.
+                  Это возможно благодаря наличию разных по форме насадок (петля,
+                  булава, нож, игла, нить) и индивидуальному подбору температуры
+                  воздействия (от 40 до 300 ℃). Имеет минимальные сроки
+                  реабилитации.
+                </div>
+                <div class="faq-item-dropdown-sub-img">
+                  <img src="media/treatment/faq/co2_removal 1.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="faq-item" style="height: inherit">
+              <div class="faq-item-title" id="faq16">
+                <div class="faq-item-title-text_sub">
+                  ХИРУРГИЧЕСКОЕ УДАЛЕНИЕ
+                </div>
+
+                <img
+                  src="media/treatment/faq/plus.svg"
+                  class="faq-item-title-IMG closed"
+                />
+              </div>
+              <div class="faq-item-dropdown" id="faq-body16">
+                <div class="faq-item-dropdown-sub-text">
+                  Электрокоагуляция - метод воздействия на ткани, при котором
+                  высокочастотные электрические импульсы преобразуются в тепло.
+                  <br />
+                  <br />
+                  Метод применяют во всех сферах медицины, где проводятся
+                  операции или манипуляции: хирургия, колопроктология,
+                  гинекология, травматология, офтальмология, онкология,
+                  дерматовенерология и др.При работе с папилломами
+                  электрокоагуляция позволяет деликатно, с малой травматизацией,
+                  удалить образование вне зависимости от его формы и размера.
+                  Это возможно благодаря наличию разных по форме насадок (петля,
+                  булава, нож, игла, нить) и индивидуальному подбору температуры
+                  воздействия (от 40 до 300 ℃). Имеет минимальные сроки
+                  реабилитации.
+                </div>
+                <div class="faq-item-dropdown-sub-img">
+                  <img src="media/treatment/faq/co2_removal 1.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="faq-item" style="height: inherit">
+              <div class="faq-item-title" id="faq17">
+                <div class="faq-item-title-text_sub">МЕХАНИЧЕСКОЕ УДАЛЕНИЕ</div>
+
+                <img
+                  src="media/treatment/faq/plus.svg"
+                  class="faq-item-title-IMG closed"
+                />
+              </div>
+              <div class="faq-item-dropdown" id="faq-body17">
+                <div class="faq-item-dropdown-sub-text">
+                  Электрокоагуляция - метод воздействия на ткани, при котором
+                  высокочастотные электрические импульсы преобразуются в тепло.
+                  <br />
+                  <br />
+                  Метод применяют во всех сферах медицины, где проводятся
+                  операции или манипуляции: хирургия, колопроктология,
+                  гинекология, травматология, офтальмология, онкология,
+                  дерматовенерология и др.При работе с папилломами
+                  электрокоагуляция позволяет деликатно, с малой травматизацией,
+                  удалить образование вне зависимости от его формы и размера.
+                  Это возможно благодаря наличию разных по форме насадок (петля,
+                  булава, нож, игла, нить) и индивидуальному подбору температуры
+                  воздействия (от 40 до 300 ℃). Имеет минимальные сроки
+                  реабилитации.
+                </div>
+                <div class="faq-item-dropdown-sub-img">
+                  <img src="media/treatment/faq/co2_removal 1.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" style="height: inherit">
+          <div class="faq-item-title" id="faq2">
+            <div class="faq-item-title-text acc-4-mob">
+              КАКОЙ МЕТОД УДАЛЕНИЯ ВЫБРАТЬ?
+            </div>
+
+            <img
+              src="media/treatment/faq/arrow_medium.svg"
+              class="faq-item-title-IMG closed"
+            />
+          </div>
+          <div class="faq-item-dropdown" id="faq-body2">
+            <div class="methods">
+              <div class="methods-l">
+                <div class="methods-l__head">
+                  <div class="methods-l__head_top">МЕТОД УДАЛЕНИЯ</div>
+                  <div class="methods-l__head_bottom">
+                    ПО ПРЕДПОЧТИТЕЛЬНОСТИ
+                  </div>
+                </div>
+                <div class="methods-l__body">
+                  <div class="methods-l__body_item">электрокоагуляция</div>
+                  <div
+                    class="methods-l__body_item methods-l__body_item_twostring"
+                  >
+                    электро-радиоволновой
+                  </div>
+                  <div class="methods-l__body_item">ЛАЗЕР (СО2)</div>
+                  <div class="methods-l__body_item">ЛАЗЕР (ЭРБИЕВЫЙ)</div>
+                  <div
+                    class="methods-l__body_item methods-l__body_item_twostring"
+                  >
+                    ХИРУРГИЧЕСКОЕ ИССЕЧЕНИЕ
+                  </div>
+                  <div class="methods-l__body_item">КРИОДЕСТРУКЦИЯ</div>
+                  <div class="methods-l__body_item">МЕХАНИЧЕСКИЙ</div>
+                  <div class="methods-l__body_item">ХИМИЧЕСКИЙ</div>
+                </div>
+              </div>
+              <div class="methods-r" id="counter" data-faq-number="1">
+                <div class="methods-r__head">
+                  <div
+                    class="methods-r__head_top"
+                    data-slide-number-faq="1"
+                    data-visible="true"
+                  >
+                    ЭФФЕКТИВНОСТЬ
+                  </div>
+                  <div
+                    class="methods-r__head_top"
+                    data-slide-number-faq="2"
+                    data-visible="false"
+                  >
+                    БОЛЕЗНЕНОСТЬ С АНЕСТЕЗИЕЙ
+                  </div>
+                  <div
+                    class="methods-r__head_top"
+                    data-slide-number-faq="3"
+                    data-visible="false"
+                  >
+                    СРЕДНИЙ СРОК РЕАБИЛИТАЦИИ
+                  </div>
+                  <div
+                    class="methods-r__head_top"
+                    data-slide-number-faq="4"
+                    data-visible="false"
+                  >
+                    ВЕРОЯТНОСТЬ РУБЦЕВАНИЯ
+                  </div>
+                  <div
+                    class="methods-r__head_top"
+                    data-slide-number-faq="5"
+                    data-visible="false"
+                  >
+                    ВЕРОЯТНОСТЬ РЕЦИДИВА
+                  </div>
+                  <div
+                    class="methods-r__head_top"
+                    data-slide-number-faq="6"
+                    data-visible="false"
+                  >
+                    ВОЗМОЖНОСТЬ УДАЛЕНИЯ ПАПИЛЛОМ НА ВЕКАХ
+                  </div>
+                  <div class="methods-r__head__buttons">
+                    <img
+                      src="media/treatment/faq/arrow_medium.svg"
+                      alt=""
+                      class="methods-r__head__buttons_f"
+                      id="f"
+                    />
+                    <img
+                      src="media/treatment/faq/arrow_medium.svg"
+                      alt=""
+                      class="methods-r__head__buttons_b"
+                      id="b"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="methods-r__body slide-faq"
+                  data-slide-number-faq="1"
+                  data-visible="true"
+                >
+                  <div class="methods-r__body_item">100%</div>
+                  <div
+                    class="methods-r__body_item_2 methods-l__body_item_twostring"
+                  >
+                    100%
+                  </div>
+                  <div class="methods-r__body_item">100%</div>
+                  <div class="methods-r__body_item">100%</div>
+                  <div
+                    class="methods-r__body_item_2 methods-l__body_item_twostring"
+                  >
+                    100%
+                  </div>
+                  <div class="methods-r__body_item">50%</div>
+                  <div class="methods-r__body_item">10%</div>
+                  <div class="methods-r__body_item">непредсказуема</div>
+                </div>
+                <div
+                  class="methods-r__body slide-faq"
+                  data-slide-number-faq="2"
+                  data-visible="false"
+                >
+                  <div class="methods-r__body_item">ОТСУТСТВУЕТ</div>
+                  <div class="methods-r__body_item_2">ОТСУТСТВУЕТ</div>
+                  <div class="methods-r__body_item">НЕЗНАЧИТЕЛЬНАЯ</div>
+                  <div class="methods-r__body_item">НЕЗНАЧИТЕЛЬНАЯ</div>
+                  <div class="methods-r__body_item_2">ОТСУТСТВУЕТ</div>
+                  <div class="methods-r__body_item">НЕЗНАЧИТЕЛЬНАЯ</div>
+                  <div class="methods-r__body_item">ОТСУТСТВУЕТ</div>
+                  <div class="methods-r__body_item">НЕ ПРИМЕНЯЕТСЯ</div>
+                </div>
+                <div
+                  class="methods-r__body slide-faq"
+                  data-slide-number-faq="3"
+                  data-visible="false"
+                >
+                  <div class="methods-r__body_item">7–14 ДНЕЙ</div>
+                  <div class="methods-r__body_item_2">7–14 ДНЕЙ</div>
+                  <div class="methods-r__body_item">7–14 ДНЕЙ</div>
+                  <div class="methods-r__body_item">7–14 ДНЕЙ</div>
+                  <div class="methods-r__body_item_2">7–14 ДНЕЙ</div>
+                  <div class="methods-r__body_item">14–21 ДНЕЙ</div>
+                  <div class="methods-r__body_item">3–7 ДНЕЙ</div>
+                  <div class="methods-r__body_item">28–90 ДНЕЙ</div>
+                </div>
+                <div
+                  class="methods-r__body slide-faq"
+                  data-slide-number-faq="4"
+                  data-visible="false"
+                >
+                  <div class="methods-r__body_item">НИЗКАЯ</div>
+                  <div class="methods-r__body_item_2">НИЗКАЯ</div>
+                  <div class="methods-r__body_item">НИЗКАЯ</div>
+                  <div class="methods-r__body_item">НИЗКАЯ</div>
+                  <div class="methods-r__body_item_2">СРЕДНЯЯ</div>
+                  <div class="methods-r__body_item">НИЗКАЯ</div>
+                  <div class="methods-r__body_item">НИЗКАЯ</div>
+                  <div class="methods-r__body_item">ВЫСОКАЯ</div>
+                </div>
+                <div
+                  class="methods-r__body slide-faq"
+                  data-slide-number-faq="5"
+                  data-visible="false"
+                >
+                  <div class="methods-r__body_item">НИЗКАЯ</div>
+                  <div class="methods-r__body_item_2">НИЗКАЯ</div>
+                  <div class="methods-r__body_item">НИЗКАЯ</div>
+                  <div class="methods-r__body_item">НИЗКАЯ</div>
+                  <div class="methods-r__body_item_2">НИЗКАЯ</div>
+                  <div class="methods-r__body_item">СРЕДНЯЯ</div>
+                  <div class="methods-r__body_item">ВЫСОКАЯ</div>
+                  <div class="methods-r__body_item">НЕПРЕДСКАЗУЕМАЯ</div>
+                </div>
+                <div
+                  class="methods-r__body slide-faq"
+                  data-slide-number-faq="6"
+                  data-visible="false"
+                >
+                  <div class="methods-r__body_item">ДА</div>
+                  <div class="methods-r__body_item_2">ДА</div>
+                  <div class="methods-r__body_item">НЕТ</div>
+                  <div class="methods-r__body_item">НЕТ</div>
+                  <div class="methods-r__body_item_2">НЕТ</div>
+                  <div class="methods-r__body_item">НЕТ</div>
+                  <div class="methods-r__body_item">НЕТ</div>
+                  <div class="methods-r__body_item">НЕТ</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" style="height: inherit">
+          <div class="faq-item-title" id="faq3">
+            <div class="faq-item-title-text acc-4-mob">
+              ЧТО БУДЕТ, ЕСЛИ ОТОРВАТЬ ПАПИЛЛОМУ САМОСТОЯТЕЛЬНО?
+            </div>
+
+            <img
+              src="media/treatment/faq/arrow_medium.svg"
+              class="faq-item-title-IMG closed"
+            />
+          </div>
+          <div class="faq-item-dropdown" id="faq-body3">
+            Травмирование или самостоятельный отрыв папилломы может привести к
+            неприятным ощущениям, таким как боль, жжение и зуд; кровотечению;
+            появлению отека, воспаления; выделению гнойных и сукровичных
+            выделений при присоединении вторичной инфекции в рану; образованию
+            рубчика и шрама
+          </div>
+        </div>
+        <div class="faq-item" style="height: inherit">
+          <div class="faq-item-title" id="faq4">
+            <div class="faq-item-title-text acc-4-mob">
+              ЧЕМ РАЗЛИЧАЮТСЯ ИНЪЕКЦИОННАЯ И АППЛИКАЦИОННАЯ АНЕСТЕЗИЯ?
+            </div>
+
+            <img
+              src="media/treatment/faq/arrow_medium.svg"
+              class="faq-item-title-IMG closed"
+            />
+          </div>
+          <div class="faq-item-dropdown" id="faq-body4"></div>
+        </div>
+
+        <div class="faq-item" style="height: inherit">
+          <div class="faq-item-title" id="faq5">
+            <div class="faq-item-title-text acc-4-mob">
+              ЧЕМ ОБРАБАТЫВАТЬ КОЖУ ПОСЛЕ УДАЛЕНИЯ ПАПИЛЛОМЫ?
+            </div>
+
+            <img
+              src="media/treatment/faq/arrow_medium.svg"
+              class="faq-item-title-IMG closed"
+            />
+          </div>
+          <div class="faq-item-dropdown" id="faq-body5"></div>
+        </div>
+
+        <div
+          class="faq-item"
+          style="height: inherit; border-bottom: 1px solid #000"
+        >
+          <div class="faq-item-title" id="faq6">
+            <div class="faq-item-title-text acc-4-mob">
+              ПРЕИМУЩЕСТВА УДАЛЕНИЯ ПАПИЛЛОМ ЭЛЕКТРОКОАГУЛЯЦИЕЙ
+            </div>
+
+            <img
+              src="media/treatment/faq/arrow_medium.svg"
+              class="faq-item-title-IMG closed"
+            />
+          </div>
+          <div class="faq-item-dropdown" id="faq-body6"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col faq-container__bottom">
+          <div class="button-1-mob">ЗАДАТЬ ВОПРОС</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-sm feedback feedback_n d-flex flex-column">
+      <div class="row">
+        <div class="col feedback__title_t h2-mob">ОТЗЫВЫ ПАЦИЕНТОВ</div>
+      </div>
+
+      <div class="slider-wrapper">
+        <div
+          class="feedback-slide d-flex flex-column justify-content-between"
+          data-visible="true"
+          data-slide-number="1"
+        >
+          <div class="row feedback-stars">
+            <div class="feedback-stars__img">
+              <img src="media/treatment/feedback/Stars.svg" alt="" />
+            </div>
+            <div class="col feedback-stars__text">5 / 5 (7 отзывов)</div>
+          </div>
+          <div class="row">
+            <div class="col feedback__text feedback__text_n align-self-center">
+              Действительно хорошая клиника. Обратился по вопросу удаления
+              папиллом. Весь вопрос занял 45 минут.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col feedback__source_n text-end link-mob">
+              ЧИТАТЬ ИСТОЧНИК
+            </div>
+          </div>
+          <div class="feedback-items-wrapper">
+            <div class="row feedback-item">
+              <div class="col fw-medium feedback-item__title">ДАТА</div>
+
+              <div
+                class="row d-flex justify-content-between pe-0 feedback-item2"
+              >
+                <div
+                  class="col-10 align-self-start fw-medium feedback-item__subtitle"
+                >
+                  15.05.2024
+                </div>
+              </div>
+            </div>
+            <div class="row feedback-item">
+              <div class="col fw-medium feedback-item__title">ПРОЦЕДУРА</div>
+
+              <div
+                class="row d-flex justify-content-between pe-0 feedback-item2"
+              >
+                <div
+                  class="col-10 align-self-start fw-medium feedback-item__subtitle"
+                >
+                  Консультация врача-косметолога
+                </div>
+                <img
+                  src="media/review/arrow_small.svg"
+                  alt=""
+                  class="col feedback-item__img align-self-start"
+                />
+              </div>
+            </div>
+            <div class="row feedback-item">
+              <div class="col fw-medium feedback-item__title">ВРАЧ</div>
+              <div class="row pe-0 feedback-item2">
+                <div class="col-10 feedback-item__subtitle">Булавина М.С.</div>
+                <img
+                  src="media/review/arrow_small.svg"
+                  alt=""
+                  class="col-2 feedback-item__img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="feedback-slide d-flex flex-column justify-content-between invis"
+          data-visible="false"
+          data-slide-number="2"
+        >
+          <div class="row feedback-stars">
+            <div class="feedback-stars__img">
+              <img src="media/treatment/feedback/Stars.svg" alt="" />
+            </div>
+            <div class="col feedback-stars__text">5 / 5 (7 отзывов)</div>
+          </div>
+          <div class="row">
+            <div class="col feedback__text feedback__text_n">
+              Профессионально, безболезненно, отлично! Удаляла у Марии Сергеевны
+              папилломы. Было комфортно...
+            </div>
+          </div>
+          <div class="row">
+            <div class="col feedback__source_n text-end link-mob">
+              ЧИТАТЬ ИСТОЧНИК
+            </div>
+          </div>
+          <div class="feedback-items-wrapper">
+            <div class="row feedback-item">
+              <div class="col fw-medium feedback-item__title">ДАТА</div>
+
+              <div
+                class="row d-flex justify-content-between pe-0 feedback-item2"
+              >
+                <div
+                  class="col-10 align-self-start fw-medium feedback-item__subtitle"
+                >
+                  15.05.2024
+                </div>
+              </div>
+            </div>
+            <div class="row feedback-item">
+              <div class="col fw-medium feedback-item__title">ПРОЦЕДУРА</div>
+
+              <div
+                class="row d-flex justify-content-between pe-0 feedback-item2"
+              >
+                <div class="col-10 align-self-start feedback-item__subtitle">
+                  Удаление папиллом электрокоагуляцией
+                </div>
+                <img
+                  src="media/review/arrow_small.svg"
+                  alt=""
+                  class="col feedback-item__img align-self-start"
+                />
+              </div>
+            </div>
+            <div class="row feedback-item">
+              <div class="col fw-medium feedback-item__title">ВРАЧ</div>
+              <div class="row pe-0 feedback-item2">
+                <div class="col-10 feedback-item__subtitle">Булавина М.С.</div>
+                <img
+                  src="media/review/arrow_small.svg"
+                  alt=""
+                  class="col-2 feedback-item__img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="feedback-slide d-flex flex-column justify-content-between invis"
+          data-visible="false"
+          data-slide-number="3"
+        >
+          <div class="row feedback-stars">
+            <div class="feedback-stars__img">
+              <img src="media/treatment/feedback/Stars.svg" alt="" />
+            </div>
+            <div class="col feedback-stars__text">5 / 5 (7 отзывов)</div>
+          </div>
+          <div class="row">
+            <div class="col feedback__text feedback__text_n">
+              Действительно хорошая клиника. Обратился по вопросу удаления
+              папиллом. Весь вопрос занял 45 минут.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col feedback__source_n text-end link-mob">
+              ЧИТАТЬ ИСТОЧНИК
+            </div>
+          </div>
+          <div class="feedback-items-wrapper">
+            <div class="row feedback-item">
+              <div class="col fw-medium feedback-item__title">ДАТА</div>
+
+              <div
+                class="row d-flex justify-content-between pe-0 feedback-item2"
+              >
+                <div
+                  class="col-10 align-self-start fw-medium feedback-item__subtitle"
+                >
+                  15.05.2024
+                </div>
+              </div>
+            </div>
+            <div class="row feedback-item">
+              <div class="col feedback-item__title">ПРОЦЕДУРА</div>
+
+              <div
+                class="row d-flex justify-content-between pe-0 feedback-item2"
+              >
+                <div class="col-10 align-self-start feedback-item__subtitle">
+                  Удаление папиллом эрбиевым лазером
+                </div>
+                <img
+                  src="media/review/arrow_small.svg"
+                  alt=""
+                  class="col feedback-item__img align-self-start"
+                />
+              </div>
+            </div>
+            <div class="row feedback-item">
+              <div class="col feedback-item__title">ВРАЧ</div>
+              <div class="row pe-0 feedback-item2">
+                <div class="col-10 feedback-item__subtitle">Забродина В.В.</div>
+                <img
+                  src="media/review/arrow_small.svg"
+                  alt=""
+                  class="col-2 feedback-item__img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div
-        id="procedure1"
-        class="col  FILTER-2-MOB choosen" 
-        data-procedure-id="1">
-        <div class="FILTER-2-MOB_choosen" data-procedure-radio="1"></div> электрокоагуляция
-      </div>
-      <div 
-        id="procedure2"
-        class="col  FILTER-2-MOB non-choosen"
-        data-procedure-id="2">
-        <div class="FILTER-2-MOB_no" data-procedure-radio="2"></div> удаление лазером
-      </div>
-    </div>
-    <div class="procedure-slide" data-procedure-1="visible">
-      <div class="card">
-        <div class="row">
-          <div class="col-6 card__l">для кого</div>
-          <div class="col-6 card__r">женщины, мужчины</div>
-        </div>
-        <div class="row">
-          <div class="col-6 card__l">возраст</div>
-          <div class="col-6 card__r">от 18 лет</div>
-        </div>
-        <div class="row">
-          <div class="col-6 card__l">зоны</div>
-          <div class="col-6 card__r">любые</div>
-        </div>
-        <div class="row">
-          <div class="col-6 card__l">аппарат</div>
-          <div class="col-6 card__r">электрокоагулятор</div>
-        </div>
-        <div class="row">
-          <div class="col-6 card__l">анестезия</div>
-          <div class="col-6 card__r">инъекции/аппликации</div>
-        </div>
-        <div class="row">
-          <div class="col-6 card__l">длительность</div>
-          <div class="col-6 card__r">30 сек - 2 мин</div>
-        </div>
-        <div class="row">
-          <div class="col-6 card__l">курс</div>
-          <div class="col-6 card__r">1 процедура</div>
-        </div>
-        <div class="row">
-          <div class="col-6 card__l">реабилитация</div>
-          <div class="col-6 card__r">7-14 дней</div>
-        </div>
-        <div class="row">
-          <div class="col-6 card__l">результат</div>
-          <div class="col-6 card__r">12-18 месяцев</div>
-        </div>
-      </div>
-      <div class="procedure__desc BODY-2-MOB">
-        <span class="fst-italic">Электрокоагуляция</span> — метод воздействия на ткани, при котором высокочастотные электрические импульсы преобразуются в тепло.
-      </div>
-      <div class="procedure__desc BODY-2-MOB">
-        Метод применяют во всех сферах медицины, где проводятся операции или манипуляции: дерматовенерология, хирургия, гинекология, травматология, офтальмология, онкология, колопроктология  и др.
-      </div> 
-      <div class="procedure__desc BODY-2-MOB">  
-        При работе с папилломами электрокоагуляция позволяет деликатно, с малой травматизацией удалить образование вне зависимости от его формы и размера. Это возможно благодаря индивидуальному подбору температуры воздействия (от 40 до 300 ℃) и наличию разных по форме насадок (петля, булава, нож, игла, нить). Имеет минимальные сроки реабилитации.
+        class="row feedback__scroller text-center align-self-center justify-items-end d-flex flex-row justify-content-around"
+      >
+        <img
+          src="media/review/Arrow_black.svg"
+          alt=""
+          class="col feedback__scroller__l"
+          id="l_f"
+        />
+        <div
+          class="col feedback__scroller__text"
+          id="t_f"
+          data-number="1"
+        ></div>
+        <img
+          src="media/review/Arrow_black.svg"
+          alt=""
+          class="col feedback__scroller__r"
+          id="r_f"
+        />
       </div>
     </div>
-    <div class="procedure-slide " data-procedure-2="invisible">
-      <div class="card">
-        <div class="row">
-          <div class="col-6 card__l">для кого</div>
-          <div class="col-6 card__r">женщины, мужчины</div>
-        </div>
-        <div class="row">
-          <div class="col-6 card__l">возраст</div>
-          <div class="col-6 card__r">от 18 лет</div>
-        </div>
-        <div class="row">
-          <div class="col-6 card__l">зоны</div>
-          <div class="col-6 card__r">любые</div>
-        </div>
-        <div class="row">
-          <div class="col-4 card__l">аппарат</div>
-          <div class="col-8 card__r">СО2-ЛАЗЕР/ ЭРБИЕВЫЙ ЛАЗЕР</div>
-        </div>
-        <div class="row">
-          <div class="col-6 card__l">анестезия</div>
-          <div class="col-6 card__r">инъекции/аппликации</div>
-        </div>
-        <div class="row">
-          <div class="col-6 card__l">длительность</div>
-          <div class="col-6 card__r">30 сек - 2 мин</div>
-        </div>
-        <div class="row">
-          <div class="col-6 card__l">курс</div>
-          <div class="col-6 card__r">1 процедура</div>
-        </div>
-        <div class="row">
-          <div class="col-6 card__l">реабилитация</div>
-          <div class="col-6 card__r">7-14 дней</div>
-        </div>
-        <div class="row">
-          <div class="col-6 card__l">результат</div>
-          <div class="col-6 card__r">12-18 месяцев</div>
-        </div>
-      </div>
-      <div class="procedure__desc BODY-2-MOB">
-        <span class="fst-italic">Лазерное удаление</span> — метод основан на принципе неселективного фототермолиза. Благодаря определенной длине волны и источнику энергии лазерная энергия избирательно воздействует на воду. Вода в клетках нагревается и испаряется вместе с окружающими тканями папилломы. Такое действие называется абляцией.
-      </div>  
-      <div class="procedure__desc BODY-2-MOB"> 
-        В нашей клинике применяются два типа лазеров — СО2 и эрбиевый. Механизм их действия абсолютно идентичен. Разница лишь в длине волны (10600 нм и 2940 нм), что обеспечивает СО2-лазеру более глубокий эффект, достигающий на только верхнего, но и среднего слоя кожи. 
-      </div>
-      <div class="procedure__desc BODY-2-MOB">
-        В связи с тем, что паппиломы обычно не требуют глубокого воздействия, лазеры применяются дотаточно редко для их удаления.
-      </div>
-      
-    </div>
-  </div>
-  <div class="container-sm yes-no">
-    <div class="row">
-      <div class="col-6 yes-wrapper">
-        <div class="row">
-          <div class="col H6-MOB yes-wrapper__title">показания</div>
-        </div>
-        <div class="row YES-LIST">
-          <div class="LIST-3-MOB yes-wrapper__item">БОРОДАВКИ</div>
-          <div class="LIST-3-MOB yes-wrapper__item">ПАПИЛЛОМЫ</div>
-          <div class="LIST-3-MOB yes-wrapper__item">СЕБОРЕЙНЫЕ КЕРАТОМЫ</div>
-          <div class="LIST-3-MOB yes-wrapper__item">КОНТАГИОЗНЫЙ МОЛЛЮСК</div>
-          
-        </div>
-      </div>
-      <div class="col-6 no-wrapper">
-        <div class="row">
-          <div class="col p-0 H6-MOB no-wrapper__title">
-            противопоказания
-          </div>
-        </div>
-        <div class="row NO-LIST">
-          
-          <div class="LIST-3-MOB no-wrapper__item">
-            ЗЛОКАЧЕСТВЕННЫЕ НОВООБРАЗОВАНИЯ
-          </div>
-          <div class="LIST-3-MOB no-wrapper__item">
-           ОСТРЫЕ ВОСПАЛИТЕЛЬНЫЕ И ИНФЕКЦИОННЫЕ ЗАБОЛЕВАНИЯ 
-          </div>
-          <div class="LIST-3-MOB no-wrapper__item">
-            НАРУШЕНИЕ СВЕРТЫВАЕМОСТИ КРОВИ И ПРИЁМ АНТИКОАГУЛЯНТОВ 
-          </div>
-          <div class="LIST-3-MOB no-wrapper__item">
-            БЕРЕМЕННОСТЬ И ГРУДНОЕ ВСКАРМЛИВАНИЕ
-          </div>
-          <div class="LIST-3-MOB no-wrapper__item">
-          МЕНСТРУАЦИИ
-          </div>
-          <div class="LIST-3-MOB no-wrapper__item">
-            ДЕКОМПЕНСИРОВАННЫЙ САХАРНЫЙ ДИАБЕТ
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="container-sm protocol">
-    <div class="row">
-      <div class="col H6-MOB protocol__title">ПРОТОКОЛ ПРОЦЕДУРЫ</div>
-    </div>
-    <div class="principle_t">
-    <div class="principle-wrapper row">
-      <div class="col-3 principle-wrapper__number text-center fw-medium s23">
-        1
-      </div>
-      <div class="col-9 ">
-      <div class="row principle-wrapper__title H3-LIST-MOB">
-        КОНСУЛЬТАЦИЯ
-      </div>
-      <div class="row BODY-2-MOB principle-wrapper__text ">
-        На консультации, исходя из показаний, врач-дерматолог подбирает метод обезболивания и объемы процедуры. 
-      </div>
-    </div>
-    </div>
-    <div class="principle-wrapper row">
-      <div class="col-3 principle-wrapper__number text-center fw-medium s23">
-        2
-      </div>
-      <div class="col-9 ">
-      <div class="row principle-wrapper__title H3-LIST-MOB">
-        ОБРАБОТКА АНТИСЕПТИКОМ   И ОБЕЗБОЛИВАНИЕ
-      </div>
-      <div class="row BODY-2-MOB principle-wrapper__text ">
-        Перед удалением папиллома и кожа вокруг неё обрабатываются раствором антисептика, а затем на эту область применяется инъекционная или аппликационная анестезия.
-      </div>
-    </div>
-    </div>
-    <div class="principle-wrapper row">
-      <div class="col-3 principle-wrapper__number text-center fw-medium s23">
-        3
-      </div>
-      <div class="col-9 ">
-      <div class="row principle-wrapper__title H3-LIST-MOB">
-        УДАЛЕНИЕ ПАПИЛЛОМЫ
-      </div>
-      <div class="row BODY-2-MOB principle-wrapper__text ">
-        В зависимости от размеров и форм папилломы врач готовит насадку для коагулятора. Это может быть скальпель, булава, игла, петля или вольфрамовая нить. Удаление длится от 30 секунд до 2 минут. Увеличение длительности процедуры чаще всего связано с низким болевым порогом и большим количеством папиллом. 
-      </div>
-    </div>
-    </div>
-    <div class="principle-wrapper row">
-      <div class="col-3 principle-wrapper__number text-center fw-medium s23">
-        4
-      </div>
-      <div class="col-9 ">
-      <div class="row principle-wrapper__title H3-LIST-MOB">
-        ОБРАБОТКА АНТИСЕПТИКОМ И РЕКОМЕНДАЦИИ 
-      </div>
-      <div class="row BODY-2-MOB principle-wrapper__text ">
-        Кожа повторно обрабатывается раствором антисептика. Врач оценивает состояние кожи и ранки на месте удаленной папилломы, выдает вам памятку, все необходимые рекомендации и назначает дату постпроцедурного осмотра. 
-      </div>
-    </div>
-    </div>
-  </div>
-    <div class="row protocol-video-wrapper">
-      <div class="protocol-video-wrapper-item" data-procedure-1="visible">
-        <div class="row">
-          <img src="media/treatment/protocol/protocol video.png" alt="" class="protocol-video-wrapper-item__img">
-        </div>
-        <div class="row protocol-video-wrapper-item__text" style="width: 238px;">
-          <div class="col  ACC-7-MOB p-0" >
-            Видеопротокол УДАЛЕНИЕ ПАПИЛЛОМ ЭЛЕКТРОКОАГУЛЯТОРОМ выполнен врачом косметологом-дерматологом Забродиной В.В.
-          </div>
-        </div>
-        <div class="row">
-          <div class="col protocol-video-wrapper-item__link LINK-MOB">
-            СТРАНИЦА ВРАЧА
-          </div>
-        </div>
-      </div>
-      <div class="protocol-video-wrapper-item" data-procedure-2="invisible">
-        <div class="row">
-          <img src="media/treatment/protocol/protocol video_2.png" alt="" class="protocol-video-wrapper-item__img">
-        </div>
-        <div class="row protocol-video-wrapper-item__text">
-          <div class="col  ACC-7-MOB p-0" >
-            Видеопротокол УДАЛЕНИЕ ПАПИЛЛОМЫ СО2-ЛАЗЕРОМ выполнен врачом косметологом-дерматологом Булавиной М.С.
-          </div>
-        </div>
-        <div class="row">
-          <div class="col protocol-video-wrapper-item__link LINK-MOB">
-            СТРАНИЦА ВРАЧА
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="container-sm faq">
-    <div class="row">
-      <div class="col H6-MOB faq__title">ОТВЕЧАЕМ НА ВОПРОСЫ</div>
-    </div>
-    <div class="FAQ">
-      
-      <div class="FAQ-ITEM" style="height: inherit;">
-        <div class="FAQ-ITEM-TITLE" id="faq1">
-          <div class="FAQ-ITEM-TITLE-TEXT ACC-4-MOB">КАКИЕ МЕТОДЫ УДАЛЕНИЯ НОВООБРАЗОВАНИЙ СУЩЕСТВУЮТ?</div>
-          
-          <img src="media/treatment/faq/arrow_medium.svg" class="FAQ-ITEM-TITLE-IMG closed">
-          
-        </div>
-        <div class="FAQ-ITEM-DROPDOWN" id="faq-body1">
-          <div class="FAQ-ITEM" style="height: inherit;">
-            <div class="FAQ-ITEM-TITLE" id="faq11">
-              <div class="FAQ-ITEM-TITLE-TEXT_sub">электрокоагуляция</div>
-              
-              <img src="media/treatment/faq/plus.svg" class="FAQ-ITEM-TITLE-IMG closed">
-              
-            </div>
-            <div class="FAQ-ITEM-DROPDOWN" id="faq-body11">
-              <div class="FAQ-ITEM-DROPDOWN-sub-text">
-                Электрокоагуляция - метод воздействия на ткани, при котором высокочастотные электрические импульсы преобразуются в тепло. 
-                <br>
-                <br>
-                Метод применяют во всех сферах медицины, где проводятся операции или манипуляции: хирургия, колопроктология, гинекология, травматология, офтальмология, онкология, дерматовенерология и др.При работе с папилломами электрокоагуляция позволяет деликатно, с малой травматизацией, удалить образование вне зависимости от его формы и размера. Это возможно благодаря наличию разных по форме насадок (петля, булава, нож, игла, нить) и индивидуальному подбору температуры воздействия (от 40 до 300 ℃). Имеет минимальные сроки реабилитации.
-              </div>
-              <div class="FAQ-ITEM-DROPDOWN-sub-img">
-                <img src="media/treatment/faq/co2_removal 1.png" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="FAQ-ITEM" style="height: inherit;">
-            <div class="FAQ-ITEM-TITLE" id="faq12">
-              <div class="FAQ-ITEM-TITLE-TEXT_sub">электро-РАДИОВОЛНОВОЙ МЕТОД</div>
-              
-              <img src="media/treatment/faq/plus.svg" class="FAQ-ITEM-TITLE-IMG closed">
-              
-            </div>
-            <div class="FAQ-ITEM-DROPDOWN" id="faq-body12">
-              <div class="FAQ-ITEM-DROPDOWN-sub-text">
-                Электрокоагуляция - метод воздействия на ткани, при котором высокочастотные электрические импульсы преобразуются в тепло. 
-                <br>
-                <br>
-                Метод применяют во всех сферах медицины, где проводятся операции или манипуляции: хирургия, колопроктология, гинекология, травматология, офтальмология, онкология, дерматовенерология и др.При работе с папилломами электрокоагуляция позволяет деликатно, с малой травматизацией, удалить образование вне зависимости от его формы и размера. Это возможно благодаря наличию разных по форме насадок (петля, булава, нож, игла, нить) и индивидуальному подбору температуры воздействия (от 40 до 300 ℃). Имеет минимальные сроки реабилитации.
-              </div>
-              <div class="FAQ-ITEM-DROPDOWN-sub-img">
-                <img src="media/treatment/faq/co2_removal 1.png" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="FAQ-ITEM" style="height: inherit;">
-            <div class="FAQ-ITEM-TITLE" id="faq13">
-              <div class="FAQ-ITEM-TITLE-TEXT_sub">УДАЛЕНИЕ ЛАЗЕРОМ</div>
-              
-              <img src="media/treatment/faq/plus.svg" class="FAQ-ITEM-TITLE-IMG closed">
-              
-            </div>
-            <div class="FAQ-ITEM-DROPDOWN" id="faq-body13">
-              <div class="FAQ-ITEM-DROPDOWN-sub-text">
-                Электрокоагуляция - метод воздействия на ткани, при котором высокочастотные электрические импульсы преобразуются в тепло. 
-                <br>
-                <br>
-                Метод применяют во всех сферах медицины, где проводятся операции или манипуляции: хирургия, колопроктология, гинекология, травматология, офтальмология, онкология, дерматовенерология и др.При работе с папилломами электрокоагуляция позволяет деликатно, с малой травматизацией, удалить образование вне зависимости от его формы и размера. Это возможно благодаря наличию разных по форме насадок (петля, булава, нож, игла, нить) и индивидуальному подбору температуры воздействия (от 40 до 300 ℃). Имеет минимальные сроки реабилитации.
-              </div>
-              <div class="FAQ-ITEM-DROPDOWN-sub-img">
-                <img src="media/treatment/faq/co2_removal 1.png" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="FAQ-ITEM" style="height: inherit;">
-            <div class="FAQ-ITEM-TITLE" id="faq14">
-              <div class="FAQ-ITEM-TITLE-TEXT_sub">КРИОДЕСТРУКЦИЯ</div>
-              
-              <img src="media/treatment/faq/plus.svg" class="FAQ-ITEM-TITLE-IMG closed">
-              
-            </div>
-            <div class="FAQ-ITEM-DROPDOWN" id="faq-body14">
-              <div class="FAQ-ITEM-DROPDOWN-sub-text">
-                Электрокоагуляция - метод воздействия на ткани, при котором высокочастотные электрические импульсы преобразуются в тепло. 
-                <br>
-                <br>
-                Метод применяют во всех сферах медицины, где проводятся операции или манипуляции: хирургия, колопроктология, гинекология, травматология, офтальмология, онкология, дерматовенерология и др.При работе с папилломами электрокоагуляция позволяет деликатно, с малой травматизацией, удалить образование вне зависимости от его формы и размера. Это возможно благодаря наличию разных по форме насадок (петля, булава, нож, игла, нить) и индивидуальному подбору температуры воздействия (от 40 до 300 ℃). Имеет минимальные сроки реабилитации.
-              </div>
-              <div class="FAQ-ITEM-DROPDOWN-sub-img">
-                <img src="media/treatment/faq/co2_removal 1.png" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="FAQ-ITEM" style="height: inherit;">
-            <div class="FAQ-ITEM-TITLE" id="faq15">
-              <div class="FAQ-ITEM-TITLE-TEXT_sub">ХИМИЧЕСКОЕ УДАЛЕНИЕ</div>
-              
-              <img src="media/treatment/faq/plus.svg" class="FAQ-ITEM-TITLE-IMG closed">
-              
-            </div>
-            <div class="FAQ-ITEM-DROPDOWN" id="faq-body15">
-              <div class="FAQ-ITEM-DROPDOWN-sub-text">
-                Электрокоагуляция - метод воздействия на ткани, при котором высокочастотные электрические импульсы преобразуются в тепло. 
-                <br>
-                <br>
-                Метод применяют во всех сферах медицины, где проводятся операции или манипуляции: хирургия, колопроктология, гинекология, травматология, офтальмология, онкология, дерматовенерология и др.При работе с папилломами электрокоагуляция позволяет деликатно, с малой травматизацией, удалить образование вне зависимости от его формы и размера. Это возможно благодаря наличию разных по форме насадок (петля, булава, нож, игла, нить) и индивидуальному подбору температуры воздействия (от 40 до 300 ℃). Имеет минимальные сроки реабилитации.
-              </div>
-              <div class="FAQ-ITEM-DROPDOWN-sub-img">
-                <img src="media/treatment/faq/co2_removal 1.png" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="FAQ-ITEM" style="height: inherit;">
-            <div class="FAQ-ITEM-TITLE" id="faq16">
-              <div class="FAQ-ITEM-TITLE-TEXT_sub">ХИРУРГИЧЕСКОЕ УДАЛЕНИЕ</div>
-              
-              <img src="media/treatment/faq/plus.svg" class="FAQ-ITEM-TITLE-IMG closed">
-              
-            </div>
-            <div class="FAQ-ITEM-DROPDOWN" id="faq-body16">
-              <div class="FAQ-ITEM-DROPDOWN-sub-text">
-                Электрокоагуляция - метод воздействия на ткани, при котором высокочастотные электрические импульсы преобразуются в тепло. 
-                <br>
-                <br>
-                Метод применяют во всех сферах медицины, где проводятся операции или манипуляции: хирургия, колопроктология, гинекология, травматология, офтальмология, онкология, дерматовенерология и др.При работе с папилломами электрокоагуляция позволяет деликатно, с малой травматизацией, удалить образование вне зависимости от его формы и размера. Это возможно благодаря наличию разных по форме насадок (петля, булава, нож, игла, нить) и индивидуальному подбору температуры воздействия (от 40 до 300 ℃). Имеет минимальные сроки реабилитации.
-              </div>
-              <div class="FAQ-ITEM-DROPDOWN-sub-img">
-                <img src="media/treatment/faq/co2_removal 1.png" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="FAQ-ITEM" style="height: inherit;">
-            <div class="FAQ-ITEM-TITLE" id="faq17">
-              <div class="FAQ-ITEM-TITLE-TEXT_sub">МЕХАНИЧЕСКОЕ УДАЛЕНИЕ</div>
-              
-              <img src="media/treatment/faq/plus.svg" class="FAQ-ITEM-TITLE-IMG closed">
-              
-            </div>
-            <div class="FAQ-ITEM-DROPDOWN" id="faq-body17">
-              <div class="FAQ-ITEM-DROPDOWN-sub-text">
-                Электрокоагуляция - метод воздействия на ткани, при котором высокочастотные электрические импульсы преобразуются в тепло. 
-                <br>
-                <br>
-                Метод применяют во всех сферах медицины, где проводятся операции или манипуляции: хирургия, колопроктология, гинекология, травматология, офтальмология, онкология, дерматовенерология и др.При работе с папилломами электрокоагуляция позволяет деликатно, с малой травматизацией, удалить образование вне зависимости от его формы и размера. Это возможно благодаря наличию разных по форме насадок (петля, булава, нож, игла, нить) и индивидуальному подбору температуры воздействия (от 40 до 300 ℃). Имеет минимальные сроки реабилитации.
-              </div>
-              <div class="FAQ-ITEM-DROPDOWN-sub-img">
-                <img src="media/treatment/faq/co2_removal 1.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <div class="FAQ-ITEM" style="height: inherit;">
-        <div class="FAQ-ITEM-TITLE" id="faq2">
-          <div class="FAQ-ITEM-TITLE-TEXT ACC-4-MOB">КАКОЙ МЕТОД УДАЛЕНИЯ ВЫБРАТЬ?</div>
-          
-          <img src="media/treatment/faq/arrow_medium.svg" class="FAQ-ITEM-TITLE-IMG closed">
-          
-        </div>
-        <div class="FAQ-ITEM-DROPDOWN" id="faq-body2">
-          <div class="methods">
-            <div class="methods-l">
-              <div class="methods-l__head">
-                <div class="methods-l__head_top">
-                  МЕТОД УДАЛЕНИЯ
-                </div>
-                <div class="methods-l__head_bottom">
-                  ПО ПРЕДПОЧТИТЕЛЬНОСТИ
-                </div>
-              </div>
-              <div class="methods-l__body">
-                <div class="methods-l__body_item">
-                  электрокоагуляция
-                </div>
-                <div class="methods-l__body_item methods-l__body_item_twostring">
-                  электро-радиоволновой
-                </div>
-                <div class="methods-l__body_item">
-                  ЛАЗЕР (СО2)
-                </div>
-                <div class="methods-l__body_item">
-                  ЛАЗЕР (ЭРБИЕВЫЙ)
-                </div>
-                <div class="methods-l__body_item methods-l__body_item_twostring">
-                  ХИРУРГИЧЕСКОЕ ИССЕЧЕНИЕ
-                </div>
-                <div class="methods-l__body_item">
-                  КРИОДЕСТРУКЦИЯ
-                </div>
-                <div class="methods-l__body_item">
-                  МЕХАНИЧЕСКИЙ
-                </div>
-                <div class="methods-l__body_item">
-                  ХИМИЧЕСКИЙ
-                </div>
-              </div>
-            </div>
-            <div class="methods-r" id="counter" data-faq-number="1">
-              <div class="methods-r__head">
-                <div class="methods-r__head_top" data-slide-number-faq="1" data-visible="true">
-                  ЭФФЕКТИВНОСТЬ
-                </div>
-                <div class="methods-r__head_top" data-slide-number-faq="2" data-visible="false">
-                  БОЛЕЗНЕНОСТЬ С АНЕСТЕЗИЕЙ
-                </div>
-                <div class="methods-r__head_top" data-slide-number-faq="3" data-visible="false">
-                  СРЕДНИЙ СРОК РЕАБИЛИТАЦИИ
-                </div>
-                <div class="methods-r__head_top" data-slide-number-faq="4" data-visible="false">
-                  ВЕРОЯТНОСТЬ РУБЦЕВАНИЯ
-                </div>
-                <div class="methods-r__head_top" data-slide-number-faq="5" data-visible="false">
-                  ВЕРОЯТНОСТЬ РЕЦИДИВА
-                </div>
-                <div class="methods-r__head_top" data-slide-number-faq="6" data-visible="false">
-                  ВОЗМОЖНОСТЬ УДАЛЕНИЯ ПАПИЛЛОМ НА ВЕКАХ
-                </div>
-                <div class="methods-r__head__buttons">
-                  <img src="media/treatment/faq/arrow_medium.svg" alt="" class="methods-r__head__buttons_f" id="f">
-                  <img src="media/treatment/faq/arrow_medium.svg" alt="" class="methods-r__head__buttons_b" id="b">
-                  
-                </div>
-              </div>
-              <div class="methods-r__body slide-faq" data-slide-number-faq="1" data-visible="true">
-                <div class="methods-r__body_item">
-                  100%
-                </div>
-                <div class="methods-r__body_item_2 methods-l__body_item_twostring">
-                  100%
-                </div>
-                <div class="methods-r__body_item">
-                  100%
-                </div>
-                <div class="methods-r__body_item">
-                  100%
-                </div>
-                <div class=" methods-r__body_item_2 methods-l__body_item_twostring">
-                  100%
-                </div>
-                <div class="methods-r__body_item">
-                  50%
-                </div>
-                <div class="methods-r__body_item">
-                  10%
-                </div>
-                <div class="methods-r__body_item">
-                  непредсказуема
-                </div>
-              </div>
-              <div class="methods-r__body slide-faq" data-slide-number-faq="2" data-visible="false">
-                <div class="methods-r__body_item">
-                  ОТСУТСТВУЕТ
-                </div>
-                <div class="methods-r__body_item_2">
-                  ОТСУТСТВУЕТ
-                </div>
-                <div class="methods-r__body_item">
-                  НЕЗНАЧИТЕЛЬНАЯ
-                </div>
-                <div class="methods-r__body_item">
-                  НЕЗНАЧИТЕЛЬНАЯ
-                </div>
-                <div class=" methods-r__body_item_2">
-                  ОТСУТСТВУЕТ
-                </div>
-                <div class="methods-r__body_item">
-                  НЕЗНАЧИТЕЛЬНАЯ
-                </div>
-                <div class="methods-r__body_item">
-                  ОТСУТСТВУЕТ
-                </div>
-                <div class="methods-r__body_item">
-                  НЕ ПРИМЕНЯЕТСЯ
-                </div>
-              </div>
-              <div class="methods-r__body slide-faq" data-slide-number-faq="3" data-visible="false">
-                <div class="methods-r__body_item">
-                  7–14 ДНЕЙ
-                </div>
-                <div class="methods-r__body_item_2">
-                  7–14 ДНЕЙ
-                </div>
-                <div class="methods-r__body_item">
-                  7–14 ДНЕЙ
-                </div>
-                <div class="methods-r__body_item">
-                  7–14 ДНЕЙ
-                </div>
-                <div class=" methods-r__body_item_2">
-                  7–14 ДНЕЙ
-                </div>
-                <div class="methods-r__body_item">
-                  14–21 ДНЕЙ
-                </div>
-                <div class="methods-r__body_item">
-                  3–7 ДНЕЙ
-                </div>
-                <div class="methods-r__body_item">
-                  28–90 ДНЕЙ
-                </div>
-              </div>
-              <div class="methods-r__body slide-faq" data-slide-number-faq="4" data-visible="false">
-                <div class="methods-r__body_item">
-                  НИЗКАЯ
-                </div>
-                <div class="methods-r__body_item_2">
-                  НИЗКАЯ
-                </div>
-                <div class="methods-r__body_item">
-                  НИЗКАЯ
-                </div>
-                <div class="methods-r__body_item">
-                  НИЗКАЯ
-                </div>
-                <div class=" methods-r__body_item_2">
-                  СРЕДНЯЯ
-                </div>
-                <div class="methods-r__body_item">
-                  НИЗКАЯ
-                </div>
-                <div class="methods-r__body_item">
-                  НИЗКАЯ
-                </div>
-                <div class="methods-r__body_item">
-                  ВЫСОКАЯ
-                </div>
-              </div>
-              <div class="methods-r__body slide-faq" data-slide-number-faq="5" data-visible="false">
-                <div class="methods-r__body_item">
-                  НИЗКАЯ
-                </div>
-                <div class="methods-r__body_item_2">
-                  НИЗКАЯ
-                </div>
-                <div class="methods-r__body_item">
-                  НИЗКАЯ
-                </div>
-                <div class="methods-r__body_item">
-                  НИЗКАЯ
-                </div>
-                <div class=" methods-r__body_item_2">
-                  НИЗКАЯ
-                </div>
-                <div class="methods-r__body_item">
-                  СРЕДНЯЯ
-                </div>
-                <div class="methods-r__body_item">
-                  ВЫСОКАЯ
-                </div>
-                <div class="methods-r__body_item">
-                  НЕПРЕДСКАЗУЕМАЯ
-                </div>
-              </div>
-              <div class="methods-r__body slide-faq" data-slide-number-faq="6" data-visible="false">
-                <div class="methods-r__body_item">
-                  ДА
-                </div>
-                <div class="methods-r__body_item_2">
-                  ДА
-                </div>
-                <div class="methods-r__body_item">
-                  НЕТ
-                </div>
-                <div class="methods-r__body_item">
-                  НЕТ
-                </div>
-                <div class=" methods-r__body_item_2">
-                  НЕТ
-                </div>
-                <div class="methods-r__body_item">
-                  НЕТ
-                </div>
-                <div class="methods-r__body_item">
-                  НЕТ
-                </div>
-                <div class="methods-r__body_item">
-                  НЕТ
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="FAQ-ITEM" style="height: inherit;">
-        <div class="FAQ-ITEM-TITLE" id="faq3">
-          <div class="FAQ-ITEM-TITLE-TEXT ACC-4-MOB">ЧТО БУДЕТ, ЕСЛИ ОТОРВАТЬ ПАПИЛЛОМУ САМОСТОЯТЕЛЬНО?</div>
-          
-          <img src="media/treatment/faq/arrow_medium.svg" class="FAQ-ITEM-TITLE-IMG closed">
-          
-        </div>
-        <div class="FAQ-ITEM-DROPDOWN" id="faq-body3">
-          Травмирование или самостоятельный отрыв папилломы может привести к неприятным ощущениям, таким как боль, жжение и зуд; кровотечению; появлению отека, воспаления; выделению гнойных и сукровичных выделений при присоединении вторичной инфекции в рану; образованию рубчика и шрама
-        </div>
-      </div>
-      <div class="FAQ-ITEM" style="height: inherit;">
-        <div class="FAQ-ITEM-TITLE" id="faq4">
-          <div class="FAQ-ITEM-TITLE-TEXT ACC-4-MOB">ЧЕМ РАЗЛИЧАЮТСЯ ИНЪЕКЦИОННАЯ И АППЛИКАЦИОННАЯ АНЕСТЕЗИЯ?</div>
-          
-          <img src="media/treatment/faq/arrow_medium.svg" class="FAQ-ITEM-TITLE-IMG closed">
-          
-        </div>
-        <div class="FAQ-ITEM-DROPDOWN" id="faq-body4">
-          
-        </div>
-      </div>
-      
-      <div class="FAQ-ITEM" style="height: inherit;">
-        <div class="FAQ-ITEM-TITLE" id="faq5">
-          <div class="FAQ-ITEM-TITLE-TEXT ACC-4-MOB">ЧЕМ ОБРАБАТЫВАТЬ КОЖУ ПОСЛЕ УДАЛЕНИЯ ПАПИЛЛОМЫ?</div>
-          
-          <img src="media/treatment/faq/arrow_medium.svg" class="FAQ-ITEM-TITLE-IMG closed">
-          
-        </div>
-        <div class="FAQ-ITEM-DROPDOWN" id="faq-body5">
-          
-        </div>
-      </div>
-
-      <div class="FAQ-ITEM" style="height: inherit; border-bottom: 1px solid #000;">
-        <div class="FAQ-ITEM-TITLE" id="faq6">
-          <div class="FAQ-ITEM-TITLE-TEXT ACC-4-MOB">ПРЕИМУЩЕСТВА УДАЛЕНИЯ ПАПИЛЛОМ ЭЛЕКТРОКОАГУЛЯЦИЕЙ</div>
-          
-          <img src="media/treatment/faq/arrow_medium.svg" class="FAQ-ITEM-TITLE-IMG closed">
-          
-        </div>
-        <div class="FAQ-ITEM-DROPDOWN" id="faq-body6">
-          
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col  faq__bottom">
-        <div class="BUTTON-1-MOB">ЗАДАТЬ ВОПРОС</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container-sm feedback feedback_n d-flex flex-column">
-    <div class="row">
-      <div class="col  feedback__title_t H2-MOB">ОТЗЫВЫ ПАЦИЕНТОВ</div>
-    </div>
-    
-    <div class="slider-wrapper">
-      
-    <div class="feedback-slide d-flex flex-column justify-content-between" data-visible="true" data-slide-number="1">
-      <div class="row feedback-stars">
-        <div class="feedback-stars__img">
-          <img src="media/treatment/feedback/Stars.svg" alt="">
-        </div>
-        <div class="col feedback-stars__text">5 / 5 (7 отзывов)</div>
-      </div>  
-    <div class="row">
-      <div class="col feedback__text feedback__text_n align-self-center">
-        Действительно хорошая клиника. Обратился по вопросу удаления папиллом. Весь вопрос занял 45 минут.
-      </div>
-    </div>
-    <div class="row">
-      <div class="col feedback__source feedback__source_n text-end">
-        ЧИТАТЬ ИСТОЧНИК
-      </div>
-    </div>
-    <div class="feedback-items-wrapper">
-    <div class="row feedback-item">
-      <div class="col fw-medium feedback-item__title">
-        ДАТА
-      </div>
-      
-      <div class="row d-flex justify-content-between pe-0 feedback-item2">
-        <div class="col-10 align-self-start fw-medium feedback-item__subtitle">
-          15.05.2024
-        </div>
-        
-      </div>
-    </div>
-    <div class="row feedback-item">
-      <div class="col fw-medium feedback-item__title">
-        ПРОЦЕДУРА
-      </div>
-      
-      <div class="row d-flex justify-content-between pe-0 feedback-item2">
-        <div class="col-10 align-self-start fw-medium feedback-item__subtitle">
-          Консультация врача-косметолога
-        </div>
-        <img src="media/review/arrow_small.svg" alt="" class="col feedback-item__img align-self-start">
-      </div>
-    </div>
-    <div class="row feedback-item">
-      <div class="col fw-medium feedback-item__title">
-        ВРАЧ
-      </div>
-      <div class="row pe-0 feedback-item2">
-        <div class="col-10 feedback-item__subtitle">
-        Булавина М.С.
-        </div>
-        <img src="media/review/arrow_small.svg" alt="" class="col-2 feedback-item__img">
-      </div>
-    </div>
-    </div>
-    </div>
-    <div class="feedback-slide d-flex flex-column justify-content-between invis" data-visible="false" data-slide-number="2">
-      <div class="row feedback-stars">
-        <div class="feedback-stars__img">
-          <img src="media/treatment/feedback/Stars.svg" alt="">
-        </div>
-        <div class="col feedback-stars__text">5 / 5 (7 отзывов)</div>
-      </div>
+    <div class="results container-sm">
       <div class="row">
-        <div class="col feedback__text feedback__text_n">
-          Профессионально, безболезненно, отлично!
-          Удаляла у Марии Сергеевны папилломы. Было комфортно...
-        </div>
+        <div class="col results__title h2-mob photo__before">РЕЗУЛЬТАТЫ</div>
       </div>
-      <div class="row">
-        <div class="col feedback__source feedback__source_n text-end">
-          ЧИТАТЬ ИСТОЧНИК
-        </div>
-      </div>
-      <div class="feedback-items-wrapper">
-      <div class="row feedback-item">
-        <div class="col fw-medium feedback-item__title">
-          ДАТА
-        </div>
-        
-        <div class="row d-flex justify-content-between pe-0 feedback-item2">
-          <div class="col-10 align-self-start fw-medium feedback-item__subtitle">
-            15.05.2024
+      <div class="slider-wrapper" data-procedure-1="visible">
+        <div
+          class="results-slide_top d-flex flex-column justify-content-between"
+          data-visible="true"
+          data-slide-number-result-1="1"
+        >
+          <div class="row results-before-after-wrapper">
+            <div id="twentytwentycontainer11" class="results-photos-wrapper">
+              <img src="media/twentytwenty/11.png" alt="" />
+              <img src="media/twentytwenty/12.png" alt="" />
+            </div>
+            <div class="results-photos-overlay">
+              <div class="results-photos-overlay__top">&copy;MEDICRIS</div>
+              <div class="results-photos-overlay__bottom">
+                Удаление папилломы на лице /эрбиевый лазер/
+              </div>
+            </div>
           </div>
-          
         </div>
-      </div>
-      <div class="row feedback-item">
-        <div class="col fw-medium feedback-item__title">
-          ПРОЦЕДУРА
-        </div>
-        
-        <div class="row d-flex justify-content-between pe-0 feedback-item2">
-          <div class="col-10 align-self-start feedback-item__subtitle">
-            Удаление папиллом электрокоагуляцией
+        <div
+          class="results-slide_top d-flex flex-column justify-content-between"
+          data-visible="false"
+          data-slide-number-result-1="2"
+        >
+          <div class="row results-before-after-wrapper">
+            <div id="twentytwentycontainer12" class="results-photos-wrapper">
+              <img src="media/twentytwenty/21.png" alt="" />
+              <img src="media/twentytwenty/22.png" alt="" />
+            </div>
+            <div class="results-photos-overlay">
+              <div class="results-photos-overlay__top">&copy;MEDICRIS</div>
+              <div class="results-photos-overlay__bottom">
+                Удаление папилломы на лице /эрбиевый лазер/
+              </div>
+            </div>
           </div>
-          <img src="media/review/arrow_small.svg" alt="" class="col feedback-item__img align-self-start">
         </div>
-      </div>
-      <div class="row feedback-item">
-        <div class="col fw-medium feedback-item__title">
-          ВРАЧ
-        </div>
-        <div class="row pe-0 feedback-item2">
-          <div class="col-10 feedback-item__subtitle">
-          Булавина М.С.
+        <div
+          class="row results__scroller text-center align-self-center justify-items-end d-flex flex-row justify-content-around"
+        >
+          <img
+            src="media/review/Arrow_black.svg"
+            alt=""
+            class="col results__scroller__l"
+            id="l_r_1"
+          />
+          <div
+            class="col results__scroller__text h3-list-mob"
+            id="t_r_1"
+            data-slide-result-1="1"
+            data-slide-result-2="1"
+          >
+            1 / 2
           </div>
-          <img src="media/review/arrow_small.svg" alt="" class="col-2 feedback-item__img">
+          <img
+            src="media/review/Arrow_black.svg"
+            alt=""
+            class="col results__scroller__r"
+            id="r_r_1"
+          />
         </div>
-      </div>
-    </div>
-    </div>
-    <div class="feedback-slide d-flex flex-column justify-content-between invis" data-visible="false" data-slide-number="3">
-      <div class="row feedback-stars">
-        <div class="feedback-stars__img">
-          <img src="media/treatment/feedback/Stars.svg" alt="">
-        </div>
-        <div class="col feedback-stars__text">5 / 5 (7 отзывов)</div>
-      </div>
-      <div class="row">
-        <div class="col feedback__text feedback__text_n">
-          Действительно хорошая клиника. Обратился по вопросу удаления папиллом. Весь вопрос занял 45 минут.
-        </div>
-      </div>
-      <div class="row">
-        <div class="col feedback__source feedback__source_n text-end">
-          ЧИТАТЬ ИСТОЧНИК
-        </div>
-      </div>
-      <div class="feedback-items-wrapper">
-      <div class="row feedback-item">
-        <div class="col fw-medium feedback-item__title">
-          ДАТА
-        </div>
-        
-        <div class="row d-flex justify-content-between pe-0 feedback-item2">
-          <div class="col-10 align-self-start fw-medium feedback-item__subtitle">
-            15.05.2024
-          </div>
-          
-        </div>
-      </div>
-      <div class="row feedback-item">
-        <div class="col feedback-item__title">
-          ПРОЦЕДУРА
-        </div>
-        
-        <div class="row d-flex justify-content-between pe-0 feedback-item2">
-          <div class="col-10 align-self-start feedback-item__subtitle">
-            Удаление папиллом эрбиевым лазером
-          </div>
-          <img src="media/review/arrow_small.svg" alt="" class="col feedback-item__img align-self-start">
-        </div>
-      </div>
-      <div class="row feedback-item">
-        <div class="col feedback-item__title">
-          ВРАЧ
-        </div>
-        <div class="row pe-0 feedback-item2">
-          <div class="col-10 feedback-item__subtitle">
-          Забродина В.В.
-          </div>
-          <img src="media/review/arrow_small.svg" alt="" class="col-2 feedback-item__img">
-        </div>
-      </div>
-    </div>
-    </div>
-    </div>
-    <div class="row feedback__scroller  text-center align-self-center justify-items-end d-flex flex-row justify-content-around">
-      <img src="media/review/Arrow_black.svg" alt="" class="col feedback__scroller__l" id="l_f">
-      <div class="col feedback__scroller__text" id="t_f" data-number="1"></div>
-      <img src="media/review/Arrow_black.svg" alt="" class="col feedback__scroller__r" id="r_f">
-    </div>
-  </div>
-  </div>
 
-  <div class="results container-sm">
-    <div class="row">
-      <div class="col results__title H2-MOB photo__before">РЕЗУЛЬТАТЫ</div>
-    </div>
-    <div class="slider-wrapper " data-procedure-1="visible" >
-      <div class="results-slide_top d-flex flex-column justify-content-between" data-visible="true" data-slide-number-result-1="1">
-      <div class="row">
-        <div id="twentytwentycontainer11" class="results-photos-wrapper">
-          <img src="media/twentytwenty/11.png" alt="">
-          <img src="media/twentytwenty/12.png" alt="">
-        </div>
-      </div>
-      </div>
-      <div class="results-slide_top d-flex flex-column justify-content-between" data-visible="false" data-slide-number-result-1="2">
-        <div class="row">
-          <div id="twentytwentycontainer12" class="results-photos-wrapper">
-            <img src="media/twentytwenty/21.png" alt="">
-            <img src="media/twentytwenty/22.png" alt="">
-          </div>
-        </div>
-        </div>
-      <div class="row results__scroller  text-center align-self-center justify-items-end d-flex flex-row justify-content-around">
-        <img src="media/review/Arrow_black.svg" alt="" class="col results__scroller__l" id="l_r_1">
-        <div 
-          class="col results__scroller__text H3-LIST-MOB" 
-          id="t_r_1" 
-          data-slide-result-1="1"
-          data-slide-result-2="1">1 / 2</div>
-        <img src="media/review/Arrow_black.svg" alt="" class="col results__scroller__r" id="r_r_1">
-      </div>
+        <div
+          class="row results-item results-slide_bottom"
+          data-visible="true"
+          data-slide-number-result-1="1"
+        >
+          <div class="col fw-medium results-item__title">ИНТЕРВАЛ</div>
 
-      <div class="row results-item results-slide_bottom" data-visible="true" data-slide-number-result-1="1">
-        <div class="col fw-medium results-item__title">
-          ИНТЕРВАЛ
-        </div>
-        
-        <div class="row d-flex justify-content-between pe-0 results-item2">
-          <div class="col align-self-start fw-medium results-item__subtitle">
-            14 дней
+          <div class="row d-flex justify-content-between pe-0 results-item2">
+            <div class="col align-self-start fw-medium results-item__subtitle">
+              14 дней
+            </div>
+          </div>
+
+          <div class="col fw-medium results-item__title">ВРАЧ</div>
+
+          <div class="row pe-0 results-item2">
+            <div class="col align-self-start fw-medium results-item__subtitle">
+              Дерматолог-косметолог <br />Булавина М.С..
+            </div>
+            <img
+              src="media/treatment/results/arrow small.svg"
+              alt=""
+              class="col results-item__img align-self-start"
+            />
           </div>
         </div>
-      
-        <div class="col fw-medium results-item__title">
-          ВРАЧ
-        </div>
-        
-        <div class="row pe-0 results-item2">
-          <div class="col align-self-start fw-medium results-item__subtitle">
-            Дерматолог-косметолог <br>Булавина М.С..
+        <div
+          class="row results-item results-slide_bottom"
+          data-visible="false"
+          data-slide-number-result-1="2"
+        >
+          <div class="col fw-medium results-item__title">ИНТЕРВАЛ</div>
+
+          <div class="row d-flex justify-content-between pe-0 results-item2">
+            <div class="col align-self-start fw-medium results-item__subtitle">
+              1 месяц
+            </div>
           </div>
-          <img src="media/treatment/results/arrow small.svg" alt="" class="col results-item__img align-self-start">
+
+          <div class="col fw-medium results-item__title">ВРАЧ</div>
+
+          <div class="row pe-0 results-item2">
+            <div class="col align-self-start fw-medium results-item__subtitle">
+              Дерматолог-косметолог<br />Забродина В.В.
+            </div>
+            <img
+              src="media/treatment/results/arrow small.svg"
+              alt=""
+              class="col results-item__img align-self-start"
+            />
+          </div>
         </div>
       </div>
-      <div class="row results-item results-slide_bottom" data-visible="false" data-slide-number-result-1="2">
-        <div class="col fw-medium results-item__title">
-          ИНТЕРВАЛ
-        </div>
-        
-        <div class="row d-flex justify-content-between pe-0 results-item2">
-          <div class="col align-self-start fw-medium results-item__subtitle">
-            1 месяц
+      <div class="slider-wrapper" data-procedure-2="invisible">
+        <div
+          class="results-slide_top d-flex flex-column justify-content-between"
+          data-visible="true"
+          data-slide-number-result-2="1"
+        >
+          <div class="row results-before-after-wrapper">
+            <div id="twentytwentycontainer21" class="results-photos-wrapper">
+              <img
+                src="media/twentytwenty/11.png"
+                alt=""
+                class="photo__before"
+              />
+              <img
+                src="media/twentytwenty/12.png"
+                class="photo__after"
+                alt=""
+              />
+            </div>
+            <div class="results-photos-overlay">
+              <div class="results-photos-overlay__top">&copy;MEDICRIS</div>
+              <div class="results-photos-overlay__bottom">
+                Удаление папилломы на лице /эрбиевый лазер/
+              </div>
+            </div>
           </div>
         </div>
-      
-        <div class="col fw-medium results-item__title">
-          ВРАЧ
-        </div>
-        
-        <div class="row pe-0 results-item2">
-          <div class="col align-self-start fw-medium results-item__subtitle">
-            Дерматолог-косметолог<br>Забродина В.В.
-          </div>
-          <img src="media/treatment/results/arrow small.svg" alt="" class="col results-item__img align-self-start">
-        </div>
-      </div>
-      
-    </div>
-    <div class="slider-wrapper" data-procedure-2="invisible">
-      <div class="results-slide_top d-flex flex-column justify-content-between" data-visible="true" data-slide-number-result-2="1">
-        <div class="row">
-          <div id="twentytwentycontainer21" class="results-photos-wrapper">
-            <img src="media/twentytwenty/11.png" alt="" class="photo__before">
-            <img src="media/twentytwenty/12.png" class="photo__after" alt="">
-          </div>
-        </div>
-        </div>
-        <div class="results-slide_top d-flex flex-column justify-content-between" data-visible="false" data-slide-number-result-2="2">
-          <div class="row">
+        <div
+          class="results-slide_top d-flex flex-column justify-content-between"
+          data-visible="false"
+          data-slide-number-result-2="2"
+        >
+          <div class="row results-before-after-wrapper">
             <div id="twentytwentycontainer22" class="results-photos-wrapper">
-              <img src="media/twentytwenty/21.png" alt="">
-              <img src="media/twentytwenty/22.png" alt="">
+              <img src="media/twentytwenty/21.png" alt="" />
+              <img src="media/twentytwenty/22.png" alt="" />
+            </div>
+            <div class="results-photos-overlay">
+              <div class="results-photos-overlay__top">&copy;MEDICRIS</div>
+              <div class="results-photos-overlay__bottom">
+                Удаление папилломы на лице /эрбиевый лазер/
+              </div>
             </div>
           </div>
+        </div>
+
+        <div
+          class="row results__scroller text-center align-self-center justify-items-end d-flex flex-row justify-content-around"
+        >
+          <img
+            src="media/review/Arrow_black.svg"
+            alt=""
+            class="col results__scroller__l"
+            id="l_r_2"
+          />
+          <div
+            class="col results__scroller__text h3-list-mob"
+            id="t_r_2"
+            data-slide-result-2="1"
+          ></div>
+          <img
+            src="media/review/Arrow_black.svg"
+            alt=""
+            class="col results__scroller__r"
+            id="r_r_2"
+          />
+        </div>
+
+        <div
+          class="row results-item results-slide_bottom"
+          data-visible="true"
+          data-slide-number-result-2="1"
+        >
+          <div class="col fw-medium results-item__title">ИНТЕРВАЛ</div>
+
+          <div class="row d-flex justify-content-between pe-0 results-item2">
+            <div class="col align-self-start fw-medium results-item__subtitle">
+              14 дней
+            </div>
           </div>
 
-          <div class="row results__scroller  text-center align-self-center justify-items-end d-flex flex-row justify-content-around">
-            <img src="media/review/Arrow_black.svg" alt="" class="col results__scroller__l" id="l_r_2">
-            <div 
-              class="col results__scroller__text H3-LIST-MOB" 
-              id="t_r_2" 
-            
-              data-slide-result-2="1"></div>
-            <img src="media/review/Arrow_black.svg" alt="" class="col results__scroller__r" id="r_r_2">
+          <div class="col fw-medium results-item__title">ВРАЧ</div>
+
+          <div class="row pe-0 results-item2">
+            <div class="col align-self-start fw-medium results-item__subtitle">
+              Дерматолог-косметолог <br />Булавина М.С..
+            </div>
+            <img
+              src="media/treatment/results/arrow small.svg"
+              alt=""
+              class="col results-item__img align-self-start"
+            />
+          </div>
+        </div>
+        <div
+          class="row results-item results-slide_bottom"
+          data-visible="false"
+          data-slide-number-result-2="2"
+        >
+          <div class="col fw-medium results-item__title">ИНТЕРВАЛ</div>
+
+          <div class="row d-flex justify-content-between pe-0 results-item2">
+            <div class="col align-self-start fw-medium results-item__subtitle">
+              1 месяц
+            </div>
           </div>
 
-      <div class="row results-item results-slide_bottom" data-visible="true" data-slide-number-result-2="1">
-        <div class="col fw-medium results-item__title">
-          ИНТЕРВАЛ
-        </div>
-        
-        <div class="row d-flex justify-content-between pe-0 results-item2">
-          <div class="col align-self-start fw-medium results-item__subtitle">
-            14 дней
-          </div>
-        </div>
-      
-        <div class="col fw-medium results-item__title">
-          ВРАЧ
-        </div>
-        
-        <div class="row pe-0 results-item2">
-          <div class="col align-self-start fw-medium results-item__subtitle">
-            Дерматолог-косметолог <br>Булавина М.С..
-          </div>
-          <img src="media/treatment/results/arrow small.svg" alt="" class="col results-item__img align-self-start">
-        </div>
-      </div>
-      <div class="row results-item results-slide_bottom" data-visible="false" data-slide-number-result-2="2">
-        <div class="col fw-medium results-item__title">
-          ИНТЕРВАЛ
-        </div>
-        
-        <div class="row d-flex justify-content-between pe-0 results-item2">
-          <div class="col align-self-start fw-medium results-item__subtitle">
-            1 месяц
-          </div>
-        </div>
-      
-        <div class="col fw-medium results-item__title">
-          ВРАЧ
-        </div>
-        
-        <div class="row pe-0 results-item2">
-          <div class="col align-self-start fw-medium results-item__subtitle">
-            Дерматолог-косметолог<br>Забродина В.В.
-          </div>
-          <img src="media/treatment/results/arrow small.svg" alt="" class="col results-item__img align-self-start">
-        </div>
-      </div>
-      </div>
-      
-      
-      
-    </div>
-  
+          <div class="col fw-medium results-item__title">ВРАЧ</div>
 
-  <div class="treatment-cost container-sm">
-    <div class="row">
-      <div class="col H2-MOB treatment-cost__title">СТОИМОСТЬ ПРОЦЕДУРЫ </div>
-    </div>
-    <div class="row">
-      <div class="col ACC-6-MOB treatment-cost__text">
-        Текст про текущие акции с линком. Текст про текущие акции. Текст про текущие акции. Текст про текущие акции.
-      </div>
-    </div>
-    <div class="PRICE-SECTION treatment-cost-table">
-      <div class="PRICE-SECTION-HEADER">
-        <div class="PRICE-SECTION-HEADER__top H4-MOB">
-          КОНСУЛЬТАЦИЯ
-        </div>
-        <div class="PRICE-SECTION-HEADER__bottom">
-          <div class="PRICE-SECTION-HEADER__bottom_name">
-            НАИМЕНОВАНИЕ
-          </div>
-          <div class="PRICE-SECTION-HEADER__bottom-price">
-            <div class="PRICE-SECTION-HEADER__bottom-price_base">
-              ЦЕНА
+          <div class="row pe-0 results-item2">
+            <div class="col align-self-start fw-medium results-item__subtitle">
+              Дерматолог-косметолог<br />Забродина В.В.
             </div>
-            <div class="PRICE-SECTION-HEADER__bottom-price_sale">
-              КЛУБНАЯ <br>ЦЕНА 
-            </div>
-          </div>
-          
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            Приём (осмотр, консультация) врача-дерматовенеролога первичный
-          </div>
-          <div class="PRICE-SECTION-ITEM__col-l_desc">
-            При оплате процедуры в день приёма он будет бесплатным
-          </div>
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              2 500 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              1 250 ₽
-            </div>
-          </div>
-          <div class="PRICE-SECTION-ITEM__col-r_zapis BUTTON-1-MOB">
-            ЗАПИСАТЬСЯ
-          </div>
-          <div class="PRICE-SECTION-ITEM__col-r_oplata BUTTON-1-MOB">
-            ОПЛАТИТЬ
-          </div>
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            Приём (осмотр, консультация) врача-дерматовенеролога повторный
-          </div>
-          <div class="PRICE-SECTION-ITEM__col-l_desc">
-            При оплате процедуры в день приёма он будет бесплатным
-          </div>
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              2 500 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              ? ₽
-            </div>
-          </div>
-          <div class="PRICE-SECTION-ITEM__col-r_zapis BUTTON-1-MOB">
-            ЗАПИСАТЬСЯ
-          </div>
-          <div class="PRICE-SECTION-ITEM__col-r_oplata BUTTON-1-MOB">
-            ОПЛАТИТЬ
+            <img
+              src="media/treatment/results/arrow small.svg"
+              alt=""
+              class="col results-item__img align-self-start"
+            />
           </div>
         </div>
       </div>
     </div>
-    <div class="PRICE-SECTION procedure-price-table">
-      <div class="PRICE-SECTION-HEADER">
-        <div class="PRICE-SECTION-HEADER__top H4-MOB">
-          АНЕСТЕЗИЯ
-        </div>
-        <div class="PRICE-SECTION-HEADER__bottom">
-          <div class="PRICE-SECTION-HEADER__bottom_name">
-            НАИМЕНОВАНИЕ
-          </div>
-          <div class="PRICE-SECTION-HEADER__bottom-price">
-            <div class="PRICE-SECTION-HEADER__bottom-price_base">
-              ЦЕНА
-            </div>
-            <div class="PRICE-SECTION-HEADER__bottom-price_sale">
-              КЛУБНАЯ <br>ЦЕНА 
-            </div>
-          </div>
-          
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            АППЛИКАЦИОННАЯ <br> АНЕСТЕЗИЯ (АКРИОЛ) — 1 ЭЛЕМЕНТ
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              250 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              200 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            АППЛИКАЦИОННАЯ <br> АНЕСТЕЗИЯ (АКРИОЛ) — ОБЛАСТЬ &lt; 5 СМ3
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              500 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              400 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            АППЛИКАЦИОННАЯ <br> АНЕСТЕЗИЯ (АКРИОЛ) — ОБЛАСТЬ > 5 СМ3
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              1 000 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              800 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            ИНЪЕКЦИОННАЯ АНЕСТЕЗИЯ (НОВОКАИН) — 1 ЭЛЕМЕНТ
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              500 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              400 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            ИНЪЕКЦИОННАЯ АНЕСТЕЗИЯ (ЛИДОКАИН) — 1 ЭЛЕМЕНТ
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              500 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              400 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            ИНЪЕКЦИОННАЯ АНЕСТЕЗИЯ (АРТИКАИН) — 1 ЭЛЕМЕНТ
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              700 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              560 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-    </div>
-    <div class="PRICE-SECTION procedure-price-table" data-procedure-1="visible">
-      <div class="PRICE-SECTION-HEADER">
-        <div class="PRICE-SECTION-HEADER__top H4-MOB">
-          УДАЛЕНИЕ ПАПИЛЛОМ  /ЭЛЕКТРОКОАГУЛЯЦИЯ/
-        </div>
-        <div class="PRICE-SECTION-HEADER__bottom">
-          <div class="PRICE-SECTION-HEADER__bottom_name">
-            НАИМЕНОВАНИЕ
-          </div>
-          <div class="PRICE-SECTION-HEADER__bottom-price">
-            <div class="PRICE-SECTION-HEADER__bottom-price_base">
-              ЦЕНА
-            </div>
-            <div class="PRICE-SECTION-HEADER__bottom-price_sale">
-              КЛУБНАЯ <br>ЦЕНА 
-            </div>
-          </div>
-          
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            ПАПИЛЛОМА &lt; 2 ММ
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              500 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              440 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            ПАПИЛЛОМА 3–5 ММ
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              1000 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              800 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            ПАПИЛЛОМА 6–10 ММ
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              2 000 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              1 760 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            ПАПИЛЛОМА 11–20 ММ
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              3 000 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              2 640 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            РАСПОЛОЖЕНИЕ<br>ПАПИЛЛОМЫ НА<br>ПОДВИЖНОМ ВЕКЕ
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              + 1000 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              + 880 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            РАСПОЛОЖЕНИЕ <br>ПАПИЛЛОМЫ НА РЕСНИЧНОМ КРАЕ
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              + 5 000 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              +4 400 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-    </div>
-    <div class="PRICE-SECTION procedure-price-table" data-procedure-2="invisible">
-      <div class="PRICE-SECTION-HEADER">
-        <div class="PRICE-SECTION-HEADER__top H4-MOB">
-          УДАЛЕНИЕ ПАПИЛЛОМ  /СО2 И ЭРБИЕВЫЙ ЛАЗЕР/
-        </div>
-        <div class="PRICE-SECTION-HEADER__bottom">
-          <div class="PRICE-SECTION-HEADER__bottom_name">
-            НАИМЕНОВАНИЕ
-          </div>
-          <div class="PRICE-SECTION-HEADER__bottom-price">
-            <div class="PRICE-SECTION-HEADER__bottom-price_base">
-              ЦЕНА
-            </div>
-            <div class="PRICE-SECTION-HEADER__bottom-price_sale">
-              КЛУБНАЯ <br>ЦЕНА 
-            </div>
-          </div>
-          
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            ПАПИЛЛОМА &lt; 2 ММ
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              1 000 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              880 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            ПАПИЛЛОМА 3–5 ММ
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              1 500 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              1 320 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            ПАПИЛЛОМА 6–10 ММ
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              2 500 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              2 200 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            ПАПИЛЛОМА 11–20 ММ
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              3 500 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              3 080 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            РАСПОЛОЖЕНИЕ<br>ПАПИЛЛОМЫ НА<br>ПОДВИЖНОМ ВЕКЕ
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              + 1000 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              + 880 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-      <div class="PRICE-SECTION-ITEM">
-        <div class="PRICE-SECTION-ITEM__col-l">
-          <div class="PRICE-SECTION-ITEM__col-l_name LIST-2-MOB">
-            РАСПОЛОЖЕНИЕ <br>ПАПИЛЛОМЫ НА РЕСНИЧНОМ КРАЕ
-          </div>
-          
-        </div>
-        <div class="PRICE-SECTION-ITEM__col-r">
-          <div class="PRICE-SECTION-ITEM__col-r_price">
-            <div class="PRICE-SECTION-ITEM__col-r_price_l ">
-              + 5 000 ₽
-            </div>
-            <div class="PRICE-SECTION-ITEM__col-r_price_r">
-              + 4 400 ₽
-            </div>
-          </div>
-        
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="container-sm treatment-doctors">
-    <div class="row">
-      <div class="col treatment-doctors__title H2-MOB">
-        ПРОЦЕДУРУ ПРОВОДЯТ
+    <div class="treatment-cost container-sm">
+      <div class="row">
+        <div class="col h2-mob treatment-cost__title">СТОИМОСТЬ ПРОЦЕДУРЫ</div>
+      </div>
+      <div class="row">
+        <div class="col acc-6-mob treatment-cost__text">
+          Текст про текущие акции с линком. Текст про текущие акции. Текст про
+          текущие акции. Текст про текущие акции.
+        </div>
+      </div>
+      <div class="price-section treatment-cost-table">
+        <div class="price-section-header">
+          <div class="price-section-header__top h4-mob">КОНСУЛЬТАЦИЯ</div>
+          <div class="price-section-header__bottom">
+            <div class="price-section-header__bottom_name">НАИМЕНОВАНИЕ</div>
+            <div class="price-section-header__bottom-price">
+              <div class="price-section-header__bottom-price_base">ЦЕНА</div>
+              <div class="price-section-header__bottom-price_sale">
+                КЛУБНАЯ <br />ЦЕНА
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              Приём (осмотр, консультация) врача-дерматовенеролога первичный
+            </div>
+            <div class="price-section-item__col-l_desc">
+              При оплате процедуры в день приёма он будет бесплатным
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">2 500 ₽</div>
+              <div class="price-section-item__col-r_price_r">1 250 ₽</div>
+            </div>
+            <div class="price-section-item__col-r_zapis button-1-mob">
+              ЗАПИСАТЬСЯ
+            </div>
+            <div class="price-section-item__col-r_oplata button-1-mob">
+              ОПЛАТИТЬ
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              Приём (осмотр, консультация) врача-дерматовенеролога повторный
+            </div>
+            <div class="price-section-item__col-l_desc">
+              При оплате процедуры в день приёма он будет бесплатным
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">2 500 ₽</div>
+              <div class="price-section-item__col-r_price_r">? ₽</div>
+            </div>
+            <div class="price-section-item__col-r_zapis button-1-mob">
+              ЗАПИСАТЬСЯ
+            </div>
+            <div class="price-section-item__col-r_oplata button-1-mob">
+              ОПЛАТИТЬ
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="price-section procedure-price-table">
+        <div class="price-section-header">
+          <div class="price-section-header__top h4-mob">АНЕСТЕЗИЯ</div>
+          <div class="price-section-header__bottom">
+            <div class="price-section-header__bottom_name">НАИМЕНОВАНИЕ</div>
+            <div class="price-section-header__bottom-price">
+              <div class="price-section-header__bottom-price_base">ЦЕНА</div>
+              <div class="price-section-header__bottom-price_sale">
+                КЛУБНАЯ <br />ЦЕНА
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              АППЛИКАЦИОННАЯ <br />
+              АНЕСТЕЗИЯ (АКРИОЛ) — 1 ЭЛЕМЕНТ
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">250 ₽</div>
+              <div class="price-section-item__col-r_price_r">200 ₽</div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              АППЛИКАЦИОННАЯ <br />
+              АНЕСТЕЗИЯ (АКРИОЛ) — ОБЛАСТЬ &lt; 5 СМ3
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">500 ₽</div>
+              <div class="price-section-item__col-r_price_r">400 ₽</div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              АППЛИКАЦИОННАЯ <br />
+              АНЕСТЕЗИЯ (АКРИОЛ) — ОБЛАСТЬ > 5 СМ3
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">1 000 ₽</div>
+              <div class="price-section-item__col-r_price_r">800 ₽</div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              ИНЪЕКЦИОННАЯ АНЕСТЕЗИЯ (НОВОКАИН) — 1 ЭЛЕМЕНТ
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">500 ₽</div>
+              <div class="price-section-item__col-r_price_r">400 ₽</div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              ИНЪЕКЦИОННАЯ АНЕСТЕЗИЯ (ЛИДОКАИН) — 1 ЭЛЕМЕНТ
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">500 ₽</div>
+              <div class="price-section-item__col-r_price_r">400 ₽</div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              ИНЪЕКЦИОННАЯ АНЕСТЕЗИЯ (АРТИКАИН) — 1 ЭЛЕМЕНТ
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">700 ₽</div>
+              <div class="price-section-item__col-r_price_r">560 ₽</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="price-section procedure-price-table"
+        data-procedure-1="visible"
+      >
+        <div class="price-section-header">
+          <div class="price-section-header__top h4-mob">
+            УДАЛЕНИЕ ПАПИЛЛОМ /ЭЛЕКТРОКОАГУЛЯЦИЯ/
+          </div>
+          <div class="price-section-header__bottom">
+            <div class="price-section-header__bottom_name">НАИМЕНОВАНИЕ</div>
+            <div class="price-section-header__bottom-price">
+              <div class="price-section-header__bottom-price_base">ЦЕНА</div>
+              <div class="price-section-header__bottom-price_sale">
+                КЛУБНАЯ <br />ЦЕНА
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              ПАПИЛЛОМА &lt; 2 ММ
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">500 ₽</div>
+              <div class="price-section-item__col-r_price_r">440 ₽</div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              ПАПИЛЛОМА 3–5 ММ
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">1000 ₽</div>
+              <div class="price-section-item__col-r_price_r">800 ₽</div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              ПАПИЛЛОМА 6–10 ММ
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">2 000 ₽</div>
+              <div class="price-section-item__col-r_price_r">1 760 ₽</div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              ПАПИЛЛОМА 11–20 ММ
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">3 000 ₽</div>
+              <div class="price-section-item__col-r_price_r">2 640 ₽</div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              РАСПОЛОЖЕНИЕ<br />ПАПИЛЛОМЫ НА<br />ПОДВИЖНОМ ВЕКЕ
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">+ 1000 ₽</div>
+              <div class="price-section-item__col-r_price_r">+ 880 ₽</div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              РАСПОЛОЖЕНИЕ <br />ПАПИЛЛОМЫ НА РЕСНИЧНОМ КРАЕ
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">+ 5 000 ₽</div>
+              <div class="price-section-item__col-r_price_r">+4 400 ₽</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="price-section procedure-price-table"
+        data-procedure-2="invisible"
+      >
+        <div class="price-section-header">
+          <div class="price-section-header__top h4-mob">
+            УДАЛЕНИЕ ПАПИЛЛОМ /СО2 И ЭРБИЕВЫЙ ЛАЗЕР/
+          </div>
+          <div class="price-section-header__bottom">
+            <div class="price-section-header__bottom_name">НАИМЕНОВАНИЕ</div>
+            <div class="price-section-header__bottom-price">
+              <div class="price-section-header__bottom-price_base">ЦЕНА</div>
+              <div class="price-section-header__bottom-price_sale">
+                КЛУБНАЯ <br />ЦЕНА
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              ПАПИЛЛОМА &lt; 2 ММ
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">1 000 ₽</div>
+              <div class="price-section-item__col-r_price_r">880 ₽</div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              ПАПИЛЛОМА 3–5 ММ
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">1 500 ₽</div>
+              <div class="price-section-item__col-r_price_r">1 320 ₽</div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              ПАПИЛЛОМА 6–10 ММ
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">2 500 ₽</div>
+              <div class="price-section-item__col-r_price_r">2 200 ₽</div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              ПАПИЛЛОМА 11–20 ММ
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">3 500 ₽</div>
+              <div class="price-section-item__col-r_price_r">3 080 ₽</div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              РАСПОЛОЖЕНИЕ<br />ПАПИЛЛОМЫ НА<br />ПОДВИЖНОМ ВЕКЕ
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">+ 1000 ₽</div>
+              <div class="price-section-item__col-r_price_r">+ 880 ₽</div>
+            </div>
+          </div>
+        </div>
+        <div class="price-section-item">
+          <div class="price-section-item__col-l">
+            <div class="price-section-item__col-l_name list-2-mob">
+              РАСПОЛОЖЕНИЕ <br />ПАПИЛЛОМЫ НА РЕСНИЧНОМ КРАЕ
+            </div>
+          </div>
+          <div class="price-section-item__col-r">
+            <div class="price-section-item__col-r_price">
+              <div class="price-section-item__col-r_price_l">+ 5 000 ₽</div>
+              <div class="price-section-item__col-r_price_r">+ 4 400 ₽</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row treatment-doctors-container">
-      
-      <div class="DOC-CARD">
-        <div class="row">
-          <img src="media/treatment/doctors/DOC 1.png" class="col DOC-CARD__img">
-        </img>
-        <div class="row">
-          <div class="col DOC-CARD__name">
-            МАМОВОВА <br>САБИНА АЗАТОВНА
-          </div>
-        </div>
-        <div class="row">
-          <div class="col DOC-CARD__position">
-            Заведующая отделением <br> косметологии, врач <br>дерматовенеролог,<br> косметолог, трихолог
-          </div>
-        </div>
-      </div>
-      </div>  
-      
-      <div class="DOC-CARD">
-        <div class="row">
-          <img src="media/treatment/doctors/DOC_2.png" class="col DOC-CARD__img">
-        </img>
-        <div class="row">
-          <div class="col DOC-CARD__name">
-            БУЛАВИНА <br> МАРИЯ СЕРГЕЕВНА
-          </div>
-        </div>
-        <div class="row">
-          <div class="col DOC-CARD__position">
-            Врач дерматовенеролог, косметолог, трихолог
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col BUTTON-2-MOB treatment-doctors__link"><div class="col arrow-link__text news-arrow__text my-2">ВСЕ СПЕЦИАЛИСТЫ <img src="media/treatment/article/Vector.svg" alt="" class="arrow-link__img">
-      </div></div>
-    </div>
-  </div>
-  
 
-  <div class="container-sm rate rate_gradient">
-    <div class="row rate-row">
-      <div class="col text-center rate__title H4-MOB">
-        НЕЗАВИСИМЫЙ РЕЙТИНГ MEDICRIS
+    <div class="container-sm treatment-doctors">
+      <div class="row">
+        <div class="col treatment-doctors__title h2-mob">
+          ПРОЦЕДУРУ ПРОВОДЯТ
+        </div>
       </div>
-    </div>
-    <div class="row rate-wrapper">
-      <div class="col-6">
-      <div class="row d-flex flex-column justify-content-between align-items-center">
-      <img src="media/rate/Star 8.svg" alt="" class="col-3 rate__star">
-      <img src="media/rate/5,0.svg" class="col text-center rate__number">
-      <img src="media/rate/yandex.svg" alt="" class="col text-center fw-bold rate__subtitle">
-      </div>
-    </div>
-    <div class="col-6">
-      <div class="row d-flex flex-column justify-content-between align-items-center">
-      <img src="media/rate/Star 8.svg" alt="" class="col-3 text-center rate__star">
-      <img src="media/rate/4,8.svg" class="col text-center rate__number">
-      <img src="media/rate/google.svg" alt="" class="col text-center fw-bold rate__subtitle">      
-      </div>
-    </div>
-    </div>
-    
-  </div>
+      <div class="row treatment-doctors-container">
+        <div class="doc-card">
+          <div class="row">
+            <img
+              src="media/treatment/doctors/DOC 1.png"
+              class="col doc-card__img"
+            />
+            <div class="row">
+              <div class="col doc-card__name">
+                МАМОВОВА <br />САБИНА АЗАТОВНА
+              </div>
+            </div>
+            <div class="row">
+              <div class="col doc-card__position">
+                Заведующая отделением <br />
+                косметологии, врач <br />дерматовенеролог,<br />
+                косметолог, трихолог
+              </div>
+            </div>
+          </div>
+        </div>
 
-  <div class="container-sm articles">
-    <div class="row">
-      <div class="col H2-MOB articles__title">СТАТЬИ ВРАЧЕЙ</div>
-    </div>
-    <div class="row">
-      <div class="col articles__text">
-        <div>
-        Врачи клиники основали онлайн-проект БЬЮТИПЕДИЯ, в котором подходят к темам эстетической медицины с энциклопедической глубиной
+        <div class="doc-card">
+          <div class="row">
+            <img
+              src="media/treatment/doctors/DOC_2.png"
+              class="col doc-card__img"
+            />
+            <div class="row">
+              <div class="col doc-card__name">
+                БУЛАВИНА <br />
+                МАРИЯ СЕРГЕЕВНА
+              </div>
+            </div>
+            <div class="row">
+              <div class="col doc-card__position">
+                Врач дерматовенеролог, косметолог, трихолог
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col button-2-mob treatment-doctors__link">
+          ВСЕ СПЕЦИАЛИСТЫ
+          <img
+            src="media/treatment/article/Vector.svg"
+            alt=""
+            class="arrow-link__img"
+          />
         </div>
       </div>
     </div>
-    <div class="row articles-container">
-      
-        <div class="CARD-ARTICLE">
-          <div class="row CARD-ARTICLE-text">
-            <div class="col-12 CARD-ARTICLE-text__title">
+
+    <div class="container-sm rate rate_gradient">
+      <div class="row rate-row">
+        <div class="col text-center rate__title h4-mob">
+          НЕЗАВИСИМЫЙ РЕЙТИНГ MEDICRIS
+        </div>
+      </div>
+      <div class="row rate-wrapper">
+        <div class="col-6">
+          <div
+            class="row d-flex flex-column justify-content-between align-items-center"
+          >
+            <img src="media/rate/Star 8.svg" alt="" class="col-3 rate__star" />
+            <img
+              src="media/rate/5,0.svg"
+              class="col text-center rate__number"
+            />
+            <img
+              src="media/rate/yandex.svg"
+              alt=""
+              class="col text-center fw-bold rate__subtitle"
+            />
+          </div>
+        </div>
+        <div class="col-6">
+          <div
+            class="row d-flex flex-column justify-content-between align-items-center"
+          >
+            <img
+              src="media/rate/Star 8.svg"
+              alt=""
+              class="col-3 text-center rate__star"
+            />
+            <img
+              src="media/rate/4,8.svg"
+              class="col text-center rate__number"
+            />
+            <img
+              src="media/rate/google.svg"
+              alt=""
+              class="col text-center fw-bold rate__subtitle"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-sm articles">
+      <div class="row">
+        <div class="col h2-mob articles__title">СТАТЬИ ВРАЧЕЙ</div>
+      </div>
+      <div class="row">
+        <div class="col articles__text">
+          <div>
+            Врачи клиники основали онлайн-проект БЬЮТИПЕДИЯ, в котором подходят
+            к темам эстетической медицины с энциклопедической глубиной
+          </div>
+        </div>
+      </div>
+      <div class="row articles-container">
+        <div class="card-article">
+          <div class="row card-article-text">
+            <div class="col-12 card-article-text__title">
               БОРОДАВКИ: ПРИЧИНЫ ПОЯВЛЕНИЯ, ВИДЫ, МЕТОДЫ УДАЛЕНИЯ, КАК МЫ ЛЕЧИМ
             </div>
-            <div class="col-12 CARD-ARTICLE-text__author">
-              Мамовова С.А.
-            </div>
-            <div class="col-12 CARD-ARTICLE-text__main">
-              Бородавка — доброкачественное заболевание кожи и слизистых оболочек, вызываемое вирусами папилломы человека (ВПЧ) с появлением новообразований эпидермального слоя кожи...
-              Возбудитель заболевания — вирус папилломы человека (ВПЧ), ДНК-содержащий вирус, относится к роду папилломавирусов (Papillomavirus) и принадлежит к семейству папававирусов...
-            </div>
-          </div>
-          <div class="row CARD-ARTICLE__link">
-            <div class="col arrow-link__text news-arrow__text my-2">ЧИТАТЬ <img src="media/treatment/article/Vector.svg" alt="" class="arrow-link__img">
+            <div class="col-12 card-article-text__author">Мамовова С.А.</div>
+            <div class="col-12 card-article-text__main">
+              Бородавка — доброкачественное заболевание кожи и слизистых
+              оболочек, вызываемое вирусами папилломы человека (ВПЧ) с
+              появлением новообразований эпидермального слоя кожи... Возбудитель
+              заболевания — вирус папилломы человека (ВПЧ), ДНК-содержащий
+              вирус, относится к роду папилломавирусов (Papillomavirus) и
+              принадлежит к семейству папававирусов...
             </div>
           </div>
-        </div>  
-        <div class="CARD-ARTICLE">
-          <div class="row CARD-ARTICLE-text">
-            <div class="col-12 CARD-ARTICLE-text__title">
+          <div class="row card-article__link">
+            <div class="col button-2-mob">
+              ЧИТАТЬ
+              <img src="media/problem/articles/Vector.svg" alt="" class="" />
+            </div>
+          </div>
+        </div>
+        <div class="card-article">
+          <div class="row card-article-text">
+            <div class="col-12 card-article-text__title">
               БОРОДАВКИ: ПРИЧИНЫ ПОЯВЛЕНИЯ, ВИДЫ, МЕТОДЫ УДАЛЕНИЯ, КАК МЫ ЛЕЧИМ
             </div>
-            <div class="col-12 CARD-ARTICLE-text__author">
-              Мамовова С.А.
-            </div>
-            <div class="col-12 CARD-ARTICLE-text__main">
-              Бородавка — доброкачественное заболевание кожи и слизистых оболочек, вызываемое вирусами папилломы человека (ВПЧ) с появлением новообразований эпидермального слоя кожи...
-              Возбудитель заболевания — вирус папилломы человека (ВПЧ), ДНК-содержащий вирус, относится к роду папилломавирусов (Papillomavirus) и принадлежит к семейству папававирусов...
-            </div>
-          </div>
-          <div class="row CARD-ARTICLE__link">
-            <div class="col arrow-link__text news-arrow__text my-2">ЧИТАТЬ <img src="media/treatment/article/Vector.svg" alt="" class="arrow-link__img">
+            <div class="col-12 card-article-text__author">Мамовова С.А.</div>
+            <div class="col-12 card-article-text__main">
+              Бородавка — доброкачественное заболевание кожи и слизистых
+              оболочек, вызываемое вирусами папилломы человека (ВПЧ) с
+              появлением новообразований эпидермального слоя кожи... Возбудитель
+              заболевания — вирус папилломы человека (ВПЧ), ДНК-содержащий
+              вирус, относится к роду папилломавирусов (Papillomavirus) и
+              принадлежит к семейству папававирусов...
             </div>
           </div>
-        </div> 
-      
-    </div>
-    <div class="row">
-      <div class=" BUTTON-1-MOB articles__link">БЬЮТИПЕДИЯ</div>
-    </div>
-  </div>
-  <div class="personal-protocol container-sm">
-    <div class="row photos-wrapper">
-      
-    </div>
-    <div class="container-sm t-n-b position-absolute top-0 start-0 d-flex flex-column align-items-center text-center">
-    <div class="row">
-      <div class="col-12 t-n-b__text text-center">
-        УПРАВЛЯЙТЕ<br>
-        <span class="fst-italic">ВНЕШНОСТЬЮ,</span><br>
-        ЗДОРОВЬЕМ<br>
-        <span class="fst-italic">И КАЧЕСТВОМ</span><br>
-        ЖИЗНИ
-      </div>
-    </div>
-    
-    <div class="row justify-items-end">
-      <div class="col-12">
-        <div class="row t-n-b__buttons d-flex flex-row align-items-center p-2">
-          <div class="col t-n-b__buttons__f">ДЛЯ ЖЕНЩИН</div>
-          <div class="col t-n-b__buttons__t ">СОЗДАТЬ ПЕРСОНАЛЬНЫЙ ПРОТОКОЛ</div>
-          <div class="col  t-n-b__buttons__m">ДЛЯ МУЖЧИН</div>
+          <div class="row card-article__link">
+            <div class="col button-2-mob">
+              ЧИТАТЬ
+              <img src="media/problem/articles/Vector.svg" alt="" class="" />
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    </div>
-  </div>
-  <div class="container-sm footer fw-normal">
-    <div class="row">
-      <div class="col text-center footer__title p-0 mx-0">
-        MEDICRIS — КЛИНИКА КРАСОТЫ
+      <div class="row">
+        <div class="button-1-mob articles__link">БЬЮТИПЕДИЯ</div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-6">
+    <div class="personal-protocol container-sm">
+      <div class="row photos-wrapper"></div>
+      <div
+        class="container-sm t-n-b position-absolute top-0 start-0 d-flex flex-column align-items-center text-center"
+      >
         <div class="row">
-          <div class="col mb-1 footer__info">
-            пн-вс 10:00–22:00
+          <div class="col-12 t-n-b__text text-center">
+            УПРАВЛЯЙТЕ<br />
+            <span class="fst-italic">ВНЕШНОСТЬЮ,</span><br />
+            ЗДОРОВЬЕМ<br />
+            <span class="fst-italic">И КАЧЕСТВОМ</span><br />
+            ЖИЗНИ
           </div>
         </div>
-        <div class="row">
-          <div class="col mb-1 footer__info">
-            +7 (495) 147 17 15
-          </div>
-        </div>
-        <div class="row">
-          <div class="col mb-1 footer__info">
-            info@medicris.ru
-          </div>
-        </div>
-      </div>
-      <div class="col-6">
-        <div class="row row-cols-4 px-0">
-          <a href="#" class="col">
-            <img src="media/footer/yt.svg" alt="" class="footer__socials">
-          </a>
-          <a href="#" class="col">
-            <img src="media/footer/tg.svg" alt="" class="footer__socials">
-          </a>
-          <a href="#" class="col">
-            <img src="media/footer/dzen.svg" alt="" class="footer__socials">
-          </a>
-          <a href="#" class="col">
-            <img src="media/footer/vk.svg" alt="" class="footer__socials">
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col fw-normal s16 mb-4 footer__adress">
-        г. Москва, 2-й Троицкий переулок, 5
-      </div>
-    </div>
-    <div class="row">
-      <img src="media/footer/map.png" alt="" class="col p-0 m-2 mb-3 footer__map-img">
-      
-    </div>
-    <div class="row">
-      <div class="col footer__maps" >
-      <div class="row closed" id="ddbtn-1">
-        <div class="col align-self-center">Как нас найти?</div>
-        <img src="media/footer/arrow_small.svg" alt="" class="col-2 footer__navimg">
-      </div>
-      <div class="row footer__dropdown" id="ddbody-1">
-        <div class="col">
-          <div class="row">
-            <div class="col-12 footer__dropdown_station">
-              От ст.м. «Цветной бульвар»
-            </div>
-          </div> 
-          <div class="row"> 
-            <div class="col footer__dropdown_dist ">
-              5 минут пешком / 550 м 
-            </div>
-          </div>    
-          <div class="row">
-            <div class="col footer__dropdown_desc">
-              Выходите из метро на Цветной бульвар и поворачиваете налево. <br>
-              Пересекаете Садовое кольцо — вам нужно оказаться на правой стороне Олимпийского проспекта и пройти по нему до второй лестницы. <br>
-              Поднимаетесь по ней наверх и оказываетесь в нашем 2-ом Троицком переулке. <br>
-              Ориентируйтесь на Храм Троицы Живоначальной в Троицком Подворье, купол виден отовсюду. <br>
-              Мы в том же переулке напротив — жёлтый 2-х этажный особняк.
-            </div>
-          </div>
-          <div class="row">
-            <div class="col footer__dropdown_station">
-              От ст.м. «Сухаревская»
-            </div>
-          </div>
-          <div class="row">
-            <div class="col footer__dropdown_dist">
-              5 минут пешком / 900 м 
-            </div>
-          </div>
-          <div class="row">
-            <div class="col footer__dropdown_desc">
-              Выходите из метро на Цветной бульвар и поворачиваете налево<div class="br"></div>
-              Пересекаете Садовое кольцо — вам нужно оказаться на правой стороне Олимпийского проспекта и пройти по нему до второй лестницы<div class="br"></div>
-              Поднимаетесь по ней наверх и оказываетесь в нашем 2-ом Троицком переулке.
-            </div>
-          </div>
-        </div>  
-      </div>  
-    </div>
-    </div>
-    <div class="row">
-      <div class="col fw-normal footer__maps" >
-      <div class="row closed" id="ddbtn-2">
-        <div class="col align-self-center">Бесплатная парковка</div>
-        <img src="media/footer/arrow_small.svg" alt="" class="col-2 footer__navimg">
-      </div>
-      <div class="row footer__dropdown" id="ddbody-2">
-        <div class="col">
-          <div class="row">
-            <div class="col-12 footer__dropdown_station">
-              Парковка MEDICRIS
-            </div>
-          </div> 
-          <div class="row"> 
-            <div class="col footer__dropdown_dist ">
-              На территории клиники 
-            </div>
-          </div>    
-          <div class="row">
-            <div class="col footer__dropdown_desc">
-              Для вашего удобства располагаем бесплатной парковкой во дворе. Въезд - через шлагбаум, слева от здания клиники. Наши парковочные места - 5, 6, 13. <br>
-              Парковку необходимо забронировать до посещения клиники (как?). Для проезда на парковку звоните по телефону +7 495-17-15.
-            </div>
-          </div>
-        </div>  
-      </div>  
-    </div>
-    </div>
-    <div class="row">
-      <div class="col fw-normal footer__maps_last">
-        <a class="row" href="https://yandex.ru/maps/213/moscow/?ll=37.621579%2C55.775358&mode=routes&rtext=~55.775407%2C37.621546&rtt=mt&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D179337251810&z=17" target="_blank">
-          <div class="col align-self-center">Построить маршрут</div>
-          <img src="media/footer/arrow_small.svg" alt="" class="col-2 footer__navimg_l">
-        </a>
-      </div>
-      </div>
-    </div>
-    <div class="row">
-      <img src="media/footer/payment.png" alt="" class="col">
-    </div>
-    <div class="row text-center footer-license">
-      <div class="col-12 footer-license__first">© 2018—2024 ООО МЕДИКРИС</div>
-      <div class="col-12 footer-license__others footer-license__others_underline">Лицензия № Л041-01137-77/00342866 от 24.12.2018 г.</div>
-      <a href="#" class="col-12 footer-license__others footer-license__others_underline">Политика сбора и защиты персональных данных</a>
-      <div class="col-12 footer-license__others">Для выполнения процедур необходима консультация врача</div>
-    </div>
-  </div>
 
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <script src="js/dropdowns.js"></script>
-  <script src="js/treatment/page-1.js"></script>
-  <script src="js/treatment/faq.js"></script>
-  <script src="js/treatment/procedure.js"></script>
-  <script src="js/twentytwenty/js/jquery.twentytwenty.js"></script>
-  <script src="js/twentytwenty/js/jquery.event.move.js"></script>
-  <script src="js/feedbackSwiper.js"></script>
-  <script src="js/treatment/index.js"></script>
-</body>
+        <div class="row justify-items-end">
+          <div class="col-12">
+            <div
+              class="row t-n-b__buttons d-flex flex-row align-items-center p-2"
+            >
+              <div class="col t-n-b__buttons__f">ДЛЯ ЖЕНЩИН</div>
+              <div class="col t-n-b__buttons__t">
+                СОЗДАТЬ ПЕРСОНАЛЬНЫЙ ПРОТОКОЛ
+              </div>
+              <div class="col t-n-b__buttons__m">ДЛЯ МУЖЧИН</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-sm footer fw-normal">
+      <div class="row">
+        <div class="col text-center footer__title p-0 mx-0">
+          MEDICRIS — КЛИНИКА КРАСОТЫ
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="row">
+            <div class="col mb-1 footer__info">пн-вс 10:00–22:00</div>
+          </div>
+          <div class="row">
+            <div class="col mb-1 footer__info">
+              <a href="tel:+74951471715">+7 (495) 147 17 15</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col mb-1 footer__info">
+              <a href="info@medicris.ru">info@medicris.ru</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="footer-icons-wrapper">
+            <a href="#" class="footer-icons-wrapper__item">
+              <img src="media/footer/yt.svg" alt="" class="footer__socials" />
+            </a>
+            <a href="#" class="footer-icons-wrapper__item">
+              <img src="media/footer/tg.svg" alt="" class="footer__socials" />
+            </a>
+          </div>
+          <div class="footer-icons-wrapper">
+            <a href="#" class="footer-icons-wrapper__item">
+              <img src="media/footer/dzen.svg" alt="" class="footer__socials" />
+            </a>
+            <a href="#" class="footer-icons-wrapper__item">
+              <img src="media/footer/vk.svg" alt="" class="footer__socials" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col footer__adress">
+          г. Москва, 2-й Троицкий переулок, 5
+        </div>
+      </div>
+      <div class="row">
+        <img src="media/footer/map.png" alt="" class="col footer__map-img" />
+      </div>
+      <div class="row">
+        <div class="col footer__maps">
+          <div class="row closed" id="ddbtn-1">
+            <div class="col align-self-center">Как нас найти?</div>
+            <img
+              src="media/footer/arrow_small.svg"
+              alt=""
+              class="col-2 footer__navimg"
+            />
+          </div>
+          <div class="row footer__dropdown" id="ddbody-1">
+            <div class="col">
+              <div class="row">
+                <div class="col-12 footer__dropdown_station">
+                  От ст.м. «Цветной бульвар»
+                </div>
+              </div>
+              <div class="row">
+                <div class="col footer__dropdown_dist">
+                  5 минут пешком / 550 м
+                </div>
+              </div>
+              <div class="row">
+                <div class="col footer__dropdown_desc">
+                  Выходите из метро на Цветной бульвар и поворачиваете налево.
+                  <br />
+                  Пересекаете Садовое кольцо — вам нужно оказаться на правой
+                  стороне Олимпийского проспекта и пройти по нему до второй
+                  лестницы. <br />
+                  Поднимаетесь по ней наверх и оказываетесь в нашем 2-ом
+                  Троицком переулке. <br />
+                  Ориентируйтесь на Храм Троицы Живоначальной в Троицком
+                  Подворье, купол виден отовсюду. <br />
+                  Мы в том же переулке напротив — жёлтый 2-х этажный особняк.
+                </div>
+              </div>
+              <div class="row">
+                <div class="col footer__dropdown_station">
+                  От ст.м. «Сухаревская»
+                </div>
+              </div>
+              <div class="row">
+                <div class="col footer__dropdown_dist">
+                  5 минут пешком / 900 м
+                </div>
+              </div>
+              <div class="row">
+                <div class="col footer__dropdown_desc">
+                  Выходите из метро на Цветной бульвар и поворачиваете налево
+                  <div class="br"></div>
+                  Пересекаете Садовое кольцо — вам нужно оказаться на правой
+                  стороне Олимпийского проспекта и пройти по нему до второй
+                  лестницы
+                  <div class="br"></div>
+                  Поднимаетесь по ней наверх и оказываетесь в нашем 2-ом
+                  Троицком переулке.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col fw-normal footer__maps">
+          <div class="row closed" id="ddbtn-2">
+            <div class="col align-self-center">Бесплатная парковка</div>
+            <img
+              src="media/footer/arrow_small.svg"
+              alt=""
+              class="col-2 footer__navimg"
+            />
+          </div>
+          <div class="row footer__dropdown" id="ddbody-2">
+            <div class="col">
+              <div class="row">
+                <div class="col-12 footer__dropdown_station">
+                  Парковка MEDICRIS
+                </div>
+              </div>
+              <div class="row">
+                <div class="col footer__dropdown_dist">
+                  На территории клиники
+                </div>
+              </div>
+              <div class="row">
+                <div class="col footer__dropdown_desc">
+                  Для вашего удобства располагаем бесплатной парковкой во дворе.
+                  Въезд - через шлагбаум, слева от здания клиники. Наши
+                  парковочные места - 5, 6, 13. <br />
+                  Парковку необходимо забронировать до посещения клиники (как?).
+                  Для проезда на парковку звоните по телефону +7 495-17-15.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a
+        class="row footer__maps_last"
+        href="https://yandex.ru/maps/213/moscow/?ll=37.621579%2C55.775358&mode=routes&rtext=~55.775407%2C37.621546&rtt=mt&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D179337251810&z=17"
+        target="_blank"
+      >
+        <div class="col align-self-center footer__ma">Построить маршрут</div>
+        <img
+          src="media/footer/arrow_small.svg"
+          alt=""
+          class="col-2 footer__navimg_last"
+        />
+      </a>
+      <div class="row">
+        <img src="media/footer/payment.png" alt="" class="col" />
+      </div>
+      <div class="row text-center footer-license">
+        <div class="col-12 footer-license__first">
+          © 2018—2024 ООО МЕДИКРИС
+        </div>
+        <div
+          class="col-12 footer-license__others footer-license__others_underline"
+        >
+          Лицензия № Л041-01137-77/00342866 от 24.12.2018 г.
+        </div>
+        <a
+          href="#"
+          class="col-12 footer-license__others footer-license__others_underline"
+          >Политика сбора и защиты персональных данных</a
+        >
+        <div class="col-12 footer-license__others">
+          Для выполнения процедур необходима консультация врача
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/dropdowns.js"></script>
+    <script src="js/treatment/page-1.js"></script>
+    <script src="js/treatment/faq.js"></script>
+    <script src="js/treatment/procedure.js"></script>
+    <script src="js/twentytwenty/js/jquery.twentytwenty.js"></script>
+    <script src="js/twentytwenty/js/jquery.event.move.js"></script>
+    <script src="js/feedbackSwiper.js"></script>
+    <script src="js/treatment/index.js"></script>
+  </body>
 </html>
