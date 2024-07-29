@@ -432,7 +432,6 @@ a {
 }
 
 .problem-first-screen {
-  height: 617px;
   background-color: #f2f2f2;
   padding: 0 20px;
 }
@@ -440,6 +439,7 @@ a {
   width: 353px;
   height: 55.14px;
   margin-top: 45px;
+  padding-top: 30px;
 }
 .problem-first-screen__breadcrumbs {
   height: 12px;
@@ -482,10 +482,13 @@ a {
 .problem-first-screen-buttons-wrapper__item {
   color: #242424;
   margin-top: 10px;
+  clear: both;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .problem-causes {
-  height: 617px;
   background-color: #f2f2f2;
   padding: 0 20px;
 }
@@ -534,7 +537,6 @@ a {
 
 .problem-routes {
   position: relative;
-  height: 617px;
   background-color: #f2f2f2;
   padding: 0 20px;
 }
@@ -550,15 +552,11 @@ a {
 .problem-routes__text {
   margin-top: 19px;
 }
-.problem-routes__img {
+.problem-routes__text:after {
+  content: url("../../media/problem/routes/Frame.svg");
   position: absolute;
-  width: 27.55px;
-  height: 21.65px;
-  top: 158px;
-  left: 123px;
-  padding: 0px;
-  gap: 0px;
-  opacity: 0px;
+  padding-top: 10px;
+  padding-left: 5px;
 }
 .problem-routes-list-wrapper {
   margin-top: 38px;
@@ -576,8 +574,6 @@ a {
 }
 
 .problem-progress-variants {
-  position: relative;
-  height: 617px;
   background-color: #f2f2f2;
   padding: 0 20px;
 }
@@ -593,6 +589,12 @@ a {
 .problem-progress-variants__text {
   margin-top: 19px;
   color: #000;
+}
+.problem-progress-variants__text:after {
+  content: url("../../media/problem/routes/Frame.svg");
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 5px;
 }
 .problem-progress-variants__img {
   position: absolute;
@@ -835,7 +837,6 @@ a {
 }
 
 .problem-articles {
-  height: 617px;
   background-color: #d9d9d9;
   padding: 0 20px;
 }
@@ -908,7 +909,6 @@ a {
 }
 
 .problem-proof {
-  height: 617px;
   background: linear-gradient(180deg, rgb(242, 242, 242) 0%, rgba(8, 229, 190, 0.5) 85.5%);
   padding: 0 20px;
 }

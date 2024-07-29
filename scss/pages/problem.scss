@@ -567,14 +567,13 @@ a {
 }
 //problem page
 .problem-first-screen {
-  height: 617px;
   background-color: #f2f2f2;
   padding: 0 20px;
   &__title {
     width: 353px;
     height: 55.14px;
     margin-top: 45px;
-
+    padding-top: 30px;
     @extend %h1-mob;
   }
   &__breadcrumbs {
@@ -626,11 +625,14 @@ a {
     &__item {
       color: #242424;
       margin-top: 10px;
+      clear: both;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
     }
   }
 }
 .problem-causes {
-  height: 617px;
   background-color: #f2f2f2;
   padding: 0 20px;
   &__title {
@@ -689,7 +691,6 @@ a {
 }
 .problem-routes {
   position: relative;
-  height: 617px;
   background-color: #f2f2f2;
   padding: 0 20px;
   &__title {
@@ -705,16 +706,12 @@ a {
   &__text {
     @extend %body-2-mob;
     margin-top: 19px;
-  }
-  &__img {
-    position: absolute;
-    width: 27.55px;
-    height: 21.65px;
-    top: 158px;
-    left: 123px;
-    padding: 0px;
-    gap: 0px;
-    opacity: 0px;
+    &:after {
+      content: url('../../media/problem/routes/Frame.svg');
+      position: absolute;
+      padding-top: 10px;
+      padding-left: 5px;
+    }
   }
   &-list-wrapper {
     margin-top: 38px;
@@ -734,8 +731,6 @@ a {
   }
 }
 .problem-progress-variants {
-  position: relative;
-  height: 617px;
   background-color: #f2f2f2;
   padding: 0 20px;
   &__title {
@@ -752,6 +747,12 @@ a {
     @extend %body-2-mob;
     margin-top: 19px;
     color: #000;
+    &:after {
+      content: url('../../media/problem/routes/Frame.svg');
+      position: absolute;
+      padding-top: 10px;
+      padding-left: 5px;
+    }
   }
   &__img {
     position: absolute;
@@ -1029,7 +1030,6 @@ a {
   }
 }
 .problem-articles {
-  height: 617px;
   background-color: #d9d9d9;
   padding: 0 20px;
   &__title {
@@ -1106,7 +1106,6 @@ a {
   }
 }
 .problem-proof {
-  height: 617px;
   background: linear-gradient(
     180deg,
     rgba(242, 242, 242, 1) 0%,

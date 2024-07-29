@@ -235,7 +235,7 @@ a {
   font-weight: 700;
   line-height: 12.19px;
   letter-spacing: 0.03em;
-  padding: 9px 20px 9px 20px;
+  padding: 10px 20px 9px 20px;
   border-radius: 50px;
   border: 1px solid #242424;
 }
@@ -285,7 +285,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
-  line-height: 12px;
+  line-height: 13px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -592,7 +592,7 @@ a {
   width: 65px;
 }
 .price-section-header__bottom-price_sale {
-  width: 67px;
+  width: 87px;
   text-decoration: underline;
 }
 .price-section-item {
@@ -1665,8 +1665,8 @@ a {
   margin-right: -13px;
 }
 .footer__navimg_last {
-  transform: scale(0.5) rotate(270deg);
-  margin-right: -24px;
+  transform: scale(0.55) rotate(270deg);
+  margin-right: -22px;
 }
 .footer__dropdown {
   display: none;
@@ -1859,7 +1859,7 @@ a {
 }
 .page-1__price_number {
   font-family: Montserrat;
-  font-size: 19px;
+  font-size: 22px;
   font-weight: 600;
   line-height: 15px;
   letter-spacing: 0.02em;

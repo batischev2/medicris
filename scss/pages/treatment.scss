@@ -262,7 +262,7 @@ a {
   line-height: 12.19px;
   letter-spacing: 0.03em;
 
-  padding: 9px 20px 9px 20px;
+  padding: 10px 20px 9px 20px;
   border-radius: 50px;
   border: 1px solid #242424;
   &:hover {
@@ -314,7 +314,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
-  line-height: 12px;
+  line-height: 13px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -650,7 +650,7 @@ a {
           width: 65px;
         }
         &_sale {
-          width: 67px;
+          width: 87px;
           text-decoration: underline;
         }
       }
@@ -1859,8 +1859,8 @@ a {
     transform: scale(0.5);
     margin-right: -13px;
     &_last {
-      transform: scale(0.5) rotate(270deg);
-      margin-right: -24px;
+      transform: scale(0.55) rotate(270deg);
+      margin-right: -22px;
     }
   }
 
@@ -2063,7 +2063,7 @@ a {
     }
     &_number {
       font-family: Montserrat;
-      font-size: 19px;
+      font-size: 22px;
       font-weight: 600;
       line-height: 15px;
       letter-spacing: 0.02em;

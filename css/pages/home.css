@@ -1277,8 +1277,8 @@ a {
   margin-right: -13px;
 }
 .footer__navimg_last {
-  transform: scale(0.5) rotate(270deg);
-  margin-right: -24px;
+  transform: scale(0.55) rotate(270deg);
+  margin-right: -22px;
 }
 .footer__dropdown {
   display: none;
