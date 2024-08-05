@@ -2,7 +2,7 @@
 .twentytwenty-horizontal .twentytwenty-handle:after,
 .twentytwenty-vertical .twentytwenty-handle:before,
 .twentytwenty-vertical .twentytwenty-handle:after {
-  content: " ";
+  content: ' ';
   display: block;
   background: #fff;
   position: absolute;

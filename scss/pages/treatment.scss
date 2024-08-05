@@ -1,5 +1,5 @@
 :root {
-  --bs-body-font-family: "Montserrat", sans-serif;
+  --bs-body-font-family: 'Montserrat', sans-serif;
 }
 
 html,
@@ -22,7 +22,7 @@ a {
 }
 
 .ma {
-  font-family: "Montserrat alternates";
+  font-family: 'Montserrat alternates';
 }
 
 //global styles - start
@@ -30,7 +30,7 @@ a {
 //fonts
 
 .acc-1-mob {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 300;
   font-size: 26px;
@@ -41,7 +41,7 @@ a {
 }
 
 .acc-2-mob {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: italic;
   font-weight: 400;
   font-size: 22px;
@@ -50,7 +50,7 @@ a {
 }
 
 .acc-3-mob {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -62,7 +62,7 @@ a {
 }
 
 .acc-4-mob {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -72,7 +72,7 @@ a {
 }
 
 .acc-5-mob {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -84,7 +84,7 @@ a {
 }
 
 .acc-6-mob {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
@@ -96,7 +96,7 @@ a {
 }
 
 .acc-7-mob {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -108,7 +108,7 @@ a {
 }
 
 .h1-mob {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -121,7 +121,7 @@ a {
 }
 
 .h2-mob {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -133,7 +133,7 @@ a {
 }
 
 .h3-list-mob {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -145,7 +145,7 @@ a {
 }
 
 .h4-mob {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -156,7 +156,7 @@ a {
 }
 
 .h6-mob {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -166,7 +166,7 @@ a {
 }
 
 .body-1-mob {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -176,7 +176,7 @@ a {
 }
 
 .body-2-mob {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -186,7 +186,7 @@ a {
 }
 
 .list-1-mob {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -199,7 +199,7 @@ a {
 }
 
 .list-2-mob {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 11px;
@@ -211,7 +211,7 @@ a {
 }
 
 .list-3-mob {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 10px;
@@ -256,7 +256,7 @@ a {
 }
 
 .button-1-mob {
-  font-family: "Montserrat Alternates";
+  font-family: 'Montserrat Alternates';
   font-size: 10px;
   font-weight: 700;
   line-height: 12.19px;
@@ -272,7 +272,7 @@ a {
 
 .button-2-mob {
   //arrow-link
-  font-family: "Montserrat Alternates";
+  font-family: 'Montserrat Alternates';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -292,7 +292,7 @@ a {
 }
 
 .link-mob {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -310,7 +310,7 @@ a {
 }
 
 .filter-2-mob {
-  font-family: "Montserrat Alternates";
+  font-family: 'Montserrat Alternates';
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
@@ -437,7 +437,7 @@ a {
 
       margin-bottom: 60px;
       width: 100%;
-      font-family: "Nunito Sans";
+      font-family: 'Nunito Sans';
       font-size: 15px;
       font-weight: 400;
       line-height: 18px;
@@ -493,7 +493,7 @@ a {
         margin-top: 26px;
         margin-bottom: 10px;
 
-        font-family: "Nunito Sans";
+        font-family: 'Nunito Sans';
         font-size: 8px;
         font-weight: 700;
         line-height: 12px;
@@ -508,7 +508,7 @@ a {
       align-items: flex-start;
       padding: 0px;
       &_item {
-        font-family: "Nunito Sans";
+        font-family: 'Nunito Sans';
         font-size: 12px;
         font-weight: 700;
         line-height: 16px;
@@ -557,7 +557,7 @@ a {
         margin-top: 26px;
         margin-bottom: 10px;
 
-        font-family: "Nunito Sans";
+        font-family: 'Nunito Sans';
         font-size: 8px;
         font-weight: 700;
         line-height: 12px;
@@ -587,7 +587,7 @@ a {
       padding: 0px;
       width: 100%;
       &_item {
-        font-family: "Nunito Sans";
+        font-family: 'Nunito Sans';
         font-size: 12px;
         font-weight: 700;
         line-height: 16px;
@@ -601,7 +601,7 @@ a {
       }
       &_item_2 {
         height: 64px;
-        font-family: "Nunito Sans";
+        font-family: 'Nunito Sans';
         font-size: 12px;
         font-weight: 700;
         line-height: 16px;
@@ -672,7 +672,7 @@ a {
       text-transform: uppercase;
       &_desc {
         text-transform: none;
-        font-family: "Nunito Sans";
+        font-family: 'Nunito Sans';
         font-size: 12px;
         font-weight: 300;
         line-height: 14px;
@@ -712,6 +712,9 @@ a {
   margin-right: 10px;
   background-color: #fff;
   padding-inline: 20px;
+  &:last-child {
+    margin-right: 20px;
+  }
   &-text {
     &__title {
       margin-top: 26px;
@@ -734,7 +737,7 @@ a {
     &__main {
       margin-top: 32px;
 
-      font-family: "Nunito Sans";
+      font-family: 'Nunito Sans';
       font-size: 10px;
       font-weight: 400;
       line-height: 12px;
@@ -753,6 +756,9 @@ a {
   width: 293px;
   height: 423px;
   margin-right: 10px;
+  &:last-child {
+    margin-right: 20px;
+  }
   &__img {
     padding: 0;
     height: 293px;
@@ -815,9 +821,9 @@ a {
   }
   &__img {
     height: 44px;
-
-    background: url(../../media/main_page/logo.svg) center no-repeat;
-    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
 }
 
@@ -847,7 +853,7 @@ a {
       /* УПРАВЛЯЙТЕ ВНЕШНОСТЬЮ, ЗДОРОВЬЕМ И КАЧЕСТВОМ ЖИЗНИ */
       height: 120px;
 
-      font-family: "Montserrat";
+      font-family: 'Montserrat';
       font-style: normal;
       font-weight: 300;
       font-size: 20px;
@@ -886,7 +892,7 @@ a {
         width: 106px;
         height: 10.83px;
 
-        font-family: "Montserrat Alternates";
+        font-family: 'Montserrat Alternates';
         font-style: normal;
         font-weight: 700;
         font-size: 10px;
@@ -904,7 +910,7 @@ a {
         width: 114px;
         height: 26px;
 
-        font-family: "Montserrat";
+        font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
@@ -940,7 +946,7 @@ a {
     width: 100%; //при значении из фигмы текст не вмещается
     height: 467.56px;
 
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 26px;
@@ -956,7 +962,7 @@ a {
     width: 292px;
     height: 14px;
 
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -973,7 +979,7 @@ a {
     width: 171.39px;
     height: 137.83px;
 
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: italic;
     font-weight: 300;
     font-size: 12px;
@@ -983,7 +989,7 @@ a {
     color: #000000;
     position: relative;
     &::before {
-      content: "*";
+      content: '*';
       left: -5px;
       top: 5px;
       position: absolute;
@@ -1030,7 +1036,7 @@ a {
 
     top: 52px;
 
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -1055,7 +1061,7 @@ a {
       padding: 0;
       width: 278.67px;
       height: 66px;
-      font-family: "Montserrat";
+      font-family: 'Montserrat';
       font-style: normal;
       font-weight: 400;
       font-size: 18px;
@@ -1080,7 +1086,7 @@ a {
       background-color: rgba(8, 229, 190, 0.45);
       backdrop-filter: blur(10px);
       padding: 14px 0;
-      font-family: "Montserrat";
+      font-family: 'Montserrat';
       font-style: normal;
       font-weight: 700;
       font-size: 12px;
@@ -1106,7 +1112,7 @@ a {
     height: 19px;
   }
   &__text {
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 10px;
@@ -1122,7 +1128,7 @@ a {
 }
 
 .abilities {
-  background: url("../../media/type-2/bg1.webp");
+  background: url('../../media/type-2/bg1.webp');
   background-size: cover;
   // margin-bottom: 617px;
   position: sticky;
@@ -1146,7 +1152,7 @@ a {
   z-index: 4;
   position: sticky;
   top: 65px;
-  background: url("../../media/type-2/bg2.webp");
+  background: url('../../media/type-2/bg2.webp');
   background-size: cover;
 }
 
@@ -1156,7 +1162,7 @@ a {
   z-index: 5;
   position: sticky;
   top: 65px;
-  background: url("../../media/type-2/bg3.webp");
+  background: url('../../media/type-2/bg3.webp');
   background-size: cover;
 }
 
@@ -1166,7 +1172,7 @@ a {
   z-index: 6;
   position: sticky;
   top: 65px;
-  background: url("../../media/type-2/bg4.webp");
+  background: url('../../media/type-2/bg4.webp');
   background-size: cover;
 }
 
@@ -1180,7 +1186,7 @@ a {
     width: 353px;
     height: 16px;
 
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
@@ -1197,7 +1203,7 @@ a {
     /* СИСТЕМНЫЙ ПОДХОД — КЛЮЧ К ГАРМОНИИ КРАСОТЫ И ЗДОРОВЬЯ */
     height: 120px;
 
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -1266,7 +1272,7 @@ a {
     width: 83px;
     height: 15px;
 
-    font-family: "Montserrat Alternates";
+    font-family: 'Montserrat Alternates';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -1346,7 +1352,7 @@ a {
     width: 141px;
     height: 16px;
 
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -1429,7 +1435,7 @@ a {
     &__text {
       width: 20px;
       padding: 0;
-      font-family: "Montserrat Alternates";
+      font-family: 'Montserrat Alternates';
       font-style: normal;
       font-weight: 700;
       font-size: 16px;
@@ -1568,13 +1574,13 @@ a {
   }
 }
 
-[data-visible="false"] {
+[data-visible='false'] {
   display: none !important;
 }
 
 .photo__before {
   ::after {
-    content: "ДО";
+    content: 'ДО';
     color: rgba(8, 229, 190, 1);
     font-size: medium;
     height: 40px;
@@ -1649,7 +1655,7 @@ a {
     height: 15px;
     margin-top: 16px;
 
-    font-family: "Montserrat Alternates";
+    font-family: 'Montserrat Alternates';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -1685,7 +1691,7 @@ a {
     width: 353px;
     height: 16px;
 
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
@@ -1712,7 +1718,7 @@ a {
   &__text {
     width: 352.43px;
 
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 27px;
@@ -1726,7 +1732,7 @@ a {
   &__author {
     margin-top: 53px;
     line-height: 14px;
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-size: 12px;
     font-weight: 500;
     line-height: 14px;
@@ -1759,7 +1765,7 @@ a {
     width: 353px;
     height: 24px;
 
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1772,7 +1778,7 @@ a {
     width: 353px;
     height: 24px;
 
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1810,7 +1816,7 @@ a {
     width: 353px;
     height: 24px;
 
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1830,7 +1836,7 @@ a {
     margin: 0 12px;
     padding: 3.5px 0px;
 
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1838,7 +1844,7 @@ a {
     color: #242424;
     mix-blend-mode: darken;
     &_last {
-      font-family: "Montserrat";
+      font-family: 'Montserrat';
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
@@ -1984,7 +1990,7 @@ a {
     margin-top: 9px;
     padding-bottom: 19px;
     border-bottom: solid #000 1px;
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
@@ -2079,7 +2085,7 @@ a {
       margin-bottom: 28px;
     }
     &-text {
-      font-family: "Nunito Sans";
+      font-family: 'Nunito Sans';
       font-size: 14px;
       font-style: normal;
       font-weight: 400;
@@ -2128,7 +2134,7 @@ a {
     padding: 10px;
     margin-bottom: 34px;
     &__l {
-      font-family: "Montserrat";
+      font-family: 'Montserrat';
       font-style: normal;
       font-weight: 600;
       font-size: 10px;
@@ -2143,7 +2149,7 @@ a {
     }
     &__r {
       text-transform: uppercase;
-      font-family: "Montserrat";
+      font-family: 'Montserrat';
       font-style: normal;
       font-weight: 600;
       font-size: 10px;
@@ -2245,7 +2251,7 @@ a {
 }
 
 .treatment-doctors {
-  padding: 0 20px;
+  padding: 0 0 0 20px;
   height: 768px;
   background-color: #f2f2f2;
   &__title {
@@ -2259,10 +2265,15 @@ a {
     overflow-x: scroll;
     padding-inline: 0;
     margin-inline: 0;
+    &::-webkit-scrollbar {
+      height: 0;
+      width: 0;
+    }
   }
   &__link {
     margin-top: 64px;
-    margin-left: 129px;
+    margin-left: 109px;
+    margin-right: 20px;
     display: flex;
     justify-content: center;
   }
@@ -2270,7 +2281,7 @@ a {
 
 .articles {
   height: 824px;
-  padding: 0 20px;
+  padding: 0 0 0 20px;
   background-color: #f2f2f2;
   &__title {
     margin-top: 17px;
@@ -2280,7 +2291,7 @@ a {
     width: 100%;
     height: 80px;
     margin-left: 121px;
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -2308,6 +2319,10 @@ a {
     overflow-x: scroll;
     padding-inline: 0;
     margin-inline: 0;
+    &::-webkit-scrollbar {
+      height: 0;
+      width: 0;
+    }
   }
 }
 .personal-protocol {
@@ -2337,7 +2352,7 @@ a {
     &__text {
       height: 120px;
 
-      font-family: "Montserrat";
+      font-family: 'Montserrat';
       font-style: normal;
       font-weight: 300;
       font-size: 20px;
@@ -2375,7 +2390,7 @@ a {
         width: 106px;
         height: 10.83px;
 
-        font-family: "Montserrat Alternates";
+        font-family: 'Montserrat Alternates';
         font-style: normal;
         font-weight: 700;
         font-size: 10px;
@@ -2510,14 +2525,14 @@ a {
   }
 }
 //problem-page - end
-[data-dropdown-opened="false"] {
+[data-dropdown-opened='false'] {
   display: none !important;
 }
 
-[data-procedure-1="invisible"] {
+[data-procedure-1='invisible'] {
   display: none !important;
 }
-[data-procedure-2="invisible"] {
+[data-procedure-2='invisible'] {
   display: none !important;
 }
 

@@ -16,7 +16,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -115,7 +115,7 @@ select {
 }
 .row:before,
 .row:after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 .row:after {
@@ -139,7 +139,7 @@ select {
 }
 .row .row:before,
 .row .row:after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 .row .row:after {
@@ -153,7 +153,7 @@ select {
 }
 .row .row.collapse:before,
 .row .row.collapse:after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 .row .row.collapse:after {
@@ -293,11 +293,11 @@ select {
     margin-left: 83.33333%;
   }
 
-  [class*="column"] + [class*="column"]:last-child {
+  [class*='column'] + [class*='column']:last-child {
     float: right;
   }
 
-  [class*="column"] + [class*="column"].end {
+  [class*='column'] + [class*='column'].end {
     float: left;
   }
 

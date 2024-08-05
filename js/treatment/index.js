@@ -1,137 +1,159 @@
 $(function () {
-  $("#twentytwentycontainer11").twentytwenty();
-  $("#twentytwentycontainer21").twentytwenty();
-});
+  $('#twentytwentycontainer11').twentytwenty()
+  $('#twentytwentycontainer12').twentytwenty()
+  $('#twentytwentycontainer21').twentytwenty()
+  $('#twentytwentycontainer22').twentytwenty()
+})
 const slidesAmountResult1 =
-  document.querySelectorAll("[data-slide-number-result-1]").length / 2;
-const r_r_1 = document.getElementById("r_r_1");
-const l_r_1 = document.getElementById("l_r_1");
-const t_r_1 = document.getElementById("t_r_1");
+  document.querySelectorAll('[data-slide-number-result-1]').length / 2
+const rightButton__resultBlock__window1 = document.getElementById(
+  'rightButton__resultBlock__window1'
+)
+const leftButton__resultBlock__window1 = document.getElementById(
+  'leftButton__resultBlock__window1'
+)
+const text__resultBlock__window1 = document.getElementById(
+  'text__resultBlock__window1'
+)
 
 const slidesAmountResult2 =
-  document.querySelectorAll("[data-slide-number-result-2]").length / 2;
-const r_r_2 = document.getElementById("r_r_2");
-const l_r_2 = document.getElementById("l_r_2");
-const t_r_2 = document.getElementById("t_r_2");
+  document.querySelectorAll('[data-slide-number-result-2]').length / 2
+const rightButton__resultBlock__window2 = document.getElementById(
+  'rightButton__resultBlock__window2'
+)
+const leftButton__resultBlock__window2 = document.getElementById(
+  'leftButton__resultBlock__window2'
+)
+const text__resultBlock__window2 = document.getElementById(
+  'text__resultBlock__window2'
+)
 
-// t_r_1.innerHTML= `1 / ${slidesAmountResult1}`
-r_r_1.addEventListener("click", () => {
-  let lastActive = t_r_1.getAttribute("data-slide-result-1");
-
-  if (lastActive != slidesAmountResult1) {
-    if (lastActive == 1) {
-      l_r_1.style.cssText = "opacity: 100%";
-    }
-    let newActive = Number(lastActive) + 1;
-
-    if (newActive == slidesAmountResult1) {
-      r_r_1.style.cssText = "opacity: 30%";
-    }
-
-    t_r_1.innerHTML = `${newActive} / ${slidesAmountResult1}`;
-    t_r_1.setAttribute("data-slide-result-1", newActive);
-    const arr1 = document.querySelectorAll(
-      `[data-slide-number-result-1="${lastActive}"]`,
-    );
-    for (let i = 0; i < arr1.length; i++) {
-      arr1[i].setAttribute("data-visible", "false");
-    }
-    const arr2 = document.querySelectorAll(
-      `[data-slide-number-result-1="${newActive}"]`,
-    );
-    for (let i = 0; i < arr2.length; i++) {
-      arr2[i].setAttribute("data-visible", "true");
-    }
-    $(`#twentytwentycontainer1${newActive}`).twentytwenty();
-  }
-});
-l_r_1.addEventListener("click", () => {
-  let lastActive = t_r_1.getAttribute("data-slide-result-1");
-  if (lastActive != 1) {
-    if (lastActive == slidesAmountResult1) {
-      r_r_1.style.cssText = "opacity: 100%";
-    }
-    let newActive = Number(lastActive) - 1;
-    if (newActive == 1) {
-      l_r_1.style.cssText = "opacity: 30%";
-    }
-    const arr1 = document.querySelectorAll(
-      `[data-slide-number-result-1="${lastActive}"]`,
-    );
-    t_r_1.innerHTML = `${newActive} / ${slidesAmountResult1}`;
-    t_r_1.setAttribute("data-slide-result-1", newActive);
-    for (let i = 0; i < arr1.length; i++) {
-      arr1[i].setAttribute("data-visible", "false");
-    }
-    const arr2 = document.querySelectorAll(
-      `[data-slide-number-result-1="${newActive}"]`,
-    );
-    for (let i = 0; i < arr2.length; i++) {
-      arr2[i].setAttribute("data-visible", "true");
-    }
-    $(`#twentytwentycontainer1${newActive}`).twentytwenty();
-  }
-});
-r_r_2.addEventListener("click", () => {
-  let lastActive = t_r_2.getAttribute("data-slide-result-2");
+// text__resultBlock__window1.innerHTML= `1 / ${slidesAmountResult1}`
+rightButton__resultBlock__window1.addEventListener('click', () => {
+  let lastActive = text__resultBlock__window1.getAttribute(
+    'data-slide-result-1'
+  )
 
   if (lastActive != slidesAmountResult1) {
     if (lastActive == 1) {
-      l_r_2.style.cssText = "opacity: 100%";
+      leftButton__resultBlock__window1.style.cssText = 'opacity: 100%'
     }
-    let newActive = Number(lastActive) + 1;
+    let newActive = Number(lastActive) + 1
 
     if (newActive == slidesAmountResult1) {
-      r_r_2.style.cssText = "opacity: 30%";
+      rightButton__resultBlock__window1.style.cssText = 'opacity: 30%'
     }
 
-    t_r_2.innerHTML = `${newActive} / ${slidesAmountResult1}`;
-    t_r_2.setAttribute("data-slide-result-2", newActive);
+    text__resultBlock__window1.innerHTML = `${newActive} / ${slidesAmountResult1}`
+    text__resultBlock__window1.setAttribute('data-slide-result-1', newActive)
     const arr1 = document.querySelectorAll(
-      `[data-slide-number-result-2="${lastActive}"]`,
-    );
+      `[data-slide-number-result-1="${lastActive}"]`
+    )
     for (let i = 0; i < arr1.length; i++) {
-      arr1[i].setAttribute("data-visible", "false");
+      arr1[i].setAttribute('data-visible', 'false')
     }
     const arr2 = document.querySelectorAll(
-      `[data-slide-number-result-2="${newActive}"]`,
-    );
+      `[data-slide-number-result-1="${newActive}"]`
+    )
     for (let i = 0; i < arr2.length; i++) {
-      arr2[i].setAttribute("data-visible", "true");
+      arr2[i].setAttribute('data-visible', 'true')
     }
-    $(`#twentytwentycontainer2${newActive}`).twentytwenty({
-      before_label: "January 2017", // Set a custom before label
-      after_label: "March 2017", // Set a custom after label
-    });
+    $(`#twentytwentycontainer1${newActive}`).twentytwenty()
   }
-});
-l_r_2.addEventListener("click", () => {
-  let lastActive = t_r_2.getAttribute("data-slide-result-2");
+})
+leftButton__resultBlock__window1.addEventListener('click', () => {
+  let lastActive = text__resultBlock__window1.getAttribute(
+    'data-slide-result-1'
+  )
   if (lastActive != 1) {
     if (lastActive == slidesAmountResult1) {
-      r_r_2.style.cssText = "opacity: 100%";
+      rightButton__resultBlock__window1.style.cssText = 'opacity: 100%'
     }
-    let newActive = Number(lastActive) - 1;
+    let newActive = Number(lastActive) - 1
     if (newActive == 1) {
-      l_r_2.style.cssText = "opacity: 30%";
+      leftButton__resultBlock__window1.style.cssText = 'opacity: 30%'
     }
     const arr1 = document.querySelectorAll(
-      `[data-slide-number-result-2="${lastActive}"]`,
-    );
-    t_r_2.innerHTML = `${newActive} / ${slidesAmountResult1}`;
-    t_r_2.setAttribute("data-slide-result-2", newActive);
+      `[data-slide-number-result-1="${lastActive}"]`
+    )
+    text__resultBlock__window1.innerHTML = `${newActive} / ${slidesAmountResult1}`
+    text__resultBlock__window1.setAttribute('data-slide-result-1', newActive)
     for (let i = 0; i < arr1.length; i++) {
-      arr1[i].setAttribute("data-visible", "false");
+      arr1[i].setAttribute('data-visible', 'false')
     }
     const arr2 = document.querySelectorAll(
-      `[data-slide-number-result-2="${newActive}"]`,
-    );
+      `[data-slide-number-result-1="${newActive}"]`
+    )
     for (let i = 0; i < arr2.length; i++) {
-      arr2[i].setAttribute("data-visible", "true");
+      arr2[i].setAttribute('data-visible', 'true')
+    }
+    $(`#twentytwentycontainer1${newActive}`).twentytwenty()
+  }
+})
+rightButton__resultBlock__window2.addEventListener('click', () => {
+  let lastActive = text__resultBlock__window2.getAttribute(
+    'data-slide-result-2'
+  )
+
+  if (lastActive != slidesAmountResult1) {
+    if (lastActive == 1) {
+      leftButton__resultBlock__window2.style.cssText = 'opacity: 100%'
+    }
+    let newActive = Number(lastActive) + 1
+
+    if (newActive == slidesAmountResult1) {
+      rightButton__resultBlock__window2.style.cssText = 'opacity: 30%'
+    }
+
+    text__resultBlock__window2.innerHTML = `${newActive} / ${slidesAmountResult1}`
+    text__resultBlock__window2.setAttribute('data-slide-result-2', newActive)
+    const arr1 = document.querySelectorAll(
+      `[data-slide-number-result-2="${lastActive}"]`
+    )
+    for (let i = 0; i < arr1.length; i++) {
+      arr1[i].setAttribute('data-visible', 'false')
+    }
+    const arr2 = document.querySelectorAll(
+      `[data-slide-number-result-2="${newActive}"]`
+    )
+    for (let i = 0; i < arr2.length; i++) {
+      arr2[i].setAttribute('data-visible', 'true')
     }
     $(`#twentytwentycontainer2${newActive}`).twentytwenty({
-      before_label: "January 2017", // Set a custom before label
-      after_label: "March 2017", // Set a custom after label
-    });
+      before_label: 'January 2017', // Set a custom before label
+      after_label: 'March 2017' // Set a custom after label
+    })
   }
-});
+})
+leftButton__resultBlock__window2.addEventListener('click', () => {
+  let lastActive = text__resultBlock__window2.getAttribute(
+    'data-slide-result-2'
+  )
+  if (lastActive != 1) {
+    if (lastActive == slidesAmountResult1) {
+      rightButton__resultBlock__window2.style.cssText = 'opacity: 100%'
+    }
+    let newActive = Number(lastActive) - 1
+    if (newActive == 1) {
+      leftButton__resultBlock__window2.style.cssText = 'opacity: 30%'
+    }
+    const arr1 = document.querySelectorAll(
+      `[data-slide-number-result-2="${lastActive}"]`
+    )
+    text__resultBlock__window2.innerHTML = `${newActive} / ${slidesAmountResult1}`
+    text__resultBlock__window2.setAttribute('data-slide-result-2', newActive)
+    for (let i = 0; i < arr1.length; i++) {
+      arr1[i].setAttribute('data-visible', 'false')
+    }
+    const arr2 = document.querySelectorAll(
+      `[data-slide-number-result-2="${newActive}"]`
+    )
+    for (let i = 0; i < arr2.length; i++) {
+      arr2[i].setAttribute('data-visible', 'true')
+    }
+    $(`#twentytwentycontainer2${newActive}`).twentytwenty({
+      before_label: 'January 2017', // Set a custom before label
+      after_label: 'March 2017' // Set a custom after label
+    })
+  }
+})

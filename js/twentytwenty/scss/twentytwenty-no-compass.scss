@@ -1,5 +1,5 @@
 // 20/20 Class Prefix
-$pluginPrefix: "twentytwenty" !default;
+$pluginPrefix: 'twentytwenty' !default;
 
 // 20/20 Handle Styles
 $twenty20-handle-color: #fff !default;
@@ -24,7 +24,7 @@ $twenty20-label-radius: 2px !default;
 
 // 20/20 Placeholders
 %handle-content {
-  content: " ";
+  content: ' ';
   display: block;
   background: $twenty20-handle-color;
   position: absolute;
