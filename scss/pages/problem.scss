@@ -326,7 +326,6 @@ a {
 
 .filter-1 {
   box-sizing: border-box;
-
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -335,10 +334,8 @@ a {
   gap: 10px;
   height: 22px;
   width: fit-content;
-
   border: 0.5px solid #242424;
   border-radius: 50px;
-
   //styleName: BUTTONS MOBILE/FILTER 1 MOB;
   font-family: 'Nunito Sans';
   font-size: 10px;
@@ -570,7 +567,6 @@ a {
     align-items: center;
     padding: 15px 1px 15px 15px;
     gap: 10px;
-    width: 292px;
     margin: 46px 8px 73px 73px;
     background: linear-gradient(
       90deg,

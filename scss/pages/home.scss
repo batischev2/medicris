@@ -33,8 +33,6 @@ a {
   font-weight: 300;
   font-size: 26px;
   line-height: 35px;
-  /* or 135% */
-
   color: #242424;
 }
 
@@ -53,7 +51,6 @@ a {
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
-  /* or 133% */
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #242424;
@@ -65,7 +62,6 @@ a {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
-  /* or 120% */
   text-transform: uppercase;
 }
 
@@ -75,9 +71,7 @@ a {
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
-  /* or 117% */
   letter-spacing: 0.07em;
-
   color: #242424;
 }
 
@@ -87,9 +81,7 @@ a {
   font-weight: 500;
   font-size: 10px;
   line-height: 14px;
-  /* or 140% */
   letter-spacing: 0.02em;
-
   color: #000000;
 }
 
@@ -99,9 +91,7 @@ a {
   font-weight: 400;
   font-size: 10px;
   line-height: 12px;
-  /* or 120% */
   letter-spacing: 0.02em;
-
   color: #000000;
 }
 
@@ -112,9 +102,7 @@ a {
   font-size: 22px;
   line-height: 26px;
   letter-spacing: 0.03em;
-
   color: #242424;
-
   mix-blend-mode: darken;
 }
 
@@ -126,7 +114,6 @@ a {
   line-height: 24px;
   display: flex;
   align-items: center;
-
   color: #242424;
 }
 
@@ -138,7 +125,6 @@ a {
   line-height: 16px;
   letter-spacing: 0.07em;
   text-transform: uppercase;
-
   color: #242424;
 }
 
@@ -148,7 +134,6 @@ a {
   font-weight: 400;
   font-size: 12px;
   line-height: 135%;
-  /* or 16px */
   letter-spacing: 0.07em;
   color: #242424;
 }
@@ -159,7 +144,6 @@ a {
   font-weight: 400;
   font-size: 10px;
   line-height: 12px;
-
   color: #242424;
 }
 
@@ -169,7 +153,6 @@ a {
   font-weight: 400;
   font-size: 17px;
   line-height: 18px;
-  /* or 106% */
   color: #242424;
 }
 
@@ -179,7 +162,6 @@ a {
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
-  /* or 120% */
   color: #000000;
 }
 
@@ -189,10 +171,8 @@ a {
   font-weight: 700;
   font-size: 12px;
   line-height: 35px;
-  /* or 292% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #242424;
 }
 
@@ -202,9 +182,7 @@ a {
   font-weight: 600;
   font-size: 11px;
   line-height: 16px;
-  /* or 145% */
   text-transform: uppercase;
-
   color: #242424;
 }
 
@@ -215,31 +193,22 @@ a {
   font-size: 10px;
   line-height: 15px;
   padding-inline: 0;
-  /* or 150% */
   text-transform: uppercase;
-
   color: #242424;
 }
 
 //buttons
 .button-big-mob {
   box-sizing: border-box;
-
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 19px 75px;
   gap: 10px;
-
-  width: 353px;
   height: 50px;
-
-  /* TEXT 1 */
   border: 1px solid #242424;
   border-radius: 50px;
-
   //styleName: BUTTONS MOBILE/BUTTON 1 MOB;
   font-family: Montserrat Alternates;
   font-size: 10px;
@@ -247,7 +216,6 @@ a {
   line-height: 12.19px;
   letter-spacing: 0.03em;
   text-align: center;
-
   &:hover {
     background: rgba(8, 229, 190, 0.5);
   }
@@ -259,7 +227,6 @@ a {
   font-weight: 700;
   line-height: 12.19px;
   letter-spacing: 0.03em;
-
   padding: 9px 20px 9px 20px;
   border-radius: 50px;
   border: 1px solid #242424;
@@ -269,20 +236,17 @@ a {
 }
 
 .button-2-mob {
-  //arrow-link
   font-family: 'Montserrat Alternates';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
   display: flex;
   align-items: center;
   text-align: right;
   column-gap: 7px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-
   color: #000000;
   &:hover {
     column-gap: 22px;
@@ -295,13 +259,11 @@ a {
   font-weight: 700;
   font-size: 12px;
   line-height: 135%;
-  /* or 16px */
   display: flex;
   align-items: center;
   text-align: right;
   letter-spacing: 0.07em;
   text-transform: uppercase;
-
   color: #08e5be;
   &:hover {
     text-decoration: underline;
@@ -352,7 +314,6 @@ a {
     padding: 0px;
     flex: 1;
     height: 493px;
-    /* FON 2 PAGE */
     background: #d9d9d9;
     &__head {
       border-top: 1px solid #242424;
@@ -360,7 +321,6 @@ a {
       width: 100%;
       &_top {
         margin-top: 10px;
-
         font-family: Nunito Sans;
         font-size: 12px;
         font-weight: 700;
@@ -372,7 +332,6 @@ a {
       &_bottom {
         margin-top: 26px;
         margin-bottom: 10px;
-
         font-family: 'Nunito Sans';
         font-size: 8px;
         font-weight: 700;
@@ -412,7 +371,6 @@ a {
     padding: 0px;
     flex: 1;
     height: 493px;
-    /* FON 2 PAGE */
     background: #f2f2f2;
     &__head {
       border-top: 1px solid #242424;
@@ -424,7 +382,6 @@ a {
       justify-content: space-between;
       &_top {
         margin-top: 10px;
-
         font-family: Nunito Sans;
         font-size: 12px;
         font-weight: 700;
@@ -436,7 +393,6 @@ a {
       &_bottom {
         margin-top: 26px;
         margin-bottom: 10px;
-
         font-family: 'Nunito Sans';
         font-size: 8px;
         font-weight: 700;
@@ -555,25 +511,20 @@ a {
     }
   }
 
-  .t-n-b {
+  .text-and-buttons {
     height: 677px;
     padding-top: 37px;
     padding-bottom: 0;
     &__text {
-      /* УПРАВЛЯЙТЕ ВНЕШНОСТЬЮ, ЗДОРОВЬЕМ И КАЧЕСТВОМ ЖИЗНИ */
       height: 120px;
-
       font-family: 'Montserrat';
       font-style: normal;
       font-weight: 300;
       font-size: 20px;
       line-height: 24px;
-      /* or 120% */
       text-align: center;
       letter-spacing: 0.07em;
-
       color: #000000;
-
       mix-blend-mode: darken;
     }
 
@@ -587,7 +538,6 @@ a {
       background-color: rgba(8, 229, 190, 0.45);
       backdrop-filter: blur(10px);
       color: #000;
-      width: 360px;
       border-radius: 50px;
       margin-left: 20px;
       margin-right: 20px;
@@ -598,10 +548,8 @@ a {
         border: #000 solid 1px;
         border-radius: 50px;
         padding: 14px 0;
-
         width: 106px;
         height: 10.83px;
-
         font-family: 'Montserrat Alternates';
         font-style: normal;
         font-weight: 700;
@@ -612,25 +560,20 @@ a {
         align-items: center;
         text-align: center;
         letter-spacing: 0.03em;
-
         color: #000000;
       }
       &__t {
-        /* ПЕРСОНАЛЬНЫЙ ПРОТОКОЛ */
         width: 114px;
         height: 26px;
-
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
         line-height: 13px;
-        /* or 108% */
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-
         color: #000000;
       }
     }
@@ -651,50 +594,38 @@ a {
 
   &__main-text {
     margin-top: 84px;
-
-    /* КЛИНИКА MEDICRIS — ОТВЕТСТВЕННАЯ* ЭСТЕТИЧЕСКАЯ МЕДИЦИНА, ПОМОГАЮЩАЯ ОСТАВАТЬСЯ НА ВЫСОТЕ! */
-    width: 100%; //при значении из фигмы текст не вмещается
+    width: 100%;
     height: 467.56px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 26px;
     line-height: 35px;
-    /* or 135% */
     letter-spacing: 0.07em;
-
     color: #000000;
   }
   &__subtext {
     margin-top: 26px;
-    /* Эльвира Айзекс, основатель клиники */
     width: 292px;
     height: 14px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
-    /* identical to box height, or 117% */
     display: flex;
     align-items: center;
     letter-spacing: 0.07em;
-
     color: #000000;
   }
   &__note {
-    /* В 2023 году MEDICRIS присвоен статус Клинической Базы НМХЦ им. Н.И.Пирогова */
     width: 171.39px;
     height: 137.83px;
-
     font-family: 'Montserrat';
     font-style: italic;
     font-weight: 300;
     font-size: 12px;
     line-height: 16px;
-    /* or 133% */
     letter-spacing: 0.05em;
     color: #000000;
     position: relative;
@@ -744,13 +675,11 @@ a {
     font-weight: 400;
     font-size: 12px;
     line-height: 135%;
-    /* or 16px */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     letter-spacing: 0.07em;
-
     color: #f2f0ee;
   }
 
@@ -760,7 +689,6 @@ a {
     backdrop-filter: blur(7.5px);
     padding: 10px 20px;
     &__text {
-      /* 127 ВЫСОКО–ТЕХНОЛОГИЧНЫХ ПРОЦЕДУР */
       padding: 0;
       width: 278.67px;
       height: 66px;
@@ -769,7 +697,6 @@ a {
       font-weight: 400;
       font-size: 18px;
       line-height: 22px;
-      /* or 122% */
       display: flex;
       align-items: center;
       letter-spacing: 0.03em;
@@ -782,10 +709,8 @@ a {
       transform: rotate(270deg);
     }
     &__string {
-      /* MOVING STROKE */
       width: 100%;
       height: 42px;
-
       background-color: rgba(8, 229, 190, 0.45);
       backdrop-filter: blur(10px);
       padding: 14px 0;
@@ -794,7 +719,6 @@ a {
       font-weight: 700;
       font-size: 12px;
       line-height: 15px;
-      /* identical to box height */
       letter-spacing: 0.1em;
       color: #000000;
     }
@@ -809,7 +733,6 @@ a {
   height: 60px;
   backdrop-filter: blur(50px);
   text-align: center;
-
   &__img {
     width: 19px;
     height: 19px;
@@ -820,12 +743,9 @@ a {
     font-weight: 500;
     font-size: 10px;
     line-height: 16px;
-    /* or 160% */
     text-align: center;
     letter-spacing: 0.02em;
-
     color: #000000;
-
     mix-blend-mode: darken;
   }
 }
@@ -833,7 +753,6 @@ a {
 .abilities {
   background: url('../../media/type-2/bg1.webp');
   background-size: cover;
-  // margin-bottom: 617px;
   position: sticky;
   top: 65px;
   z-index: 3;
@@ -850,8 +769,6 @@ a {
 }
 
 .doctors {
-  // margin-top: 617px;
-  // margin-bottom: 617px;
   z-index: 4;
   position: sticky;
   top: 65px;
@@ -860,8 +777,6 @@ a {
 }
 
 .equip {
-  // margin-top: 617px;
-  // margin-bottom: 617px;
   z-index: 5;
   position: sticky;
   top: 65px;
@@ -870,8 +785,6 @@ a {
 }
 
 .clinic {
-  // margin-top: 617px;
-  // margin-bottom: 617px;
   z-index: 6;
   position: sticky;
   top: 65px;
@@ -880,44 +793,33 @@ a {
 }
 
 .philosofy {
-  // margin-top: 617px;
   height: 619px;
   padding-top: 50px;
   background-color: #f2f2f2;
   &__title {
-    /* НАША ФИЛОСОФИЯ */
-    width: 353px;
     height: 16px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
     line-height: 135%;
-    /* or 16px */
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.07em;
-
     color: #000000;
   }
   &__text {
-    /* СИСТЕМНЫЙ ПОДХОД — КЛЮЧ К ГАРМОНИИ КРАСОТЫ И ЗДОРОВЬЯ */
     height: 120px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
-    /* or 120% */
     text-align: center;
     letter-spacing: 0.07em;
     padding-top: 30px;
-
     color: #000000;
-
     mix-blend-mode: darken;
   }
 
@@ -950,16 +852,13 @@ a {
       line-height: 16px;
       letter-spacing: 0.1em;
       text-align: left;
-
       margin-bottom: 10px;
       margin-top: 5px;
     }
     &__text {
       margin-bottom: 20px;
       width: 293px;
-
       font-family: Montserrat;
-
       font-size: 12px;
       font-weight: 300;
       line-height: 14.88px;
@@ -980,19 +879,16 @@ a {
   &__text {
     width: 83px;
     height: 15px;
-
     font-family: 'Montserrat Alternates';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: right;
     letter-spacing: 0.05em;
-
     color: #000000;
   }
 }
@@ -1031,19 +927,14 @@ a {
   &__source {
     align-self: flex-end;
     padding-right: 30px;
-    /* ЧИТАТЬ ИСТОЧНИК */
     width: 141px;
     height: 16px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 135%;
-    /* or 16px */
-
     letter-spacing: 0.07em;
-
     color: #08e5be;
   }
 
@@ -1114,13 +1005,11 @@ a {
       font-weight: 700;
       font-size: 16px;
       line-height: 20px;
-      /* identical to box height */
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
       letter-spacing: 0.05em;
-
       color: #000000;
     }
   }
@@ -1228,24 +1117,17 @@ a {
   }
   &__title {
     padding: 52px;
-
-    /* НОВОСТИ MEDICRIS */
-
-    width: 353px;
     height: 16px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
     line-height: 135%;
-    /* or 16px */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     letter-spacing: 0.07em;
-
     color: #000000;
   }
 }
@@ -1259,14 +1141,11 @@ a {
     rgba(242, 242, 242, 0.5) 85.5%
   );
   &__text {
-    width: 352.43px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 27px;
     line-height: 35px;
-    /* or 130% */
     text-align: center;
     letter-spacing: 0.07em;
     color: #000000;
@@ -1304,29 +1183,22 @@ a {
   color: #242424;
   &__title {
     margin: 30px;
-    /* MEDICRIS — КЛИНИКА КРАСОТЫ */
-    width: 353px;
     height: 24px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    /* identical to box height, or 120% */
     color: #242424;
     mix-blend-mode: darken;
   }
   &__info {
-    width: 353px;
     height: 24px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
     color: #242424;
     mix-blend-mode: darken;
   }
@@ -1356,10 +1228,7 @@ a {
 
   &__adress {
     margin-top: 37px;
-
-    width: 353px;
     height: 24px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -1379,7 +1248,6 @@ a {
     border-top: #000 solid 1px;
     margin: 0 12px;
     padding: 3.5px 0px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -1513,11 +1381,8 @@ a {
   background-color: rgba(242, 242, 242, 1);
   padding: 0 20px;
   &__header {
-    //styleName: HEADERS MOBILE/H1 MOB;
-    width: 353px;
     height: 55.14px;
     margin-top: 45px;
-
     font-family: Montserrat;
     font-size: 22px;
     font-weight: 500;
@@ -1537,8 +1402,6 @@ a {
     font-weight: 400;
     font-size: 10px;
     line-height: 12px;
-
-    /* TEXT 2 */
     color: #999999;
     position: relative;
   }
@@ -1555,7 +1418,6 @@ a {
       padding: 0;
     }
     &__t {
-      //styleName: HEADERS MOBILE/H3 LIST MOB;
       font-family: Montserrat;
       font-size: 12px;
       font-weight: 700;
@@ -1633,13 +1495,8 @@ a {
       font-weight: 600;
       font-size: 10px;
       line-height: 20px;
-      /* or 200% */
       text-align: right;
-
-      /* TEXT 1 */
       color: #242424;
-
-      /* Inside auto layout */
       flex: none;
       order: 1;
       flex-grow: 0;
@@ -1701,18 +1558,14 @@ a {
     margin-top: 39px;
     width: 232px;
     height: 80px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    /* or 114% */
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
-    /* TEXT 1 */
     color: #242424;
   }
   &-container {
@@ -1745,24 +1598,20 @@ a {
     }
   }
 
-  .t-n-b {
+  .text-and-buttons {
     height: 677px;
     padding-top: 72px;
     padding-bottom: 0;
     &__text {
       height: 120px;
-
       font-family: 'Montserrat';
       font-style: normal;
       font-weight: 300;
       font-size: 20px;
       line-height: 24px;
-      /* or 120% */
       text-align: center;
       letter-spacing: 0.07em;
-
       color: #000000;
-
       mix-blend-mode: darken;
     }
 
@@ -1775,7 +1624,6 @@ a {
       background-color: rgba(8, 229, 190, 0.45);
       backdrop-filter: blur(10px);
       color: #000;
-      width: 360px;
       border-radius: 50px;
       margin-left: 20px;
       margin-right: 20px;
@@ -1786,10 +1634,8 @@ a {
         border: #000 solid 1px;
         border-radius: 50px;
         padding: 14px 0;
-
         width: 106px;
         height: 10.83px;
-
         font-family: 'Montserrat Alternates';
         font-style: normal;
         font-weight: 700;
@@ -1800,27 +1646,21 @@ a {
         align-items: center;
         text-align: center;
         letter-spacing: 0.03em;
-
         color: #000000;
       }
       &__t {
-        /* ПЕРСОНАЛЬНЫЙ ПРОТОКОЛ */
         width: 114px;
         height: 26px;
-
         font-family: Montserrat;
         font-size: 8.43px;
         font-weight: 500;
         line-height: 9.94px;
         letter-spacing: 0.03em;
         text-align: center;
-
-        /* or 108% */
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-
         color: #000000;
       }
     }

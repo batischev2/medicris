@@ -394,7 +394,6 @@ a {
         &-img {
           width: 100%;
           margin-bottom: 17px;
-
           img {
             width: 100%;
           }
@@ -483,7 +482,6 @@ a {
       justify-content: space-between;
       &_top {
         margin-top: 10px;
-
         font-family: Nunito Sans;
         font-size: 12px;
         font-weight: 700;
@@ -786,7 +784,7 @@ a {
     }
   }
 
-  .t-n-b {
+  .text-and-buttons {
     padding-top: 37px;
     padding-bottom: 0;
     &__text {
@@ -2122,7 +2120,7 @@ a {
     }
   }
 
-  .t-n-b {
+  .text-and-buttons {
     padding-top: 72px;
     padding-bottom: 0;
     &__text {
@@ -2150,6 +2148,7 @@ a {
       border-radius: 50px;
       margin-top: 580px;
       min-height: 70px;
+      width: calc(100vw - 40px);
       &__f,
       &__m {
         border: #000 solid 1px;
