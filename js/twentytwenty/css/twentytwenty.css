@@ -204,8 +204,8 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -22px;
-  margin-top: -22px;
+  margin-left: -25px;
+  margin-top: -25px;
   z-index: 40;
   cursor: pointer;
   background-image: url(../Handle.svg);
