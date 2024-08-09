@@ -7,7 +7,6 @@ rf.addEventListener('click', () => {
   let lastActive = tf.getAttribute('data-number')
   if (lastActive != slidesAmountF) {
     if (lastActive == 1) {
-      // lf.setAttribute('src', 'media/review/Arrow_black.svg')
       lf.style.cssText = 'opacity: 100%'
     }
     let newActive = Number(lastActive) + 1
@@ -16,12 +15,12 @@ rf.addEventListener('click', () => {
     }
     tf.setAttribute('data-number', newActive)
     tf.innerHTML = `${newActive} / ${slidesAmountF}`
-    document
-      .querySelector(`[data-slide-number="${lastActive}"]`)
-      .setAttribute('data-visible', 'false')
-    document
-      .querySelector(`[data-slide-number="${newActive}"]`)
-      .setAttribute('data-visible', 'true')
+    let lastActiveElement = document.querySelector(`[data-slide-number="${lastActive}"]`)
+    let newActiveElement = document.querySelector(`[data-slide-number="${newActive}"]`)
+    lastActiveElement.setAttribute('data-visible', 'false')
+    lastActiveElement.classList.remove('open')
+    newActiveElement.setAttribute('data-visible', 'true')
+    setTimeout(() => newActiveElement.classList.add('open'), 50)
   }
 })
 lf.addEventListener('click', () => {
@@ -36,11 +35,11 @@ lf.addEventListener('click', () => {
     }
     tf.setAttribute('data-number', newActive)
     tf.innerHTML = `${newActive} / ${slidesAmountF}`
-    document
-      .querySelector(`[data-slide-number="${lastActive}"]`)
-      .setAttribute('data-visible', 'false')
-    document
-      .querySelector(`[data-slide-number="${newActive}"]`)
-      .setAttribute('data-visible', 'true')
+    let lastActiveElement = document.querySelector(`[data-slide-number="${lastActive}"]`)
+    let newActiveElement = document.querySelector(`[data-slide-number="${newActive}"]`)
+    lastActiveElement.setAttribute('data-visible', 'false')
+    lastActiveElement.classList.remove('open')
+    newActiveElement.setAttribute('data-visible', 'true')
+    setTimeout(() => newActiveElement.classList.add('open'), 50)
   }
 })

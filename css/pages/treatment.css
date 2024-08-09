@@ -1236,6 +1236,15 @@ a {
   letter-spacing: 0.05em;
   color: #000000;
 }
+.feedback-slide {
+  transition: all 500ms ease;
+  position: relative;
+  left: 0;
+  transform: translate(100vw, 0);
+}
+.feedback-slide.open {
+  transform: translate(0, 0);
+}
 
 .results {
   padding: 70px 20px;
