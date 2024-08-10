@@ -15,8 +15,12 @@ rf.addEventListener('click', () => {
     }
     tf.setAttribute('data-number', newActive)
     tf.innerHTML = `${newActive} / ${slidesAmountF}`
-    let lastActiveElement = document.querySelector(`[data-slide-number="${lastActive}"]`)
-    let newActiveElement = document.querySelector(`[data-slide-number="${newActive}"]`)
+    let lastActiveElement = document.querySelector(
+      `[data-slide-number="${lastActive}"]`
+    )
+    let newActiveElement = document.querySelector(
+      `[data-slide-number="${newActive}"]`
+    )
     lastActiveElement.setAttribute('data-visible', 'false')
     lastActiveElement.classList.remove('open')
     newActiveElement.setAttribute('data-visible', 'true')
@@ -35,8 +39,12 @@ lf.addEventListener('click', () => {
     }
     tf.setAttribute('data-number', newActive)
     tf.innerHTML = `${newActive} / ${slidesAmountF}`
-    let lastActiveElement = document.querySelector(`[data-slide-number="${lastActive}"]`)
-    let newActiveElement = document.querySelector(`[data-slide-number="${newActive}"]`)
+    let lastActiveElement = document.querySelector(
+      `[data-slide-number="${lastActive}"]`
+    )
+    let newActiveElement = document.querySelector(
+      `[data-slide-number="${newActive}"]`
+    )
     lastActiveElement.setAttribute('data-visible', 'false')
     lastActiveElement.classList.remove('open')
     newActiveElement.setAttribute('data-visible', 'true')

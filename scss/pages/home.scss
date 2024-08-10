@@ -1239,7 +1239,7 @@ a {
   }
 
   &__map-img {
-    object-fit: cover;
+    filter: grayscale(100%);
     margin-top: 24px;
     margin-bottom: 22px;
   }

@@ -1045,7 +1045,7 @@ a {
     mix-blend-mode: darken;
     text-align: justify;
     &::after {
-      content: "";
+      content: '';
       display: inline-block;
       width: 100%;
     }
@@ -1099,7 +1099,7 @@ a {
   }
 
   &__map-img {
-    object-fit: cover;
+    filter: grayscale(100%);
     margin-top: 24px;
     margin-bottom: 22px;
   }
