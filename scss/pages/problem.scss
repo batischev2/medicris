@@ -1043,6 +1043,12 @@ a {
     line-height: 24px;
     color: #242424;
     mix-blend-mode: darken;
+    text-align: justify;
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 100%;
+    }
   }
   &__info {
     width: 100%;
@@ -1166,7 +1172,7 @@ a {
     }
   }
   &-license {
-    margin-bottom: 160px;
+    margin-bottom: 100px;
     &__first {
       font-family: Montserrat;
       font-size: 12px;

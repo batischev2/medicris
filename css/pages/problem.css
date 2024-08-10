@@ -909,6 +909,12 @@ a {
   line-height: 24px;
   color: #242424;
   mix-blend-mode: darken;
+  text-align: justify;
+}
+.footer__title::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
 }
 .footer__info {
   width: 100%;
@@ -1025,7 +1031,7 @@ a {
   padding-bottom: 24px;
 }
 .footer-license {
-  margin-bottom: 160px;
+  margin-bottom: 100px;
 }
 .footer-license__first {
   font-family: Montserrat;
