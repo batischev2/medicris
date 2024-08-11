@@ -209,7 +209,6 @@ a {
   height: 50px;
   border: 1px solid #242424;
   border-radius: 50px;
-  //styleName: BUTTONS MOBILE/BUTTON 1 MOB;
   font-family: Montserrat Alternates;
   font-size: 10px;
   font-weight: 700;
@@ -495,7 +494,6 @@ a {
 
 .first-page {
   position: relative;
-  height: 617px;
   width: 100%;
   background-color: rgba(235, 232, 229, 0.6);
 
@@ -505,14 +503,12 @@ a {
       url(../../media/main_page/m.png) right top no-repeat,
       url(../../media/main_page/f.png) left top no-repeat;
     &__item {
-      height: 617px;
       width: auto;
       overflow-y: hidden;
     }
   }
 
   .text-and-buttons {
-    height: 677px;
     padding-top: 37px;
     padding-bottom: 0;
     &__text {
@@ -541,8 +537,9 @@ a {
       border-radius: 50px;
       margin-left: 20px;
       margin-right: 20px;
-      margin-top: 252px;
+      margin-top: 240px;
       min-height: 70px;
+      width: calc(100vw - 40px);
       &__f,
       &__m {
         border: #000 solid 1px;
@@ -593,9 +590,8 @@ a {
   }
 
   &__main-text {
-    margin-top: 84px;
+    margin-top: 44px;
     width: 100%;
-    height: 467.56px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
@@ -833,7 +829,6 @@ a {
   background-color: #f2f2f2;
   padding: 20px;
   width: 100%;
-  height: 686px;
 
   &-wrapper {
     margin-bottom: 20px;
@@ -865,7 +860,7 @@ a {
       text-align: left;
     }
     &__link {
-      margin-bottom: 20px;
+      margin-bottom: 100px;
     }
   }
 }
@@ -1020,7 +1015,6 @@ a {
 }
 
 .rate {
-  height: 618px;
   background-color: #f2f2f2;
   padding: 0 20px;
   padding-bottom: 0;
@@ -1134,7 +1128,6 @@ a {
 
 .message {
   z-index: 1;
-  height: 673px;
   background: linear-gradient(
     180deg,
     rgba(8, 229, 190, 0.5) 0%,
@@ -1162,7 +1155,8 @@ a {
     text-align: left;
   }
   &__link {
-    margin-top: 187px;
+    padding-top: 171px;
+    padding-bottom: 125px;
   }
 }
 
