@@ -493,9 +493,8 @@ a {
 }
 
 .first-page {
-  position: relative;
   width: 100%;
-  background-color: rgba(235, 232, 229, 0.6);
+  background: #e0d8d0;
 
   .photos-wrapper {
     height: 617px;
@@ -509,7 +508,7 @@ a {
   }
 
   .text-and-buttons {
-    padding-top: 37px;
+    padding-top: 59px;
     padding-bottom: 0;
     &__text {
       height: 120px;
@@ -526,8 +525,7 @@ a {
 
     &__arrow {
       width: 40px;
-      margin-top: 70px;
-      opacity: 0.6;
+      margin-top: 30px;
     }
 
     &__buttons {
@@ -562,15 +560,12 @@ a {
       &__t {
         width: 114px;
         height: 26px;
-        font-family: 'Montserrat';
-        font-style: normal;
+        font-family: Montserrat;
+        font-size: 8.43px;
         font-weight: 500;
-        font-size: 12px;
-        line-height: 13px;
+        line-height: 9.94px;
+        letter-spacing: 0.03em;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
         color: #000000;
       }
     }
@@ -599,6 +594,11 @@ a {
     line-height: 35px;
     letter-spacing: 0.07em;
     color: #000000;
+
+    img {
+      margin-top: -20px;
+      margin-left: -10px;
+    }
   }
   &__subtext {
     margin-top: 26px;
@@ -615,8 +615,6 @@ a {
     color: #000000;
   }
   &__note {
-    width: 171.39px;
-    height: 137.83px;
     font-family: 'Montserrat';
     font-style: italic;
     font-weight: 300;
@@ -626,17 +624,14 @@ a {
     color: #000000;
     position: relative;
     &::before {
-      content: '*';
-      left: -5px;
-      top: 5px;
+      content: url('../../media/main_page/star.svg');
+      left: -10px;
+      top: -10px;
       position: absolute;
-      font-weight: bold;
-      font-size: 26px;
-      font-style: normal;
     }
   }
   &__link {
-    margin-bottom: 135px;
+    margin-bottom: 145px;
   }
 }
 
@@ -905,10 +900,10 @@ a {
   &__title {
     font-family: Montserrat;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 16.2px;
     letter-spacing: 0.07em;
-    text-align: left;
+    text-align: center;
   }
   &__text {
     margin-top: 81px;

@@ -2016,7 +2016,6 @@ a {
 
 .personal-protocol {
   position: relative;
-  height: 970px;
   background: #e0d8d0;
 }
 .personal-protocol .photos-wrapper {
@@ -2082,11 +2081,7 @@ a {
   font-weight: 500;
   line-height: 9.94px;
   letter-spacing: 0.03em;
-  text-align: center;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   color: #000000;
 }
 
