@@ -161,7 +161,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 19px 75px;
+  padding: 19px 55px;
   gap: 10px;
   width: 100%;
   height: 50px;
@@ -1200,6 +1200,8 @@ a {
 }
 .feedback__source_n {
   margin-top: 31px;
+  justify-content: flex-end;
+  padding-right: 20px;
 }
 .feedback-items-wrapper {
   display: flex;
@@ -1634,6 +1636,9 @@ a {
   background-color: rgb(242, 242, 242);
 }
 .protocol__title {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12.19px;
   padding-top: 18px;
   padding-bottom: 9px;
   padding-inline: 0;

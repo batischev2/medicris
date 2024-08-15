@@ -1,4 +1,4 @@
-@import 'fonts';
+@import '../fonts';
 @import '../components/buttons';
 @import '../components/article';
 @import '../components/header';
@@ -458,7 +458,7 @@ a {
 .problem-articles {
   background-color: #d9d9d9;
   padding-top: 107px;
-  padding-bottom: 20px;
+  padding-bottom: 107px;
   --bs-gutter-x: 0;
   &__title {
     @extend %h2-mob;

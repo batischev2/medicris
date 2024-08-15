@@ -1,17 +1,1004 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import 'fonts';
- *   |         ^^^^^^^
- *   '
- *   scss\pages\problem.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import 'fonts';\a   \2502          ^^^^^^^\a   \2575 \a   scss\\pages\\problem.scss 1:9  root stylesheet";
+.problem-first-screen__text {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #242424;
 }
+
+.problem-danger__title, .problem-not-everybody__title {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.problem-first-screen__dates {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.problem-types-card__number, .problem-first-screen__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: #242424;
+  mix-blend-mode: darken;
+}
+
+.problem-mc-treatment__title, .problem-articles__title, .problem-all-treatments__title, .problem-types__title, .problem-progress-variants__title, .problem-routes__title, .problem-causes__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #242424;
+}
+
+.problem-types-card__title, .problem-progress-variants-list-wrapper__item__title, .problem-routes-list-wrapper__item__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #242424;
+}
+
+.problem-proof__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 135%;
+  letter-spacing: 0.07em;
+  color: #242424;
+}
+
+.problem-first-screen__content {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #242424;
+}
+
+.problem-danger-list, .problem-danger__text2, .problem-danger__text1, .problem-types-card-list, .problem-types-card__text, .problem-not-everybody__text:first-child, .problem-not-everybody__text, .problem-progress-variants-list-wrapper__item__body, .problem-progress-variants__text, .problem-routes-list-wrapper__item__body, .problem-routes__text, .problem-causes__text {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.problem-all-treatments-list {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 35px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #242424;
+}
+
+.button-big-mob {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 19px 55px;
+  gap: 10px;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #242424;
+  border-radius: 50px;
+  font-family: Montserrat Alternates;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.button-big-mob:hover {
+  background: rgba(8, 229, 190, 0.5);
+}
+
+.button-1-mob {
+  font-family: "Montserrat Alternates";
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12.19px;
+  letter-spacing: 0.03em;
+  padding: 9px 20px 9px 20px;
+  border-radius: 50px;
+  border: 1px solid #242424;
+}
+.button-1-mob:hover {
+  background: rgba(8, 229, 190, 0.5);
+}
+
+.button-2-mob {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  column-gap: 7px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.button-2-mob:hover {
+  column-gap: 22px;
+}
+
+.link-mob {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 135%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #08e5be;
+}
+.link-mob:hover {
+  text-decoration: underline;
+}
+
+.filter-1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 10px;
+  gap: 10px;
+  height: 22px;
+  width: fit-content;
+  border: 0.5px solid #242424;
+  border-radius: 50px;
+  font-family: "Nunito Sans";
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 13.64px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.filter-1_active {
+  background-color: rgba(8, 229, 190, 0.5);
+}
+.filter-1:hover {
+  background-color: rgba(8, 229, 190, 0.5);
+}
+
+.filter-2-mob {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #242424;
+}
+.filter-2-mob_no {
+  background-image: url(../../media/treatment/procedure/Ellipse_26.svg);
+  width: 15px;
+  height: 15px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 5px;
+}
+.filter-2-mob_choosen {
+  background-image: url(../../media/treatment/procedure/Ellipse_26_black.svg);
+  width: 15px;
+  height: 15px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 5px;
+}
+
+.card-article {
+  width: 293px;
+  height: 372px;
+  border-top: 1px solid #000;
+  margin-right: 10px;
+  background-color: #fff;
+  padding-inline: 20px;
+}
+.card-article:first-child {
+  margin-left: 20px;
+}
+.card-article:last-child {
+  margin-right: 20px;
+}
+.card-article-text__title {
+  margin-top: 26px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20.25px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.card-article-text__author {
+  margin-top: 20px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+}
+.card-article-text__main {
+  margin-top: 32px;
+  font-family: "Nunito Sans";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+}
+.card-article__link {
+  margin-top: 68px;
+  display: flex;
+  justify-content: flex-start;
+  justify-items: flex-start;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 3000;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+}
+.header-plug {
+  height: 64px;
+  background-color: #f9f9f9;
+}
+.header__img {
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu {
+  position: fixed;
+  bottom: 0;
+  z-index: 33;
+  background-color: #f8f8f8;
+  height: 60px;
+  backdrop-filter: blur(50px);
+  text-align: center;
+}
+.menu__img {
+  width: 19px;
+  height: 19px;
+}
+.menu__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+  mix-blend-mode: darken;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #fff;
+  color: #242424;
+}
+.footer__title {
+  margin: 30px 0;
+  height: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  color: #242424;
+  mix-blend-mode: darken;
+  text-align: justify;
+}
+.footer__title::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+.footer__info {
+  height: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  mix-blend-mode: darken;
+}
+.footer-icons-wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 36px;
+  justify-content: end;
+  margin-bottom: 22px;
+}
+.footer-icons-wrapper:first-child {
+  margin-top: 3px;
+}
+.footer-icons-wrapper:last-child {
+  margin-bottom: 0;
+}
+.footer-icons-wrapper__item {
+  align-self: center;
+}
+.footer__socials {
+  padding: 0;
+  width: 24px;
+  height: 24px;
+}
+.footer__adress {
+  margin-top: 37px;
+  height: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  mix-blend-mode: darken;
+}
+.footer__map-img {
+  filter: grayscale(100%);
+  margin-top: 24px;
+  margin-bottom: 22px;
+}
+.footer__maps {
+  border-top: #000 solid 1px;
+  margin: 0 12px;
+  padding: 3.5px 0px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #242424;
+  mix-blend-mode: darken;
+}
+.footer__maps_last {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #242424;
+  mix-blend-mode: darken;
+  padding: 3.5px 0;
+  margin: 0;
+  border-top: #000 solid 1px;
+  border-bottom: #000 solid 1px;
+}
+.footer__maps_last > .col {
+  padding-inline: 0;
+}
+.footer__navimg {
+  transform: scale(0.5);
+  margin-right: -13px;
+}
+.footer__navimg_last {
+  transform: scale(0.55) rotate(270deg);
+  margin-right: -22px;
+}
+.footer__dropdown {
+  display: none;
+}
+.footer__dropdown_station {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 10.8px;
+  text-align: left;
+  padding-bottom: 12px;
+}
+.footer__dropdown_dist {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 10px;
+  text-align: left;
+  color: #999;
+  padding-bottom: 14px;
+}
+.footer__dropdown_desc {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  padding-bottom: 24px;
+}
+.footer-license {
+  margin-bottom: 100px;
+}
+.footer-license__first {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+.footer-license__others {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+}
+.footer-license__others_underline {
+  text-decoration: underline;
+}
+
+:root {
+  --bs-body-font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  overflow-x: clip;
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.problem-first-screen {
+  background-color: #f2f2f2;
+  padding: 0 20px;
+}
+.problem-first-screen__title {
+  width: 100%;
+  height: 55.14px;
+  margin-top: 45px;
+  padding-top: 30px;
+}
+.problem-first-screen__breadcrumbs {
+  height: 12px;
+  margin-top: 9px;
+  padding-bottom: 19px;
+  border-bottom: solid #000 1px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  margin-inline: 11px;
+  padding-inline: 0;
+  color: #999999;
+  position: relative;
+}
+.problem-first-screen__dates {
+  margin-top: 10px;
+  width: 100%;
+  height: 24px;
+  text-align: right;
+  color: #242424;
+}
+.problem-first-screen__text {
+  margin-top: 42px;
+}
+.problem-first-screen__img {
+  margin-top: 10px;
+}
+.problem-first-screen-sticky-content {
+  padding: 0 20px;
+  position: sticky;
+  top: 64px;
+  background-color: #f2f2f2;
+  padding-bottom: 10px;
+  z-index: 2900;
+}
+.problem-first-screen__content {
+  margin-top: 23px;
+}
+.problem-first-screen-buttons-wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 9.63px;
+  flex: 0 1 auto;
+}
+.problem-first-screen-buttons-wrapper__item {
+  color: #242424;
+  margin-top: 10px;
+  clear: both;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.problem-causes {
+  background-color: #f2f2f2;
+  padding: 0 20px;
+}
+.problem-causes__title {
+  margin-top: 40px;
+  text-align: left;
+  color: #242424;
+  padding-bottom: 11px;
+  border-bottom: #000 1px solid;
+  padding-inline: 0;
+  margin-inline: 11px;
+}
+.problem-causes__text {
+  color: #242424;
+}
+.problem-causes__text:first-child {
+  margin-top: 29px;
+  margin-bottom: 10px;
+}
+.problem-causes__subtext {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 1px 15px 15px;
+  gap: 10px;
+  margin: 46px 8px 73px 73px;
+  background: linear-gradient(90deg, rgba(8, 229, 190, 0.5) 0%, rgba(242, 242, 242, 0.5) 85.5%);
+  border-left: 1px solid #242424;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+}
+
+.problem-routes {
+  position: relative;
+  background-color: #f2f2f2;
+  padding: 0 20px 67px;
+}
+.problem-routes__title {
+  margin-top: 40px;
+  text-align: left;
+  color: #242424;
+  padding-bottom: 11px;
+  border-bottom: #000 1px solid;
+  padding-inline: 0;
+  margin-inline: 11px;
+}
+.problem-routes__text {
+  margin-top: 19px;
+}
+.problem-routes__text:after {
+  content: url("../../media/problem/routes/Frame.svg");
+  position: absolute;
+  padding-top: 9px;
+  padding-left: 6px;
+}
+.problem-routes-list-wrapper {
+  margin-top: 38px;
+  margin-left: 61px;
+}
+.problem-routes-list-wrapper__item {
+  margin-bottom: 22px;
+}
+.problem-routes-list-wrapper__item__title {
+  margin-bottom: 6px;
+  color: #000;
+}
+.problem-routes-list-wrapper__item__body {
+  color: #000;
+}
+
+.problem-progress-variants {
+  position: relative;
+  background-color: #f2f2f2;
+  padding: 0 20px;
+}
+.problem-progress-variants__title {
+  margin-top: 10px;
+  text-align: left;
+  color: #242424;
+  padding-bottom: 11px;
+  border-bottom: #242424 1px solid;
+  padding-inline: 0;
+  margin-inline: 11px;
+}
+.problem-progress-variants__text {
+  margin-top: 19px;
+  color: #000;
+}
+.problem-progress-variants__text:after {
+  content: url("../../media/problem/routes/Frame.svg");
+  position: absolute;
+  padding-top: 9px;
+  padding-left: 6px;
+}
+.problem-progress-variants__img {
+  position: absolute;
+  width: 27.55px;
+  height: 21.65px;
+  top: 124.63px;
+  left: 123px;
+  padding: 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+.problem-progress-variants-list-wrapper {
+  margin-top: 38px;
+  margin-left: 61px;
+}
+.problem-progress-variants-list-wrapper__item {
+  margin-bottom: 22px;
+}
+.problem-progress-variants-list-wrapper__item__title {
+  margin-bottom: 6px;
+  color: #000;
+}
+.problem-progress-variants-list-wrapper__item__body {
+  color: #000;
+}
+
+.problem-not-everybody {
+  background-color: #f2f2f2;
+  padding: 0 20px;
+  padding-bottom: 67px;
+}
+.problem-not-everybody__title {
+  margin-top: 28px;
+  color: #242424;
+}
+.problem-not-everybody__text {
+  color: #242424;
+}
+.problem-not-everybody__text:first-child {
+  color: #242424;
+  margin-top: 29px;
+  margin-bottom: 10px;
+}
+.problem-not-everybody-subtext {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 1px 15px 0;
+  gap: 10px;
+  margin: 48px 0 0 61px;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  color: #242424;
+  background: linear-gradient(90deg, rgba(8, 229, 190, 0.5) 0%, rgba(242, 242, 242, 0.5) 85.5%);
+  border-left: 1px solid #242424;
+}
+.problem-not-everybody-subtext__item {
+  padding-right: 0;
+}
+.problem-not-everybody__link {
+  width: 117px;
+  margin-top: 33px;
+  margin-left: 61px;
+  color: #242424;
+}
+
+.problem-types {
+  --bs-gutter-x: 0;
+  background-color: #f2f2f2;
+}
+.problem-types__title {
+  margin-top: 40px;
+  text-align: left;
+  color: #242424;
+  padding-bottom: 11px;
+  border-bottom: #000 1px solid;
+  padding-inline: 0;
+  margin-inline: 31px;
+}
+.problem-types-container {
+  margin-top: 19px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  padding-inline: 0;
+  margin-inline: 0;
+}
+.problem-types-container::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+.problem-types-card {
+  position: relative;
+  width: 293px;
+  margin-right: 10px;
+  padding-inline: 0;
+}
+.problem-types-card:first-child {
+  margin-left: 20px;
+}
+.problem-types-card:last-child {
+  margin-right: 20px;
+}
+.problem-types-card__img {
+  height: 293px;
+}
+.problem-types-card__img_second {
+  height: 293px;
+  transform: rotate(-90deg);
+}
+.problem-types-card__number {
+  position: absolute;
+  top: 14px;
+  left: 13px;
+  z-index: 333;
+  border: 1.9px solid rgba(36, 36, 36, 0.6784313725);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 6px;
+}
+.problem-types-card__clinic-name {
+  position: absolute;
+  top: 204.21px;
+  left: 264.21px;
+  margin-right: 0;
+}
+.problem-types-card__title {
+  margin-top: 22px;
+}
+.problem-types-card__text {
+  margin-top: 22px;
+  margin-bottom: 10px;
+  color: #242424;
+}
+.problem-types-card-list {
+  margin-left: 23px;
+  margin-bottom: 40px;
+  color: #242424;
+}
+
+.problem-danger {
+  background-color: #f2f2f2;
+  padding: 0 20px;
+  padding-bottom: 90px;
+  color: #242424;
+}
+.problem-danger__title {
+  margin-top: 28px;
+}
+.problem-danger__text1 {
+  margin-top: 24px;
+}
+.problem-danger-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  color: #242424;
+}
+.problem-danger__link {
+  width: 117px;
+  margin-top: 26px;
+  margin-left: calc(100% - 129px);
+}
+
+.problem-all-treatments {
+  background-color: #f2f2f2;
+  padding: 0 20px 80px;
+}
+.problem-all-treatments__title {
+  text-align: left;
+  color: #242424;
+  padding-bottom: 11px;
+  border-bottom: #000 1px solid;
+  padding-inline: 0;
+  margin-inline: 11px;
+}
+.problem-all-treatments-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin-top: 9px;
+  color: #242424;
+}
+.problem-all-treatments-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 7px;
+  margin-right: 12px;
+  color: #242424;
+  margin-top: 34px;
+  width: 194px;
+  height: 15px;
+}
+.problem-all-treatments-subtext {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 1px 15px 0;
+  gap: 10px;
+  width: 292px;
+  padding-left: 15px;
+  margin-left: 61px;
+  margin-top: 36px;
+  font-family: "Nunito Sans";
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  color: #242424;
+  background: linear-gradient(90deg, rgba(8, 229, 190, 0.5) 0%, rgba(242, 242, 242, 0.5) 85.5%);
+  border-left: 1px solid #242424;
+}
+
+.problem-articles {
+  background-color: #d9d9d9;
+  padding-top: 107px;
+  padding-bottom: 107px;
+  --bs-gutter-x: 0;
+}
+.problem-articles__title {
+  margin-top: 80px;
+  margin-bottom: 10px;
+  margin-inline: 31px;
+  padding-inline: 0;
+}
+.problem-articles-container {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  padding-inline: 0;
+  margin-inline: 0;
+}
+.problem-articles-container::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+
+.problem-mc-treatment {
+  background-color: #f2f2f2;
+  padding: 0 20px;
+  color: #242424;
+}
+.problem-mc-treatment__title {
+  margin-top: 80px;
+  text-align: left;
+  color: #242424;
+  padding-bottom: 11px;
+  border-bottom: #000 1px solid;
+  padding-inline: 0;
+  margin-inline: 11px;
+}
+.problem-mc-treatment-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  row-gap: 14px;
+  position: relative;
+  width: 100%;
+  margin-top: 27px;
+}
+.problem-mc-treatment-card_first {
+  margin-top: 20px;
+}
+.problem-mc-treatment-card__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 36px;
+  width: 100%;
+  height: 36px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.problem-mc-treatment-card__link {
+  order: 1;
+}
+.problem-mc-treatment-card__img {
+  width: 100%;
+}
+.problem-mc-treatment-card__img img {
+  width: 100%;
+}
+
+.problem-proof {
+  background: linear-gradient(180deg, rgb(242, 242, 242) 0%, rgba(8, 229, 190, 0.5) 85.5%);
+  padding: 0 20px;
+  padding-bottom: 47px;
+}
+.problem-proof__title {
+  margin-top: 60px;
+}
+.problem-proof-img-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 36px;
+  margin-top: 108px;
+}
+.problem-proof-img-wrapper__item {
+  transform: scale(1.1);
+}
+.problem-proof-img-wrapper__item1 {
+  width: 94px;
+  height: 30px;
+  margin-left: -35px;
+}
+.problem-proof-img-wrapper__item2 {
+  width: 103.28px;
+  height: 36.51px;
+  margin-left: -30px;
+}
+.problem-proof-img-wrapper__item3 {
+  width: 82.87px;
+  height: 34.15px;
+  margin-left: -41px;
+}
+.problem-proof__link {
+  margin-top: 31px;
+}
+
+/*# sourceMappingURL=problem.css.map */
