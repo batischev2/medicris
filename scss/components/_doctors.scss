@@ -1,0 +1,35 @@
+.doc-card {
+  width: 293px;
+  height: 423px;
+  margin-right: 10px;
+  &:first-child {
+    margin-left: 20px;
+  }
+  &:last-child {
+    margin-right: 20px;
+  }
+  &__img {
+    padding: 0;
+    height: 293px;
+    width: 293px;
+  }
+  &__name {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20.25px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-top: 15px;
+    padding: 0;
+  }
+  &__position {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 13px;
+    padding: 0;
+  }
+}
