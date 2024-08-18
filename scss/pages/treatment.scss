@@ -700,9 +700,6 @@ a {
     overflow-x: scroll;
     padding-inline: 0;
     margin-inline: 0;
-    &::-webkit-scrollbar {
-      display: none;
-    }
   }
   &__link {
     margin: 64px 20px 103px 100px;
@@ -749,9 +746,6 @@ a {
     overflow-x: scroll;
     padding-inline: 0;
     margin-inline: 0;
-    &::-webkit-scrollbar {
-      display: none;
-    }
   }
 }
 .personal-protocol {
