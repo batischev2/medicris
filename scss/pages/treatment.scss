@@ -701,8 +701,7 @@ a {
     padding-inline: 0;
     margin-inline: 0;
     &::-webkit-scrollbar {
-      height: 0;
-      width: 0;
+      display: none;
     }
   }
   &__link {
@@ -751,8 +750,7 @@ a {
     padding-inline: 0;
     margin-inline: 0;
     &::-webkit-scrollbar {
-      height: 0;
-      width: 0;
+      display: none;
     }
   }
 }
