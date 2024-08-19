@@ -246,12 +246,6 @@
   letter-spacing: 0.03em;
   text-align: center;
 }
-.filter-1_active {
-  background-color: rgba(8, 229, 190, 0.5);
-}
-.filter-1:hover {
-  background-color: rgba(8, 229, 190, 0.5);
-}
 
 .filter-2-mob {
   font-family: "Montserrat Alternates";

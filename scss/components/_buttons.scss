@@ -95,13 +95,9 @@
   line-height: 13.64px;
   letter-spacing: 0.03em;
   text-align: center;
-
-  &_active {
-    background-color: rgba(8, 229, 190, 0.5);
-  }
-  &:hover {
-    background-color: rgba(8, 229, 190, 0.5);
-  }
+  // &:hover {
+  //   background-color: rgba(8, 229, 190, 0.5);
+  // }
 }
 
 .filter-2-mob {
