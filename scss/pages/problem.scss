@@ -68,8 +68,11 @@ a {
   }
   &-sticky-content {
     padding: 0 20px;
+    position: sticky;
+    top: 64px;
     background-color: #f2f2f2;
     padding-bottom: 10px;
+    z-index: 2900;
   }
   &__content {
     @extend %h6-mob;
@@ -309,8 +312,7 @@ a {
   &-card {
     position: relative;
     width: 293px;
-    margin-right: 20px;
-    margin-left: -10px;
+    margin-right: 10px;
     padding-inline: 0;
     &:first-child {
       margin-left: 20px;
