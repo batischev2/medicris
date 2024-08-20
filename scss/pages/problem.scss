@@ -301,7 +301,7 @@ a {
     flex-direction: row;
     flex-wrap: nowrap;
     overflow-x: scroll;
-    padding-inline: 0;
+    padding-inline: 20px;
     margin-inline: 0;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -312,11 +312,10 @@ a {
   &-card {
     position: relative;
     width: 293px;
-    margin-left: -10px;
-    margin-right: 20px;
+    margin-left: 10px;
     padding-inline: 0;
     &:first-child {
-      margin-left: 20px;
+      margin-left: 0;
     }
     &__img {
       height: 293px;

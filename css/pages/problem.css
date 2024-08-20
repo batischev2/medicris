@@ -775,7 +775,7 @@ a {
   flex-direction: row;
   flex-wrap: nowrap;
   overflow-x: scroll;
-  padding-inline: 0;
+  padding-inline: 20px;
   margin-inline: 0;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -786,12 +786,11 @@ a {
 .problem-types-card {
   position: relative;
   width: 293px;
-  margin-left: -10px;
-  margin-right: 20px;
+  margin-left: 10px;
   padding-inline: 0;
 }
 .problem-types-card:first-child {
-  margin-left: 20px;
+  margin-left: 0;
 }
 .problem-types-card__img {
   height: 293px;
