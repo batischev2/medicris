@@ -312,7 +312,8 @@ a {
   &-card {
     position: relative;
     width: 293px;
-    margin-right: 10px;
+    margin-left: -10px;
+    margin-right: 20px;
     padding-inline: 0;
     &:first-child {
       margin-left: 20px;
@@ -355,7 +356,7 @@ a {
     }
     &-list {
       @extend %body-2-mob;
-      margin-left: 23px;
+      margin-left: -10px;
       margin-bottom: 40px;
       color: #242424;
     }
