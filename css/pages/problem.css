@@ -178,7 +178,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 4px 10px;
+  padding: 5px 10px;
   gap: 10px;
   height: 22px;
   width: fit-content;
@@ -190,6 +190,12 @@
   line-height: 13.64px;
   letter-spacing: 0.03em;
   text-align: center;
+}
+.filter-1:active {
+  background-color: #DDD;
+}
+.filter-1_green {
+  background-color: rgba(8, 229, 190, 0.5);
 }
 
 .filter-2-mob {
@@ -574,7 +580,7 @@ a {
   align-items: center;
   padding: 15px 1px 15px 15px;
   gap: 10px;
-  margin: 46px 8px 73px 73px;
+  margin: 46px 8px 0px 73px;
   background: linear-gradient(90deg, rgba(8, 229, 190, 0.5) 0%, rgba(242, 242, 242, 0.5) 85.5%);
   border-left: 1px solid #242424;
   font-family: "Nunito Sans";
@@ -588,7 +594,7 @@ a {
 .problem-routes {
   position: relative;
   background-color: #f2f2f2;
-  padding: 0 20px 67px;
+  padding: 73px 20px 67px;
 }
 .problem-routes__title {
   margin-top: 40px;
@@ -675,7 +681,6 @@ a {
 .problem-not-everybody {
   background-color: #f2f2f2;
   padding: 0 20px;
-  padding-bottom: 67px;
 }
 .problem-not-everybody__title {
   margin-top: 28px;
@@ -720,6 +725,7 @@ a {
 
 .problem-types {
   --bs-gutter-x: 0;
+  padding-top: 70px;
   background-color: #f2f2f2;
 }
 .problem-types__title {
@@ -797,7 +803,6 @@ a {
 .problem-danger {
   background-color: #f2f2f2;
   padding: 0 20px;
-  padding-bottom: 90px;
   color: #242424;
 }
 .problem-danger__title {
@@ -820,7 +825,7 @@ a {
 
 .problem-all-treatments {
   background-color: #f2f2f2;
-  padding: 0 20px 80px;
+  padding: 90px 20px 80px;
 }
 .problem-all-treatments__title {
   text-align: left;
