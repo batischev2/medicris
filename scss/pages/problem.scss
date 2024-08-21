@@ -80,16 +80,13 @@ a {
   }
   &-buttons-wrapper {
     display: flex;
-    flex-direction: row;
-    column-gap: 9.63px;
-    flex: 0 1 auto;
-
+    flex-wrap: wrap;
+    justify-content: space-between;
     &__item {
       color: #242424;
       margin-top: 10px;
       clear: both;
       display: inline-block;
-      overflow: hidden;
       white-space: nowrap;
     }
   }
