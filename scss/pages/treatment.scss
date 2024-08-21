@@ -26,7 +26,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #242424;
 }
 
 .mr-3 {
@@ -89,8 +89,7 @@ a {
     align-items: center;
     text-align: right;
     letter-spacing: 0.05em;
-
-    color: #000000;
+    color: #242424;
   }
   &:hover {
     .arrow-link__img {
@@ -109,7 +108,7 @@ a {
 .feedback {
   padding: 0 20px;
   padding-bottom: 0;
-  color: #000 !important;
+  color: #242424 !important;
   background-color: #f2f2f2;
   &__title {
     @extend %h2-mob;
@@ -124,11 +123,16 @@ a {
   &-stars {
     display: flex;
     flex-direction: row;
-    column-gap: 20px;
+    column-gap: 10px;
     padding: 34px 0;
     padding-bottom: 44px;
+    align-items: center;
     &__img {
       width: 64px;
+    }
+    &__text {
+      padding-top: 5px;
+      font-size: 14px;
     }
   }
   &__text {
@@ -138,6 +142,7 @@ a {
     font-style: italic;
     font-weight: 400;
     line-height: 24.2px;
+    color: #242424;
     &_n {
       margin-top: 0;
     }
@@ -238,7 +243,7 @@ a {
       align-items: center;
       text-align: center;
       letter-spacing: 0.05em;
-      color: #000000;
+      color: #242424;
     }
   }
   &-slide {
@@ -256,7 +261,7 @@ a {
 .results {
   padding: 70px 20px;
   padding-bottom: 0;
-  color: #000 !important;
+  color: #242424 !important;
   background-color: #f2f2f2;
   &-photos-wrapper {
     margin-top: 30px;
@@ -473,7 +478,7 @@ a {
         align-items: center;
         text-align: center;
         letter-spacing: 0.05em;
-        color: #000000;
+        color: #242424;
       }
     }
   }
@@ -778,7 +783,7 @@ a {
       line-height: 24px;
       text-align: center;
       letter-spacing: 0.07em;
-      color: #000000;
+      color: #242424;
       mix-blend-mode: darken;
     }
 
@@ -790,7 +795,7 @@ a {
     &__buttons {
       background-color: rgba(8, 229, 190, 0.45);
       backdrop-filter: blur(10px);
-      color: #000;
+      color: #242424;
       border-radius: 50px;
       margin-top: 580px;
       min-height: 70px;
@@ -811,7 +816,7 @@ a {
         align-items: center;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #000000;
+        color: #242424;
       }
       &__t {
         width: 114px;
@@ -822,7 +827,7 @@ a {
         line-height: 9.94px;
         letter-spacing: 0.03em;
         display: flex;
-        color: #000000;
+        color: #242424;
       }
     }
   }
