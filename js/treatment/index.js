@@ -28,7 +28,6 @@ const text__resultBlock__window2 = document.getElementById(
   'text__resultBlock__window2'
 )
 
-// text__resultBlock__window1.innerHTML= `1 / ${slidesAmountResult1}`
 rightButton__resultBlock__window1.addEventListener('click', () => {
   let lastActive = text__resultBlock__window1.getAttribute(
     'data-slide-result-1'

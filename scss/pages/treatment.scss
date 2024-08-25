@@ -30,11 +30,11 @@ a {
 }
 
 .mr-3 {
-  margin-right: -30px;
+  transform: translateX(20px);
 }
 
 .ml-3 {
-  margin-left: -30px;
+  transform: translateX(-20px);
 }
 
 .principle {
@@ -252,7 +252,9 @@ a {
     position: relative;
     left: 0;
     transform: translate(100vw, 0);
-
+    &.close {
+      transform: translate(-100vw, 0);
+    }
     &.open {
       transform: translate(0, 0);
     }
@@ -264,6 +266,18 @@ a {
   padding-bottom: 0;
   color: #242424 !important;
   background-color: #f2f2f2;
+  &-slide {
+    transition: all 500ms ease;
+    position: relative;
+    left: 0;
+    transform: translate(100vw, 0);
+    &.close {
+      transform: translate(-100vw, 0);
+    }
+    &.open {
+      transform: translate(0, 0);
+    }
+  }
   &-photos-wrapper {
     margin-top: 30px;
     height: 400px;
@@ -401,6 +415,10 @@ a {
     width: 111px;
     height: 23px;
     padding: 0;
+    &_google {
+      width: 90px;
+      padding-top: 5px;
+    }
   }
   &__border {
     border-bottom: #000 solid 1px;
