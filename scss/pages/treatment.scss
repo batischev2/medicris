@@ -54,7 +54,9 @@ a {
       border-radius: 50%;
       height: 40px;
       width: 40px;
-      margin: 0 20px;
+      margin-right: 19px;
+      margin-left: 12px;
+      padding-top: 2px;
     }
     &__title {
       @extend %h3-list-mob;
@@ -125,7 +127,6 @@ a {
     flex-direction: row;
     column-gap: 10px;
     padding: 34px 0;
-    padding-bottom: 44px;
     align-items: center;
     &__img {
       width: 64px;
@@ -399,7 +400,6 @@ a {
   &__subtitle {
     width: 111px;
     height: 23px;
-    object-fit: scale-down;
     padding: 0;
   }
   &__border {
@@ -674,6 +674,7 @@ a {
 .treatment-cost {
   background-color: rgba(242, 242, 242, 1);
   padding: 0 20px;
+  padding-top: 104px;
   &__title {
     @extend %h2-mob;
     margin-top: 34px;
@@ -693,18 +694,23 @@ a {
   background-color: #f2f2f2;
   &__title {
     @extend %h2-mob;
-    margin-top: 110px;
+    margin-top: 65px;
     margin-inline: 31px;
     padding-inline: 0;
   }
   &-container {
-    margin-top: 63px;
+    margin-top: 53px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     overflow-x: scroll;
-    padding-inline: 0;
+    padding-inline: 20px;
     margin-inline: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
   &__link {
     margin: 64px 20px 103px 100px;
@@ -749,8 +755,13 @@ a {
     flex-direction: row;
     flex-wrap: nowrap;
     overflow-x: scroll;
-    padding-inline: 0;
+    padding-inline: 20px;
     margin-inline: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 }
 .personal-protocol {
@@ -819,7 +830,6 @@ a {
         color: #242424;
       }
       &__t {
-        width: 114px;
         height: 26px;
         font-family: Montserrat;
         font-size: 8.43px;
@@ -828,6 +838,7 @@ a {
         letter-spacing: 0.03em;
         display: flex;
         color: #242424;
+        padding-inline: 5px;
       }
     }
   }

@@ -1,12 +1,9 @@
 .doc-card {
   width: 293px;
   height: 423px;
-  margin-right: 10px;
+  margin-left: 10px;
   &:first-child {
-    margin-left: 20px;
-  }
-  &:last-child {
-    margin-right: 20px;
+    margin-left: 0;
   }
   &__img {
     padding: 0;

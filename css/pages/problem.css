@@ -232,15 +232,12 @@
   width: 293px;
   height: 372px;
   border-top: 1px solid #000;
-  margin-right: 10px;
+  margin-left: 10px;
   background-color: #fff;
   padding-inline: 20px;
 }
 .card-article:first-child {
-  margin-left: 20px;
-}
-.card-article:last-child {
-  margin-right: 20px;
+  margin-left: 0;
 }
 .card-article-text__title {
   margin-top: 26px;
@@ -300,6 +297,7 @@
   height: 60px;
   backdrop-filter: blur(50px);
   text-align: center;
+  border-top: 0.3px solid rgba(36, 36, 36, 0.2666666667);
 }
 .menu__img {
   width: 19px;
@@ -383,7 +381,7 @@
 }
 .footer__map-img {
   filter: grayscale(100%);
-  margin-top: 24px;
+  margin-top: 20px;
   margin-bottom: 22px;
 }
 .footer__maps {
@@ -452,7 +450,7 @@
   padding-bottom: 24px;
 }
 .footer-license {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 .footer-license__first {
   font-family: Montserrat;
@@ -895,7 +893,7 @@ a {
   flex-direction: row;
   flex-wrap: nowrap;
   overflow-x: scroll;
-  padding-inline: 0;
+  padding-inline: 20px;
   margin-inline: 0;
   -ms-overflow-style: none;
   scrollbar-width: none;

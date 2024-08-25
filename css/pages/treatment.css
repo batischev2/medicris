@@ -113,15 +113,12 @@
   width: 293px;
   height: 372px;
   border-top: 1px solid #000;
-  margin-right: 10px;
+  margin-left: 10px;
   background-color: #fff;
   padding-inline: 20px;
 }
 .card-article:first-child {
-  margin-left: 20px;
-}
-.card-article:last-child {
-  margin-right: 20px;
+  margin-left: 0;
 }
 .card-article-text__title {
   margin-top: 26px;
@@ -286,13 +283,10 @@
 .doc-card {
   width: 293px;
   height: 423px;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 .doc-card:first-child {
-  margin-left: 20px;
-}
-.doc-card:last-child {
-  margin-right: 20px;
+  margin-left: 0;
 }
 .doc-card__img {
   padding: 0;
@@ -466,7 +460,7 @@
 }
 .faq-item-dropdown {
   display: none;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   width: 100%;
   font-family: "Nunito Sans";
   font-size: 15px;
@@ -887,6 +881,7 @@
   height: 60px;
   backdrop-filter: blur(50px);
   text-align: center;
+  border-top: 0.3px solid rgba(36, 36, 36, 0.2666666667);
 }
 .menu__img {
   width: 19px;
@@ -970,7 +965,7 @@
 }
 .footer__map-img {
   filter: grayscale(100%);
-  margin-top: 24px;
+  margin-top: 20px;
   margin-bottom: 22px;
 }
 .footer__maps {
@@ -1039,7 +1034,7 @@
   padding-bottom: 24px;
 }
 .footer-license {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 .footer-license__first {
   font-family: Montserrat;
@@ -1105,7 +1100,9 @@ a {
   border-radius: 50%;
   height: 40px;
   width: 40px;
-  margin: 0 20px;
+  margin-right: 19px;
+  margin-left: 12px;
+  padding-top: 2px;
 }
 .principle-wrapper__title {
   text-align: left;
@@ -1168,7 +1165,6 @@ a {
   flex-direction: row;
   column-gap: 10px;
   padding: 34px 0;
-  padding-bottom: 44px;
   align-items: center;
 }
 .feedback-stars__img {
@@ -1429,7 +1425,6 @@ a {
 .rate__subtitle {
   width: 111px;
   height: 23px;
-  object-fit: scale-down;
   padding: 0;
 }
 .rate__border {
@@ -1675,6 +1670,7 @@ a {
 .treatment-cost {
   background-color: rgb(242, 242, 242);
   padding: 0 20px;
+  padding-top: 104px;
 }
 .treatment-cost__title {
   margin-top: 34px;
@@ -1692,18 +1688,23 @@ a {
   background-color: #f2f2f2;
 }
 .treatment-doctors__title {
-  margin-top: 110px;
+  margin-top: 65px;
   margin-inline: 31px;
   padding-inline: 0;
 }
 .treatment-doctors-container {
-  margin-top: 63px;
+  margin-top: 53px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   overflow-x: scroll;
-  padding-inline: 0;
+  padding-inline: 20px;
   margin-inline: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.treatment-doctors-container::-webkit-scrollbar {
+  display: none;
 }
 .treatment-doctors__link {
   margin: 64px 20px 103px 100px;
@@ -1747,8 +1748,13 @@ a {
   flex-direction: row;
   flex-wrap: nowrap;
   overflow-x: scroll;
-  padding-inline: 0;
+  padding-inline: 20px;
   margin-inline: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.articles-container::-webkit-scrollbar {
+  display: none;
 }
 
 .personal-protocol {
@@ -1811,7 +1817,6 @@ a {
   color: #242424;
 }
 .personal-protocol .text-and-buttons__buttons__t {
-  width: 114px;
   height: 26px;
   font-family: Montserrat;
   font-size: 8.43px;
@@ -1820,6 +1825,7 @@ a {
   letter-spacing: 0.03em;
   display: flex;
   color: #242424;
+  padding-inline: 5px;
 }
 
 .faq-container {
