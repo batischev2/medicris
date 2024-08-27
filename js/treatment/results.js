@@ -1,7 +1,11 @@
 const slidesAmountResult1 =
   document.querySelectorAll('[data-slide-number-result-1]').length / 2
-const rightButtonResult = document.getElementById('rightButton__resultBlock__window1')
-const leftButtonResult = document.getElementById('leftButton__resultBlock__window1')
+const rightButtonResult = document.getElementById(
+  'rightButton__resultBlock__window1'
+)
+const leftButtonResult = document.getElementById(
+  'leftButton__resultBlock__window1'
+)
 const textResult = document.getElementById('text__resultBlock__window1')
 textResult.innerHTML = `1 / ${slidesAmountResult1}`
 rightButtonResult.addEventListener('click', () => {

@@ -1,5 +1,5 @@
 .faq-item-title-text {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -7,8 +7,9 @@
   text-transform: uppercase;
 }
 
-.treatment-cost__text, .page-1__text {
-  font-family: "Montserrat";
+.treatment-cost__text,
+.page-1__text {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
@@ -18,7 +19,7 @@
 }
 
 .protocol-video-wrapper-item__text {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -28,7 +29,7 @@
 }
 
 .page-1__header {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -38,8 +39,12 @@
   mix-blend-mode: darken;
 }
 
-.articles__title, .treatment-doctors__title, .treatment-cost__title, .page-1__desc-title, .feedback__title {
-  font-family: "Montserrat";
+.articles__title,
+.treatment-doctors__title,
+.treatment-cost__title,
+.page-1__desc-title,
+.feedback__title {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -49,8 +54,10 @@
   color: #242424;
 }
 
-.page-1-slider__scroller__t, .results__scroller__text, .principle-wrapper__title {
-  font-family: "Montserrat";
+.page-1-slider__scroller__t,
+.results__scroller__text,
+.principle-wrapper__title {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -60,8 +67,9 @@
   color: #242424;
 }
 
-.rate__title, .price-section-header__top {
-  font-family: "Montserrat";
+.rate__title,
+.price-section-header__top {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -70,8 +78,10 @@
   color: #242424;
 }
 
-.faq-container__title, .no-wrapper__title, .yes-wrapper__title {
-  font-family: "Montserrat";
+.faq-container__title,
+.no-wrapper__title,
+.yes-wrapper__title {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -79,8 +89,9 @@
   color: #242424;
 }
 
-.procedure__desc, .principle-wrapper__text {
-  font-family: "Nunito Sans";
+.procedure__desc,
+.principle-wrapper__text {
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -89,7 +100,7 @@
 }
 
 .price-section-item__col-l_name {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 11px;
@@ -98,8 +109,9 @@
   color: #242424;
 }
 
-.no-wrapper__item, .yes-wrapper__item {
-  font-family: "Montserrat";
+.no-wrapper__item,
+.yes-wrapper__item {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 10px;
@@ -139,7 +151,7 @@
 }
 .card-article-text__main {
   margin-top: 32px;
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-size: 10px;
   font-weight: 400;
   line-height: 12px;
@@ -176,7 +188,7 @@
 }
 
 .button-1-mob {
-  font-family: "Montserrat Alternates";
+  font-family: 'Montserrat Alternates';
   font-size: 10px;
   font-weight: 700;
   line-height: 12.19px;
@@ -190,7 +202,7 @@
 }
 
 .button-2-mob {
-  font-family: "Montserrat Alternates";
+  font-family: 'Montserrat Alternates';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -208,7 +220,7 @@
 }
 
 .link-mob {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -236,7 +248,7 @@
   width: fit-content;
   border: 0.5px solid #242424;
   border-radius: 50px;
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-size: 10px;
   font-weight: 700;
   line-height: 13.64px;
@@ -251,7 +263,7 @@
 }
 
 .filter-2-mob {
-  font-family: "Montserrat Alternates";
+  font-family: 'Montserrat Alternates';
   font-style: normal;
   font-weight: 700;
   font-size: 10px;
@@ -314,7 +326,7 @@
 }
 
 .faq-item-title-text {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -322,8 +334,9 @@
   text-transform: uppercase;
 }
 
-.treatment-cost__text, .page-1__text {
-  font-family: "Montserrat";
+.treatment-cost__text,
+.page-1__text {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
@@ -333,7 +346,7 @@
 }
 
 .protocol-video-wrapper-item__text {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -343,7 +356,7 @@
 }
 
 .page-1__header {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -353,8 +366,12 @@
   mix-blend-mode: darken;
 }
 
-.articles__title, .treatment-doctors__title, .treatment-cost__title, .page-1__desc-title, .feedback__title {
-  font-family: "Montserrat";
+.articles__title,
+.treatment-doctors__title,
+.treatment-cost__title,
+.page-1__desc-title,
+.feedback__title {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -364,8 +381,10 @@
   color: #242424;
 }
 
-.page-1-slider__scroller__t, .results__scroller__text, .principle-wrapper__title {
-  font-family: "Montserrat";
+.page-1-slider__scroller__t,
+.results__scroller__text,
+.principle-wrapper__title {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -375,8 +394,9 @@
   color: #242424;
 }
 
-.rate__title, .price-section-header__top {
-  font-family: "Montserrat";
+.rate__title,
+.price-section-header__top {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -385,8 +405,10 @@
   color: #242424;
 }
 
-.faq-container__title, .no-wrapper__title, .yes-wrapper__title {
-  font-family: "Montserrat";
+.faq-container__title,
+.no-wrapper__title,
+.yes-wrapper__title {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -394,8 +416,9 @@
   color: #242424;
 }
 
-.procedure__desc, .principle-wrapper__text {
-  font-family: "Nunito Sans";
+.procedure__desc,
+.principle-wrapper__text {
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -404,7 +427,7 @@
 }
 
 .price-section-item__col-l_name {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 11px;
@@ -413,8 +436,9 @@
   color: #242424;
 }
 
-.no-wrapper__item, .yes-wrapper__item {
-  font-family: "Montserrat";
+.no-wrapper__item,
+.yes-wrapper__item {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 10px;
@@ -459,7 +483,7 @@
   display: none;
   margin-bottom: 20px;
   width: 100%;
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
@@ -515,7 +539,7 @@
 .methods .methods-l__head_bottom {
   margin-top: 26px;
   margin-bottom: 10px;
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-size: 8px;
   font-weight: 700;
   line-height: 12px;
@@ -530,7 +554,7 @@
   padding: 0px;
 }
 .methods .methods-l__body_item {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-size: 12px;
   font-weight: 700;
   line-height: 16px;
@@ -575,7 +599,7 @@
 .methods .methods-r__head_bottom {
   margin-top: 26px;
   margin-bottom: 10px;
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-size: 8px;
   font-weight: 700;
   line-height: 12px;
@@ -605,7 +629,7 @@
   width: 100%;
 }
 .methods .methods-r__body_item {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-size: 12px;
   font-weight: 700;
   line-height: 16px;
@@ -619,7 +643,7 @@
 }
 .methods .methods-r__body_item_2 {
   height: 64px;
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-size: 12px;
   font-weight: 700;
   line-height: 16px;
@@ -639,12 +663,16 @@
   padding: 10px 0px;
   gap: 15px;
   position: relative;
-  background: linear-gradient(180deg, rgba(206, 206, 206, 0.5) 0%, rgba(242, 242, 242, 0.5) 63%);
+  background: linear-gradient(
+    180deg,
+    rgba(206, 206, 206, 0.5) 0%,
+    rgba(242, 242, 242, 0.5) 63%
+  );
   border-top: 1px solid #242424;
 }
 
 .faq-item-title-text {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -652,8 +680,9 @@
   text-transform: uppercase;
 }
 
-.treatment-cost__text, .page-1__text {
-  font-family: "Montserrat";
+.treatment-cost__text,
+.page-1__text {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
@@ -663,7 +692,7 @@
 }
 
 .protocol-video-wrapper-item__text {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -673,7 +702,7 @@
 }
 
 .page-1__header {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -683,8 +712,12 @@
   mix-blend-mode: darken;
 }
 
-.articles__title, .treatment-doctors__title, .treatment-cost__title, .page-1__desc-title, .feedback__title {
-  font-family: "Montserrat";
+.articles__title,
+.treatment-doctors__title,
+.treatment-cost__title,
+.page-1__desc-title,
+.feedback__title {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -694,8 +727,10 @@
   color: #242424;
 }
 
-.page-1-slider__scroller__t, .results__scroller__text, .principle-wrapper__title {
-  font-family: "Montserrat";
+.page-1-slider__scroller__t,
+.results__scroller__text,
+.principle-wrapper__title {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -705,8 +740,9 @@
   color: #242424;
 }
 
-.rate__title, .price-section-header__top {
-  font-family: "Montserrat";
+.rate__title,
+.price-section-header__top {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -715,8 +751,10 @@
   color: #242424;
 }
 
-.faq-container__title, .no-wrapper__title, .yes-wrapper__title {
-  font-family: "Montserrat";
+.faq-container__title,
+.no-wrapper__title,
+.yes-wrapper__title {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -724,8 +762,9 @@
   color: #242424;
 }
 
-.procedure__desc, .principle-wrapper__text {
-  font-family: "Nunito Sans";
+.procedure__desc,
+.principle-wrapper__text {
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -734,7 +773,7 @@
 }
 
 .price-section-item__col-l_name {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 11px;
@@ -743,8 +782,9 @@
   color: #242424;
 }
 
-.no-wrapper__item, .yes-wrapper__item {
-  font-family: "Montserrat";
+.no-wrapper__item,
+.yes-wrapper__item {
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 10px;
@@ -809,7 +849,7 @@
 }
 .price-section-item__col-l_desc {
   text-transform: none;
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-size: 12px;
   font-weight: 300;
   line-height: 14px;
@@ -848,7 +888,11 @@
   position: relative;
   height: 400px;
   gap: 15px;
-  background: linear-gradient(180deg, rgba(8, 229, 190, 0.5) 0%, rgba(242, 242, 242, 0.5) 85.5%);
+  background: linear-gradient(
+    180deg,
+    rgba(8, 229, 190, 0.5) 0%,
+    rgba(242, 242, 242, 0.5) 85.5%
+  );
   border-top: 1px solid #242424;
 }
 
@@ -885,7 +929,7 @@
   height: 19px;
 }
 .menu__text {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
@@ -904,7 +948,7 @@
 .footer__title {
   margin: 40px 0 30px;
   height: 24px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
@@ -914,13 +958,13 @@
   text-align: justify;
 }
 .footer__title::after {
-  content: "";
+  content: '';
   display: inline-block;
   width: 100%;
 }
 .footer__info {
   height: 24px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -952,7 +996,7 @@
 .footer__adress {
   margin-top: 37px;
   height: 24px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -969,7 +1013,7 @@
   border-top: #000 solid 1px;
   margin: 0 12px;
   padding: 3.5px 0px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -978,7 +1022,7 @@
   mix-blend-mode: darken;
 }
 .footer__maps_last {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1052,7 +1096,7 @@
 }
 
 :root {
-  --bs-body-font-family: "Montserrat", sans-serif;
+  --bs-body-font-family: 'Montserrat', sans-serif;
 }
 
 html,
@@ -1119,7 +1163,7 @@ a {
 .arrow-link__text {
   width: 83px;
   height: 15px;
-  font-family: "Montserrat Alternates";
+  font-family: 'Montserrat Alternates';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -1189,7 +1233,7 @@ a {
   justify-content: flex-end;
   width: 141px;
   height: 16px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -1262,7 +1306,7 @@ a {
 .feedback__scroller__text {
   width: 72px;
   padding: 0;
-  font-family: "Montserrat Alternates";
+  font-family: 'Montserrat Alternates';
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -1409,7 +1453,7 @@ a {
   text-align: center;
 }
 
-[data-visible=false] {
+[data-visible='false'] {
   display: none !important;
 }
 
@@ -1446,7 +1490,11 @@ a {
   width: 100%;
 }
 .rate_gradient {
-  background: linear-gradient(180deg, rgba(8, 229, 190, 0.5) 0%, rgba(242, 242, 242, 0.5) 85.5%);
+  background: linear-gradient(
+    180deg,
+    rgba(8, 229, 190, 0.5) 0%,
+    rgba(242, 242, 242, 0.5) 85.5%
+  );
   background-color: #f2f2f2;
 }
 
@@ -1466,7 +1514,7 @@ a {
   margin-top: 9px;
   padding-bottom: 19px;
   border-bottom: solid #000 1px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -1549,7 +1597,7 @@ a {
   margin-bottom: 28px;
 }
 .page-1__desc-text {
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -1597,7 +1645,7 @@ a {
   margin-bottom: 34px;
 }
 .procedure .card__l {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 10px;
@@ -1610,7 +1658,7 @@ a {
 }
 .procedure .card__r {
   text-transform: uppercase;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 10px;
@@ -1735,7 +1783,7 @@ a {
 .articles__text {
   margin: 39px 20px 0 121px;
   width: 100%;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -1774,7 +1822,11 @@ a {
 }
 .personal-protocol .photos-wrapper {
   height: 970px;
-  background: url(../../media/treatment/personal-protocol/62a483e603a3ed0869d1aa90ff1aff9c\ 2.webp) left bottom no-repeat, url(../../media/treatment/personal-protocol/15xn2dhcpcpaasgraso0anji1ngo8w68\ 1.webp) right bottom no-repeat;
+  background:
+    url(../../media/treatment/personal-protocol/62a483e603a3ed0869d1aa90ff1aff9c\ 2.webp)
+      left bottom no-repeat,
+    url(../../media/treatment/personal-protocol/15xn2dhcpcpaasgraso0anji1ngo8w68\ 1.webp)
+      right bottom no-repeat;
   background-size: contain;
 }
 .personal-protocol .photos-wrapper__item {
@@ -1787,7 +1839,7 @@ a {
 }
 .personal-protocol .text-and-buttons__text {
   height: 120px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -1810,13 +1862,14 @@ a {
   min-height: 70px;
   width: calc(100vw - 40px);
 }
-.personal-protocol .text-and-buttons__buttons__f, .personal-protocol .text-and-buttons__buttons__m {
+.personal-protocol .text-and-buttons__buttons__f,
+.personal-protocol .text-and-buttons__buttons__m {
   border: #000 solid 1px;
   border-radius: 50px;
   padding: 14px 0;
   width: 106px;
   height: 10.83px;
-  font-family: "Montserrat Alternates";
+  font-family: 'Montserrat Alternates';
   font-weight: 700;
   font-size: 10px;
   line-height: 12px;
@@ -1854,15 +1907,15 @@ a {
   align-items: center;
 }
 
-[data-dropdown-opened=false] {
+[data-dropdown-opened='false'] {
   display: none !important;
 }
 
-[data-procedure-1=invisible] {
+[data-procedure-1='invisible'] {
   display: none !important;
 }
 
-[data-procedure-2=invisible] {
+[data-procedure-2='invisible'] {
   display: none !important;
 }
 
