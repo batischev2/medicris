@@ -816,6 +816,9 @@ a {
   left: 0;
   transform: translate(100vw, 0);
 }
+.feedback-slide.close {
+  transform: translate(-100vw, 0);
+}
 .feedback-slide.open {
   transform: translate(0, 0);
 }
@@ -853,9 +856,13 @@ a {
   padding-bottom: 225px;
 }
 .rate__subtitle {
-  max-height: 37px;
-  object-fit: scale-down;
+  width: 111px;
+  height: 23px;
   padding: 0;
+}
+.rate__subtitle_google {
+  width: 90px;
+  padding-top: 5px;
 }
 .rate__border {
   border-bottom: #000 solid 1px;
