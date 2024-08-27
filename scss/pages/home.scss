@@ -55,9 +55,9 @@ a {
     }
 
     &__arrow {
-      height: 50px;
-      width: 77px;
-      margin-top: 30px;
+      width: 50px;
+      margin-top: 39px;
+      padding: 0;
       transform: rotate(90deg);
     }
 
@@ -338,7 +338,8 @@ a {
       border-radius: 50%;
       height: 40px;
       width: 40px;
-      margin: 0 20px;
+      margin: 0 15px;
+      padding-top: 2px;
     }
     &__title {
       @extend %h3-list-mob;
@@ -466,36 +467,32 @@ a {
     margin: 17px 0 20px;
     border-top: #000 solid 1px;
     border-bottom: #000 solid 1px;
-    padding: 38px 0;
+    padding: 45px 0;
 
-    &__l {
-      margin: 0 0 0 30px;
-      width: 50px;
-      padding-right: 0;
-      object-fit: scale-down;
+    &_left {
+      margin: 0;
+      max-width: 50px;
+      padding: 0;
       transform: rotate(180deg);
       opacity: 30%;
     }
-    &__r {
-      margin: 0 30px 0 0;
-      width: 50px;
-      padding-left: 0;
-      object-fit: scale-down;
+    &_right {
+      margin: 0;
+      max-width: 50px;
+      padding: 0;
     }
     &__text {
-      width: 20px;
+      width: 72px;
       padding: 0;
       font-family: 'Montserrat Alternates';
-      font-style: normal;
       font-weight: 700;
       font-size: 16px;
       line-height: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
-      text-align: center;
       letter-spacing: 0.05em;
-      color: #000000;
+      color: #242424;
     }
   }
   &-slide {

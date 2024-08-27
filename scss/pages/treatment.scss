@@ -45,7 +45,7 @@ a {
     margin-top: 34px;
   }
   &-wrapper {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     &__number {
       font-family: Montserrat;
       font-size: 23px;
@@ -213,36 +213,30 @@ a {
     margin: 17px 0 20px;
     border-top: #000 solid 1px;
     border-bottom: #000 solid 1px;
-    padding: 38px 0;
+    padding: 45px 0;
 
-    &__l {
-      margin: 0 0 0 30px;
-      width: 50px;
-      padding-right: 0;
-      object-fit: scale-down;
+    &_left {
+      margin: 0;
+      max-width: 50px;
+      padding: 0;
       transform: rotate(180deg);
       opacity: 30%;
-      margin-right: -90px;
     }
-    &__r {
-      margin: 0 30px 0 0;
-      width: 50px;
-      padding-right: 0;
-      object-fit: scale-down;
-      margin-left: -90px;
+    &_right {
+      margin: 0;
+      max-width: 50px;
+      padding: 0;
     }
     &__text {
-      width: 20px;
+      width: 72px;
       padding: 0;
       font-family: 'Montserrat Alternates';
-      font-style: normal;
       font-weight: 700;
       font-size: 16px;
       line-height: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
-      text-align: center;
       letter-spacing: 0.05em;
       color: #242424;
     }
@@ -294,7 +288,11 @@ a {
   &__img {
     margin-top: 26px;
   }
-
+  &__title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+  }
   &-before-after-wrapper {
     position: relative;
   }
@@ -363,19 +361,17 @@ a {
     width: 100%;
     margin: 11px 0;
     column-gap: 65px;
-    &__l {
-      margin-left: -8px;
-      width: 50px;
-      padding-right: 0;
-      object-fit: scale-down;
+    &_left {
+      margin: 0;
+      max-width: 50px;
+      padding: 0;
       transform: rotate(180deg);
       opacity: 30%;
     }
-    &__r {
-      margin-right: -8px;
-      width: 50px;
-      padding-right: 0;
-      object-fit: scale-down;
+    &_right {
+      margin: 0;
+      max-width: 50px;
+      padding: 0;
     }
     &__text {
       @extend %h3-list-mob;
@@ -470,22 +466,17 @@ a {
       margin: 11px 0;
       display: flex;
       flex-direction: row;
-      column-gap: 71px;
-      &__l {
-        padding-right: 0 !important;
-        width: 50px;
-        padding-right: 0;
-        object-fit: scale-down;
+      &_left {
+        max-width: 50px;
+        padding: 0;
+        margin: 0;
         transform: rotate(180deg);
         opacity: 30%;
-        margin-left: -10px;
       }
-      &__r {
-        padding-right: 0 !important;
-        width: 50px;
-        padding-left: 0;
-        object-fit: scale-down;
-        margin-right: -10px;
+      &_right {
+        max-width: 50px;
+        padding: 0;
+        margin: 0;
       }
       &__t {
         @extend %h3-list-mob;
@@ -514,7 +505,7 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-    margin: 37px 0 60px -33px;
+    margin: 37px 0 85px -33px;
     width: 100%;
     &_word {
       font-family: Montserrat;
@@ -572,6 +563,9 @@ a {
     margin-inline: 11px;
     padding: 11px 0;
     border-bottom: #000 1px solid;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
   }
   &__radio {
     margin-top: 35px;
@@ -620,7 +614,7 @@ a {
 
 .yes-no {
   background-color: rgba(242, 242, 242, 1);
-  padding: 0 20px 120px 20px;
+  padding: 0 20px 75px 20px;
   &-wrapper {
     display: flex;
     flex-direction: row;
@@ -660,7 +654,7 @@ a {
     padding-top: 18px;
     padding-bottom: 9px;
     padding-inline: 0;
-    margin-inline: 11px;
+    margin-inline: 12px;
     border-bottom: #000 1px solid;
   }
   &-video-wrapper {
@@ -868,7 +862,7 @@ a {
 
   &__title {
     @extend %h6-mob;
-    margin-top: 56px;
+    margin-top: 74px;
     margin-bottom: 24px;
   }
   &__bottom {

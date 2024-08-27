@@ -434,9 +434,6 @@
   align-content: flex-start;
   background: #f2f2f2;
 }
-.faq-item:last-child {
-  border-bottom: 1px solid #242424;
-}
 .faq-item-title {
   border-top: 1px solid #242424;
   padding: 17px 0px;
@@ -905,7 +902,7 @@
   color: #242424;
 }
 .footer__title {
-  margin: 30px 0;
+  margin: 40px 0 30px;
   height: 24px;
   font-family: "Montserrat";
   font-style: normal;
@@ -1090,7 +1087,7 @@ a {
   margin-top: 34px;
 }
 .principle-wrapper {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .principle-wrapper__number {
   font-family: Montserrat;
@@ -1248,36 +1245,30 @@ a {
   margin: 17px 0 20px;
   border-top: #000 solid 1px;
   border-bottom: #000 solid 1px;
-  padding: 38px 0;
+  padding: 45px 0;
 }
-.feedback__scroller__l {
-  margin: 0 0 0 30px;
-  width: 50px;
-  padding-right: 0;
-  object-fit: scale-down;
+.feedback__scroller_left {
+  margin: 0;
+  max-width: 50px;
+  padding: 0;
   transform: rotate(180deg);
   opacity: 30%;
-  margin-right: -90px;
 }
-.feedback__scroller__r {
-  margin: 0 30px 0 0;
-  width: 50px;
-  padding-right: 0;
-  object-fit: scale-down;
-  margin-left: -90px;
+.feedback__scroller_right {
+  margin: 0;
+  max-width: 50px;
+  padding: 0;
 }
 .feedback__scroller__text {
-  width: 20px;
+  width: 72px;
   padding: 0;
   font-family: "Montserrat Alternates";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.05em;
   color: #242424;
 }
@@ -1327,6 +1318,11 @@ a {
 }
 .results__img {
   margin-top: 26px;
+}
+.results__title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
 }
 .results-before-after-wrapper {
   position: relative;
@@ -1392,19 +1388,17 @@ a {
   margin: 11px 0;
   column-gap: 65px;
 }
-.results__scroller__l {
-  margin-left: -8px;
-  width: 50px;
-  padding-right: 0;
-  object-fit: scale-down;
+.results__scroller_left {
+  margin: 0;
+  max-width: 50px;
+  padding: 0;
   transform: rotate(180deg);
   opacity: 30%;
 }
-.results__scroller__r {
-  margin-right: -8px;
-  width: 50px;
-  padding-right: 0;
-  object-fit: scale-down;
+.results__scroller_right {
+  margin: 0;
+  max-width: 50px;
+  padding: 0;
 }
 .results__scroller__text {
   width: 20px;
@@ -1490,23 +1484,18 @@ a {
   margin: 11px 0;
   display: flex;
   flex-direction: row;
-  column-gap: 71px;
 }
-.page-1-slider__scroller__l {
-  padding-right: 0 !important;
-  width: 50px;
-  padding-right: 0;
-  object-fit: scale-down;
+.page-1-slider__scroller_left {
+  max-width: 50px;
+  padding: 0;
+  margin: 0;
   transform: rotate(180deg);
   opacity: 30%;
-  margin-left: -10px;
 }
-.page-1-slider__scroller__r {
-  padding-right: 0 !important;
-  width: 50px;
-  padding-left: 0;
-  object-fit: scale-down;
-  margin-right: -10px;
+.page-1-slider__scroller_right {
+  max-width: 50px;
+  padding: 0;
+  margin: 0;
 }
 .page-1-slider__scroller__t {
   width: 20px;
@@ -1531,7 +1520,7 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
-  margin: 37px 0 60px -33px;
+  margin: 37px 0 85px -33px;
   width: 100%;
 }
 .page-1__price_word {
@@ -1586,6 +1575,9 @@ a {
   margin-inline: 11px;
   padding: 11px 0;
   border-bottom: #000 1px solid;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
 }
 .procedure__radio {
   margin-top: 35px;
@@ -1632,7 +1624,7 @@ a {
 
 .yes-no {
   background-color: rgb(242, 242, 242);
-  padding: 0 20px 120px 20px;
+  padding: 0 20px 75px 20px;
 }
 .yes-no-wrapper {
   display: flex;
@@ -1662,7 +1654,7 @@ a {
   padding-top: 18px;
   padding-bottom: 9px;
   padding-inline: 0;
-  margin-inline: 11px;
+  margin-inline: 12px;
   border-bottom: #000 1px solid;
 }
 .protocol-video-wrapper {
@@ -1852,7 +1844,7 @@ a {
   background-color: #f2f2f2;
 }
 .faq-container__title {
-  margin-top: 56px;
+  margin-top: 74px;
   margin-bottom: 24px;
 }
 .faq-container__bottom {
