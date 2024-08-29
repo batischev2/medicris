@@ -510,12 +510,12 @@ a {
 }
 
 .sticky-container {
-  height: 2468px;
+  height: 2180px;
 }
 
 .type-2 {
   transition: all 0.5s ease-out;
-  height: 617px;
+  height: 545px;
 }
 .type-2-active {
   position: fixed;
@@ -575,6 +575,7 @@ a {
   line-height: 15px;
   letter-spacing: 0.1em;
   color: #000000;
+  overflow: hidden;
 }
 
 .abilities {
@@ -585,14 +586,10 @@ a {
   z-index: 3;
 }
 .abilities .type-2__header {
-  margin-top: 52px;
+  margin-top: 60px;
 }
 .abilities .type-2__bottom {
-  margin-top: 423px;
-}
-.abilities-fixed {
-  position: fixed !important;
-  top: 2455px;
+  margin-top: 343px;
 }
 
 .doctors {
@@ -1224,7 +1221,7 @@ a {
   background-size: contain;
 }
 .personal-protocol .photos-wrapper__item {
-  height: 617px;
+  height: 550px;
   width: auto;
   overflow-y: hidden;
 }
