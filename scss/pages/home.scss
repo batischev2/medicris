@@ -28,7 +28,7 @@ a {
   width: 100%;
   background: #e0d8d0;
   .photos-wrapper {
-    height: 617px;
+    height: 550px;
     background:
       url(../../media/main_page/m.png) right top no-repeat,
       url(../../media/main_page/f.png) left top no-repeat;
@@ -64,13 +64,16 @@ a {
     &__buttons {
       background-color: rgba(8, 229, 190, 0.45);
       backdrop-filter: blur(10px);
-      color: #000;
+      color: #242424;
       border-radius: 50px;
-      margin-left: 20px;
-      margin-right: 20px;
-      margin-top: 240px;
       min-height: 70px;
       width: calc(100vw - 40px);
+      position: absolute;
+      bottom: 32px;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
       &__f,
       &__m {
         border: #000 solid 1px;
@@ -79,7 +82,6 @@ a {
         width: 106px;
         height: 10.83px;
         font-family: 'Montserrat Alternates';
-        font-style: normal;
         font-weight: 700;
         font-size: 10px;
         line-height: 12px;
@@ -88,10 +90,9 @@ a {
         align-items: center;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #000000;
+        color: #242424;
       }
       &__t {
-        width: 114px;
         height: 26px;
         font-family: Montserrat;
         font-size: 8.43px;
@@ -99,7 +100,8 @@ a {
         line-height: 9.94px;
         letter-spacing: 0.03em;
         display: flex;
-        color: #000000;
+        color: #242424;
+        padding-inline: 5px;
       }
     }
   }
@@ -118,12 +120,12 @@ a {
   }
 
   &__main-text {
-    margin-top: 44px;
+    margin-top: 80px;
     width: 100%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
-    font-size: 26px;
+    font-size: 25px;
     line-height: 35px;
     letter-spacing: 0.07em;
     color: #000000;
@@ -134,7 +136,7 @@ a {
     }
   }
   &__subtext {
-    margin-top: 26px;
+    margin-top: 20px;
     width: 292px;
     height: 14px;
     font-family: 'Montserrat';
@@ -309,7 +311,7 @@ a {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 19px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.07em;
@@ -650,12 +652,11 @@ a {
     margin-top: 97px;
   }
   &__author {
-    margin-top: 53px;
+    margin-top: 23px;
     line-height: 14px;
     font-family: 'Montserrat';
     font-size: 12px;
     font-weight: 500;
-    line-height: 14px;
     letter-spacing: 0.07em;
     text-align: left;
   }
