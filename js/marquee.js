@@ -3,4 +3,4 @@ $('.type-2__bottom__string').marquee({
   duplicated: true,
   speed: 50,
   startVisible: false
-});
+})
